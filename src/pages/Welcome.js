@@ -5,8 +5,11 @@ import GestureRecognizer from 'react-native-swipe-gestures';
 import { withNavigation } from 'react-navigation';
 
 class Welcome extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-    onSwipeLeft(gestureState) {
+    onSwipeLeft(state) {
         this.props.navigation.navigate('SelectLanguage');
     }
 
@@ -15,7 +18,7 @@ class Welcome extends React.Component {
             <View style={styles.appContainer}>
 
                 <GestureRecognizer
-                    onSwipeLeft={(state) => this.onSwipeLeft(state)}
+                    onSwipeLeft={(state)=>this.onSwipeLeft(state)}
                 >
                 <Image style={styles.euImage}
                     source={require("../../assets/eu.png")}

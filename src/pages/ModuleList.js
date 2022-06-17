@@ -1,16 +1,23 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {Text, View} from 'react-native';
+import {withNavigation} from 'react-navigation';
+import styles from "../Styles";
 
-export default class ModuleList extends React.Component {
+
+class ModuleList extends React.Component {
+
     state = {
-        myState: 'Module List'
+        myState: 'Moduller Listesi Gelcek'
     }
+
     render() {
+        const lang = this.props.navigation.getParam("lang");
         return (
             <View>
-                <Text> {this.state.myState} </Text>
+                <Text style={styles.moduleTitle}>{lang} {this.state.myState} </Text>
             </View>
         );
     }
 }
 
+export default withNavigation(ModuleList);

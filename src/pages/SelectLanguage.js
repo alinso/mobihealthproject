@@ -1,16 +1,57 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {Image, ImageBackground, TouchableOpacity, View,Alert} from 'react-native';
+import styles from "../Styles";
+import GestureRecognizer from 'react-native-swipe-gestures';
+import {withNavigation} from 'react-navigation';
 
-export default class SelectLanguage extends React.Component {
+
+class SelectLanguage extends React.Component {
     state = {
         myState: 'Lang Selection'
     }
+
+    onSwipeRight(state) {
+        this.props.navigation.navigate('Welcome');
+    }
+
+    languageSelected(language) {
+        this.props.navigation.navigate("ModuleList",{lang:language});
+    }
+
     render() {
         return (
             <View>
-                <Text> {this.state.myState} </Text>
+                <GestureRecognizer
+                    onSwipeRight={(state) => this.onSwipeRight(state)}
+                >
+                    <ImageBackground source={require("../../assets/selectLanguageBackground.png")}
+                                     style={styles.selectLanguageCover} resizeMode={"cover"}>
+
+                        <TouchableOpacity onPress={() => this.languageSelected('ingilizce')} style={[styles.flagContainer,styles.ukFlag]}>
+                            < Image source={require("../../assets/icons/flags/uk.png")}
+                                    style={styles.flag}/>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity onPress={() => this.languageSelected('avusturyaca')}  style={[styles.flagContainer,styles.austriaFlag]}>
+                        <Image source={require("../../assets/icons/flags/austria.png")}
+                               style={styles.flag}/>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity onPress={() => this.languageSelected('portekizce')} style={[styles.flagContainer,styles.portugalFlag]}>
+                        <Image source={require("../../assets/icons/flags/portugal.png")}
+                               style={styles.flag}/>
+                        </TouchableOpacity>
+
+                            <TouchableOpacity onPress={() => this.languageSelected('türkçe')} style={[styles.flagContainer,styles.turkeyFlag]}>
+                        <Image source={require("../../assets/icons/flags/turkey.png")}
+                               style={styles.flag}/>
+                            </TouchableOpacity>
+
+                    </ImageBackground>
+                </GestureRecognizer>
             </View>
         );
     }
 }
 
+export default withNavigation(SelectLanguage);
