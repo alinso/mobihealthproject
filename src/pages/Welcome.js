@@ -1,8 +1,8 @@
 import React from 'react';
-import {Image, StyleSheet, View} from "react-native";
+import {Image, View,ScrollView} from "react-native";
 import styles from "../Styles";
 import GestureRecognizer from 'react-native-swipe-gestures';
-import { withNavigation } from 'react-navigation';
+import {withNavigation} from 'react-navigation';
 
 class Welcome extends React.Component {
     constructor(props) {
@@ -15,14 +15,15 @@ class Welcome extends React.Component {
 
     render() {
         return (
-            <View style={styles.appContainer}>
-
-                <GestureRecognizer
-                    onSwipeLeft={(state)=>this.onSwipeLeft(state)}
-                >
-                <Image style={styles.euImage}
-                    source={require("../../assets/eu.png")}
-                /></GestureRecognizer>
+            <View style={[styles.appContainer,styles.flexContainer]}>
+                <View style={{flex:6}}>
+                    <GestureRecognizer
+                        onSwipeLeft={(state) => this.onSwipeLeft(state)}
+                    >
+                        <Image style={styles.euImage}
+                               source={require("../../assets/eu.png")}
+                        /></GestureRecognizer>
+                </View>
             </View>
         );
     }

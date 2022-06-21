@@ -28,22 +28,22 @@ class SelectLanguage extends React.Component {
                                      style={styles.selectLanguageCover} resizeMode={"cover"}>
 
                         <TouchableOpacity onPress={() => this.languageSelected('ingilizce')} style={[styles.flagContainer,styles.ukFlag]}>
-                            < Image source={require("../../assets/icons/flags/uk.png")}
+                            < Image source={require("../../assets/images/flags/uk.png")}
                                     style={styles.flag}/>
                         </TouchableOpacity>
 
                         <TouchableOpacity onPress={() => this.languageSelected('avusturyaca')}  style={[styles.flagContainer,styles.austriaFlag]}>
-                        <Image source={require("../../assets/icons/flags/austria.png")}
+                        <Image source={require("../../assets/images/flags/austria.png")}
                                style={styles.flag}/>
                         </TouchableOpacity>
 
                         <TouchableOpacity onPress={() => this.languageSelected('portekizce')} style={[styles.flagContainer,styles.portugalFlag]}>
-                        <Image source={require("../../assets/icons/flags/portugal.png")}
+                        <Image source={require("../../assets/images/flags/portugal.png")}
                                style={styles.flag}/>
                         </TouchableOpacity>
 
                             <TouchableOpacity onPress={() => this.languageSelected('türkçe')} style={[styles.flagContainer,styles.turkeyFlag]}>
-                        <Image source={require("../../assets/icons/flags/turkey.png")}
+                        <Image source={require("../../assets/images/flags/turkey.png")}
                                style={styles.flag}/>
                             </TouchableOpacity>
 
