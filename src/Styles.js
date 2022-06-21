@@ -10,15 +10,15 @@ const styles = StyleSheet.create({
 
     appContainer: {
         paddingTop:"20%",
-        height:"100%",
-        backgroundColor: '#e6e6e7'
+        minHeight:"100%",
+        backgroundColor: '#e6e6e7',
+        paddingBottom:"50%"
     },
     flexContainer: {
-        flexDirection:"row"
+        flexDirection:"row",
     },
 
     selectLanguageCover: {
-
         width: "100%",
         height: "100%"
 
@@ -59,11 +59,16 @@ const styles = StyleSheet.create({
         flex: 6,
         justifyContent: "center"
     },
-    moduleStep :    {
-        flex: 3,
+    moduleStepImage :    {
         width:"50%",
+        resizeMode:"contain",
         justifyContent: "center"
     },
+    moduleSteptitle :    {
+      marginTop:"-25%",
+        justifyContent: "center"
+    },
+
     moduleListItem:{
         alignItems:"center",
         flex:2,
@@ -77,9 +82,14 @@ const styles = StyleSheet.create({
     },
     footer:{
         alignSelf:"center",
-        width:"20%",
+        width:"15%",
         position:"absolute",
         bottom:"0%",
+        resizeMode:"contain",
+        opacity:0.3
+    },
+    moduleTitleImage:{
+        width:"40%",
         resizeMode:"contain"
     }
 
