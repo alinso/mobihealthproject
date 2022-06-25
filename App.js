@@ -5,7 +5,7 @@ import Welcome from "./src/pages/Welcome";
 import ModuleList from "./src/pages/ModuleList";
 import 'react-native-gesture-handler';
 import SelectLanguage from "./src/pages/SelectLanguage";
-import MedicineMenu from "./src/pages/medicinemodule3/MedicineMenu";
+import MedicineMenu from "./src/pages/medicine/MedicineMenu";
 
 
 
