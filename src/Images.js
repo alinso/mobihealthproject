@@ -16,8 +16,10 @@ const Images={
             antibiotics:require("../assets/images/module/medicine/antibiotics.png"),
             terms:require("../assets/images/module/medicine/terms.png"),
             usage:require("../assets/images/module/medicine/usage.png"),
-            naming:require("../assets/images/module/medicine/naming.png")
+            naming:require("../assets/images/module/medicine/naming.png"),
+            infoPic:require("../assets/images/health.jpg")
         }
     }
+
 };
 export default Images;

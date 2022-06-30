@@ -3,17 +3,17 @@ import {Image, Text, TouchableOpacity, View} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import styles from "../Styles";
 import GestureRecognizer from "react-native-swipe-gestures";
-import Lang from "./Lang";
-import getLocalContent from "../getLocalContent";
+import Lang from "./LocalTitles";
+import getLocalTitles from "../getLocalTitles";
 
 class ModuleList extends React.Component {
 
     constructor() {
         super();
          this.state = {
-            lang: null
+            titles: null
         }
-        getLocalContent(Lang, this);
+        getLocalTitles(Lang, this);
     }
 
     onSwipeRight(state) {
@@ -22,7 +22,7 @@ class ModuleList extends React.Component {
 
     render() {
 
-        if (this.state.lang == null)
+        if (this.state.titles == null)
             return null;
 
         return (
@@ -36,13 +36,13 @@ class ModuleList extends React.Component {
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/module1-menu.png")}
                                 />
-                                <Text>{this.state.lang.module1}</Text>
+                                <Text>{this.state.titles.module1}</Text>
                             </View>
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/body-menu.png")}
                                 />
-                                <Text>{this.state.lang.body}</Text>
+                                <Text>{this.state.titles.body}</Text>
                             </View>
                         </View>
                         <View style={{flexDirection: "row"}}>
@@ -51,13 +51,13 @@ class ModuleList extends React.Component {
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/medicine-menu.png")}
                                 />
-                                <Text>{this.state.lang.medicine}</Text>
+                                <Text>{this.state.titles.medicine}</Text>
                             </TouchableOpacity>
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/sickness-menu.png")}
                                 />
-                                <Text>{this.state.lang.sickness}</Text>
+                                <Text>{this.state.titles.sickness}</Text>
                             </View>
                         </View>
 
@@ -66,13 +66,13 @@ class ModuleList extends React.Component {
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/firstaid-menu.png")}
                                 />
-                                <Text>{this.state.lang.firstaid}</Text>
+                                <Text>{this.state.titles.firstaid}</Text>
                             </View>
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/healthylife-menu.png")}
                                 />
-                                <Text>{this.state.lang.health}</Text>
+                                <Text>{this.state.titles.health}</Text>
                             </View>
                         </View>
                     </View>

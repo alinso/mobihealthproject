@@ -6,6 +6,7 @@ import ModuleList from "./src/pages/ModuleList";
 import 'react-native-gesture-handler';
 import SelectLanguage from "./src/pages/SelectLanguage";
 import MedicineMenu from "./src/pages/medicine/MedicineMenu";
+import MedicineSteps from "./src/pages/medicine/MedicineSteps";
 
 
 
@@ -13,7 +14,8 @@ const Stack = createStackNavigator({
         ModuleList: {screen: ModuleList},
         Welcome: {screen: Welcome},
         SelectLanguage: {screen: SelectLanguage},
-        MedicineMenu:{screen:MedicineMenu}
+        MedicineMenu:{screen:MedicineMenu},
+        MedicineSteps:{screen:MedicineSteps}
     },
     {
         headerMode: 'none',

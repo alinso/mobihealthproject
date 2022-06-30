@@ -5,17 +5,17 @@ import GestureRecognizer from 'react-native-swipe-gestures';
 import {withNavigation} from 'react-navigation';
 import ModuleSubtitle from "../../components/ModuleSubtitle";
 import Images from "../../Images";
-import Lang from "./Lang";
-import getLocalContent from "../../getLocalContent";
+import LocalTitles from "../LocalTitles";
+import getLocalTitles from "../../getLocalTitles";
 
 class MedicineMenu extends React.Component {
 
     constructor(props) {
         super(props);
         this.state={
-            lang:null
+            titles:null
         }
-        getLocalContent(Lang,this);
+        getLocalTitles(LocalTitles,this);
     }
 
 
@@ -28,7 +28,7 @@ class MedicineMenu extends React.Component {
     }
 
     render() {
-        if (this.state.lang == null)
+        if (this.state.titles == null)
             return null;
 
         return (
@@ -44,66 +44,66 @@ class MedicineMenu extends React.Component {
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.info}
-                                            title={this.state.lang.info} href={"MedicineInfo1"}/>
+                                            title={this.state.titles.info} href={"MedicineSteps"} navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.basics}
-                                            title={this.state.lang.basics1} href={"MedicineInfo1"}/>
+                                            title={this.state.titles.basics1} href={"MedicineInfo1"}  navParam={"MedicineInfo"}/>
                         </View>
 
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.basics}
-                                            title={this.state.lang.basics2} href={"MedicineInfo2"}/>
+                                            title={this.state.titles.basics2} href={"MedicineInfo2"}  navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.sources}
-                                            title={this.state.lang.sources} href={"MedicineSources"}/>
+                                            title={this.state.titles.sources} href={"MedicineSources"}  navParam={"MedicineInfo"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.taxonomy}
-                                            title={this.state.lang.taxonomy} href={"Taxonomy"}/>
+                                            title={this.state.titles.taxonomy} href={"Taxonomy"}  navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.naming}
-                                            title={this.state.lang.naming} href={"Naming"}/>
+                                            title={this.state.titles.naming} href={"Naming"}  navParam={"MedicineInfo"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.shapes}
-                                            title={this.state.lang.shapes1} href={"Shapes1"}/>
+                                            title={this.state.titles.shapes1} href={"Shapes1"}  navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.shapes}
-                                            title={this.state.lang.shapes2} href={"Shapes2"}/>
+                                            title={this.state.titles.shapes2} href={"Shapes2"}  navParam={"MedicineInfo"}/>
                         </View>
 
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.giving}
-                                            title={this.state.lang.taking1} href={"Giving1"}/>
+                                            title={this.state.titles.taking1} href={"Giving1"}  navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.giving}
-                                            title={this.state.lang.taking2} href={"Giving2"}/>
+                                            title={this.state.titles.taking2} href={"Giving2"}  navParam={"MedicineInfo"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.farma}
-                                            title={this.state.lang.farmo} href={"Farma"}/>
+                                            title={this.state.titles.farmo} href={"Farma"}  navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.engagement}
-                                            title={this.state.lang.engagement} href={"Engagement"}/>
+                                            title={this.state.titles.engagement} href={"Engagement"}  navParam={"MedicineInfo"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.recipes}
-                                            title={this.state.lang.prescription} href={"Recipes"}/>
+                                            title={this.state.titles.prescription} href={"Recipes"}  navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.criterias}
-                                            title={this.state.lang.application} href={"Engagement"}/>
+                                            title={this.state.titles.application} href={"Engagement"}  navParam={"MedicineInfo"}/>
                         </View>
 
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.antibiotics}
-                                            title={this.state.lang.antibiotics} href={"Antibiotics"}/>
+                                            title={this.state.titles.antibiotics} href={"Antibiotics"}  navParam={"MedicineInfo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.usage}
-                                            title={this.state.lang.smartuse} href={"Usage"}/>
+                                            title={this.state.titles.smartuse} href={"Usage"}  navParam={"MedicineInfo"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.terms}
-                                            title={this.state.lang.terms} href={"Terms"}/>
+                                            title={this.state.titles.terms} href={"Terms"}  navParam={"MedicineInfo"}/>
                             <View style={{flex:2}}/>
                         </View>
 

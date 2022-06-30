@@ -1,7 +1,7 @@
 import Storage from "./Storage";
 
 
-const getMenuLocalContent = (Lang, PageRef) => {
+const getLocalTitles = async (Lang, PageRef) => {
     Storage.getData('@lang').then(function (res) {
         let lng
         if (res == "turkish")
@@ -12,9 +12,8 @@ const getMenuLocalContent = (Lang, PageRef) => {
             lng = Lang[2];
         if (res == "german")
             lng = Lang[3];
-        PageRef.setState({content: lng});
-
+        PageRef.setState({titles: lng});
     });
 }
 
-export default getMenuLocalContent;
+export default getLocalTitles;

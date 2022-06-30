@@ -1,4 +1,10 @@
 export default [{
+    module1: "Tıbbi Terimler",
+    body: "Vücudum",
+    medicine: "İlaçlar",
+    sickness: "Hastalıklar",
+    firstaid: "İlk Yardım",
+    health: "Sağlıklı Yaşam",
     info: "Modül Bilgisi",
     basics1: "Temel Kavramlar-1",
     basics2: "Temel Kavramlar-2",
@@ -15,9 +21,15 @@ export default [{
     application: "İlaç Uygulama Kriterleri",
     antibiotics: "Antibiyotikler",
     smartuse: "Akılcı İlaç Kullanımı",
-    terms: "Genel İlaç Terimleri",
+    medicineTerms: "Genel İlaç Terimleri",
 },
     {
+        module1: "Medical Terms",
+        body: "My Body",
+        medicine: "Drugs",
+        sickness: "Sickness",
+        firstaid: "First Aid",
+        health: "Healthy Life",
         info: "Module Information",
         basics1: "Fundamentals-1",
         basics2: "Fundamentals-2",
@@ -34,9 +46,16 @@ export default [{
         application: "Application Criterias",
         antibiotics: "Antibiotics",
         smartuse: "Rational Use",
-        terms: "General Medication Terms",
+        medicineTerms: "General Medication Terms",
+
     },
     {
+        module1: "Termos de Medicina",
+        body: "Meu Corpo",
+        medicine: "Medicamentos",
+        sickness: "Doença",
+        firstaid: "Primeiro Socorro",
+        health: "Vida Saudável",
         info: "Informaçao do Módulo",
         basics1: "Conceitos Fundamentais-1",
         basics2: "Conceitos fundamentais-2",
@@ -53,6 +72,7 @@ export default [{
         application: "Critérios de Aplicaçáo",
         antibiotics: "Antibióticos",
         smartuse: "Uso Racional",
-        terms: "Termos Gerais da Medikaçáo",
+        medicineTerms: "Termos Gerais da Medikaçáo",
+
     }
 ]
