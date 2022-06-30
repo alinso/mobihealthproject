@@ -3,16 +3,16 @@ import Storage from "./Storage";
 
 const getMenuLocalContent = (Lang, PageRef) => {
     Storage.getData('@lang').then(function (res) {
-        let lng
+        let steps
         if (res == "turkish")
-            lng = Lang[0];
+            steps = Lang[0];
         if (res == "english")
-            lng = Lang[1];
+            steps = Lang[1];
         if (res == "portugal")
-            lng = Lang[2];
+            steps = Lang[2];
         if (res == "german")
-            lng = Lang[3];
-        PageRef.setState({content: lng});
+            steps = Lang[3];
+        PageRef.setState({content: steps});
 
     });
 }

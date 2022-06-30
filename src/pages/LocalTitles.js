@@ -6,8 +6,8 @@ export default [{
     firstaid: "İlk Yardım",
     health: "Sağlıklı Yaşam",
     info: "Modül Bilgisi",
-    basics1: "Temel Kavramlar-1",
-    basics2: "Temel Kavramlar-2",
+    fundamentals1: "Temel Kavramlar-1",
+    fundamentals2: "Temel Kavramlar-2",
     sources: "İlaçların Kaynakları",
     taxonomy: "İlaçların Sınıflandırılması",
     naming: "İlaçların Adlandırılması",
@@ -31,8 +31,8 @@ export default [{
         firstaid: "First Aid",
         health: "Healthy Life",
         info: "Module Information",
-        basics1: "Fundamentals-1",
-        basics2: "Fundamentals-2",
+        fundamentals1: "Fundamentals-1",
+        fundamentals2: "Fundamentals-2",
         sources: "Medication  Sources",
         taxonomy: "Classificaitons of Medications",
         naming: "Medication Naming",
@@ -47,7 +47,6 @@ export default [{
         antibiotics: "Antibiotics",
         smartuse: "Rational Use",
         medicineTerms: "General Medication Terms",
-
     },
     {
         module1: "Termos de Medicina",
@@ -57,8 +56,8 @@ export default [{
         firstaid: "Primeiro Socorro",
         health: "Vida Saudável",
         info: "Informaçao do Módulo",
-        basics1: "Conceitos Fundamentais-1",
-        basics2: "Conceitos fundamentais-2",
+        fundamentals1: "Conceitos Fundamentais-1",
+        fundamentals2: "Conceitos fundamentais-2",
         sources: "Fontes de Medicamentos",
         taxonomy: "Classificaçao de Medicamentos",
         naming: "Nomeaçoes de Medicamentos",
@@ -73,6 +72,5 @@ export default [{
         antibiotics: "Antibióticos",
         smartuse: "Uso Racional",
         medicineTerms: "Termos Gerais da Medikaçáo",
-
     }
 ]

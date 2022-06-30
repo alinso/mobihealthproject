@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Text, View} from "react-native";
+import {Image, ScrollView, Text, View} from "react-native";
 import styles from "../../Styles";
 import GestureRecognizer from 'react-native-swipe-gestures';
 import {withNavigation} from 'react-navigation';
@@ -8,6 +8,7 @@ import MedicineInfo from "./content/MedicineInfo";
 import getLocalTitles from "../../getLocalTitles";
 import getLocalContent from "../../getLocalContent";
 import Images from "../../Images";
+import FundaMentals1 from "./content/FundaMentals1";
 
 class Welcome extends React.Component {
     constructor(props) {
@@ -16,29 +17,50 @@ class Welcome extends React.Component {
             titles: null,
             localContents: null,
             title: null,
-            content: null,
+            content: [],
             currentStep: 0,
         }
         this.image = null;
         let self = this;
         this.setContent = this.setContent.bind(this);
+        this.onSwipeLeft = this.onSwipeLeft.bind(this);
+        this.onSwipeRight = this.onSwipeRight.bind(this);
+
 
         getLocalTitles(LocalTitles, this).then(function () {
             setTimeout(function () {
                 self.setContent(self.props.navigation.state.params.item);
-            }, 1000)
+            }, 500)
         });
     }
 
+    onSwipeLeft() {
+        if (this.state.currentStep == (this.state.content.length - 1)) {
+            return;
+        }
+        let newCurrentStep = this.state.currentStep + 1;
+        this.setState({currentStep: newCurrentStep});
+    }
+
+    onSwipeRight() {
+        if (this.state.currentStep == 0) {
+            this.props.navigation.navigate('MedicineMenu');
+            return;
+        }
+        let newCurrentStep = this.state.currentStep - 1;
+        this.setState({currentStep: newCurrentStep});
+    }
 
     setContent(link) {
-        console.log(this.state);
         let stepsTitle;
-        switch (link) {
-            case "MedicineInfo":
-                getLocalContent(MedicineInfo, this);
-                this.image = Images.module.medicine.infoPic;
-                stepsTitle = this.state.titles.info;
+        if(link==="MedicineInfo") {
+            getLocalContent(MedicineInfo, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.info;
+        }else if(link==="Fundamentals1") {
+            getLocalContent(FundaMentals1, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.fundamentals1
         }
         this.setState({title: stepsTitle})
     }
@@ -47,23 +69,31 @@ class Welcome extends React.Component {
     render() {
         if (this.state.titles == null)
             return null;
+        let pagerWidth=0;
+
+        if(this.state.content.length>1)
+             pagerWidth=90*((this.state.currentStep + 1) / this.state.content.length);
 
         return (
-            <View style={[styles.appContainer, styles.flexContainer]}>
-                <View style={{flex: 6}}>
-                    <GestureRecognizer
-                        onSwipeLeft={(state) => this.onSwipeLeft(state)}
-                    >
+            <ScrollView>
+                <GestureRecognizer
+                    onSwipeLeft={(state) => this.onSwipeLeft(state)}
+                    onSwipeRight={(state) => this.onSwipeRight(state)}
+                    style={styles.appContainer}
+                >
+                    <View style={styles.flexContainer}>
+                        <View style={{flex: 6}}>
+                            <Text style={styles.stepTitle}>{this.state.title}</Text>
+                            <Image style={styles.stepPic}  source={this.image}/>
+                            <View style={{width:pagerWidth+"%", height:"1%",backgroundColor:"orange",alignSelf: "flex-start",marginLeft:"5%"}}></View>
+                            <Text style={styles.stepText}>{this.state.content[this.state.currentStep]}</Text>
+                        </View>
+                    </View>
 
-                        <Text>{this.state.title}</Text>
-                        <Image source={this.image}/>
-                        <Text>{this.state.content}</Text>
-
-                    </GestureRecognizer>
-                </View>
-            </View>
+                </GestureRecognizer>
+                <Image source={require("../../../assets/icon.png")} style={styles.footer}/>
+            </ScrollView>
         );
     }
 }
-
 export default withNavigation(Welcome);
