@@ -25,7 +25,7 @@ export default  [
         "information about drugs, we may not be able to benefit enough and we may be harmed. Therefore, it is critical " +
         "to use drugs as recommended by healthcare professionals. Responsibility for the correct and effective use of " +
         "drugs mostly belongs to individuals. Therefore, individuals must first have a basic level of knowledge about " +
-        "medications.  " +
+        "medications.  \n\n" +
         "Basic medication information module aims to acquire basic medication information on subjects such as " +
         "basic concepts of medications, forms of medications, forms of administration of medications, effect mechanisms " +
         "of medications. This module includes pharmachology which deals sources of medications, chemical and " +
@@ -41,7 +41,7 @@ export default  [
         "suficientemente beneficiados e poderemos ser prejudicados. Por isso, é fundamental o uso de medicamentos " +
         "como recomendado pelos profissionais de saúde. A responsabilidade pelo uso correto e eficaz das drogas " +
         "pertence principalmente aos indivíduos. Portanto, os indivíduos devem primeiro ter um nível básico de " +
-        "conhecimento sobre medicamentos.  " +
+        "conhecimento sobre medicamentos.  \n\n" +
         "O módulo básico de informação sobre medicamentos visa adquirir informação básica sobre " +
         "medicamentos em assuntos como conceitos básicos de medicamentos, formas de medicamentos, formas de " +
         "administração de medicamentos, mecanismos de efeito de medicamentos. Este módulo inclui farmacologia que " +

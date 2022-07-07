@@ -9,6 +9,10 @@ import getLocalTitles from "../../getLocalTitles";
 import getLocalContent from "../../getLocalContent";
 import Images from "../../Images";
 import FundaMentals1 from "./content/FundaMentals1";
+import Fundamentals2 from "./content/Fundamentals2";
+import Sources from "./content/Sources";
+import Taxonomy from "./content/Taxonomy";
+import HtmlView from "react-native-htmlview";
 
 class Welcome extends React.Component {
     constructor(props) {
@@ -61,6 +65,18 @@ class Welcome extends React.Component {
             getLocalContent(FundaMentals1, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.fundamentals1
+        }else if(link==="Fundamentals2") {
+            getLocalContent(Fundamentals2, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.fundamentals2
+        }else if(link==="Sources") {
+            getLocalContent(Sources, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.sources
+        }else if(link==="Taxonomy") {
+            getLocalContent(Taxonomy, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.taxonomy
         }
         this.setState({title: stepsTitle})
     }
@@ -69,6 +85,9 @@ class Welcome extends React.Component {
     render() {
         if (this.state.titles == null)
             return null;
+        if(this.state.content==null)
+            return  null;
+
         let pagerWidth=0;
 
         if(this.state.content.length>1)
@@ -86,7 +105,7 @@ class Welcome extends React.Component {
                             <Text style={styles.stepTitle}>{this.state.title}</Text>
                             <Image style={styles.stepPic}  source={this.image}/>
                             <View style={{width:pagerWidth+"%", height:"1%",backgroundColor:"orange",alignSelf: "flex-start",marginLeft:"5%"}}></View>
-                            <Text style={styles.stepText}>{this.state.content[this.state.currentStep]}</Text>
+                            <HtmlView style={styles.stepText} value={this.state.content[this.state.currentStep]}></HtmlView>
                         </View>
                     </View>
 

@@ -52,14 +52,14 @@ class MedicineMenu extends React.Component {
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.fundamentals}
-                                            title={this.state.titles.fundamentals2} href={"MedicineInfo2"}  navParam={"MedicineInfo"}/>
+                                            title={this.state.titles.fundamentals2} href={"MedicineSteps"}  navParam={"Fundamentals2"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.sources}
-                                            title={this.state.titles.sources} href={"MedicineSources"}  navParam={"MedicineInfo"}/>
+                                            title={this.state.titles.sources} href={"MedicineSteps"}  navParam={"Sources"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.taxonomy}
-                                            title={this.state.titles.taxonomy} href={"Taxonomy"}  navParam={"MedicineInfo"}/>
+                                            title={this.state.titles.taxonomy} href={"MedicineSteps"}  navParam={"Taxonomy"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.naming}
                                             title={this.state.titles.naming} href={"Naming"}  navParam={"MedicineInfo"}/>
                         </View>

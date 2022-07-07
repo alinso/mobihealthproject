@@ -1,11 +1,12 @@
 export default [
-    ["İlaç: : \n\n" +
+    [
+        "İlaç: \n\n" +
     "İnsanları hastalıklardan korumak, tedavi " +
     "etmek, teşhis koymak, fizyolojik bir fonksiy- " +
     "onu düzelterek yararlı hale getirmek amacıyla " +
     "kullanılanmaddelerin genel adıdır.",
 
-        "Doz: : \n\n" +
+        "Doz:  \n\n" +
         "Hastaya bir defada verilen ilaç miktarıdır. " +
         "İlacın hangi dozda kullanılacağı hassas bir " +
         "konudur ve doktorunuz tarafından " +
@@ -74,6 +75,7 @@ export default [
         "şekilde alerjisi olan kişilerde oluşan kötü etki " +
         "kontrendikasyonu ifade eder. İlaç bu durumda " +
         "kullanılmamalıdır."
+
     ],
 
     [
@@ -102,7 +104,6 @@ export default [
         "Toxic Effect : \n\n" +
         "In general it’s an unexpected effect which emerges because of the effects of the " +
         "medications on body and it can even result in death. Side effects can also be counted as toxic effects.",
-
         "Benefit/loss ratio: \n\n" +
         "Medications hasn’t only benefits but also has some harm. This situation is not " +
         "always valid. Benefit/loss ratio is calculated especially when the medication has a potential toxic effect even is " +
@@ -125,37 +126,8 @@ export default [
         "Contraindication: \n\n" +
         "Any symptom or medical condition that is a reason for an individual not receive a " +
         "particular treatment or procedure because it may be harmful. Every medication includes at least an active " +
-        "ingredient. If an individual has an allergetic symptom any active ingredient in a medicaiton it shouldn’t be used.",
+        "ingredient. If an individual has an allergetic symptom any active ingredient in a medication it shouldn’t be used.",
 
-        "Tolerance: \n\n" +
-        "The benefit of the medication under normal conditions tends to decrease with long term " +
-        "continous use.",
-
-        "Bioavailability: \n\n" +
-        "Bioavailability is a term used to describe the percentage of an administered dose of a " +
-        "medicaiton that reaches the systemic circulation.Bioavailability depends usage of medication. E.g. if a " +
-        "medication taken by oral or injection it has differences in terms of bioavailability.",
-
-        "Prophylaxis: \n\n" +
-        "Prophylaxis and preventing health has same meaning. Some medications are used for " +
-        "preventing individuals from diseases. E.g. vaccines that used for Covid-19 and influenza are prophylaxises.",
-
-        "Prospectus: \n\n" +
-        "Prospectus is a brochure that has informations about medication use, side effects, " +
-        "indications and contraindications. Understanding prospectus and health workers suggestions are really important " +
-        "for providing benefit from medications.",
-
-        "Symptomatic Treatment: \n\n" +
-        "Symptomatic treatment aim that clear up symptoms but it doesn’t aim " +
-        "eliminate the cause of the disease. E.g. pain killers don’t eliminate cause of pain. It just remove headache.",
-
-        "Radical Treatment: \n\n" +
-        "This treatment aim eliminate cause of disease. E.g. Taking antibiotics for tonsilitis " +
-        "is a radical treatment.",
-
-        "Replacement Treatment: \n\n" +
-        "Some diseases emerge because of lack of some substances in human body. " +
-        "E.g. vitamin supplements for preventing disesase and taking insulin for diabetes."
     ],
     [
         "Medicação: \n\n" +
@@ -180,7 +152,6 @@ export default [
         "Em geral é um efeito inesperado que emerge devido aos efeitos dos medicamentos no " +
         "corpo e pode até resultar em morte. Os efeitos secundários também podem ser contabilizados como efeitos " +
         "tóxicos.",
-
         "Relação benefício/perda: \n\n" +
         "Os medicamentos não só têm benefícios, mas também têm alguns danos. Esta " +
         "situação nem sempre é válida. A relação benefício/perda é calculada especialmente quando a medicação tem um " +
@@ -203,43 +174,6 @@ export default [
         "pelo menos um ingrediente ativo. Se um indivíduo tem um sintoma alérgico a qualquer ingrediente ativo " +
         "presente no medicamento, este não deve ser usado.",
 
-
-        "Resistência: \n\n" +
-        "De acordo com bactérias ou vírus alguns indivíduos emergem resistência. Os efeitos da " +
-        "medicação podem desaparecer. Esta é uma das situações mais indesejadas e é resultado do uso de medicação " +
-        "inconsciente.",
-
-
-        "Tolerância: \n\n" +
-        "O benefício da medicação em condições normais tende a diminuir com o uso contínuo a " +
-        "longo prazo.",
-
-        "Biolabilidade: \n\n" +
-        "Biodilabilidade é um termo usado para descrever a percentagem de uma dose " +
-        "administrada de um medicamento que atinge a circulação sistémica.A biodisponibilidade depende do uso da " +
-        "medicação.",
-
-        "Profilaxia: \n\n" +
-        "A profilaxia e a prevenção da saúde têm o mesmo significado. Alguns medicamentos são " +
-        "usados para prevenir os indivíduos de doenças. Por exemplo, as vacinas que usaram para a Covid-19 e a gripe " +
-        "são profilaxias.",
-
-        "Folheto/Bula: \n\n" +
-        "É uma brochura que tem informações sobre o uso de medicação, efeitos secundários, " +
-        "indicações e contraindicações. Compreender as sugestões dos folhetos e dos profissionais de saúde é realmente " +
-        "importante para proporcionar benefícios dos medicamentos.",
-
-        "Tratamento sintomático: \n\n" +
-        "O tratamento sintomático tem como objetivo eliminar os sintomas, mas não " +
-        "visa eliminar a causa da doença. Por exemplo, analgésicos não eliminam a causa da dor, apenas a dor de cabeça.",
-
-        "Tratamento radical: \n\n" +
-        "Este objetivo de tratamento elimina a causa da doença. Por exemplo, tomar " +
-        "antibióticos para a amigdalite é um tratamento radical.",
-
-        "Tratamento radical: \n\n" +
-        "Este objetivo de tratamento elimina a causa da doença. Por exemplo, tomar " +
-        "antibióticos para a amigdalite é um tratamento radical."
     ]
 
 ]
