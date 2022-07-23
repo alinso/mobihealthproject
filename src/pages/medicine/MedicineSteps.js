@@ -13,6 +13,7 @@ import Fundamentals2 from "./content/Fundamentals2";
 import Sources from "./content/Sources";
 import Taxonomy from "./content/Taxonomy";
 import HtmlView from "react-native-htmlview";
+import Naming from "./content/Naming";
 
 class Welcome extends React.Component {
     constructor(props) {
@@ -77,6 +78,10 @@ class Welcome extends React.Component {
             getLocalContent(Taxonomy, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.taxonomy
+        }else if(link==="Naming") {
+            getLocalContent(Naming, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.naming
         }
         this.setState({title: stepsTitle})
     }

@@ -61,7 +61,7 @@ class MedicineMenu extends React.Component {
                             <ModuleSubtitle imgSource={Images.module.medicine.taxonomy}
                                             title={this.state.titles.taxonomy} href={"MedicineSteps"}  navParam={"Taxonomy"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.naming}
-                                            title={this.state.titles.naming} href={"Naming"}  navParam={"MedicineInfo"}/>
+                                            title={this.state.titles.naming} href={"MedicineSteps"}  navParam={"Naming"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>

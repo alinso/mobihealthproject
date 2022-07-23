@@ -8,7 +8,7 @@ export  default [
         "2- Sentetik Maddeler\n" +
         "3- DNA Rekombinant Teknolojisi",
 
-        "1- DOĞAL KAYNAKLAR:\n\n" +
+        "<b>1- Doğal Kaynakları:</b>\n\n" +
         "a. Bitkiler : İlk zamanlarda ilaçların neredeyse " +
         "tamamı bitkilerden hazırlanıyordu. Bitkisel kaynaklı" +
         " ilaçlar halen yoğun olarak kullanılmaktadır. \n\n" +
@@ -26,7 +26,7 @@ export  default [
         "sodyum klorür, potasyum klorür, magnezyum " +
         "oksit, magnezyum sülfat, demir vb.",
 
-        "2- Sentetik Maddeler:\n\n" +
+        "<b>2- Sentetik Maddeler:</b>\n\n" +
         "Kimyasal yöntemlerle elde edilen ilaçlardır. Bir " +
         "bölümü tamamen sentez yolu ile elde edilir. " +
         "Bir bölümü ise doğal kaynaklardan elde edilen " +
@@ -47,7 +47,7 @@ export  default [
     "2- Synthetic Material\n" +
     "3- DNA Recombinant Technology",
 
-        "1- Natural Sources:\n\n" +
+        "<b>1- Natural Sources:</b>\n\n" +
         "a. Herbs :At ancient times almost all of the medications prepared by herbs. Nowadays" +
         "medications which contain herbs are often used.\n\n" +
         "b. Animals and humans:Hormones and enyzmes kind of medications and antitoxice are" +
@@ -59,7 +59,7 @@ export  default [
         "d. İnorganic Matters ve Minerals: Iodine, sodium chloride, potassium chloride," +
         "magnessium oxide, magnessium sulphate, ferrum etc.",
 
-        "2- SYNTHETIC MATERIALS:\n\n" +
+        "<b>2- Synthetic Materials:</b>\n\n" +
         "This medications are gained from chemical ways. Some of them totally made by syntheses.Other\n" +
         "part of them made by chemical changes on molecules gained from natural sources. This materials affirm\n" +
         "semi synthetic materials.\n\n" +
@@ -76,7 +76,7 @@ export  default [
         "2- Material Sintético\n" +
         "3- Tecnologia recombinante de ADN",
 
-        "1- Fontes Naturais:\n\n" +
+        "<b>1- Fontes Naturais:</b>\n\n" +
         "a. Ervas:Em tempos antigos quase todos os medicamentos eram preparados através de ervas." +
         "Atualmente, os medicamentos que contêm ervas são também frequentemente usados.\n" +
         "b. Animais e humanos: Medicamentos hormonais e antitóxicos são geralmente obtidos de" +
@@ -87,16 +87,13 @@ export  default [
         "c. Microorganismo: Vários antibióticos e a vitamina B12 são obtidos a partir de " +
         "microorganismos.\n" +
         "d. Matérias inorgânicas e minerais: Iodo, cloreto de sódio, cloreto de potássio, óxido de" +
-        "magnésio, sulfato de magnésio, ferro, etc.",
+        "magnésio, sulfato de magnésio, ferro, etc.\n\n",
 
-        "2- Materiais Sinteticos\n" +
+        "<b>2- Materiais Sinteticos</b>\n\n" +
         "Estes medicamentos são adquiridos de forma química. Algumas totalmente feitas por sintetizadores. " +
         "Outras feitas por alterações químicas nas moléculas obtidas a partir de fontes naturais. Estes materiais" +
         "afirmam materiais semi sintéticos.\n\n" +
         "3- DNA-Medicamentos de Technologia Recombinante (Clonizaçao de Genes)\n" +
         "As vacinas são adutíveis para a tecnologia recombinante de ADN."
-
     ]
-
-
 ]
