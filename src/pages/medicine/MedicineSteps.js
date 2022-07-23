@@ -14,6 +14,10 @@ import Sources from "./content/Sources";
 import Taxonomy from "./content/Taxonomy";
 import HtmlView from "react-native-htmlview";
 import Naming from "./content/Naming";
+import Shapes1 from "./content/Shapes1";
+import Shapes2 from "./content/Shapes2";
+import Taking1 from "./content/Taking1";
+import Taking2 from "./content/Taking2";
 
 class Welcome extends React.Component {
     constructor(props) {
@@ -58,31 +62,50 @@ class Welcome extends React.Component {
 
     setContent(link) {
         let stepsTitle;
-        if(link==="MedicineInfo") {
+        if (link === "MedicineInfo") {
             getLocalContent(MedicineInfo, this);
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.info;
-        }else if(link==="Fundamentals1") {
+        } else if (link === "Fundamentals1") {
             getLocalContent(FundaMentals1, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.fundamentals1
-        }else if(link==="Fundamentals2") {
+        } else if (link === "Fundamentals2") {
             getLocalContent(Fundamentals2, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.fundamentals2
-        }else if(link==="Sources") {
+        } else if (link === "Sources") {
             getLocalContent(Sources, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.sources
-        }else if(link==="Taxonomy") {
+        } else if (link === "Taxonomy") {
             getLocalContent(Taxonomy, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.taxonomy
-        }else if(link==="Naming") {
+        } else if (link === "Naming") {
             getLocalContent(Naming, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.naming
+        } else if (link === "Shapes1") {
+            getLocalContent(Shapes1, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.shapes1
+        } else if (link === "Shapes2") {
+            getLocalContent(Shapes2, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.shapes2
+        } else if (link === "Taking1") {
+            getLocalContent(Taking1, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.taking1
+        } else if (link === "Taking2") {
+            getLocalContent(Taking2, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.taking2
         }
+
+
+
         this.setState({title: stepsTitle})
     }
 
@@ -90,13 +113,13 @@ class Welcome extends React.Component {
     render() {
         if (this.state.titles == null)
             return null;
-        if(this.state.content==null)
-            return  null;
+        if (this.state.content == null)
+            return null;
 
-        let pagerWidth=0;
+        let pagerWidth = 0;
 
-        if(this.state.content.length>1)
-             pagerWidth=90*((this.state.currentStep + 1) / this.state.content.length);
+        if (this.state.content.length > 1)
+            pagerWidth = 90 * ((this.state.currentStep + 1) / this.state.content.length);
 
         return (
             <ScrollView>
@@ -108,9 +131,16 @@ class Welcome extends React.Component {
                     <View style={styles.flexContainer}>
                         <View style={{flex: 6}}>
                             <Text style={styles.stepTitle}>{this.state.title}</Text>
-                            <Image style={styles.stepPic}  source={this.image}/>
-                            <View style={{width:pagerWidth+"%", height:"1%",backgroundColor:"orange",alignSelf: "flex-start",marginLeft:"5%"}}></View>
-                            <HtmlView style={styles.stepText} value={this.state.content[this.state.currentStep]}></HtmlView>
+                            <Image style={styles.stepPic} source={this.image}/>
+                            <View style={{
+                                width: pagerWidth + "%",
+                                height: "1%",
+                                backgroundColor: "orange",
+                                alignSelf: "flex-start",
+                                marginLeft: "5%"
+                            }}></View>
+                            <HtmlView style={styles.stepText}
+                                      value={this.state.content[this.state.currentStep]}></HtmlView>
                         </View>
                     </View>
 
@@ -120,4 +150,5 @@ class Welcome extends React.Component {
         );
     }
 }
+
 export default withNavigation(Welcome);

@@ -66,22 +66,22 @@ class MedicineMenu extends React.Component {
 
                         <View style={{flexDirection: "row"}}>
                             <ModuleSubtitle imgSource={Images.module.medicine.shapes}
-                                            title={this.state.titles.shapes1} href={"Shapes1"}  navParam={"MedicineInfo"}/>
+                                            title={this.state.titles.shapes1} href={"MedicineSteps"}  navParam={"Shapes1"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.shapes}
-                                            title={this.state.titles.shapes2} href={"Shapes2"}  navParam={"MedicineInfo"}/>
+                                            title={this.state.titles.shapes2} href={"MedicineSteps"}  navParam={"Shapes2"}/>
                         </View>
 
 
                         <View style={{flexDirection: "row"}}>
-                            <ModuleSubtitle imgSource={Images.module.medicine.giving}
-                                            title={this.state.titles.taking1} href={"Giving1"}  navParam={"MedicineInfo"}/>
-                            <ModuleSubtitle imgSource={Images.module.medicine.giving}
-                                            title={this.state.titles.taking2} href={"Giving2"}  navParam={"MedicineInfo"}/>
+                            <ModuleSubtitle imgSource={Images.module.medicine.taking}
+                                            title={this.state.titles.taking1} href={"MedicineSteps"}  navParam={"Taking1"}/>
+                            <ModuleSubtitle imgSource={Images.module.medicine.taking}
+                                            title={this.state.titles.taking2} href={"MedicineSteps"}  navParam={"Taking2"}/>
                         </View>
 
                         <View style={{flexDirection: "row"}}>
-                            <ModuleSubtitle imgSource={Images.module.medicine.farma}
-                                            title={this.state.titles.farmo} href={"Farma"}  navParam={"MedicineInfo"}/>
+                            <ModuleSubtitle imgSource={Images.module.medicine.farmo}
+                                            title={this.state.titles.farmo} href={"MedicineSteps"}  navParam={"Farmo"}/>
                             <ModuleSubtitle imgSource={Images.module.medicine.engagement}
                                             title={this.state.titles.engagement} href={"Engagement"}  navParam={"MedicineInfo"}/>
                         </View>
