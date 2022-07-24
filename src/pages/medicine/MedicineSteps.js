@@ -18,6 +18,13 @@ import Shapes1 from "./content/Shapes1";
 import Shapes2 from "./content/Shapes2";
 import Taking1 from "./content/Taking1";
 import Taking2 from "./content/Taking2";
+import Farmo from "./content/Farmo";
+import Interactions from "./content/Interactions";
+import Prescrption from "./content/Prescrption";
+import Application from "./content/Application";
+import Antibiotics from "./content/Antibiotics";
+import SmartUse from "./content/SmartUse";
+import MedicineTerms from "./content/MedicineTerms";
 
 class Welcome extends React.Component {
     constructor(props) {
@@ -102,6 +109,34 @@ class Welcome extends React.Component {
             getLocalContent(Taking2, this);
             this.image = Images.module.medicine.infoPic
             stepsTitle = this.state.titles.taking2
+        }else if (link === "Farmo") {
+            getLocalContent(Farmo, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.farmo
+        }else if (link === "Interactions") {
+            getLocalContent(Interactions, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.interaction
+        }else if (link === "Prescription") {
+            getLocalContent(Prescrption, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.prescription
+        }else if (link === "Application") {
+            getLocalContent(Application, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.application
+        }else if (link === "Antibiotics") {
+            getLocalContent(Antibiotics, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.antibiotics
+        }else if (link === "SmartUse") {
+            getLocalContent(SmartUse, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.smartuse
+        }else if (link === "MedicineTerms") {
+            getLocalContent(MedicineTerms, this);
+            this.image = Images.module.medicine.infoPic
+            stepsTitle = this.state.titles.medicineTerms
         }
 
 
