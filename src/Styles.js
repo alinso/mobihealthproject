@@ -30,6 +30,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#e6e6e7',
         paddingBottom: "50%"
     },
+    welcomeContainer:{
+        backgroundColor: '#e6e6e7',
+    },
     backLink:{
        marginLeft:"5%"
     },

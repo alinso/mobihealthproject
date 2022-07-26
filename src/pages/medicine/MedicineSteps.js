@@ -146,7 +146,7 @@ class Welcome extends React.Component {
 
 
     render() {
-        if (this.state.titles == null)
+        if (this.state.titles == null || this.state.title==null)
             return null;
         if (this.state.content == null)
             return null;
@@ -172,7 +172,8 @@ class Welcome extends React.Component {
                                 height: "1%",
                                 backgroundColor: "orange",
                                 alignSelf: "flex-start",
-                                marginLeft: "5%"
+                                marginLeft: "5%",
+                                marginBottom:"5%"
                             }}></View>
                             <HtmlView style={styles.stepText}
                                       value={this.state.content[this.state.currentStep]}></HtmlView>

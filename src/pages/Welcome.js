@@ -15,15 +15,15 @@ class Welcome extends React.Component {
 
     render() {
         return (
-            <View style={[styles.appContainer,styles.flexContainer]}>
-                <View style={{flex:6}}>
+            <View style={styles.welcomeContainer}>
                     <GestureRecognizer
                         onSwipeLeft={(state) => this.onSwipeLeft(state)}
                     >
                         <Image style={styles.euImage}
                                source={require("../../assets/eu.png")}
-                        /></GestureRecognizer>
-                </View>
+                        />
+
+                    </GestureRecognizer>
             </View>
         );
     }
