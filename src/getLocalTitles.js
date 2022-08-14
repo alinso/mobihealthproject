@@ -13,6 +13,8 @@ const getLocalTitles = async (Lang, PageRef) => {
         if (res == "german")
             lng = Lang[3];
         PageRef.setState({titles: lng});
+        PageRef.setState({currentLng:res});
+        return lng;
     });
 }
 

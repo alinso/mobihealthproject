@@ -1,29 +1,67 @@
 import React from 'react';
 import {Image, Text, TouchableOpacity, View} from 'react-native';
 import {withNavigation} from 'react-navigation';
+import SelectDropdown from 'react-native-select-dropdown';
 import styles from "../Styles";
 import GestureRecognizer from "react-native-swipe-gestures";
 import Lang from "./LocalTitles";
 import getLocalTitles from "../getLocalTitles";
+import Storage from "../Storage";
+
+const langs = ["Türkçe", "English", "Português", "Deutsche"];
+
 
 class ModuleList extends React.Component {
 
     constructor() {
         super();
-         this.state = {
-            titles: null
+        this.state = {
+            titles: null,
+            currentLng: null
         }
+        this.updateLang = this.updateLang.bind(this);
         getLocalTitles(Lang, this);
     }
 
+    updateLang(index) {
+        let selectedLang;
+        if (index == 0)
+            selectedLang = "turkish";
+        else if (index == 1)
+            selectedLang = "english";
+        else if (index == 2)
+            selectedLang = "portugal";
+        else if (index == 3)
+            selectedLang = "german"
+
+        let self = this;
+
+        Storage.save("@lang", selectedLang).then(function () {
+            self.setState({titles: Lang[index]});
+        });
+    }
+
     onSwipeRight(state) {
-        this.props.navigation.navigate('SelectLanguage');
+        this.props.navigation.navigate('Welcome');
     }
 
     render() {
 
         if (this.state.titles == null)
             return null;
+        if (this.state.currentLng == null)
+            return null;
+
+        let defaultLang;
+        if (this.state.currentLng == "english")
+            defaultLang = "English";
+        else if (this.state.currentLng == "turkish")
+            defaultLang = "Türkçe";
+        else if (this.state.currentLng == "german")
+            defaultLang = "Deutsch";
+        else if (this.state.currentLng == "portugal")
+            defaultLang = "Português";
+
 
         return (
             <GestureRecognizer onSwipeRight={(state) => this.onSwipeRight(state)} style={styles.appContainer}>
@@ -73,6 +111,17 @@ class ModuleList extends React.Component {
                                        source={require("../../assets/images/module/healthylife-menu.png")}
                                 />
                                 <Text>{this.state.titles.health}</Text>
+                            </View>
+                        </View>
+                        <View style={{flexDirection: "row"}}>
+                            <View style={{flex: 4}}>
+                                <SelectDropdown
+                                    defaultValue={defaultLang}
+                                    data={langs}
+                                    onSelect={(selectedItem, index) => {
+                                        this.updateLang(index);
+                                    }}
+                                />
                             </View>
                         </View>
                     </View>

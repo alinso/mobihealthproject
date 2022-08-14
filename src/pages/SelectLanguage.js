@@ -7,6 +7,22 @@ import Storage from "../Storage";
 
 class SelectLanguage extends React.Component {
 
+
+    constructor() {
+        super();
+        this.state={
+            ready:false
+        }
+        let self =this;
+        Storage.getData('@lang').then(function (res){
+            if(res!=null) {
+                self.props.navigation.navigate("ModuleList");
+            }else{
+                self.setState({ready:true});
+            }
+        });
+    }
+
     state = {
         myState: 'Lang Selection'
     }
@@ -21,6 +37,10 @@ class SelectLanguage extends React.Component {
     }
 
     render() {
+
+        if(!this.state.ready)
+            return null;
+
         return (
             <View>
                 <GestureRecognizer
