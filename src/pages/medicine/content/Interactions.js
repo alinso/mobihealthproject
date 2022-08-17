@@ -161,6 +161,45 @@ export default [
         "administração, do desenvolvimento da tolerância e das características pessoais do utilizador.O desejo de usar a " +
         "medicação continuamente para eliminar o desconforto causado pelo desaparecimento das alterações causadas " +
         "por um medicamento tomado continuamente pode ser chamado de vício.A característica comum mais"
+    ],
+    [
+        "Wenn verschiedene Medikamente gleichzeitig im Körper vorhanden sind, können sie sich gegenseitig ersetzen. Zu Beginn der Behandlung ist es notwendig, die anderen Medikamente zu kennen, die der Patient einnimmt. Medikamente, die miteinander interagieren und unwirksam werden und sogar schädliche Wirkungen haben können, sollten nicht unbewusst eingenommen werden. Diese Situation kann verhindern, dass die Behandlung ihr Ziel erreicht, und kann zu unerwünschten Ergebnissen führen.",
+
+        "<b>FAKTOREN, DIE DIE WIRKUNG VON MEDIKAMENTEN VERÄNDERN</b>\n\n" +
+        "Jedes Medikament zeigt bei verschiedenen Patienten unterschiedliche Wirkungen, auch wenn sie die gleiche Krankheit haben. Es gibt einige Faktoren, die" +
+        " Geschwindigkeit, Dauer und Schwere der Wirkung der eingenommenen Medikamente beeinflussen.\n\n" +
+        "1- Der Verabreichungsweg\n" +
+        "2- Zeitpunkt der Verabreichung\n" +
+        "3- Körpergewicht\n" +
+        "4- Alter\n" +
+        "5- Geschlecht\n" +
+        "6- Genetische Faktoren\n" +
+        "7- Toleranzentwicklung\n" +
+        "8- Andere im Körper vorhandene Medikamente\n",
+
+
+        "<b>1- Der Verabreichungsweg:</b>\n" +
+        "Wir haben in den vorherigen Themen erklärt, dass Medikamente dem Körper auf unterschiedliche Weise zugeführt werden können. Die Verabreichungswege unterscheiden sich in der Geschwindigkeit und dem Grad der Medikamentenabsorption. Es dauert eine gewisse Zeit, bis oral eingenommene Medikamente verdaut werden, in den Dünndarm gelangen und beginnen absorbiert zu werden. Darüber hinaus beeinflusst der Zustand von Hunger oder Sättigung auch die Absorbtionsdauer der oral eingenommenen Medikamente." +
+        "Die Absorptionsrate des intravenösen Medikaments ist sehr hoch, und seine Bioverfügbarkeitsrate ist gleichzeitig sehr hoch.\n\n"+
+        "<b>2- Zeitpunkt der Verabreichung:</b>\n" +
+        "Der Zeitpunkt der Verabreichung von Arzneimitteln kann den Grad der Wirkung und die Dauer der Wirkung verändern. Während einige Medikamente tagsüber eingenommen werden " +
+        "sollten, ist es angebracht, Medikamente welche Schläfrigkeit verursachen können, abends und nachts einzunehmen.\n\n"+
+
+        "<b>3- Körpergewicht:</b>\n" +
+        "Das Gewicht der Person ist einer der entscheidendsten Faktoren bei der Anpassung der Medikamentendosis. Die Dosis für einen 50 kg schweren Patienten und einen 100 kg schweren Patienten kann nicht gleich sein. Die Dosis, die als Erwachsenendosis definiert ist, gibt die Dosismenge an, die einer 70 kg schweren Person verabreicht werden sollte. Ein hoher Fettanteil bei übergewichtigen Menschen wirkt sich negativ auf die Absorptionsrate des Medikaments aus.",
+
+            "<b>4- Alter:</b>\n" +
+            "Der Wirkungsmechanismus des Medikaments ist bei Säuglingen, Kindern, Erwachsenen und älteren Menschen unterschiedlich.\n\n"+
+            "<b>5- Geschlecht:</b>\n" +
+            "Die Wirkung der meisten Medikamente ändert sich nicht nach Geschlecht des Patienten, aber bei einige Medikamente können sie unterschiedlich wirken.\n\n" +
+            "<b>6- Genetische Faktoren:</b>\n" +
+            "Nachdem Medikamente in den Körper aufgenommen wurden, werden sie durch Körperenzyme metabolisiert. " +
+            "Erblicher Mangel oder Überschuss dieser Enzyme kann die Wirkung des Arzneimittels verändern.\n\n" +
+            "<b>7- Toleranzentwicklung:</b>\n" +
+            "Die Wirkung der verwendeten Medikamente nimmt kontinuierlich ab." +
+            " Möglicherweise muss die Dosis erhöht werden, um die anfängliche Wirkung des Medikaments aufrechtzuerhalten.\n\n" +
+            "<b>8- Andere im Körper vorhandene Medikamente:</b>\n " +
+            "Andere Medikamente, die gleichzeitig oder zuvor im Körper eingenommen wurden, können die Wirkung des aktuellen Medikaments verändern.\n\n"
     ]
 
 ]

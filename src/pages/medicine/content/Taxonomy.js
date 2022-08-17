@@ -82,7 +82,7 @@ export default [
 
         "<b>4- Classification of origin:</b>\n Some medications, especially originated from herbs, are classified according " +
         "to herbs’ family, and species names. For example, medications used as narcotic pain relievers and " +
-        "produced from the opium plant are classified as ,'opiates' \n\n" +
+        "produced from the opium plant are <!--  -->lassified as ,'opiates' \n\n" +
         "<b>5- Classification according to molecular (chemical) structure:</b>\n For example, Alkaloid and " +
         "steroids.",
     ],
@@ -118,6 +118,41 @@ export default [
         "como analgésicos estupefacientes e produzidos a partir da planta de ópio são classificados como " +
         "'opiáceos'. \n\n" +
         "<b>5- Classificação de acordo com a estrutura molecular (química):</b>\n Por exemplo, Alcaloide e esteróides."
+    ],
+
+    [
+        "Medikamente werden nach vielen verschiedenen Kriterien eingeteilt, z.B. wo sie wirken, wie sie wirken, der Zweck der Anwendung, die Symptome, welche sie lindern. Hier werden wir die Klassen aufführen, denen Sie möglicherweise am häufigsten begegnen.\n\n" +
+        "<b>Einteilung von Medikamenten nach den Orten, an denen sie wirken:</b> In dieser Klasse werden Medikamente nach dem Ort benannt, an dem sie im Körper wirken. Beispielsweise werden Arzneimittel, die auf das Herz-Kreislauf-System wirken, als „Medikamente für das Herz-Kreislauf-System\n\m"+
+            "<b>Einteilung von Medikamenten nach Wirkungsweise:</b> In dieser Klasse werden Medikamente nach ihrer Wirkungsweise im Körper eingeteilt. Wie Antihistaminika (Medikamente zur Behandlung von allergischen Erkrankungen).",
+
+        "<b>Einteilung von Arzneimitteln nach ihrem Verwendungszweck</b>\n" +
+        "Arzneimittel werden nach ihrem Verwendungszweck als vorbeugende, ergänzende, radikale Behandlung und symptomatische Behandlung in vier verschiedene Klassen eingeteilt.\n\n" +
+        "a. Vorbeugend (prophylaktisch): Sie werden eingesetzt, um einer möglichen Erkrankung vorzubeugen. Impfstoffe sind das beste Beispiel für eine vorbeugende Behandlung.\n\n" +
+        "b. Ergänzend (Substitutiv-Ersatz): Es ist eine Form der Behandlung, die durch den Mangel einer im Körper produzierten oder von außen aufgenommenen Substanz verursacht wird und darauf abzielt, diesen Mangel direkt oder indirekt gegen die Krankheit zu beseitigen. Zum Beispiel Vitaminpräparate und Insulin.\n\n" +
+        "c. Radikalbehandlung: Bei dieser Behandlungsform wird gezielt an der Ursache der Erkrankung angesetzt. Ein Beispiel ist die Verabreichung von Antibiotika gegen jegliche Infektion im Körper.\n\n" +
+        "d. Symptomatisch-palliative Behandlung: Im Gegensatz zur radikalen Behandlung zielt diese Behandlungsmethode, die nicht auf die Beseitigung der Krankheitsursache abzielt, darauf ab, die durch die Krankheit verursachten pathologischen Störungen zu reduzieren. Zum Beispiel Schmerzen lindern, Fieber senken.",
+
+        "<b>Einteilung nach Herkunft:</b>\n" +
+        " Einige Medikamente, insbesondere wenn sie aus Kräutern hergestellt werden, werden nach Kräuterfamilie und Artnamen eingeteilt. Beispielsweise werden Medikamente, die als narkotische Schmerzmittel verwendet und aus der Opiumpflanze hergestellt werden, als 'Opiate' klassifiziert.\n\n" +
+        "<b>Einteilung nach molekularer (chemischer) Struktur:</b>\n" +
+        "Zum Beispiel Alkaloid und Steroide."
+
     ]
 
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

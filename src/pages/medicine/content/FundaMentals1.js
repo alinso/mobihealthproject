@@ -135,6 +135,12 @@ export default [
         "É o nome geral das substâncias que são usadas para proteger as pessoas das doenças, " +
         "diagnosticar as doenças, tornar uma função fisiológica útil restaurando-a.",
 
+        "<b>Dose</b>\n\n" +
+        "É a quantidade de medicação dada ao paciente numa só toma. Uma vez que as doses de fármacos\n" +
+        "são uma questão sensível, são calculadas pelo seu médico considerando muitos fatores como a gravidade da sua\n" +
+        "doença, idade e peso. Por isso, recomenda-se tomar as doses dos medicamentos com o copo de medição incluído\n" +
+        "na caixa de medicação.",
+
         "<b>Dose diária: </b>\n\n" +
         "É a quantidade da medicação que é recomendada ao paciente para um dia. A dose diária é " +
         "calculada pelo seu médico de acordo com a gravidade das suas doenças e as suas características pessoais. " +
@@ -176,6 +182,47 @@ export default [
         "pelo menos um ingrediente ativo. Se um indivíduo tem um sintoma alérgico a qualquer ingrediente ativo " +
         "presente no medicamento, este não deve ser usado.",
 
+    ],
+    [
+        "<b>Medikamente:</b>\n\n" +
+        "Dies ist eine allgemeine Bezeichnung für Substanzen, die verwendet werden, um Menschen vor Krankheiten zu schützen, " +
+        "Krankheiten zu diagnostizieren und eine physiologische Funktion durch Wiederherstellung nutzbar zu machen.\n",
+
+
+        "<b>Dosis:</b>\n\n" +
+        "Es ist die Menge an Medikamenten, die dem Patienten auf einmal verabreicht wird. Da Medikamentendosen ein sensibles Thema sind, werden sie von" +
+        " Ihrem Arzt unter Berücksichtigung vieler Faktoren wie Schweregrad Ihrer Erkrankung, Alter und Gewicht berechnet. Daher wird empfohlen, die Dosen " +
+        "der Medikamente mit dem in der Medikamentenbox enthaltenen Messbecher einzunehmen.",
+
+
+        "<b>Tagesdosis:</b>\n\n Es ist die Menge des Medikaments, die einem Patienten an einem Tag empfohlen wird. Die Tagesdosis wird von Ihrem Arzt entsprechend dem " +
+        "Schweregrad Ihrer Erkrankung und Ihren persönlichen Merkmalen berechnet. Bei der Berechnung der Tagesdosis sind Anwendungsbereiche der Medikamente wichtig. " +
+        "Die Tagesdosis kann dem Patienten in bestimmten Intervallen verabreicht werden. Diese Intervalle können zwei, drei oder mehr sein. Wichtig ist, die " +
+        "Reichweiten richtig zu bestimmen. Beispielsweise muss das Medikament, das zweimal täglich (in 24 Stunden) empfohlen wird, alle 12 " +
+        "Stunden eingenommen werden, oder das Medikament, " +
+        "das dreimal täglich empfohlen wird, muss alle 8 Stunden eingenommen werden.",
+
+        "<b>Nebenwirkung:</b>\n\n" +
+        "Zusätzlich zu den erwünschten Wirkungen von Medikamenten, selbst bei normalen Dosen, sind es die unerwünschten Wirkungen, die sie verursachen.",
+
+        "<b>Toxische Wirkung:</b>\n\n Im Allgemeinen handelt es sich um eine unerwartete Wirkung, die aufgrund der Auswirkungen der Medikamente auf den Körper auftritt " +
+        "und sogar zum Tod führen kann. Auch Nebenwirkungen können zu den toxischen Wirkungen gezählt werden.",
+
+        "<b>Nutzen-Kosten-Verhältnis:</b>\n\n" +
+        " Medikamente haben nicht nur Vorteile, sondern auch einen gewissen Schaden. Diese Situation ist nicht immer gültig. Das Nutzen-Kosten-Verhältnis wird insbesondere dann berechnet, wenn das Medikament eine potenziell toxische Wirkung hat, selbst wenn es in einer normalen Dosis verwendet wird. " +
+        "In diesem Zusammenhang sind die Medikamente zu sehen, die bei Krebserkrankungen ",
+
+        "<b>Sicherheitsbereich:</b>\n\n" +
+        "Dies ist der Bereich zwischen der festgelegten Dosis des Medikaments und der Dosis der toxischen Wirkung." +
+        "Die von Ihrem Arzt empfohlene Menge liegt in diesem Bereich. Ein falsch berechneter Dosisbereich aufgrund unbewusster Medikamenteneinnahme " +
+        "kann Nebenwirkungen oder toxische Wirkungen des Medikaments verursachen.\n",
+
+        "<b>Indikation:</b>\n\n Ein medizinischer Zustand, eine Krankheit oder eine Operation, für die ein Arzneimittel verwendet wird. Diese Wirkungen sind für" +
+        " den beabsichtigten Zweck der Medikation von Vorteil.",
+
+        "<b>Kontraindikation:</b>\n\n" +
+        "Jedes Symptom oder jeder medizinische Zustand, der ein Grund dafür ist, dass eine Person eine bestimmte Behandlung oder Prozedur nicht erhält, weil sie schädlich sein kann. Jedes Medikament enthält mindestens einen aktiven Wirkstoff. Wenn eine " +
+        "Person ein allergisches Symptom gegen einen aktiven Wirkstoff in einem Medikament hat, sollte es nicht verwendet werden."
     ]
 
 ]

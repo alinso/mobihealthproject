@@ -52,5 +52,23 @@ export default [
         "14- Medicamentos anestésicos (Medicamentos que causam dormência)\n" +
         "15- Antiviral (Medicamentos usados contra infeção por vírus)\n" +
         "16- Antifúngico (Medicação usada contra infeções fúngicas)"
+    ],
+    [
+        "1- Antitussivum (Hustenmittel)\n" +
+        "2- Diuretikum\n" +
+        "3- Expectorantioa/Mucolytica (Schleimlöser)\n" +
+        "4- Analgetikum (Schmerzmittel)\n" +
+        "5- Antidiarrhoika (Vorbeugung gegen Durchfall)\n" +
+        "6- Anti-Säure-Medikamente (Medikamente, welche die Magensäure reduzieren)\n" +
+        "7- Abführmittel (Medikamente, die den Stuhl weicher machen und das Ausscheiden erleichtern)\n" +
+        "8- Antiemetikum (Medikamente zur Vorbeugung von Übelkeit/Erbrechen)\n" +
+        "9- Antiallergisch\n" +
+        "10- Antidepressiva (Medikamente zur Behandlung von Depressionen)\n" +
+        "11- Antidiabetische Medikamente (Medikamente gegen Diabetes)\n" +
+        "12- Antipyretikum (Fiebersenker)\n" +
+        "13- Antihypertensiv (Medikamente zur Behandlung von Bluthochdruck)\n" +
+        "14- Anästhetika (Medikamente, die Taubheit verursachen)\n" +
+        "15- Antiviral (Medikamente gegen Virusinfektionen)\n" +
+        "16- Antimykotika (Medikamente gegen Pilzinfektionen)\n"
     ]
 ]

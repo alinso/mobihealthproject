@@ -96,6 +96,24 @@ export default [
  "usado por forma rectal.\n\n" +
  "ii. Óvulo: É uma forma de medicina que se dissolve rapidamente com a temperatura\n" +
  "corporal e é usada vaginalmente, como um supositório p",
+    ],
+    [
+        "Entsprechend den Verabreichungswegen werden Arzneimittel mit unterschiedlichen physikalischen Eigenschaften hergestellt. Als pharmazeutische Form wird die Form von Medikamenten bezeichnet, die in spezielle Formen gegeben werden, um sie dem Patienten gemäß der Verabreichungsform zu geben.",
+"<b>1. Feste Darreichungsformen:</b>\n" +
+"<b> a. Orale Einnahme</b>\n" +
+"Tablette (komprimiert): Dies sind die Medikamente, die durch Mischen und Komprimieren von pulverförmigen Medikamenten mit einigen Bindemitteln " +
+"erhalten und in Form von Halbzylindern, Zylindern, Runden und andere Formen produziert werden. Sie werden oral verwendet. " +
+"Es gibt Kautabletten, sublingual resorbiert (Schmelztabletten), in Wasser aufgelöste (Brausetabletten) oder einfach geschluckte Darreichungsformen.\n\n" +
+"Dragee: Dragees werden hergestellt, um die Einnahme von Tabletten zu erleichtern. Dragees werden mit Materialien wie Zucker usw. Überzogen und haben daher eine härtere Außenschicht.\n\n" +
+"Pillen: Es wird durch Mischen von Pulvern mit klebrigen Materialien wie Honig hergestellt. Ihre Form ist rund oder oval.\n\n" +
+"Kapsel: Dass Medikamente Menschen helfen, Medikamente leichter einzunehmen, insbesondere wenn Medikamente einen unerwünschten Geruch und Geschmack haben.\n\n" +
+"Oblatenkapsel: Es wird mit verschluckbaren Verpackungen hergestellt. Diese Verpackungen sind zwei ovale Deckel, die ineinander greifen und aus Stärke bestehen.\n\n" +
+"Pulver/Granulate: Das Arzneimittel wird in Pulverform verabreicht.\n\n" +
+"Pulverbeutel/Granulatbeutel: Das Arzneimittel wird in Einzelbeuteln mit je einer Dosis verpackt.\n\n" +
+"Schmelztabletten: Dieses Arzneimittel wird meistens bei Erkrankungen der Mundhöhle eingesetzt. Wenn Sie es einnehmen, löst es sich in Ihrem Mund auf.\n\n"+
+"<b>Andere Darreichungsformen</b>\n" +
+"Zäpfchen/Suppositorien: Die Hauptmaterialien der Zäpfchen sind Kakaoöl und Glycerinseife. Es hat eine zylindrische Form und ist so hergestellt, dass es durch Schmelzen bei Körpertemperatur leicht in Körperhöhlen oder -eingänge eindringen kann. Es wird rektal angewendet.\n\n" +
+"Vaginalzäpfchen: Es ist eine Form von Medizin, die sich schnell bei Körpertemperatur auflöst und vaginal verwendet wird, wie z. B. ein in ovaler oder zylindrischer Form zubereitetes Zäpfchen. "
     ]
 
 ]

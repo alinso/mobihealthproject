@@ -36,6 +36,17 @@ export default [
         "podem ser prescritos normalmente. \n\n" +
         "<b>2. Prescrições restritas: </b>Medicamentos viciantes e potencialmente abusivos são administrados com uma " +
         "receita controlada."
+    ],
+
+    [
+        "Es ist ein offizielles Dokument, das vom Arzt auf einem bestimmten Formular erstellt wird und technische Informationen enthält. " +
+        "Es gibt einige internationale Abkürzungen, " +
+        "die beim Ausstellen eines Rezeptes verwendet werden sollten. Heutzutage können Rezepte in vielen Ländern elektronisch ausgestellt werden.\n\n" +
+        "<b>VERSCHREIBUNGSARTEN:</b>\n\n" +
+        "<b>1. Normale Verschreibung:</b> Die überwiegende Mehrheit der von Ärzten verschriebenen Medikamente werden auf reguläre Rezepten ausgestellt. " +
+        "Unkontrollierte Medikamente werden auf die regulären Rezepte verschrieben. " +
+        "Ärzte und Spezialisten können Medikamente auf die regulären Rezepte verschreiben. Antibiotika und einfache Schmerzmittel können normal verschrieben werden.\n\n" +
+        "<b>2. Eingeschränkte Verschreibungen:</b> Suchterregende und potenziell missbräuchliche Medikamente werden mit einer kontrollierten Verschreibung verabreicht."
     ]
 ]
 

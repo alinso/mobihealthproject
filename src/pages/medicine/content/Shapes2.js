@@ -123,6 +123,46 @@ export default [
         "externamente aplicados na pele.\n\n" +
         "l. Spray: São medicamentos líquidos aplicados através de pulverização na pele ou membranas " +
         "mucosas."
+    ],
+    [
+        "<b>2. Halbfeste und flüssige Pharmazeutika:</b>\n" +
+        "Salbe (Pomade): Dieses Arzneimittel wird zur Behandlung von Haut- und Schleimhauterkrankungen verwendet.\n\n" +
+        "Pflaster: Dieses Arzneimittel wird als Pflaster auf der Haut verwendet. " +
+        "Es umfasst feste und halbfeste Materialien und wirkt durch Absorption auf der Haut. Es sollte während der Verwendung erwärmt werden.\n\n" +
+        "Pasten: Das sind halbfeste Zubereitungen, ähnlich einem Brei. Diese sollten erwärmt auf die Haut aufgetragen werden.\n\n" +
+        "Transdermal Therapeutisches System ( TTS ): Es ist eine Applikationsform, die eine langfristige Arzneimittelabsorption ermöglicht, indem Arzneimittel, " +
+        "die in einem haftenden Material platziert werden, ähnlich einem Band und Pflaster, auf Bereiche wie Brust, Arm und Beine geklebt werden.\n\n",
+
+        "<b>3. Flüssige pharmazeutische Formen</b>\n" +
+        "Lösung: Es handelt sich um eine Form von Medizin, die gemäß den Zubereitungsbedingungen der Medizin durch Auflösen der " +
+        "Wirkstoffe in Wasser oder einem anderen Lösungsmittel zubereitet wird. Die Applikationsstelle kann in Lösungen variieren. " +
+        "Mundwasser, Augen- und Nasentropfen und Ampullen, die durch Injektion angewendet werden, enthalten eine Lösung.\n\n" +
+        "Tropfen: Lösungen welche auf Organe wie Augen, Ohren und Nase aufgetragen werden, werden als Tropfen bezeichnet.\n\n" +
+        "Gurgellösungen: Dies sind Lösungen, die zur Desinfektion (Inaktivierung oder Entfernung von krankheitsverursachenden Mikroorganismen)  " +
+        "der Mundhöhle und des Rachens (Phraynx) oder Anästhesie (Sensibilisierung-Desensibilisierung) verwendet werden.\n\n" +
+        "Tinktur: Es ist eine Form von Medizin, die durch Mischen des Wirkstoffs des Arzneimittels in speziellen Lösungsmitteln wie Alkohol oder " +
+        "Äther hergestellt wird. Es wird äußerlich (durch äußere Anwendung) oder oral (durch den Mund) verwendet.\n\n" +
+        "Sirup: Es handelt sich um eine Zubereitungen, die zur oralen Anwendung verwendet wird, indem der Wirkstoff des Arzneimittels mit " +
+        "Wasser und 60 % Zucker oder Süßungsmitteln gemischt wird (Fertigarzneimittel).\n\n" +
+        "Suspension: Es wird durch Dispergieren (Mischen) des festen Arzneimittels in einer Flüssigkeit erhalten, indem es in kleine Stücke gebrochen wird. " +
+        "Beim Aufbewahren der vorbereiteten Suspension sinkt der Feststoff wieder zu Boden. Durch Schütteln vor jedem Gebrauch wird sichergestellt, " +
+        "dass die festen und flüssigen" +
+        " Stoffe homogen werden (eine Mischung, die in allen Teilen der Mischung die gleichen Eigenschaften hat, in der flüssige und " +
+        "feste Stoffe gleichmäßig verteilt sind). Es gibt orale und parenterale (Injektionsmethode) Anwendungsformen.\n\n" +
+        "Emulsion: Im Gegensatz zur Suspension ist der Wirkstoff flüssig. Es wird durch Mischen der flüssigen Arzneisubstanz und des Lösungsmittels erhalten. " +
+        "Es wird oral oder parenteral verwendet.\n\n" +
+        "Klistier: Dies sind die Medikamente, die in Form einer Lösung oder Suspension zur rektalen Anwendung zubereitet werden.\n\n" +
+        "Aerosol: Dies sind Arzneimittel, die so zubereitet sind, dass der Wirkstoff des Arzneimittels, in speziellen Flüssigkeiten gelöst, durch Inhalation verabreicht werden kann. Medikamente, die zur Behandlung von Asthma " +
+        "verwendet und in die Lunge inhaliert werden, sind Beispiele für Aerosol-Medikamente.\n\n" +
+        "Ampullen, Flakon, Fläschchen: Es ist die Form in Glasflaschen, die die Verabreichung von festen oder arzneimittelaktiven Substanzen durch parenterale (Injektions-) Methode ermöglicht. " +
+        "Feste Wirkstoffe werden mit der Flüssigkeit in einer separaten Ampulle oder einem Fläschchen gelöst.\n\n" +
+        "Lotionen: Dies sind Arzneimittel in Form von Lösungen, Suspensionen oder Emulsionen, die äußerlich durch Auftragen auf die Haut angewendet werden.\n\n" +
+        "Spray: Dies sind flüssige Arzneimittel, die durch Sprühen auf die Haut oder Schleimhäute aufgetragen werden."
+
+
+
+
+
     ]
 
 ]

@@ -98,5 +98,35 @@ export default [
         "nesta área, os fármacos são aplicados nesta camada.\n\n" +
         "f. Aplicaçãona parte externa da orelha: É a aplicação do medicamento na parte externa da " +
         "orelha com gotas de ouvido.",
+    ],
+    [
+        "Um eine bestimmungsgemäße Wirkung der Medikamente zu erzielen, wird das Medikament verabreicht und dört aufgenommen. " +
+        "Anschließend muss der Wirkstoff an die zu behandelnden Stelle transportiert und dort in ausreichend hoher Konzentration vorhanden sein. " +
+        "Die Art der Verabreichung des " +
+        "Arzneimittels variiert je nach den Eigenschaften des Arzneimittels, dem Verwendungszweck, den persönlichen Merkmalen und dem Zustand des Patienten.\n\n" +
+        "Die Verabreichungswege von Arzneimitteln werden entsprechend der beabsichtigten Wirkung auf die verabreichte Person " +
+        "in lokale (regionale) oder systemische Verabreichungswege eingeteilt.\n\n" +
+        "Soll das Medikament in einem bestimmten Bereich wirken, werden lokale Applikationswege genutzt, soll eine breite Wirkung durch Vermischung mit dem allgemeinen Blutkreislauf " +
+        "angestrebt werden, kommen systemische Applikationswege zum Einsatz.",
+
+
+        "<b>1. Lokale Anwendungswege\n</b>"+
+        "Lokale Applikationswege werden bevorzugt, bei denen das Medikament gezielt in einem bestimmten Bereich wirken soll. Applikationen direkt auf " +
+        "Haut, Schleimhäuten oder Gelenken mit einem Injektor (Spritze) sind lokale Applikationen. Pomaden (Salben), die auf diesen Bereich" +
+        " gegen eine allergische Reaktion in irgendeinem Teil Ihrer Haut aufgetragen wird, kann auch als Beispiel für eine lokale Anwendung angeführt werden.\n\n" +
+        "Topisch (auf der Haut): Es ist die äußerliche Anwendung von Arzneimitteln wie Salben (Pomaden), Lotionen und Lösungen bei Hauterkrankungen durch Auftragen " +
+        "auf die Haut. Die äußerste Schicht der Haut wird Epidermis genannt. Diese Anwendung kann auch als epidermale Anwendung bezeichnet werden.\n\n" +
+        "Intrakutan (in die Haut): Diese Applikationsart erfordert eine parenterale (Injektions-)Applikation. " +
+        "Bei der intrakutanen Applikation werden insbesondere flüssige Arzneimittel nicht mehr als 0,1 ml in die Haut (intradermal) injiziert.\n\n" +
+        "Bukkaler (intraoraler) Weg: Dies ist eine Anwendung, die auf die Mund- und Rachenschleimhaut abzielt. Es ist die Anwendung des Medikaments in " +
+        "der Mundhöhle, um lokale (regionale) Probleme wie Mund- und Rachenentzündungen zu beseitigen. Mundwasser und ähnliche Medikamente werden " +
+        "auf diese Weise angewendet. Auch bei dieser Anwendung handelt es sich um eine orale Anwendung, sie sollte jedoch nicht mit " +
+        "Medikamenten verwechselt werden, die oral eingenommen und geschluckt werden.\n\n" +
+        "Intranasal (in die Nasenhöhle): Solche Medikamente liegen in Form von Sprays und Lösungen vor und werden in die Nasenhöhle eingebracht.\n\n" +
+        "Auftragen auf die Bindehaut: Als Bindehaut wird die dünne Membranschicht bezeichnet, die die Innenseite der Augenlider und das Augenweiß (Sklera) bedeckt. Bei der Behandlung " +
+        "von Entzündungen (Infektionen) in diesem Bereich werden Medikamente auf diese Schicht aufgetragen.\n\n" +
+        "Auftragen auf den äußeren Gehörgang: Es ist das Einbringen von Medikamenten in den äußeren Gehörgang mittels Ohrentropfen."
+
+
     ]
 ]

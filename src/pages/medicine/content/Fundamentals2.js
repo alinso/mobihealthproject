@@ -138,9 +138,45 @@ export default [
         "Este objetivo de tratamento elimina a causa da doença. Por exemplo, tomar " +
         "antibióticos para a amigdalite é um tratamento radical.",
 
-        "<b>Tratamento radical:</b> \n\n" +
-        "Este objetivo de tratamento elimina a causa da doença. Por exemplo, tomar " +
-        "antibióticos para a amigdalite é um tratamento radical."
+        "<b>Tratamento de Substituição:</b> \n\n" +
+        "Algumas doenças surgem devido à falta de algumas substâncias no corpo\n" +
+        "humano. Por exemplo, o uso de suplementos vitamínicos para prevenção de doenças ou a toma de insulina para\n" +
+        "a diabetes."
+    ],
+    [
+        "<b>Resistenz:</b>\n\n" +
+        "Bezogen auf Bakterien und Viren, können manche von ihnen Resistenzen entwickeln. Die Wirkung von Medikamenten kann verschwinden. Dies ist eine der unerwünschtesten " +
+        "Situationen und ist das Ergebnis einer unbewussten Medikamenteneinnahme.",
+
+        "<b>Toleranzentwicklung:</b>\n\n" +
+        "Der Nutzen des Medikaments unter normalen Bedingungen nimmt bei langfristiger Daueranwendung tendenziell ab.",
+
+        "<b>Bioverfügbarkeit:</b>\n\n" +
+        "Bioverfügbarkeit ist ein Begriff, der verwendet wird, um den Prozentsatz einer verabreichten Dosis eines Medikaments zu beschreiben, der den " +
+        "systemischen Kreislauf erreicht. Die Bioverfügbarkeit hängt von der Verwendung von Medikamenten ab. Z.B. Wenn ein " +
+        "Medikament oral oder injiziert wird, weist es Unterschiede in Bezug auf die Bioverfügbarkeit auf.",
+
+        "<b>Prophylaxe: </b>\n\n" +
+        "Prophylaxe und Gesundheitsprävention haben die gleiche Bedeutung. Einige Medikamente werden verwendet, um" +
+        " Personen vor Krankheiten zu schützen. Z.B. Impfstoffe, die für Covid-19 und Influenza verwendet werden, sind Prophylaxen.",
+
+        "<b>Beipackzettel:</b>\n\n" +
+        " Beipackzettel ist eine Broschüre, die Informationen über die Verwendung von Medikamenten, Nebenwirkungen, Indikationen und Kontraindikationen enthält." +
+        " Das Verständnis von Beipackzetteln und Vorschlägen von Gesundheitspersonal ist sehr wichtig, um von Medikamenten zu profitieren.",
+
+        "<b>Symptomatische Behandlung:</b>\n\n" +
+        "Symptomatische Behandlung zielt darauf ab, die Symptome zu beseitigen, aber nicht die Ursache der " +
+        "Krankheit zu beseitigen. Z.B. beseitigen Schmerzmittel die Schmerzursache nicht sondern nur die Schmerzen.",
+
+
+        "<b>Radikale Behandlung:</b>\n\n Diese Behandlung zielt darauf ab, die Krankheitsursache zu beseitigen. Z.B. " +
+        "Die Einnahme von Antibiotika bei Mandelentzündung ist eine radikale Behandlung.\n",
+
+
+        "<b>Ersatztherapie:</b>\n\n" +
+        "Einige Krankheiten entstehen aufgrund des Mangels an bestimmten Substanzen im menschlichen Körper." +
+        " Z.B. werden Vitaminzusätze zur Vorbeugung von Krankheiten bei Vitmainmangel oder Insulin bei Diabetes verabreicht."
+
     ]
 
 ]

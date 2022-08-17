@@ -43,6 +43,16 @@ export default [
         "são nomes comerciais.\n\n" +
         "<b>3. Nome químico:</b> É a classificação dos medicamentos de acordo com as suas estruturas químicas pela " +
         "Sociedade Internacional de Química. Como são demasiado longos e complexos, não são utilizados."
-    ]
+    ],
+    [
+        "Die in den Behandlungsprozessen verwendeten Medikamente werden auf drei Arten benannt.\n\n" +
+        "<b>1. Generischer Name:</b> Mit der Entscheidung der Weltgesundheitsorganisation (WHO) im Jahr 1955 wurden Arzneimittel mit ihren allgemeinen Namen aufgeführt," +
+        " um Fehlern bei der Arzneimittelanwendung vorzubeugen. So wurde seitdem eine internationale Zusammenarbeit bei Medikamentennamen etabliert. z.B. Paracetamol.\n\n" +
+        "<b>2. Handelsname (Markenname):</b>\n Dies ist der Name, der den Produkten des Unternehmens gegeben wird, welches das Medikament herstellt. Es gibt viele (gebrauchsfertige) Zubereitungen eines einzelnen Medikaments mit unterschiedlichen Namen. " +
+        "Ein einzelnes Medikament hat viele gebrauchsfertige Formen mit unterschiedlichen Namen. Namen wie Aspirin, Voltaren sind Handelsnamen.\n\n" +
+        "<b>3. Chemischer Name:</b> Es ist die Einteilung von Medikamenten nach ihrer chemischen Struktur durch die International Chemical Society. " +
+        "Da sie zu lang und zu komplex sind, werden sie nicht verwendet."
 
+
+        ]
 ]

@@ -48,22 +48,22 @@ export  default [
     "3- DNA Recombinant Technology",
 
         "<b>1- Natural Sources:</b>\n\n" +
-        "a. Herbs :At ancient times almost all of the medications prepared by herbs. Nowadays" +
+        "   a. Herbs :At ancient times almost all of the medications prepared by herbs. Nowadays" +
         "medications which contain herbs are often used.\n\n" +
-        "b. Animals and humans:Hormones and enyzmes kind of medications and antitoxice are" +
-        "generally gained from animals. E.g. scorpion, snake and tetanus antitoxice." +
+        "   b. Animals and humans:Hormones and enyzmes kind of medications and antitoxice are" +
+        "generally gained from animals. E.g. scorpion, snake and tetanus antitoxice.\n\n" +
         "Most important medicines gained from human are blood and blood products. E.g." +
         "blood plasma, albuminin, immuneglobulin,etc. Also hormones and enyzmes kind of medicines are" +
         "gained from humans.\n\n" +
-        "c. Microorganism: Various antibiotics and vitamin B12 are gained from microorganisms.\n\n" +
-        "d. İnorganic Matters ve Minerals: Iodine, sodium chloride, potassium chloride," +
+        "   c. Microorganism: Various antibiotics and vitamin B12 are gained from microorganisms.\n\n" +
+        "   d. İnorganic Matters ve Minerals: Iodine, sodium chloride, potassium chloride," +
         "magnessium oxide, magnessium sulphate, ferrum etc.",
 
         "<b>2- Synthetic Materials:</b>\n\n" +
-        "This medications are gained from chemical ways. Some of them totally made by syntheses.Other\n" +
-        "part of them made by chemical changes on molecules gained from natural sources. This materials affirm\n" +
+        "This medications are gained from chemical ways. Some of them totally made by syntheses.Other " +
+        "part of them made by chemical changes on molecules gained from natural sources. This materials affirm " +
         "semi synthetic materials.\n\n" +
-        "3- DNA- RECOMBINANT TECHNOLOGY ( GENE CLONING ) MEDICATIONS\n" +
+        "<b>3- DNA- RECOMBINANT TECHNOLOGY ( GENE CLONING ) MEDICATIONS</b>\n" +
         "Vaccines are adducible for DNA-recombinant technology."
     ],
 
@@ -77,23 +77,50 @@ export  default [
         "3- Tecnologia recombinante de ADN",
 
         "<b>1- Fontes Naturais:</b>\n\n" +
-        "a. Ervas:Em tempos antigos quase todos os medicamentos eram preparados através de ervas." +
+        "   a. Ervas:Em tempos antigos quase todos os medicamentos eram preparados através de ervas." +
         "Atualmente, os medicamentos que contêm ervas são também frequentemente usados.\n" +
-        "b. Animais e humanos: Medicamentos hormonais e antitóxicos são geralmente obtidos de" +
-        "animais. " +
+        "   b. Animais e humanos: Medicamentos hormonais e antitóxicos são geralmente obtidos de" +
+        "animais. \n\n" +
         "Os medicamentos mais importantes adquiridos do ser humano são o sangue e os produtos sanguíneos. Por " +
         "exemplo, plasma sanguíneo, albuminina, imuníbulina, etc. Também medicamentos hormonais são obtidos de " +
         "humanos.\n" +
-        "c. Microorganismo: Vários antibióticos e a vitamina B12 são obtidos a partir de " +
+        "   c. Microorganismo: Vários antibióticos e a vitamina B12 são obtidos a partir de " +
         "microorganismos.\n" +
-        "d. Matérias inorgânicas e minerais: Iodo, cloreto de sódio, cloreto de potássio, óxido de" +
+        "   d. Matérias inorgânicas e minerais: Iodo, cloreto de sódio, cloreto de potássio, óxido de" +
         "magnésio, sulfato de magnésio, ferro, etc.\n\n",
 
         "<b>2- Materiais Sinteticos</b>\n\n" +
         "Estes medicamentos são adquiridos de forma química. Algumas totalmente feitas por sintetizadores. " +
         "Outras feitas por alterações químicas nas moléculas obtidas a partir de fontes naturais. Estes materiais" +
         "afirmam materiais semi sintéticos.\n\n" +
-        "3- DNA-Medicamentos de Technologia Recombinante (Clonizaçao de Genes)\n" +
+        "<b>3- DNA-Medicamentos de Technologia Recombinante (Clonizaçao de Genes)</b>\n" +
         "As vacinas são adutíveis para a tecnologia recombinante de ADN."
+    ],
+
+    [
+        "1. Natürliche Quellen\n" +
+        "   a. Kräuter\n" +
+        "   b. Tiere und Menschen\n" +
+        "   c. Mikroorganismen\n" +
+        "   d. Anorganische Stoffe und Mineralien\n" +
+        "2. Syntethische Materialien\n" +
+        "3. DNA-Rekombinationstechnologie",
+
+        "<b>Natürliche Quellen</b>\n" +
+        "   a. Kräuter: Früher wurden fast alle Medikamente aus Kräutern hergestellt. Heutzutage werden oft Medikamente verwendet, die Kräuter enthalten.\n\n" +
+        "   b. Tiere und Menschen: Hormone und Enzyme und Gegengifte werden in der REgel aus Tieren gewonnen. Z.B. Skorpion-, Schlangen- und Tetanus-Gegengift.\n\n" +
+        "Die wichtigsten aus Menschen gewonnenen Arzneimittel sind Blut und Blutprodukte. Z.B. Blutplasma, Albumine, Immunglobulin etc. Auch Hormone und " +
+        "Enzyme werden von Menschen gewonnen.\n\n" +
+        "   c. Mikroorganismen: Verschiedene Antibiotika und Vitamin B12 werden aus Mirkoorganismen gewonnen.\n\n" +
+        "   d. Anorganische Stoffe und Mineralien: Jod, Natriumchlorid, Kaliumchlorid, Magnesiumoxid, Magnesiumsulfat, Ferrum usw.",
+
+        "<b>Syntethische Materialien</b>\n" +
+        "Diese Medikamente werden auf chemischem Wege gewonnen. Einige von ihnen werden vollständig durch Synthesen hergestellt. Ein anderer Teil von " +
+        "ihnen wird durch chemische Veränderungen an Molekülen hergestellt, die aus natürlichen " +
+        "Quellen gewonnen werden. Diese Materialien werden als halbsynthetischen Materialien bezeichnet.\n\n" +
+        "<b>DNA-RekombinanteTechnologie (Klonen Von Genen) Medikamente</b>\n" +
+        "Impfstoffe sind ein Beispiel für auf diesem Weg produzierte Medikamente."
+
+
     ]
 ]
