@@ -49,5 +49,17 @@ export default [
         "\nPela via certa " +
         "\nPara uma doença apropriada " +
         "\nDEVE SER USADO"
+    ],
+    [
+        "Gemäß den gegebenen Informationen sollten Medikamente nur gemäß der ärztlichen Verordnung verwendet werden. Es ist äußerst gefährlich, Medikamente mit dem Rat von Bekannten zu verwenden. Medikamente sollten für die vom Arzt empfohlene Dauer angewendet werden. Die Behandlung sollte nicht ohne Wissen des Arztes beendet werden. Bei unerwünschten Wirkungen während der Anwendung des Medikaments sollte ein Arzt konsultiert werden. Insbesondere sollten Antibiotika in der Dosierung eingenommen werden, wie in der Verschreibung angegeben, in der richtigen Art der Verabreichung und in den angegebenen Intervallen.\n" +
+        "<b>Für die beste Behandlung;</b>\n" +
+        "Geeignete Medikamente\n" +
+        "Bei entsprechendem Patienten\n" +
+        "In angemessener Dosis\n" +
+        "In passender Zeit\n" +
+        "In angemessenen Abständen\n" +
+        "Auf die richtige Weise\n" +
+        "Für entsprechende Krankheit\n" +
+        "MUSS BENUTZT WERDEN\n"
     ]
 ]

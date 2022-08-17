@@ -95,7 +95,7 @@ export  default
         "tipo de bactéria que causa a sua doença, ou quando muitos tipos diferentes de agentes patogénicos coexistem. " +
         "A incapacidade destes antibióticos é que tendem a matar bactérias benéficas ou inofensivas também.",
 
-        "<b>O que são bactérias e vírus? </b>" +
+        "<b>O que são bactérias e vírus? </b>\n" +
         "Para tratar corretamente as infeções, temos de saber distinguir entre vírus e bactérias. \n\n" +
         "<b>1- Vírus </b>\n" +
         "Os antibióticos não têm efeito nos vírus. Os vírus são muito pequenos e não têm o seu próprio " +
@@ -118,6 +118,29 @@ export  default
         "em contextos de cuidados intensivos e em doentes com sistemas imunológicos enfraquecidos. Se a resistência " +
         "antibiótica não puder ser evitada, o perigo que nos espera no futuro é muito maior.A ineficácia dos antibióticos " +
         "pode ter consequências em que mesmo uma simples infeção por ferida pode causar a morte."
+    ],
+    [
+            "Antibiotika sind Medikamente, die zur Behandlung bakterieller Infektionskrankheiten eingesetzt werden und eine große Bedeutung für die menschliche Gesundheit haben. Das Wort „Antibiotikum“ bedeutet wörtlich „gegen das Leben“. Diese Chemikalien verhindern das Wachstum von Bakterien und töten manchmal die Bakterien ab." +
+            "\n<b>Antibiotika, die gegen einzelne Bakterienarten wirksam sind</b>\n" +
+            "Einige Antibiotika wurden entwickelt, um nur eine begrenzte Anzahl verschiedener Arten von Bakterien zu bekämpfen. Diese werden „Schmalspektrum-Antibiotika“ genannt. Ihr Arzt verschreibt diese Arten von Antibiotika, wenn er genau weiß, welche Art von Bakterien Ihre Krankheit verursacht. Diese Antibiotika sind am besten geeignet für den Einsatz in Behandlungen, da sie andere nützliche oder harmlose Bakterien nicht angreifen.\n" +
+            "<b>Antibiotika, die gegen viele Arten von Bakterien wirksam sind</b>\n"+
+            "Andere Antibiotika haben eine Breitbandwirkung. Sie wirken auf viele Arten von Bakterien und werden daher als „Breitbandantibiotika“ bezeichnet.\n" +
+            "In einigen Fällen sind diese Antibiotika notwendig, z. B. wenn Ihr Arzt die Art der Bakterien, die Ihre Krankheit verursachen, nicht genau bestimmen kann, oder wenn viele verschiedene Arten von Krankheitserregern nebeneinander existieren. " +
+            "Die Unzulänglichkeit dieser Antibiotika besteht darin, dass sie dazu neigen, auch nützliche oder harmlose Bakterien abzutöten.\n",
+
+            "<b>Was sind Bakterien und Viren? </b> \n" +
+            "Um Infektionen richtig behandeln zu können, müssen wir zwischen Viren und Bakterien unterscheiden.\n" +
+            "<b>Viren</b>\n" +
+            "Antibiotika haben keine Wirkung auf Viren. Viren sind sehr klein und haben keinen eigenen Stoffwechsel. Daher können sie sich nicht selbst vermehren. Sie verwenden die Zellen, " +
+            "in die sie eindringen, um neue Viren zu schaffen, indem sie die Zelle dazu zwingen. Danach vermehren sie sich schnell im Körper des Patienten, indem sie die Wirtszelle zerstören.\n" +
+            "Einige Krankheiten, die durch Viren verursacht werden: Influenza, Masern, AIDS.\n" +
+            "<b>Bakterien</b>\n" +
+            "Bakterielle Infektionen können mit Antibiotika behandelt werden. Ein Bakterium ist ein kleiner lebender Organismus, der aus einer einzigen Zelle besteht. Der menschliche Körper kann in einer Umgebung wie Luft, Wasser und Erde alleine überleben. Sie können sich sehr schnell vermehren. Antibiotika verhindern das Wachstum von Bakterien.\n" +
+            "Einige Krankheiten, die durch Bakterien verursacht werden: Lungenentzündung (Lungenentzündung), Wundinfektionen\n",
+
+        "<b>Antibiotikaresistenz</b>\n" +
+        "Bakterien sind Lebewesen, die sich schnell an Veränderungen in ihrer Umgebung anpassen können. Ein Beispiel hierfür ist die Antibiotikaresistenz. Die Resistenz gegen ein bestimmtes Antibiotikum bedeutet, dass das Antibiotikum resistente Bakterien in der therapeutischen Dosis nicht abtöten oder deren Vermehrung verhindern kann.\n\n" +
+        "Krankheiten, die durch resistente Bakterien verursacht werden, stellen eine ernsthafte Gefahr für die Gesundheit dar, insbesondere auf der Intensivstation und bei Patienten mit geschwächtem Immunsystem. Wenn Antibiotikaresistenzen nicht verhindert werden können, ist die Gefahr, die uns in Zukunft erwartet, viel größer. Die Wirkungslosigkeit von Antibiotika kann dazu führen, dass selbst eine einfache Wundinfektion zum Tod führen kann.",
     ]
 ]
 

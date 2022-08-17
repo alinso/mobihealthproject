@@ -94,6 +94,33 @@ export default [
         "<b>4- Excreção:</b>\n\n" +
         "Medicações são expulsas para fora do corpo de várias maneiras, com ou sem alterações no " +
         "corpo.A medicação pode ser excretada principalmente através dos rins, trato biliar, pulmões e suor."
+    ],
+    [
+        "Mit dem Basisinformationsmodul für Medikamente, das Informationen zur Pharmakologie (Pharmakologie) enthält, soll das grundlegende Wissensniveau über " +
+        "Medikamente erreicht werden. Jedes Medikament wird vom Körper absorbiert, indem es aus dem Bereich, in dem es angewendet wird, absorbiert wird und " +
+        "den Ort erreicht wo es durch Vermischung mit dem Blut- oder Lymphkreislauf wirkt. Das Medikament, das seine Wirkung entfaltet, erfährt einige " +
+        "Veränderungen im Körper und wird aus dem Körper ausgeschieden. Die Pharmakokinetik, ein Teilgebiet der Pharmakologie, untersucht diese Prozesse" +
+        " der Arzneimittel.",
+
+        "<b>Absorption (Aufnahme):</b>\n" +
+        " Es ist der Durchgang von Medikamenten vom Verabreichungsort in den Kreislauf. Geschwindigkeit und Grad der Resorption variieren je nach Verabreichungsweg. Je schneller das Medikament aufgenommen wird, desto schneller wirkt es." +
+        "\n Die Faktoren, die die Absorptionsrate des Arzneimittels beeinflussen;\n\n" +
+        "- Verabreichungsweg\n" +
+        "- Physikalische und chemische Eigenschaften des Medikaments\n" +
+        "- Darreichungsform des Medikaments\n" +
+        "- Die Konzentration des Medikaments\n" +
+        "- Breite der Absorptionsfläche\n" +
+        "- Venendichte auf der Absorptionsfläche\n",
+
+        "<b>Verteilung:</b> \n" +
+        "Absorbierte Medikamente werden durch die Kapillaren in die interzelluläre Flüssigkeit verteilt. Einige Medikamente gelangen auch in die Zellen.\n\n" +
+        "<b>Metabolismus (Biotransformation):</b>\n" +
+        " Die chemische Veränderung von Medikamenten zusammen mit Enzymen, nachdem sie in den Körper aufgenommen wurden, wird Metabolismus genannt. " +
+        "Dadurch können Medikamente wirksamer oder unwirksamer werden.\n\n" +
+        "<b>Ausscheidung:</b>\n" +
+        " Medikamente werden auf verschiedene Wege aus dem Körper ausgeschieden, mit oder ohne Veränderungen im Körper. " +
+        "Medikamente werden hauptsächlich über die Nieren, die Gallenwege, die Lunge und den Schweiß ausgeschieden werden."
+
     ]
 
 ]

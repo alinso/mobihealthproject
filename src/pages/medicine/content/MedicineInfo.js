@@ -48,6 +48,11 @@ export default  [
         "trata de fontes de medicamentos, propriedades químicas e físicas de medicamentos, ingestão de medicamentos, " +
         "efeito de medicamentos e preparação de medicamentos. Quando completar este módulo com sucesso, " +
         "compreenderá facilmente o folheto de um medicamento. Assim, poderá participar mais eficazmente nos " +
-        "processos de tratamento."]
+        "processos de tratamento.",],
+    [
+        "In der sich wissenschaftlich und technologisch rasant entwickelnden Medizin, verändern sich dementsprechend auch Art und Qualität der erbrachten Gesundheitsleistungen im gleichen Tempo. Diese Entwicklungen zwingen alle Anbieter und Empfänger von Gesundheitsdiensten, sich gleichzeitig weiterzuentwickeln. Arzneimittel sind eines der wichtigsten Instrumente zur Vorbeugung, Früherkennung und Behandlung von Krankheiten. Wenn wir jedoch nicht genügend Informationen über Medikamente haben, können wir möglicherweise nicht genug davon profitieren und wir können geschädigt werden. Daher ist es wichtig, Medikamente so zu verwenden, wie sie von medizinischem Fachpersonal empfohlen werden. Die Verantwortung für den korrekten und wirksamen Einsatz von Arzneimitteln liegt meist beim Einzelnen. Daher müssen Einzelpersonen zunächst über ein grundlegendes Wissen über Medikamente verfügen." +
+        "\n\n" +
+        "Das Modul Grundlegende Arzneimittelinformationen hat zum Ziel, grundlegende Arzneimittelinformationen zu Themen wie Grundkonzepte von Arzneimitteln, Arzneimittelformen, Verabreichungsformen von Arzneimitteln, Wirkungsmechanismen von Arzneimitteln zu erwerben. Dieses Modul umfasst die Pharmakologie, die sich mit Arzneimittelquellen, chemischen und physikalischen Eigenschaften von Arzneimitteln, Einnahme von Arzneimitteln, Wirkung von Arzneimitteln und Zubereitungen von Arzneimitteln befasst. Wenn Sie dieses Modul erfolgreich abgeschlossen haben, werden Sie den Prospekt eines Medikaments leicht verstehen. So können Sie effektiver an den Behandlungsabläufen teilnehmen."
+    ]
 ];
 

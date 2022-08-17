@@ -140,7 +140,6 @@ class Welcome extends React.Component {
         }
 
 
-
         this.setState({title: stepsTitle})
     }
 
