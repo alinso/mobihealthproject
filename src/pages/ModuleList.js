@@ -7,9 +7,10 @@ import GestureRecognizer from "react-native-swipe-gestures";
 import Lang from "./LocalTitles";
 import getLocalTitles from "../getLocalTitles";
 import Storage from "../Storage";
+import Progress from "../Progress";
 
 const langs = ["Türkçe", "English", "Português", "Deutsche"];
-
+let progress= new Progress();
 
 class ModuleList extends React.Component {
 
@@ -17,11 +18,22 @@ class ModuleList extends React.Component {
         super();
         this.state = {
             titles: null,
-            currentLng: null
+            currentLng: null,
+            medicineProgress:0
         }
         this.updateLang = this.updateLang.bind(this);
         getLocalTitles(Lang, this);
+        let self=this;
+
+        Storage.getData("@medicine").then(function (medicineCurent){
+            let medicineCurrentObj = JSON.parse(medicineCurent);
+            let medicineCurrentArr=Object.keys(medicineCurrentObj).map((key) => medicineCurrentObj[key]);
+            let res= (100*progress.getTotal(medicineCurrentArr))/progress.getTotal(progress.medicineLimit);
+            self.setState({medicineProgress:Math.round(res)});
+        });
     }
+
+
 
     updateLang(index) {
         let selectedLang;
@@ -89,7 +101,7 @@ class ModuleList extends React.Component {
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/medicine-menu.png")}
                                 />
-                                <Text>{this.state.titles.medicine}</Text>
+                                <Text>{this.state.titles.medicine} {this.state.medicineProgress}</Text>
                             </TouchableOpacity>
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImage}
