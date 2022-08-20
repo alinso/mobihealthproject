@@ -31,9 +31,12 @@ class ModuleList extends React.Component {
             let res= (100*progress.getTotal(medicineCurrentArr))/progress.getTotal(progress.medicineLimit);
             self.setState({medicineProgress:Math.round(res)});
         });
+
+        let medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        let copyStr = JSON.stringify(medicineCurent);
+        Storage.save("@medicine", copyStr);
+
     }
-
-
 
     updateLang(index) {
         let selectedLang;
@@ -82,20 +85,6 @@ class ModuleList extends React.Component {
                     <View style={{flex: 1}}/>
                     <View style={{flexDirection: "column", flex: 4}}>
                         <View style={{flexDirection: "row"}}>
-                            <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/module1-menu.png")}
-                                />
-                                <Text>{this.state.titles.module1}</Text>
-                            </View>
-                            <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/body-menu.png")}
-                                />
-                                <Text>{this.state.titles.body}</Text>
-                            </View>
-                        </View>
-                        <View style={{flexDirection: "row"}}>
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.props.navigation.navigate("MedicineMenu")}>
                                 <Image style={styles.moduleListImage}
@@ -104,7 +93,21 @@ class ModuleList extends React.Component {
                                 <Text>{this.state.titles.medicine} {this.state.medicineProgress}</Text>
                             </TouchableOpacity>
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
+                                <Image style={styles.moduleListImagePassive}
+                                       source={require("../../assets/images/module/body-menu.png")}
+                                />
+                                <Text>{this.state.titles.body}</Text>
+                            </View>
+                        </View>
+                        <View style={{flexDirection: "row"}}>
+                            <View style={styles.moduleListItem}>
+                                <Image style={styles.moduleListImagePassive}
+                                       source={require("../../assets/images/module/module1-menu.png")}
+                                />
+                                <Text>{this.state.titles.module1}</Text>
+                            </View>
+                            <View style={styles.moduleListItem}>
+                                <Image style={styles.moduleListImagePassive}
                                        source={require("../../assets/images/module/sickness-menu.png")}
                                 />
                                 <Text>{this.state.titles.sickness}</Text>
@@ -113,20 +116,21 @@ class ModuleList extends React.Component {
 
                         <View style={{flexDirection: "row"}}>
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
+                                <Image style={styles.moduleListImagePassive}
                                        source={require("../../assets/images/module/firstaid-menu.png")}
                                 />
                                 <Text>{this.state.titles.firstaid}</Text>
                             </View>
+
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
+                                <Image style={styles.moduleListImagePassive}
                                        source={require("../../assets/images/module/healthylife-menu.png")}
                                 />
                                 <Text>{this.state.titles.health}</Text>
                             </View>
                         </View>
                         <View style={{flexDirection: "row"}}>
-                            <View style={{flex: 4}}>
+                            <View style={{flex: 2,alignItems:"center", marginTop:"12%" }}>
                                 <SelectDropdown
                                     defaultValue={defaultLang}
                                     data={langs}

@@ -23,6 +23,8 @@ export default [{
     antibiotics: "Antibiyotikler",
     smartuse: "Akılcı İlaç Kullanımı",
     medicineTerms: "Genel İlaç Terimleri",
+
+    lockWarning:"Bu sayfaya geçmek için önceki sayfaları tamamlayınız."
 },
     {
         module1: "Medical Terms",
@@ -48,6 +50,9 @@ export default [{
         antibiotics: "Antibiotics",
         smartuse: "Rational Use",
         medicineTerms: "General Medication Terms",
+
+        lockWarning:"Please complete previous steps to unlock this page"
+
     },
     {
         module1: "Termos de Medicina",
@@ -73,6 +78,7 @@ export default [{
         antibiotics: "Antibióticos",
         smartuse: "Uso Racional",
         medicineTerms: "Termos Gerais da Medikaçáo",
+        lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página"
     },
     {
         module1: "Medizinische Begriffe",
@@ -99,5 +105,7 @@ export default [{
         antibiotics: "Antibiotika",
         smartuse: "Rationeller Einsatz Von Medikamenten",
         medicineTerms: "Allgemeine Medikamentebegriffe",
+
+        lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren"
     }
 ]

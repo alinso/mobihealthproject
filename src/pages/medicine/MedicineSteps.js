@@ -186,7 +186,7 @@ class Welcome extends React.Component {
 
         }
 
-        progress.proceed("@medicine",progress.medicineCurent,this.titleIndex,this.state.currentStep+1);
+        progress.proceed("@medicine",progress.medicineCurent,this.titleIndex,this.state.currentStep);
         this.setState({title: stepsTitle})
     }
 

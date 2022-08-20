@@ -102,10 +102,19 @@ const styles = StyleSheet.create({
     },
     moduleListImage: {
         width: "60%",
-        marginTop: "25%",
+        marginTop: "20%",
         marginBottom: "-20%",
         resizeMode: "contain",
     },
+
+    moduleListImagePassive: {
+        width: "60%",
+        marginTop: "20%",
+        marginBottom: "-20%",
+        resizeMode: "contain",
+        opacity:0.5
+    },
+
     footer: {
         alignSelf: "center",
         width: "15%",

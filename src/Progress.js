@@ -5,47 +5,73 @@ class Progress {
     medicineCurent;
     medicineLimit;
 
-      constructor()
-    {
+    constructor() {
         this.medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-        this.medicineLimit = [1, 10, 8, 3, 3, 1, 2, 2, 2, 5, 3, 5, 1, 1, 3, 3, 1];
+        this.medicineLimit = [0, 9, 7, 2, 2, 0, 1, 1, 1, 4, 2, 4, 0, 0, 2, 2, 0];
 
 
+        let self = this;
+        Storage.getData("@medicine").then(function (res) {
 
-        Storage.getData("@medicine").then(function (res){
-            if(res==null){
-                Storage.save("@medicine",medicineCurent);
+            console.log("asdasdas");
+            if (res == null) {
+                Storage.save("@medicine", medicineCurent);
+            } else {
+                self.medicineCurent = JSON.parse(res);
             }
         });
     }
 
 
     //titles are submodules such as medication sources
-     proceed(moduleName,moduleArray, titleIndex, val)
-    {
+    proceed(moduleName, moduleArray, titleIndex, val) {
+        console.log("tit " + titleIndex + " " + moduleName);
+        console.log(moduleArray);
         if (val > moduleArray[titleIndex]) {
             moduleArray[titleIndex] = val;
-            let copy={...moduleArray};
-            let copyStr = JSON.stringify(copy);
-            Storage.save(moduleName,copyStr);
+            let copyStr = JSON.stringify(moduleArray);
+            Storage.save(moduleName, copyStr);
         }
     }
 
 
-     getTotal(arr){
-         let sum=0;
-         for(let i=0;i<arr.length;i++){
-             sum=arr[i]+sum;
+    getTotal(arr) {
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            sum = arr[i] + sum;
         }
-         return sum;
+        return sum;
+    }
+
+    async isAllowed(moduleName, titleIndex) {
+
+        let self = this;
+        let res;
+        if (moduleName == "@medicine") {
+             res = await Storage.getData("@medicine").then(function (res) {
+                self.medicineCurent = JSON.parse(res);
+                console.log(self.medicineCurent);
+
+                if (self.medicineCurent[titleIndex - 1] == self.medicineLimit[titleIndex - 1]) {
+                    console.log("true");
+                    return true;
+                } else {
+                    console.log("false");
+                    return false;
+                }
+            });
+        }
+
+        return res;
+
     }
 
 
-     clear()
-    {
+    clear() {
         this.medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-        Storage.save("medicine",medicineCurent);
+        Storage.save("medicine", medicineCurent);
     }
 
 }
+
 export default Progress;
