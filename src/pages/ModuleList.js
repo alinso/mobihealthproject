@@ -8,6 +8,7 @@ import Lang from "./LocalTitles";
 import getLocalTitles from "../getLocalTitles";
 import Storage from "../Storage";
 import Progress from "../Progress";
+import ModuleProgress from "../components/ModuleProgress";
 
 const langs = ["Türkçe", "English", "Português", "Deutsche"];
 let progress= new Progress();
@@ -33,9 +34,9 @@ class ModuleList extends React.Component {
         });
 
 
-        let medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-        let copyStr = JSON.stringify(medicineCurent);
-        Storage.save("@medicine", copyStr);
+        // let medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        // let copyStr = JSON.stringify(medicineCurent);
+        // Storage.save("@medicine", copyStr);
 
     }
 
@@ -91,13 +92,16 @@ class ModuleList extends React.Component {
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/medicine-menu.png")}
                                 />
-                                <Text>{this.state.titles.medicine} {this.state.medicineProgress}</Text>
+                                <Text>{this.state.titles.medicine}</Text>
+                                <ModuleProgress progress={this.state.medicineProgress}/>
                             </TouchableOpacity>
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImagePassive}
                                        source={require("../../assets/images/module/body-menu.png")}
                                 />
                                 <Text>{this.state.titles.body}</Text>
+                                <ModuleProgress progress={0}/>
+
                             </View>
                         </View>
                         <View style={{flexDirection: "row"}}>
@@ -106,12 +110,16 @@ class ModuleList extends React.Component {
                                        source={require("../../assets/images/module/module1-menu.png")}
                                 />
                                 <Text>{this.state.titles.module1}</Text>
+                                <ModuleProgress progress={0}/>
+
                             </View>
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImagePassive}
                                        source={require("../../assets/images/module/sickness-menu.png")}
                                 />
                                 <Text>{this.state.titles.sickness}</Text>
+                                <ModuleProgress progress={0}/>
+
                             </View>
                         </View>
 
@@ -121,6 +129,8 @@ class ModuleList extends React.Component {
                                        source={require("../../assets/images/module/firstaid-menu.png")}
                                 />
                                 <Text>{this.state.titles.firstaid}</Text>
+                                <ModuleProgress progress={0}/>
+
                             </View>
 
                             <View style={styles.moduleListItem}>
@@ -128,6 +138,8 @@ class ModuleList extends React.Component {
                                        source={require("../../assets/images/module/healthylife-menu.png")}
                                 />
                                 <Text>{this.state.titles.health}</Text>
+                                <ModuleProgress progress={0}/>
+
                             </View>
                         </View>
                         <View style={{flexDirection: "row"}}>

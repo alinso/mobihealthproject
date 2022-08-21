@@ -94,23 +94,32 @@ const styles = StyleSheet.create({
         marginTop: "-25%",
         justifyContent: "center"
     },
-
-    moduleListItem: {
+    titleListItem: {
         alignItems: "center",
         flex: 2,
         justifyContent: "center",
     },
+    titleListItemPassive: {
+        alignItems: "center",
+        flex: 2,
+        justifyContent: "center",
+        opacity:0.6
+    },
+    moduleListItem: {
+        alignItems: "center",
+        flex: 2,
+        justifyContent: "center",
+        marginBottom:"-15%"
+    },
     moduleListImage: {
         width: "60%",
-        marginTop: "20%",
-        marginBottom: "-20%",
+        marginBottom: "-25%",
         resizeMode: "contain",
     },
 
     moduleListImagePassive: {
         width: "60%",
-        marginTop: "20%",
-        marginBottom: "-20%",
+        marginBottom: "-25%",
         resizeMode: "contain",
         opacity:0.5
     },

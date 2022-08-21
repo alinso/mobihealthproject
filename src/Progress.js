@@ -7,7 +7,7 @@ class Progress {
 
     constructor() {
         this.medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-        this.medicineLimit = [1, 9, 8, 3, 3, 1, 2, 2, 2, 5, 3, 5, 1, 1, 3, 3, 1];
+        this.medicineLimit = [1, 10, 8, 3, 3, 1, 2, 2, 2, 5, 3, 5, 1, 1, 3, 3, 1];
 
 
         let self = this;

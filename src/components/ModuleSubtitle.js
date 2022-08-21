@@ -11,7 +11,7 @@ function ModuleSubtitle(props) {
 
     return (
         <TouchableOpacity onPress={() => handlePress(props.moduleName, props.titleIndex)}
-                          style={styles.moduleListItem}>
+                          style={props.activePassive}>
             <Image source={imgSource} style={styles.moduleStepImage}/>
             <Text style={styles.moduleSteptitle}>{props.title}</Text>
         </TouchableOpacity>
