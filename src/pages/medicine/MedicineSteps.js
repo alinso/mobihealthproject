@@ -54,8 +54,6 @@ class Welcome extends React.Component {
                 self.setContent(self.props.navigation.state.params.item);
             }, 500)
         });
-
-
     }
 
     onSwipeLeft() {
@@ -69,7 +67,7 @@ class Welcome extends React.Component {
 
     onSwipeRight() {
         if (this.state.currentStep == 0) {
-            this.props.navigation.navigate('MedicineMenu');
+            this.props.navigation.push('MedicineMenu');
             return;
         }
         let newCurrentStep = this.state.currentStep - 1;

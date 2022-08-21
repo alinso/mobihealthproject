@@ -5,6 +5,7 @@ import GestureRecognizer from 'react-native-swipe-gestures';
 import {withNavigation} from 'react-navigation';
 import ModuleSubtitle from "../../components/ModuleSubtitle";
 import Images from "../../Images";
+import ImagesPassive from "../../ImagesPassive";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
 import Storage from "../../Storage";
@@ -37,9 +38,9 @@ class MedicineMenu extends React.Component {
 
         console.log(this.state.progress);
             if (this.state.progress[titleIndex] === this.state.limits[titleIndex]) {
-                return styles.titleListItem;
+                return Images;
             } else {
-                return styles.titleListItemPassive;
+                return ImagesPassive;
             }
 
     }
@@ -72,184 +73,155 @@ class MedicineMenu extends React.Component {
                         <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.info}
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
                                                 title={this.state.titles.info}
                                                 href={"MedicineSteps"}
                                                 navParam={"MedicineInfo"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={0}
-                                                activePassive={ this.activePassive(0)}
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
                                                 title={this.state.titles.fundamentals1}
                                                 href={"MedicineSteps"}
                                                 navParam={"Fundamentals1"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
-                                                activePassive={this.activePassive(1)}
                                                 titleIndex={1}
                                 />
                             </View>
 
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(2).module.medicine.fundamentals}
                                                 title={this.state.titles.fundamentals2} href={"MedicineSteps"}
                                                 navParam={"Fundamentals2"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
-                                                activePassive={this.activePassive(2)}
                                                 titleIndex={2}
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.sources}
+                                <ModuleSubtitle imgSource={this.activePassive(3).module.medicine.sources}
                                                 title={this.state.titles.sources} href={"MedicineSteps"}
                                                 navParam={"Sources"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={3}
-                                                activePassive={this.activePassive(3)}
-
                                 />
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.taxonomy}
+                                <ModuleSubtitle imgSource={this.activePassive(4).module.medicine.taxonomy}
                                                 title={this.state.titles.taxonomy} href={"MedicineSteps"}
                                                 navParam={"Taxonomy"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={4}
-                                                activePassive={this.activePassive(4)}
-
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.naming}
+                                <ModuleSubtitle imgSource={this.activePassive(5).module.medicine.naming}
                                                 title={this.state.titles.naming} href={"MedicineSteps"}
                                                 navParam={"Naming"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={5}
-                                                activePassive={this.activePassive(5)}
-
                                 />
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.shapes}
+                                <ModuleSubtitle imgSource={this.activePassive(6).module.medicine.shapes}
                                                 title={this.state.titles.shapes1} href={"MedicineSteps"}
                                                 navParam={"Shapes1"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={6}
-                                                activePassive={this.activePassive(6)}
 
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.shapes}
+                                <ModuleSubtitle imgSource={this.activePassive(7).module.medicine.shapes}
                                                 title={this.state.titles.shapes2} href={"MedicineSteps"}
                                                 navParam={"Shapes2"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={7}
-                                                activePassive={this.activePassive(7)}
 
                                 />
                             </View>
 
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.taking}
+                                <ModuleSubtitle imgSource={this.activePassive(8).module.medicine.taking}
                                                 title={this.state.titles.taking1} href={"MedicineSteps"}
                                                 navParam={"Taking1"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={8}
-                                                activePassive={this.activePassive(8)}
-
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.taking}
+                                <ModuleSubtitle imgSource={this.activePassive(9).module.medicine.taking}
                                                 title={this.state.titles.taking2} href={"MedicineSteps"}
                                                 navParam={"Taking2"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={9}
-                                                activePassive={this.activePassive(9)}
-
                                 />
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.farmo}
+                                <ModuleSubtitle imgSource={this.activePassive(10).module.medicine.farmo}
                                                 title={this.state.titles.farmo} href={"MedicineSteps"}
                                                 navParam={"Farmo"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={10}
-                                                activePassive={this.activePassive(10)}
-
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.interaction}
+                                <ModuleSubtitle imgSource={this.activePassive(11).module.medicine.interaction}
                                                 title={this.state.titles.interaction} href={"MedicineSteps"}
                                                 navParam={"Interactions"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={11}
-                                                activePassive={this.activePassive(11)}
-
                                 />
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.recipes}
+                                <ModuleSubtitle imgSource={this.activePassive(12).module.medicine.recipes}
                                                 title={this.state.titles.prescription} href={"MedicineSteps"}
                                                 navParam={"Prescription"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={12}
-                                                activePassive={this.activePassive(12)}
-
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.criterias}
+                                <ModuleSubtitle imgSource={this.activePassive(13).module.medicine.criterias}
                                                 title={this.state.titles.application} href={"MedicineSteps"}
                                                 navParam={"Application"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={13}
-                                                activePassive={this.activePassive(13)}
-
                                 />
                             </View>
 
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.antibiotics}
+                                <ModuleSubtitle imgSource={this.activePassive(14).module.medicine.antibiotics}
                                                 title={this.state.titles.antibiotics} href={"MedicineSteps"}
                                                 navParam={"Antibiotics"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={14}
-                                                activePassive={this.activePassive(14)}
-
                                 />
-                                <ModuleSubtitle imgSource={Images.module.medicine.usage}
+                                <ModuleSubtitle imgSource={this.activePassive(15).module.medicine.usage}
                                                 title={this.state.titles.smartuse} href={"MedicineSteps"}
                                                 navParam={"SmartUse"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={15}
-                                                activePassive={this.activePassive(15)}
-
                                 />
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.medicine.medicineTerms}
+                                <ModuleSubtitle imgSource={this.activePassive(16).module.medicine.medicineTerms}
                                                 title={this.state.titles.medicineTerms} href={"MedicineSteps"}
                                                 navParam={"MedicineTerms"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={16}
-                                                activePassive={this.activePassive(16)}
-
                                 />
                                 <View style={{flex: 2}}/>
                             </View>

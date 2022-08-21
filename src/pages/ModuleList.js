@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Text, TouchableOpacity, View} from 'react-native';
+import {Button, Image, Pressable, Text, TouchableOpacity, View} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import SelectDropdown from 'react-native-select-dropdown';
 import styles from "../Styles";
@@ -96,8 +96,8 @@ class ModuleList extends React.Component {
                                 <ModuleProgress progress={this.state.medicineProgress}/>
                             </TouchableOpacity>
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImagePassive}
-                                       source={require("../../assets/images/module/body-menu.png")}
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/body-menu.png")}
                                 />
                                 <Text>{this.state.titles.body}</Text>
                                 <ModuleProgress progress={0}/>
@@ -106,16 +106,16 @@ class ModuleList extends React.Component {
                         </View>
                         <View style={{flexDirection: "row"}}>
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImagePassive}
-                                       source={require("../../assets/images/module/module1-menu.png")}
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/module1-menu.png")}
                                 />
                                 <Text>{this.state.titles.module1}</Text>
                                 <ModuleProgress progress={0}/>
 
                             </View>
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImagePassive}
-                                       source={require("../../assets/images/module/sickness-menu.png")}
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/sickness-menu.png")}
                                 />
                                 <Text>{this.state.titles.sickness}</Text>
                                 <ModuleProgress progress={0}/>
@@ -125,8 +125,8 @@ class ModuleList extends React.Component {
 
                         <View style={{flexDirection: "row"}}>
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImagePassive}
-                                       source={require("../../assets/images/module/firstaid-menu.png")}
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/firstaid-menu.png")}
                                 />
                                 <Text>{this.state.titles.firstaid}</Text>
                                 <ModuleProgress progress={0}/>
@@ -134,8 +134,8 @@ class ModuleList extends React.Component {
                             </View>
 
                             <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImagePassive}
-                                       source={require("../../assets/images/module/healthylife-menu.png")}
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/healthylife-menu.png")}
                                 />
                                 <Text>{this.state.titles.health}</Text>
                                 <ModuleProgress progress={0}/>
@@ -144,17 +144,24 @@ class ModuleList extends React.Component {
                         </View>
                         <View style={{flexDirection: "row"}}>
                             <View style={{flex: 2,alignItems:"center", marginTop:"12%",marginBottom:"-35%" }}>
-                                <SelectDropdown
-                                    buttonStyle={{width:"50%",height:"20%",backgroundColor:"#28678F",borderRadius:8}}
-                                    buttonTextStyle={{fontSize:12,color:"white"}}
-                                    rowStyle={{backgroundColor:"#28678F",opacity:0.6}}
-                                    rowTextStyle={{color:"white"}}
-                                    defaultValue={defaultLang}
-                                    data={langs}
-                                    onSelect={(selectedItem, index) => {
-                                        this.updateLang(index);
-                                    }}
-                                />
+                                {/*<SelectDropdown*/}
+                                {/*    buttonStyle={{width:"50%",height:"20%",backgroundColor:"#28678F",borderRadius:8}}*/}
+                                {/*    buttonTextStyle={{fontSize:12,color:"white"}}*/}
+                                {/*    rowStyle={{backgroundColor:"#28678F",opacity:0.6}}*/}
+                                {/*    rowTextStyle={{color:"white"}}*/}
+                                {/*    defaultValue={defaultLang}*/}
+                                {/*    data={langs}*/}
+                                {/*    onSelect={(selectedItem, index) => {*/}
+                                {/*        this.updateLang(index);*/}
+                                {/*    }}*/}
+                                {/*/>*/}
+
+                                <Pressable style={{marginTop:"5%", backgroundColor:"#28678F", padding:"3%",borderRadius:3}}
+                                           onPress={() => this.props.navigation.navigate("SelectLanguage")}>
+                                    <Text style={{color:"white"}}>{defaultLang}</Text>
+                                </Pressable>
+
+
                             </View>
                         </View>
                     </View>

@@ -21,6 +21,5 @@ const Images={
             infoPic:require("../assets/images/health.png")
         }
     }
-
 };
 export default Images;
