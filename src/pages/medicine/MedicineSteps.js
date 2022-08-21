@@ -26,6 +26,7 @@ import Antibiotics from "./content/Antibiotics";
 import SmartUse from "./content/SmartUse";
 import MedicineTerms from "./content/MedicineTerms";
 import Progress from "../../Progress";
+import Storage from "../../Storage";
 
 let progress =new Progress();
 
@@ -54,6 +55,7 @@ class Welcome extends React.Component {
             }, 500)
         });
 
+
     }
 
     onSwipeLeft() {
@@ -62,7 +64,7 @@ class Welcome extends React.Component {
         }
         let newCurrentStep = this.state.currentStep + 1;
         this.setState({currentStep: newCurrentStep});
-        progress.proceed("@medicine",progress.medicineCurent,this.titleIndex,this.state.currentStep+1);
+        progress.proceed("@medicine",this.titleIndex,newCurrentStep+1);
     }
 
     onSwipeRight() {
@@ -186,7 +188,8 @@ class Welcome extends React.Component {
 
         }
 
-        progress.proceed("@medicine",progress.medicineCurent,this.titleIndex,this.state.currentStep);
+        console.log(this.state.currentStep+1);
+        progress.proceed("@medicine",this.titleIndex,this.state.currentStep+1);
         this.setState({title: stepsTitle})
     }
 

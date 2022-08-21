@@ -7,7 +7,6 @@ import Progress from "../Progress";
 
 function ModuleSubtitle(props) {
     let {imgSource} = props;
-    let progress = new Progress();
 
 
     return (
@@ -20,10 +19,13 @@ function ModuleSubtitle(props) {
 
 
     function handlePress(moduleName, titleIndex) {
+
         if (props.titleIndex == 0) {
             props.navigation.navigate(props.href, {item: props.navParam});
             return
         }
+
+        let progress = new Progress();
 
         progress.isAllowed(moduleName, titleIndex).then(function (res) {
             console.log("aa "+res);
@@ -33,11 +35,7 @@ function ModuleSubtitle(props) {
                 alert(props.lockWarning);
             }
         });
-
-
     }
-
-
 }
 
 export default withNavigation(ModuleSubtitle);

@@ -32,6 +32,7 @@ class ModuleList extends React.Component {
             self.setState({medicineProgress:Math.round(res)});
         });
 
+
         let medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
         let copyStr = JSON.stringify(medicineCurent);
         Storage.save("@medicine", copyStr);
@@ -130,8 +131,12 @@ class ModuleList extends React.Component {
                             </View>
                         </View>
                         <View style={{flexDirection: "row"}}>
-                            <View style={{flex: 2,alignItems:"center", marginTop:"12%" }}>
+                            <View style={{flex: 2,alignItems:"center", marginTop:"12%",marginBottom:"-35%" }}>
                                 <SelectDropdown
+                                    buttonStyle={{width:"50%",height:"20%",backgroundColor:"#28678F",borderRadius:8}}
+                                    buttonTextStyle={{fontSize:12,color:"white"}}
+                                    rowStyle={{backgroundColor:"#28678F",opacity:0.6}}
+                                    rowTextStyle={{color:"white"}}
                                     defaultValue={defaultLang}
                                     data={langs}
                                     onSelect={(selectedItem, index) => {

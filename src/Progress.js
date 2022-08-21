@@ -7,13 +7,13 @@ class Progress {
 
     constructor() {
         this.medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-        this.medicineLimit = [0, 9, 7, 2, 2, 0, 1, 1, 1, 4, 2, 4, 0, 0, 2, 2, 0];
+        this.medicineLimit = [1, 9, 8, 3, 3, 1, 2, 2, 2, 5, 3, 5, 1, 1, 3, 3, 1];
 
 
         let self = this;
         Storage.getData("@medicine").then(function (res) {
 
-            console.log("asdasdas");
+            console.log("constructor: "+res);
             if (res == null) {
                 Storage.save("@medicine", medicineCurent);
             } else {
@@ -24,14 +24,29 @@ class Progress {
 
 
     //titles are submodules such as medication sources
-    proceed(moduleName, moduleArray, titleIndex, val) {
-        console.log("tit " + titleIndex + " " + moduleName);
-        console.log(moduleArray);
-        if (val > moduleArray[titleIndex]) {
-            moduleArray[titleIndex] = val;
-            let copyStr = JSON.stringify(moduleArray);
-            Storage.save(moduleName, copyStr);
-        }
+    proceed(moduleName, titleIndex, val) {
+
+
+        console.log("proceeding val "+val);
+        console.log("proceeding module name "+moduleName);
+        console.log("proceeding title index "+titleIndex);
+        let self=this;
+        Storage.getData(moduleName).then(function (resx){
+
+          let moduleArray = JSON.parse(resx);
+            if (val > moduleArray[titleIndex]) {
+                moduleArray[titleIndex] = val;
+
+                if(moduleName==="@medicine"){
+                    self.medicineCurent=moduleArray;
+                }
+
+                let copyStr = JSON.stringify(moduleArray);
+                console.log("proceeding saved : "+moduleArray);
+                Storage.save(moduleName, copyStr);
+            }
+        });
+
     }
 
 
@@ -48,15 +63,16 @@ class Progress {
         let self = this;
         let res;
         if (moduleName == "@medicine") {
-             res = await Storage.getData("@medicine").then(function (res) {
-                self.medicineCurent = JSON.parse(res);
-                console.log(self.medicineCurent);
+             res = await Storage.getData("@medicine").then(function (resx) {
+                 console.log("state in db: "+resx );
+                 console.log("title index: "+titleIndex)
+                 self.medicineCurent = JSON.parse(resx);
+                 console.log("previous title state:"+self.medicineCurent[titleIndex-1]+ ", previous title limit : "+self.medicineLimit[titleIndex-1]);
 
-                if (self.medicineCurent[titleIndex - 1] == self.medicineLimit[titleIndex - 1]) {
-                    console.log("true");
+
+                if (self.medicineCurent[titleIndex - 1] === self.medicineLimit[titleIndex - 1]) {
                     return true;
                 } else {
-                    console.log("false");
                     return false;
                 }
             });

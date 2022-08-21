@@ -128,13 +128,13 @@ class MedicineMenu extends React.Component {
                                             title={this.state.titles.farmo} href={"MedicineSteps"}  navParam={"Farmo"}
                                             lockWarning={this.state.titles.lockWarning}
                                             moduleName={"@medicine"}
-                                            titleIndex={9}
+                                            titleIndex={10}
                             />
                             <ModuleSubtitle imgSource={Images.module.medicine.interaction}
                                             title={this.state.titles.interaction} href={"MedicineSteps"}  navParam={"Interactions"}
                                             lockWarning={this.state.titles.lockWarning}
                                             moduleName={"@medicine"}
-                                            titleIndex={10}
+                                            titleIndex={11}
                             />
                         </View>
 
@@ -143,13 +143,13 @@ class MedicineMenu extends React.Component {
                                             title={this.state.titles.prescription} href={"MedicineSteps"}  navParam={"Prescription"}
                                             lockWarning={this.state.titles.lockWarning}
                                             moduleName={"@medicine"}
-                                            titleIndex={11}
+                                            titleIndex={12}
                             />
                             <ModuleSubtitle imgSource={Images.module.medicine.criterias}
                                             title={this.state.titles.application} href={"MedicineSteps"}  navParam={"Application"}
                                             lockWarning={this.state.titles.lockWarning}
                                             moduleName={"@medicine"}
-                                            titleIndex={12}
+                                            titleIndex={13}
                             />
                         </View>
 
@@ -159,13 +159,13 @@ class MedicineMenu extends React.Component {
                                             title={this.state.titles.antibiotics} href={"MedicineSteps"}  navParam={"Antibiotics"}
                                             lockWarning={this.state.titles.lockWarning}
                                             moduleName={"@medicine"}
-                                            titleIndex={13}
+                                            titleIndex={14}
                             />
                             <ModuleSubtitle imgSource={Images.module.medicine.usage}
                                             title={this.state.titles.smartuse} href={"MedicineSteps"}  navParam={"SmartUse"}
                                             lockWarning={this.state.titles.lockWarning}
                                             moduleName={"@medicine"}
-                                            titleIndex={14}
+                                            titleIndex={15}
                             />
                         </View>
 
