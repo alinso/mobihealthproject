@@ -7,7 +7,11 @@ class Progress {
 
     constructor() {
         this.medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-        this.medicineLimit = [1, 10, 8, 3, 3, 1, 2, 2, 2, 5, 3, 5, 1, 1, 3, 3, 1];
+        this.medicineLimit = [1, 9, 8, 3, 3, 1, 2, 2, 2, 5, 3, 5, 1, 1, 3, 3, 1];
+
+        this.firstaidCurrent=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0,0,0,0];
+        this.firstaidLimit = [1, 5, 4, 4, 4, 1, 7, 1, 1, 13, 5, 3, 3, 2, 4, 9,8,7,4,3,1];
+
 
 
         let self = this;
@@ -15,9 +19,19 @@ class Progress {
 
             console.log("constructor: "+res);
             if (res == null) {
-                Storage.save("@medicine", medicineCurent);
+                let medicineCurentStr = JSON.stringify(self.medicineCurent);
+                Storage.save("@medicine", medicineCurentStr);
             } else {
                 self.medicineCurent = JSON.parse(res);
+            }
+        });
+
+        Storage.getData("@firstaid").then(function (res) {
+            if (res == null) {
+                let firstaidCurrentStr = JSON.stringify(self.firstaidCurrent);
+                Storage.save("@firstaid", firstaidCurrentStr);
+            } else {
+                self.firstaidCurrent = JSON.parse(res);
             }
         });
     }
@@ -39,6 +53,9 @@ class Progress {
 
                 if(moduleName==="@medicine"){
                     self.medicineCurent=moduleArray;
+                }
+                else if(moduleName==="@firstaid"){
+                    self.firstaidCurrent=moduleArray;
                 }
 
                 let copyStr = JSON.stringify(moduleArray);
@@ -62,7 +79,7 @@ class Progress {
 
         let self = this;
         let res;
-        if (moduleName == "@medicine") {
+        if (moduleName === "@medicine") {
              res = await Storage.getData("@medicine").then(function (resx) {
                  console.log("state in db: "+resx );
                  console.log("title index: "+titleIndex)
@@ -77,15 +94,24 @@ class Progress {
                 }
             });
         }
+        if (moduleName === "@firstaid") {
+            res = await Storage.getData("@firstaid").then(function (resx) {
+                console.log("state in db: "+resx );
+                console.log("title index: "+titleIndex)
+                self.medicineCurent = JSON.parse(resx);
+                console.log("previous title state:"+self.firstaidCurrent[titleIndex-1]+ ", previous title limit : "+self.firstaidLimit[titleIndex-1]);
+
+
+                if (self.firstaidCurrent[titleIndex - 1] === self.firstaidLimit[titleIndex - 1]) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+        }
 
         return res;
 
-    }
-
-
-    clear() {
-        this.medicineCurent = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-        Storage.save("medicine", medicineCurent);
     }
 
 }

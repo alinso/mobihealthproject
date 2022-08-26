@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "mobihealth",
-    "slug": "mobihealth",
-    "version": "1.0.0",
+    "name": "Mobihealth",
+    "slug": "mobihealtheuropa",
+    "version": "1.05",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,8 +23,12 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+      },
+      "versionCode": 5,
+      "permissions" : [],
+
+      "package": "com.alinso.mobihealth"
     },
     "web": {
       "favicon": "./assets/favicon.png"

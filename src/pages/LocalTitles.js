@@ -24,7 +24,34 @@ export default [{
     smartuse: "Akılcı İlaç Kullanımı",
     medicineTerms: "Genel İlaç Terimleri",
 
-    lockWarning:"Bu sayfaya geçmek için önceki sayfaları tamamlayınız."
+
+    fundamentals:"Temel Kavramlar",
+    basicApplications:"İk Yardımın Temel Uygulamaları",
+    basicIndicators:"Yaşam Bulguları ile Temel Göstergeler",
+    basicLifeSupport:"Temel Yaşam Desteği",
+    lifeKiss:"Dış Kalp Masajı ve Yapay Solunum",
+    bleed:"Kanamalar",
+    branchSplit:"Uzuv Kopmaları",
+    foreignBodySting:"Yabancı Cisim Batmaları",
+    choking:"Hava Yolu Tıkanıklıkları",
+    headInjury:"Baş ve Boyun Yaralanmaları",
+    chestInjury:"Göğüs Yaralanmaları",
+    stomaInjury:"Karın Yaralanmaları",
+    crushIjnhury:"Ezilme Yaralanmaları",
+    drowning:"Boğulmalar",
+    poisoning1:"Zehirlenmeler-1",
+    poisoning2:"Zehirlenmeler-2",
+    brokenBone:"Kırık ve Çıkıkları",
+    detectionMethod:"Tespit Yöntemleri",
+    bugSting:"Böcek Sokmaları",
+    bites:"Hayvan Isırıkları",
+    burn:"Yanıklar",
+    freeze:"Donmalar",
+    foreignBody:"Yabancı Cisim Kaçması",
+    chestPain:"Göğüs Ağrısı",
+
+    lockWarning:"Bu sayfaya geçmek için önceki sayfaları tamamlayınız.",
+    about:"Uygulama Hakkında"
 },
     {
         module1: "Medical Terms",
@@ -51,7 +78,36 @@ export default [{
         smartuse: "Rational Use",
         medicineTerms: "General Medication Terms",
 
-        lockWarning:"Please complete previous steps to unlock this page"
+
+        fundamentals:"Fundamental Concepts",
+        basicApplications:"Basic Applications of First Aid",
+        basicIndicators:"Basic Indicators Relating to Life Findings",
+        basicLifeSupport:"Basic Life Support (A-B-C in First Aid)",
+        lifeKiss:"Application of External Circular Massage and  Artificial Respitory",
+        bleed:"Bleedings",
+        shock:"Shock",
+        branchSplit:"Limb Amputation",
+        foreignBodySting:"Yabancı Cisim Batmaları",
+        choking:"First Aid in Airway Obstructions",
+        headInjury:"Head and Neck Injuries",
+        chestInjury:"Abdominal Injuries",
+        stomaInjury:"Karıın yaralanmaları??",
+        crushIjnhury:"Ezilme Yaralanmaları",
+        drowning:"First Aid for Drowning",
+        poisoning1:"First Aid in Posioning-1",
+        poisoning2:"First Aid in Posioning-2",
+        brokenBone:"First Aid in Fractures and Displacements",
+        detectionMethod:"Tespit Yöntemleri????",
+        bugSting:"Insect Bites",
+        bites:"Animal Bites",
+        burn:"First Aid for Burns",
+        freeze:"First aid in Frostbites",
+        foreignBody:"Foreign Body",
+        chestPain: "Chest Pain",
+
+
+        lockWarning:"Please complete previous steps to unlock this page",
+        about:"About This App"
 
     },
     {
@@ -78,7 +134,37 @@ export default [{
         antibiotics: "Antibióticos",
         smartuse: "Uso Racional",
         medicineTerms: "Termos Gerais da Medikaçáo",
-        lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página"
+
+
+        fundamentals:"CONCEITOS BÁSICOS",
+        basicApplications:"APLICAÇÕES BÁSICAS DOS PRIMEIROS SOCORROS ",
+        basicIndicators:"INDICADORES BÁSICOS RELACIONADOS COM OS RESULTADOS DA VIDA ",
+        basicLifeSupport:"SUPORTE BÁSICO DE VIDA (A-B-C EM PRIMEIROS SOCORROS) ",
+        lifeKiss:"APLICAÇÃO DE MASSAGEM CIRCULAR EXTERNA E RESPIRATÓRIA ARTIFICIAL",
+        bleed:"HEMORRAGIAS",
+        shock:"DESMAIO",
+        branchSplit:"Amputação de membros",
+        foreignBodySting:"Penetração de corpo estranho",
+        choking:"PRIMEIROS SOCORROS NAS OBSTRUÇÕES DAS VIAS AÉREAS",
+        headInjury:"Lesões na cabeça e no pescoço",
+        chestInjury:"Lesões Abdominais ",
+        stomaInjury:"Karıın yaralanmaları??",
+        crushIjnhury:"Esmagar Lesões",
+        drowning:"PRIMEIROS SOCORROS POR AFOGAMENTO\n",
+        poisoning1:"PRIMEIROS SOCORROS EM CASO DE INTOXICAÇÃO-1",
+        poisoning2:"FPRIMEIROS SOCORROS EM CASO DE INTOXICAÇÃO-2",
+        brokenBone:"PRIMEIROS SOCORROS PARA FRATURAS E LUXAÇÃOS",
+        detectionMethod:"Tespit Yöntemleri????",
+        bugSting:" PICADAS DE INSETO",
+        bites:"PICADAS DE OUTROS ANIMAIS",
+        burn:"PRIMEIROS SOCORROS PARA QUEIMADURAS",
+        freeze:"PRIMEIROS SOCORROS EM CASO DE QUEIMADURAS DE FRIO",
+        foreignBody:"OBJETOS ESTRANHOS",
+        chestPain: "DOR NO PEITO ",
+
+
+        lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página",
+        about:"Sobre Este Aplicativo"
     },
     {
         module1: "Medizinische Begriffe",
@@ -106,6 +192,7 @@ export default [{
         smartuse: "Rationeller Einsatz Von Medikamenten",
         medicineTerms: "Allgemeine Medikamentebegriffe",
 
-        lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren"
+        lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren",
+        about:"Über Diese App"
     }
 ]

@@ -25,8 +25,8 @@ export default [
         "bazı ilaçlar bitki, familya ve tür adına göre " +
         "sınıflandırılır. Örneğin narkotik ağrı kesici " +
         "olarak kullanılan ve afyon ( opium ) bitkisinden " +
-        "üretilen ilaçlar “ opiyatlar “ şeklinde sınıflan- " +
-        "dırılır. \n\n" +
+        "üretilen ilaçlar “ opiyatlar “ şeklinde sınıflandırılır. " +
+        "\n\n" +
         "<b>5- Moleküler ( Kimyasal ) yapısına göre " +
         "sınıflandırma: </b>\n" +
         "Örneğin, Alkoloid ve steroidler.",
@@ -47,8 +47,8 @@ export default [
         "gösterilebilir. \n\n" +
         "   d. Semptomatik-palyatif tedavi: Radikal tedaviden " +
         "farklı olarak hastalığın nedenini ortadan kaldırmayı " +
-        "hedeflemeyen bu tedavi yönteminde hastalığın or- " +
-        "taya çıkardığı patalojik bozuklukların azal�lması he- " +
+        "hedeflemeyen bu tedavi yönteminde hastalığın ortaya " +
+        "çıkardığı patalojik bozuklukların azal�lması he- " +
         "deflenir. Örnek olarak ağrının giderilmesi ve ateşin " +
         "düşürülmesi gösterilebilir."
     ],

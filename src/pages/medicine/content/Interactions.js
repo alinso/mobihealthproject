@@ -36,7 +36,7 @@ export default [
         "<b>4- Yaş:</b>\n" +
         "Bebekler, çocuklar, yetişkinler ve yaşlılar için ilacın göstereceği etki mekanizması farklı olacaktır. \n\n" +
         "<b>5- Cinsiyet:</b>\n Çoğu ilaçların etkisi cinsiyete bağlı olarak değişmez ancak bazı ilaçlar için söz konusu olabilir. " +
-        "6- Genetik Faktörler: İlaçlar vücuda alındıktan sonra vücut enzimleriyle metabolize edilir. Bu enzimlerin " +
+        "<b>6- Genetik Faktörler:</b>\n İlaçlar vücuda alındıktan sonra vücut enzimleriyle metabolize edilir. Bu enzimlerin " +
         "kalıtımsal eksiklik veya fazlalığı ilacın etkisini değiştirebilir.\n\n " +
         "<b>7- Tolerans:</b>\n Devamlı kullanılan ilaçların gösterdiği etki gittikçe azalır. İlacın başlangıçtaki etkisini devam " +
         "ettirebilmek için dozunun arttırılması gerekebilir. </b>\n\n" +

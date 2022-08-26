@@ -7,6 +7,9 @@ import 'react-native-gesture-handler';
 import SelectLanguage from "./src/pages/SelectLanguage";
 import MedicineMenu from "./src/pages/medicine/MedicineMenu";
 import MedicineSteps from "./src/pages/medicine/MedicineSteps";
+import About from "./src/pages/About";
+import FirstaidMenu from "./src/pages/firstaid/FirstaidMenu";
+import FirstaidSteps from "./src/pages/firstaid/FirstaidSteps";
 
 
 
@@ -15,7 +18,10 @@ const Stack = createStackNavigator({
         Welcome: {screen: Welcome},
         SelectLanguage: {screen: SelectLanguage},
         MedicineMenu:{screen:MedicineMenu},
-        MedicineSteps:{screen:MedicineSteps}
+        MedicineSteps:{screen:MedicineSteps},
+        FirstaidMenu:{screen:FirstaidMenu},
+        FirstaidSteps:{screen:FirstaidSteps},
+        About:{screen:About},
     },
     {
         headerMode: 'none',

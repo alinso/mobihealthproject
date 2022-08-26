@@ -26,11 +26,10 @@ import Antibiotics from "./content/Antibiotics";
 import SmartUse from "./content/SmartUse";
 import MedicineTerms from "./content/MedicineTerms";
 import Progress from "../../Progress";
-import Storage from "../../Storage";
 
 let progress =new Progress();
 
-class Welcome extends React.Component {
+class MedicineSteps extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -83,104 +82,104 @@ class Welcome extends React.Component {
             this.titleIndex=0;
         } else if (link === "Fundamentals1") {
             getLocalContent(FundaMentals1, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.fundamentals1Pic
             stepsTitle = this.state.titles.fundamentals1
             this.titleIndex=1;
 
         } else if (link === "Fundamentals2") {
             getLocalContent(Fundamentals2, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.fundamentals2Pic
             stepsTitle = this.state.titles.fundamentals2
             this.titleIndex=2;
 
         } else if (link === "Sources") {
             getLocalContent(Sources, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.sourcesPic
             stepsTitle = this.state.titles.sources
             this.titleIndex=3;
 
         } else if (link === "Taxonomy") {
             getLocalContent(Taxonomy, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.taxonomyPic
             stepsTitle = this.state.titles.taxonomy
             this.titleIndex=4;
 
         } else if (link === "Naming") {
             getLocalContent(Naming, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.namingPic
             stepsTitle = this.state.titles.naming
             this.titleIndex=5;
 
         } else if (link === "Shapes1") {
             getLocalContent(Shapes1, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.shapes1Pic
             stepsTitle = this.state.titles.shapes1
             this.titleIndex=6;
 
 
         } else if (link === "Shapes2") {
             getLocalContent(Shapes2, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.shapes1Pic
             stepsTitle = this.state.titles.shapes2
             this.titleIndex=7;
 
 
         } else if (link === "Taking1") {
             getLocalContent(Taking1, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.taking1Pic
             stepsTitle = this.state.titles.taking1
             this.titleIndex=8;
 
 
         } else if (link === "Taking2") {
             getLocalContent(Taking2, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.taking2Pic
             stepsTitle = this.state.titles.taking2
             this.titleIndex=9;
 
 
         }else if (link === "Farmo") {
             getLocalContent(Farmo, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.farmoPic
             stepsTitle = this.state.titles.farmo
             this.titleIndex=10;
 
 
         }else if (link === "Interactions") {
             getLocalContent(Interactions, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.engagementPic
             stepsTitle = this.state.titles.interaction
             this.titleIndex=11;
 
 
         }else if (link === "Prescription") {
             getLocalContent(Prescrption, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.prescriptionPic
             stepsTitle = this.state.titles.prescription
             this.titleIndex=12;
 
         }else if (link === "Application") {
             getLocalContent(Application, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.criteriasPic
             stepsTitle = this.state.titles.application
             this.titleIndex=13;
 
         }else if (link === "Antibiotics") {
             getLocalContent(Antibiotics, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.antibioticsPic
             stepsTitle = this.state.titles.antibiotics
             this.titleIndex=14;
 
         }else if (link === "SmartUse") {
             getLocalContent(SmartUse, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.smartusePic
             stepsTitle = this.state.titles.smartuse
             this.titleIndex=15;
 
 
         }else if (link === "MedicineTerms") {
             getLocalContent(MedicineTerms, this);
-            this.image = Images.module.medicine.infoPic
+            this.image = Images.module.medicine.termsPic
             stepsTitle = this.state.titles.medicineTerms
             this.titleIndex=16;
 
@@ -234,4 +233,4 @@ class Welcome extends React.Component {
     }
 }
 
-export default withNavigation(Welcome);
+export default withNavigation(MedicineSteps);

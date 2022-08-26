@@ -22,7 +22,7 @@ class Welcome extends React.Component {
             if (res != null) {
                 self.props.navigation.navigate("ModuleList");
             } else {
-                this.props.navigation.navigate('SelectLanguage');
+                self.props.navigation.navigate('SelectLanguage');
             }
         });
 

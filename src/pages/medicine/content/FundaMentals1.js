@@ -2,8 +2,8 @@ export default [
     [
         "<b>İlaç:</b> \n\n" +
     "İnsanları hastalıklardan korumak, tedavi " +
-    "etmek, teşhis koymak, fizyolojik bir fonksiy- " +
-    "onu düzelterek yararlı hale getirmek amacıyla " +
+    "etmek, teşhis koymak, fizyolojik bir fonksiyonu " +
+    "düzelterek yararlı hale getirmek amacıyla " +
     "kullanılanmaddelerin genel adıdır.",
 
         "<b>Doz:</b>  \n\n" +
@@ -25,8 +25,8 @@ export default [
         "aralığı önemli bir yer tutar. Günlük doz " +
         "hastaya günde belirli aralıklarla bir, iki, üç " +
         "veya daha fazla aralıklarla verilebilir. Burada " +
-        "önemli olan ilaç aralıklarının doğru uygulan- " +
-        "masıdır. Örneğin günde ( 24 saate ) iki kez " +
+        "önemli olan ilaç aralıklarının doğru uygulanmasıdır. " +
+        "Örneğin günde ( 24 saate ) iki kez " +
         "alınması tavsiye edilen ilaç 12 saate bir, " +
         "günde üç defa alınması gereken ilaç ise 8 " +
         "saate bir alınmalıdır.",
@@ -39,7 +39,7 @@ export default [
         "Genellikle ilaçların vücuda yaptığı etkilerin " +
         "artmasına bağlı olarak hasta için istenmeyen " +
         "ve ölümle bile sonuçlanabilecek beklenmeyen " +
-        "etkidir. Yan etkiler de Toksik etki olarak",
+        "etkidir. Yan etkiler de Toksik etki olarak sayılabilir.",
 
         "<b>Yarar/Zarar Oranı :</b> \n\n" +
         "İİlaç kullanımı ile birlikte sağlanacak yararın " +
@@ -53,8 +53,8 @@ export default [
 
         "<b>Emniyet Aralığı:</b> \n\n" +
         "İlacın tedavi için belirlenen dozu ile toksik etki " +
-        "gösteren dozu arasındaki aralıktır. Dokto- " +
-        "runuzun sizin için tavsiye eşiği doz miktarı bu " +
+        "gösteren dozu arasındaki aralıktır. Doktorunuzun " +
+        "sizin için tavsiye eşiği doz miktarı bu " +
         "aralık içerisinde yer alır. Bilinçsiz ilaç kullanımı " +
         "nedeniyle doğru hesaplanmamış bir doz " +
         "aralığı ilacın yan etki veya toksik etki " +

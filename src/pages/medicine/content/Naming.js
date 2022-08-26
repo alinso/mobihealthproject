@@ -10,7 +10,7 @@ export default [
         "sağlamıştır.\n\n" +
         "<b>2- Ticari Ad ( Marka Adı ):</b>İlacı üreten firmanın " +
         "kendi ürünlerine verdikleri addır. Tek bir ilacın farklı " +
-        "isim- lerde bir çok müstahzarı ( kullanıma hazır hale " +
+        "isimlerde bir çok müstahzarı ( kullanıma hazır hale " +
         "getirilmiş ) bulunmaktadır. Aspirin, Voltaren gibi " +
         "isimler ticari isimlerdir.\n\n" +
         "<b>3- Kimyasal Ad:</b> Uluslar arası Kimya Birliği tarafından " +

@@ -28,9 +28,14 @@ class ModuleList extends React.Component {
 
         Storage.getData("@medicine").then(function (medicineCurent){
             let medicineCurrentObj = JSON.parse(medicineCurent);
-            let medicineCurrentArr=Object.keys(medicineCurrentObj).map((key) => medicineCurrentObj[key]);
-            let res= (100*progress.getTotal(medicineCurrentArr))/progress.getTotal(progress.medicineLimit);
-            self.setState({medicineProgress:Math.round(res)});
+            if(medicineCurrentObj==null){
+                self.setState({medicineProgress:0});
+                return;
+            }else {
+                let medicineCurrentArr = Object.keys(medicineCurrentObj).map((key) => medicineCurrentObj[key]);
+                let res = (100 * progress.getTotal(medicineCurrentArr)) / progress.getTotal(progress.medicineLimit);
+                self.setState({medicineProgress: Math.round(res)});
+            }
         });
 
 
@@ -95,14 +100,15 @@ class ModuleList extends React.Component {
                                 <Text>{this.state.titles.medicine}</Text>
                                 <ModuleProgress progress={this.state.medicineProgress}/>
                             </TouchableOpacity>
-                            <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/body-menu.png")}
-                                />
-                                <Text>{this.state.titles.body}</Text>
-                                <ModuleProgress progress={0}/>
 
-                            </View>
+                            <TouchableOpacity style={styles.moduleListItem}
+                                onPress={() => this.props.navigation.navigate("FirstaidMenu")}>
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/firstaid-menu.png")}
+                                />
+                                <Text>{this.state.titles.firstaid}</Text>
+                                <ModuleProgress progress={0}/>
+                            </TouchableOpacity>
                         </View>
                         <View style={{flexDirection: "row"}}>
                             <View style={styles.moduleListItem}>
@@ -124,15 +130,15 @@ class ModuleList extends React.Component {
                         </View>
 
                         <View style={{flexDirection: "row"}}>
+
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/firstaid-menu.png")}
+                                       source={require("../../assets/images/module/passive/body-menu.png")}
                                 />
-                                <Text>{this.state.titles.firstaid}</Text>
+                                <Text>{this.state.titles.body}</Text>
                                 <ModuleProgress progress={0}/>
 
                             </View>
-
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/passive/healthylife-menu.png")}
@@ -160,6 +166,7 @@ class ModuleList extends React.Component {
                                            onPress={() => this.props.navigation.navigate("SelectLanguage")}>
                                     <Text style={{color:"white"}}>{defaultLang}</Text>
                                 </Pressable>
+                                <Text style={{marginTop:"20%",opacity:0.4}} onPress={()=>this.props.navigation.navigate("About")}>{this.state.titles.about}</Text>
 
 
                             </View>

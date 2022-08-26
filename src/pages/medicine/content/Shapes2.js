@@ -28,7 +28,19 @@ export default [
         "elde edilir. Hazırlanan süspansiyon bekletildiğinde katı madde tekrar dibe çöker. Her " +
         "kullanım öncesi çalkalayarak katı ve sıvı maddenin homojen ( karışımın her yerinde aynı " +
         "özellik gösteren, sıvı ve katı maddelerin eşit şekilde dağıldığı karışım ) hale gelmesi " +
-        "sağlanır. Oral ve parenteral ( enjeksiyon yöntemi ) kullanım şekilleri vardır."
+        "sağlanır. Oral ve parenteral ( enjeksiyon yöntemi ) kullanım şekilleri vardır.\n\n" +
+        "g. Emülsiyon: Süspansiyondan farklı olarak burada etken ilaç maddesi sıvıdır. Sıvı ilaç " +
+        "maddesi ile eritici sıvı karıştırılarak elde edilir. Oral ve parenteral yolla kullanılır. \n\n" +
+        "h. Lavman: Rektal kullanım için solüsyon veya süspansiyon şeklinde hazırlanmış ilaçlardır. \n\n" +
+        "i. Aerosol : Özel sıvı içerisinde çözülmüş ilaç etken maddesinin solunum yoluyla " +
+        "uygulanmasına olanak sağlayacak şekilde hazırlanan ilaçlardır. Astım tedavisinde kullanılan " +
+        "ve solunarak akciğerlere çekilen ilaçlar aerosol ilaçlara örnek gösterilebilir. \n\n" +
+        "j. Ampul, Flakon, Viyal:Katı veya ilaç etken maddesinin parenteral ( enjeksiyon ) yöntemiyle " +
+        "uygulanmasına olanak sağlayacak cam şişeler içerisindeki halidir. Katı olan ilaç etken " +
+        "maddeleri ayrı bir ampul veya flakondaki sıvı ile eritilir.\n\n " +
+        "k. Losyon: Cilt üzerine sürülmek suretiyle haricen kullanılan, solüsyon, süspansiyon veya " +
+        "emülsiyon formundaki ilaçlardır. \n\n" +
+        "l. Sprey: Cilt veya mukozalara püskürtülerek uygulanan sıvı ilaçlardır."
     ],
 
     [

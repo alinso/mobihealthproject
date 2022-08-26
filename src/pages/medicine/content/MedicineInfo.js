@@ -8,15 +8,21 @@ export default  [
         "hastalıktan korunma, erken teşhis ve tedavi " +
         "süreçlerinin tümünde en önemli araçlardan " +
         "birisi ilaçlardır. Ancak ilaçlar hakkında yeterli " +
-        "bilgi sahibi değilsek yeterince faydalanamaya- " +
-        "cağımız gibi zarar bile görebiliriz. Bu nedenle " +
+        "bilgi sahibi değilsek yeterince faydalanamayacağımız" +
+        " gibi zarar bile görebiliriz. Bu nedenle " +
         "ilaçların sağlık profesyonelleri tarafından " +
         "önerildiği şekliyle kullanılması çok önemlidir. " +
         "İlaçların doğru ve etkin bir şekilde " +
         "kullanılabilmesinde en önemli sorumluluk " +
         "bizlere düşmektedir. Bu nedenle öncelikle " +
         "ilaçlar hakkında temel bir bilgi düzeyine sahip " +
-        "olmamız gerekir."],
+        "olmamız gerekir.\n\n" +
+        "" +
+        "Temel ilaç bilgisi modülü ile ilaçlar ile ilgili temel kavramlar, ilaçların şekilleri, veriliş yoları ve etki\n" +
+        "mekanizmaları gibi konularda temel düzeyde ilaç bilgisi edinmeniz hedeflenmektedir. Bu modül, ilaçların\n" +
+        "kaynaklarını, kimyasal ve fiziksel özelliklerini, vücuda alınışlarını, etkilerini, etki şekillerini ve hazırlanış\n" +
+        "yöntemlerini ele alan Farmakoloji bilimini içermektedir.Bu modülü başarıyla tamamladığınızda bir ilaç\n" +
+        "prospektüsünü kolaylıkla anlayacak, tedavi süreçlerine daha etkin katılacaksınız."],
 
          ["In medical science, which is developing rapidly in scientific and technological terms, the type and " +
         "quality of health services given accordingly change at the same pace.These developments force all parties " +
