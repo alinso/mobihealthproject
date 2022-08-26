@@ -10,6 +10,7 @@ import Images from "../../Images";
 import Progress from "../../Progress";
 import FirstaidInfo from "./content/FirstaidInfo";
 import HtmlView from "react-native-htmlview";
+import Fundamentals from "./content/Fundamentals";
 
 let progress =new Progress();
 
@@ -64,6 +65,11 @@ class FirstaidSteps extends React.Component {
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.info;
             this.titleIndex=0;
+        }else if (link === "Fundamentals") {
+            getLocalContent(Fundamentals, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.info;
+            this.titleIndex=1;
         }
 
         console.log(this.state.currentStep+1);
