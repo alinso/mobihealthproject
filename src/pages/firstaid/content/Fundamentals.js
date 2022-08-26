@@ -21,7 +21,6 @@ export default [
         "Olaya ilk tanık olan kişiden başlayarak tedavinin tamamlandığı hastane ortamına kadar kesintisiz olarak sürdürülen ilk yardım ve acil bakım uygulamalarının tümü “ Yaşam Kurtarma Zinciri“ olarak adlandırılır. " +
         " \n\n" +
         "Yaşam kurtarma zinciri 4 halkadan oluşur. İlk iki halkası ilkyardımcının sorumluluğunda bulunan ve temel ilk yardım uygulamalarını kapsayan; koruma, bildirme, kurtarma ve olay yerinde sağlanan temel yaşam desteğidir. Son iki halkası ise ilkyardımcının görevi olmayıp profesyonel sağlık ekiplerinin görevidir. " +
-        " " +
         "1.HALKA:  Sağlık kuruluşuna haber verilmesi " +
         "2.HALKA : Olay yerinde Temel Yaşam Desteği verilmesi " +
         "3.HALKA : Ambulans ekipleri tarafından müdahale yapılması " +
