@@ -21,6 +21,5 @@ export default [
         "Temperatura corporal: Em primeiros socorros, a temperatura corporal deve ser medida sob a axila. A temperatura corporal normal é de 36,5 C. Acima do valor normal é indicado como febre alta e abaixo é indicado como febre baixa.\n",
 
 
-
     ]
 ]

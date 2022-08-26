@@ -90,6 +90,24 @@ class FirstaidMenu extends React.Component {
                                                 titleIndex={1}
                                 />
                             </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
+                                                title={this.state.titles.basicApplications}
+                                                href={"FirstaidSteps"}
+                                                navParam={"BasicApplications"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={0}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                                title={this.state.titles.basicApplications}
+                                                href={"FirstaidSteps"}
+                                                navParam={"BasicIndikators"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={1}
+                                />
+                            </View>
                         </View>
                         <View style={{flex: 1}}/>
                     </View>
