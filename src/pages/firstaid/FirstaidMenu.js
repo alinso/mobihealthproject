@@ -99,10 +99,10 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={0}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
-                                                title={this.state.titles.basicApplications}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.info}
+                                                title={this.state.titles.basicIndicators}
                                                 href={"FirstaidSteps"}
-                                                navParam={"BasicIndikators"}
+                                                navParam={"BasicIndicators"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@firstaid"}
                                                 titleIndex={1}

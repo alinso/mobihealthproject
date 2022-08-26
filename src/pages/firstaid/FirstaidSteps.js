@@ -12,7 +12,7 @@ import FirstaidInfo from "./content/FirstaidInfo";
 import HtmlView from "react-native-htmlview";
 import Fundamentals from "./content/Fundamentals";
 import BasicApplications from "./content/BasicApplications";
-import BasicIndikators from "./content/BasicIndikators";
+import BasicIndikators from "./content/BasicIndicators";
 
 let progress =new Progress();
 
@@ -77,7 +77,7 @@ class FirstaidSteps extends React.Component {
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.basicApplications;
             this.titleIndex=2;
-        }else if (link === "BasicIndikators") {
+        }else if (link === "BasicIndicators") {
             getLocalContent(BasicIndikators, this);
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.basicIndicators;
