@@ -97,7 +97,7 @@ class FirstaidMenu extends React.Component {
                                                 navParam={"BasicApplications"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@firstaid"}
-                                                titleIndex={0}
+                                                titleIndex={2}
                                 />
                                 <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.info}
                                                 title={this.state.titles.basicIndicators}
@@ -105,7 +105,25 @@ class FirstaidMenu extends React.Component {
                                                 navParam={"BasicIndicators"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@firstaid"}
-                                                titleIndex={1}
+                                                titleIndex={3}
+                                />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
+                                                title={this.state.titles.basicLifeSupport}
+                                                href={"FirstaidSteps"}
+                                                navParam={"BasicLifeSupport"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={4}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.info}
+                                                title={this.state.titles.lifeKiss}
+                                                href={"FirstaidSteps"}
+                                                navParam={"LifeKiss"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={5}
                                 />
                             </View>
                         </View>
