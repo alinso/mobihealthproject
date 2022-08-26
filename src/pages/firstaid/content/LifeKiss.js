@@ -32,7 +32,7 @@ export default [
         "12-A respiração normal é feita, enquanto a cabeça está na posição queixo para cima, a boca é colocada para incluir a boca do paciente.\n\ɲ" +
         "13-Dar 2 respirações, cada uma com a duração de 1 segundo, o suficiente para levantar o peito do paciente. Dê tempo para o ar recuar. \n\ɲ" +
         "14-Após 30 massagens cardíacas, o paciente/lesionado é submetido a 2 respirações. Quando este processo é repetido 5 vezes, ele representa um ciclo. Em cada ciclo, a respiração do paciente/lesionado e o pulso carotídeo são verificados durante 5 segundos. \n\ɲ" +
-        "15O suporte básico de vida é continuado sem interrupções até que os reflexos vitais do paciente/lesionado ou a ajuda médica cheguem."
+        "15-O suporte básico de vida é continuado sem interrupções até que os reflexos vitais do paciente/lesionado ou a ajuda médica cheguem."
 
     ]
 ]
