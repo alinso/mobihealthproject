@@ -1,10 +1,10 @@
 export default[
     [
     "Koruma, Bildirme ve Kurtarma olarak ifade edilir. " +
-    " İlk yardımcı, acil bir durumda yaşam zincirinin birinci halkasında yer alan üç temel uygulama olan koruma, bildirme ve kurtarmayı öncelikli olarak yapmalıdır.  ",
+     "İlk yardımcı, acil bir durumda yaşam zincirinin birinci halkasında yer alan üç temel uygulama olan koruma, bildirme ve kurtarmayı öncelikli olarak yapmalıdır.  ",
 
     "<b>Koruma</b>\n\n" +
-     " Kaza sonuçlarının ağırlaşmasını önlemek için olay yerinde değerlendirme yapmak. " +
+    "Kaza sonuçlarının ağırlaşmasını önlemek için olay yerinde değerlendirme yapmak. " +
     "Olay yerinde oluşabilecek tehlikeleri belirleyerek güvenli bir çevre oluşturmak. ",
 
     "<b>Bildirme</b>\n\n" +
@@ -13,8 +13,8 @@ export default[
 
     "<b>Kurtarma</b>\n\n" +
     " Olay yerinde yaralılara müdahale yapılırken hızlı ancak sakin olmalıdır. İlk yardımcı önce kendi güvenliğini sonra olay yeri güvenliğini sağlamalıdır. Daha sonra hasta veya yaralının birinci değerlendirilmesi yapılır.  " +
-    "Birinci değerlendirmede amaç;Hastaveyayaralıiçinhayatitehlikeoluşturanunsurları belirlemek ve zamanında müdahale etmektir. Öncelikle bilinç değerlendirmesi yapılır çünkü bilincin kaybolmasından sonra çok kısa bir süre içinde solunum ve kalp durması gelişebilir. " +
-    "Bilinç kontrolündeyetişkin ve çocuk hasta veya yaralının omzuna dokunarak “iyi misiniz?” diye sorulur. Bebeklerde ise ayak tabanına hafifçe dokunularak bilinç kontrolü yapılır. Cevap alınabiliyorsa bilinç var demektir ve ikinci değerlendirmeye geçilir. Cevap alınamıyorsa bilinç yok anlamına gelir ve bildirim yapılarak acil tıbbiyardım istenir. Daha sonra hasta veya yaralının, ABC değerlendirmesine geçilir. ",
+    "Birinci değerlendirmede amaç; Hasta veya yaralı için hayati tehlike oluşturan unsurları belirlemek ve zamanında müdahale etmektir. Öncelikle bilinç değerlendirmesi yapılır çünkü bilincin kaybolmasından sonra çok kısa bir süre içinde solunum ve kalp durması gelişebilir. " +
+    "Bilinç kontrolünde yetişkin ve çocuk hasta veya yaralının omzuna dokunarak “İyi misiniz?” diye sorulur. Bebeklerde ise ayak tabanına hafifçe dokunularak bilinç kontrolü yapılır. Cevap alınabiliyorsa bilinç var demektir ve ikinci değerlendirmeye geçilir. Cevap alınamıyorsa bilinç yok anlamına gelir ve bildirim yapılarak acil tıbbiyardım istenir. Daha sonra hasta veya yaralının, ABC değerlendirmesine geçilir. ",
     ]
     ,
     [],
