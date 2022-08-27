@@ -17,7 +17,22 @@ export default[
     "Bilinç kontrolünde yetişkin ve çocuk hasta veya yaralının omzuna dokunarak “İyi misiniz?” diye sorulur. Bebeklerde ise ayak tabanına hafifçe dokunularak bilinç kontrolü yapılır. Cevap alınabiliyorsa bilinç var demektir ve ikinci değerlendirmeye geçilir. Cevap alınamıyorsa bilinç yok anlamına gelir ve bildirim yapılarak acil tıbbiyardım istenir. Daha sonra hasta veya yaralının, ABC değerlendirmesine geçilir. ",
     ]
     ,
-    [],
+    [
+    "There are 3 basic applications called Protection, Notification and Recovery." +
+    "In an emergency, the first aider should prioritize protection, reporting and rescue, which are the three basic practices in the first step of the life chain. ",
+
+    " <b>Protection</b>\n\n" +
+    " To conduct an on-scene assessment to prevent the aggravation of the accident consequences. Establishing a safe environment by identifying the hazards that may occur at the scene. ",
+
+     "<b>Notification</b>\n\n" +
+     "The incident is reported to the Emergency Health Services unit as quickly as possible. While making the notification, it should be kept very calm or a calm person should be called, questions should be answered clearly, street names should be given clearly when giving address information, and places that can be easily known by everyone should be described. ",
+
+     "<b>Recovery</b>\n\n" +
+     "People responding to the injured at the scene should be quick but calm. The first aider must first ensure their own safety and then the crime scene security. Then, the first evaluation of the patient or injured is made. ",
+
+
+
+    ],
     [
         "Existem 3 aplicações básicas chamadas Proteção, Notificação e Recuperação.  " +
         "Em caso de emergência, o primeiro socorrista deve dar prioridade à protecção, à comunicação e ao salvamento, que são as três práticas básicas na primeira etapa da cadeia de vida.  ",
