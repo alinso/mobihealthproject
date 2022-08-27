@@ -28,7 +28,34 @@ export default [
 
 
     ],
-    [],
+    [
+        "<b>First Aid</b>\n\n" +
+        "In case of a sudden illness or injury, they are quick and effective interventions made with the available facilities at the scene in order to protect the life of the person, prevent the deterioration of the health condition and support her recovery. First aid applications represent temporary support until professional medical assistance is provided and do not replace the actual medical diagnosis and treatment methods.\n",
+
+        "<b>Emergency Treatment</b>\n\n" +
+        "It is the medical interventions made by doctors and health personnel to the sick/injured in emergency treatment units.\n",
+
+        "<b>Basic Life Support</b>\n\n" +
+        "These are the non-medicated interventions that are performed to provide oxygen to the lungs with artificial respiration and to pump blood from the heart with external heart massage, after the airway patency is provided for the purpose of saving life.\n",
+
+
+        "<b>Aims of First Aid</b>\n\n" +
+        "1- To ensure the maintenance of vital functions\n\n" +
+        "2- To prevent the worsening of the condition of the sick or injured,\n\n" +
+        "3- To facilitate healing.\n\n" +
+        "4- To help the patient/injured to reach the nearest health institution safely.\n\n",
+
+        "<b>Life Saving Chain</b>\n\n" +
+        "All of the first aid and emergency care practices, which are continued uninterruptedly, starting from the person who first witnessed the event, to the hospital environment where the treatment is completed, are called the \"Life-Saving Chain\".\n" +
+        "The life-saving chain consists of 4 steps. The first two steps are protection, reporting, rescue and basic life support provided at the scene, which is the responsibility of the first aider and covers \n" +
+        "basic first aid practices. The last two steps are not the duty of the first aider, but the duty of professional health teams.\n",
+
+        "STEP 1 :Notifying the health institution\n" +
+        "STEP 2: Providing Basic Life Support at the scene\n" +
+        "STEP 3: Intervention by ambulance crews\n" +
+        "STEP 4: Intervention in hospital emergency services\n",
+
+    ],
     [
         "<b>Primeiros Socorros</b>\n\n " +
         "Em caso de lesão ou doença súbita, são intervenções rápidas e eficazes feitas com os meios disponíveis no local, para proteger a vida da pessoa, prevenir a deterioração do estado de saúde e apoiar na sua recuperação. O uso de primeiros socorros representa um apoio temporário até que seja prestada assistência médica profissional e não substitui o diagnóstico médico e os métodos de tratamento propriamente ditos. ",

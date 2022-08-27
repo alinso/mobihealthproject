@@ -13,7 +13,15 @@ export default [
         " İlk yardımda vücut ısısı koltuk altından ölçülmelidir. Normal vücut ısısı 36,5 C dir. Normal değerin üstü yüksek ateş, altı ise düşük ateş olarak belirtilir."
 
     ],
-    [],
+    [
+        "Before evaluating the patient/injured, the meaning of vital signs should be known. Because the presence or absence of these findings is important for the interventions to be made. When we say vital " +
+        "signs, we are talking about the consciousness, respiration, circulation, body temperature and blood pressure of the patient/injured.\n",
+
+        "<b>Respiratory arrest:</b> It is the deprivation of oxygen that the body needs to live due to the cessation of respiratory movements. If artificial respiration is not started immediately, cardiac arrest will occur after a while. While evaluating the patient's/injured's respiration, the frequency of respiration, the equality of respiratory intervals and the depth of respiration are checked. The respiratory rate of a healthy person is 12-20 per minute, 16-22 in children and 18-24 in infants.\n",
+
+        "<b>Cardiac arrest:</b> It is the absence of a heartbeat in an unconscious person. If cardiac arrest is not intervened as soon as possible, brain damage will occur as the oxygenation of the tissues will be impaired. Absence of breathing, unconsciousness and not responding to stimuli by not moving at all are symptoms of cardiac arrest. The feeling of the pressure exerted by the heartbeats on the arterial wall with the fingertips on the vessel wall is called the pulse. Normal heart rate in an adult is 60-100 beats per minute, 100-120 in children and 100-140 in infants. The pulse is taken from the jugular vein (both sides of the Adam's apple), the forearm vein (inner side of the wrist, the level of the thumb), the leg vein (center of the back of the foot) and the arm vein (inner side of the arm, above the elbow).\n",
+        "<b>Body Temperature:</b> In first aid, body temperature should be measured under the armpit. Normal body temperature is 36.5 C. Above the normal value is indicated as high fever, below the normal value is indicated as low fever."
+    ],
     [
         "Antes de avaliar o paciente, o significado dos sinais vitais devem ser conhecidos porque a presença ou ausência destes são importantes para saber quais as intervenções a serem feitas. Quando dizemos sinais vitais, estamos a falar da consciência, respiração, circulação, temperatura corporal e pressão sanguínea do paciente.\n",
 

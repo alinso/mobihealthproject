@@ -87,6 +87,7 @@ const styles = StyleSheet.create({
     },
     moduleStepImage: {
         width: "50%",
+        height:130,
         resizeMode: "contain",
         justifyContent: "center"
     },

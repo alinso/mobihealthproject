@@ -34,7 +34,16 @@ const Images={
             antibioticsPic:require("../assets/images/module/medicine/headerimages/antibiotics.jpg"),
             smartusePic:require("../assets/images/module/medicine/headerimages/smartusePic.jpg"),
             termsPic:require("../assets/images/module/medicine/headerimages/termsPic.jpg")
-            }
+            },
+        firstaid:{
+            amputation:require("../assets/images/module/firstaid/amputation.png"),
+            basicapplications:require("../assets/images/module/firstaid/basicapplications.png"),
+            basicindicators:require("../assets/images/module/firstaid/basicindicators.png"),
+            basiclifesupport:require("../assets/images/module/firstaid/basiclifesupport.png"),
+            bleed:require("../assets/images/module/firstaid/bleed.png"),
+            foreignbodysting:require("../assets/images/module/firstaid/foreignbodysting.png"),
+            lifekiss:require("../assets/images/module/firstaid/lifekiss.png")
+        }
     }
 };
 export default Images;

@@ -15,7 +15,9 @@ import BasicApplications from "./content/BasicApplications";
 import BasicIndikators from "./content/BasicIndicators";
 import LifeKiss from "./content/LifeKiss";
 import BasicLifeSupport from "./content/BasicLifeSupport";
-
+import Bleed from "./content/Bleed";
+import Amputation from "./content/Amputation";
+import ForeignBodySting from "./content/ForeignBodySting";
 let progress =new Progress();
 
 class FirstaidSteps extends React.Component {
@@ -94,6 +96,21 @@ class FirstaidSteps extends React.Component {
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.lifeKiss;
             this.titleIndex=5;
+        }else if (link === "Bleed") {
+            getLocalContent(Bleed, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.bleed;
+            this.titleIndex=6;
+        }else if (link === "Amputation") {
+            getLocalContent(Amputation, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.amputation;
+            this.titleIndex=7;
+        }else if (link === "ForeignBodySting") {
+            getLocalContent(ForeignBodySting, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.foreignBodySting;
+            this.titleIndex=8;
         }
 
         console.log(this.state.currentStep+1);
