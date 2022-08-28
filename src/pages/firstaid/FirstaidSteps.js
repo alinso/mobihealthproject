@@ -25,6 +25,14 @@ import StomaInjury from "./content/StomaInjury";
 import CrushInjury from "./content/CrushInjury";
 import Drowning from "./content/Drowning";
 import Poisoning from "./content/Poisoning";
+import BrokenBone from "./content/BrokenBone";
+import DetectionMethod from "./content/DetectionMethod";
+import BugSting from "./content/BugSting";
+import Bites from "./content/Bites";
+import Burn from "./content/Burn";
+import Freeze from "./content/Freeze";
+import ForeignBody from "./content/ForeignBody";
+import ChestPain from "./content/ChestPain";
 let progress =new Progress();
 
 class FirstaidSteps extends React.Component {
@@ -155,7 +163,48 @@ class FirstaidSteps extends React.Component {
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.poisoning;
             this.titleIndex=15;
+        }else if (link === "BrokenBone") {
+            getLocalContent(BrokenBone ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.brokenBone;
+            this.titleIndex=16;
+        }else if (link === "DetectionMethod") {
+            getLocalContent(DetectionMethod ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.detectionMethod;
+            this.titleIndex=17;
+        }else if (link === "BugSting") {
+            getLocalContent(BugSting ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.bugSting;
+            this.titleIndex=18;
+        }else if (link === "Bites") {
+            getLocalContent(Bites ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.bites;
+            this.titleIndex=19;
+        }else if (link === "Burn") {
+            getLocalContent(Burn ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.burn;
+            this.titleIndex=20;
+        }else if (link === "Freeze") {
+            getLocalContent(Freeze ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.freeze;
+            this.titleIndex=20;
+        }else if (link === "ForeignBody") {
+            getLocalContent(ForeignBody ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.foreignBody;
+            this.titleIndex=21;
+        }else if (link === "ChestPain") {
+            getLocalContent(ChestPain ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.chestPain;
+            this.titleIndex=21;
         }
+
 
         console.log(this.state.currentStep+1);
         progress.proceed("@firstaid",this.titleIndex,this.state.currentStep+1);

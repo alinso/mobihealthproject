@@ -200,7 +200,6 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-
                                 <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
                                                 title={this.state.titles.drowning}
                                                 href={"FirstaidSteps"}
@@ -216,6 +215,78 @@ class FirstaidMenu extends React.Component {
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@firstaid"}
                                                 titleIndex={15}
+                                />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.brokenBone}
+                                                href={"FirstaidSteps"}
+                                                navParam={"BrokenBone"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={16}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.detectionMethod}
+                                                href={"FirstaidSteps"}
+                                                navParam={"DetectionMethod"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={17}
+                                />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.bugSting}
+                                                href={"FirstaidSteps"}
+                                                navParam={"BugSting"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={18}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.bites}
+                                                href={"FirstaidSteps"}
+                                                navParam={"Bites"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={19}
+                                />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.burn}
+                                                href={"FirstaidSteps"}
+                                                navParam={"Burn"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={20}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.freeze}
+                                                href={"FirstaidSteps"}
+                                                navParam={"Freeze"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={21}
+                                />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.foreignBody}
+                                                href={"FirstaidSteps"}
+                                                navParam={"ForeignBody"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={21}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.chestPain}
+                                                href={"FirstaidSteps"}
+                                                navParam={"ChestPain"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={22}
                                 />
                             </View>
                         </View>
