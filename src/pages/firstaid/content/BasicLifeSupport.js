@@ -24,7 +24,30 @@ export default [
         "<b>C (Circulation) Dolaşımın değerlendirilmesi</b>\n\n " +
         "Dolaşımın değerlendirilmesi için ilk yardımcı; çocuk ve yetişkinlerde şah damarında, bebeklerde ise kol atardamarından 3 parmakla 5 saniye süreyle nabız almaya çalışır. İlk değerlendirme neticesinde hasta veya yaralınınbilincikapalı fakat solunum ve nabzı varsa hemen koma pozisyonu verilerek diğer yaralılar değerlendirilir. Başka yaralı yoksa tıbbi yardım gelene kadar yanından ayrılmadan takip edilir. "
     ],
-    [],
+    [
+            "<span style=\"font-weight: 400;\">Basic Life Support is the non-medicated intervention to open the airway in order to save life, and then to provide oxygen to the lungs with artificial respiration to the person whose heart has stopped, and to ensure adequate blood flow to the tissues by pumping blood from the heart with external heart massage.</span>\n" +
+            "<span style=\"font-weight: 400;\">It refers to the action to be taken after ensuring the safety of the casualty in the environment and calling the aid agency. If the patient is unconscious, ABC procedures should be started.</span>",
+
+        "<strong>Evaluation of A (Airway) Airway Openness</strong>\n" +
+        "<span style=\"font-weight: 400;\">Airway patency is evaluated. In case of partial obstruction of the airway, shortness of breath and cough are observed in the person. In this case, the patient can speak. In such a case, the patient is not touched and is encouraged to cough. This person should be closely monitored and no further action should be taken. The intervening person should be behind the patient.</span>\n" +
+        "<span style=\"font-weight: 400;\">If the airway is not open, the airway is opened. In the case of unconsciousness, the airway may be obstructed due to reasons such as tongue escaping, foreign body in the respiratory tract. The airway should be opened immediately after medical help is called. Gloves, if any, should be worn to ensure their own safety.</span>\n" +
+        "<ul>\n" +
+        "<li><span style=\"font-weight: 400;\">The patient or injured is laid on her back on a hard and flat surface with the axis of the head, neck and trunk straight.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">Clothes that make breathing difficult are loosened.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">The mouth of the patient or injured person is checked. If there is a visible foreign body, it is removed at one go. If the foreign body cannot be seen, it is absolutely not possible to enter the mouth without seeing it.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">While one hand is placed on the forehead of the sick or injured person and the head is pushed back, the head-chin position is given by pulling the chin forward and upwards with the 1st, 2nd and 3rd fingers of the other hand. When the head and jaw position is given, very hard movements should be avoided with the thought of head and spine injury. Thus, airway patency is ensured. </span></li>\n" +
+        "</ul>",
+
+        "<strong>B (Breathing) Evaluation of Breathing (Look, Listen, Feel)</strong>\n" +
+        "<span style=\"font-weight: 400;\">The first aider evaluates the patient's or injured's respiration with the look-listen-feel method for 5-10 seconds.</span>\n" +
+        "<span style=\"font-weight: 400;\">&nbsp;LOOK: The first aider turns her head sideways to observe the chest movements of the sick or injured person.</span>\n" +
+        "<span style=\"font-weight: 400;\">LISTEN: She tries to hear the breathing sounds by bringing her face close to the mouth of the sick or injured person.</span> <span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\">FEEL: She tries to feel the breath of the sick or injured person on her cheek. In cases where it is not possible to observe chest movements, one hand is placed on the chest and breathing is tried to be felt.</span>\n" +
+        "<span style=\"font-weight: 400;\">After it is clearly understood that there is no respiration, artificial respiration is started immediately.&nbsp;</span>",
+
+        "<strong>C (Circulation) Evaluation of circulation</strong>\n" +
+        "<span style=\"font-weight: 400;\">In order to evaluate the circulation, the first aider tries to take a pulse for 5 seconds with 3 fingers from the carotid artery in children and adults, and from the arm artery in infants. As a result of the first evaluation, if the patient or injured person is unconscious but has breathing and pulse, the other injured are evaluated by placing them in a coma position immediately. If there is no other injured person, she is followed without leaving her side until medical help arrives.</span>",
+
+    ],
     [
         "Suporte Básico de Vida é a intervenção não medicada para abrir as vias respiratórias a fim de salvar vidas, e depois fornecer oxigénio aos pulmões com respiração artificial para a pessoa cujo coração parou, e assegurar o fluxo de sangue adequado para os tecidos bombeando o sangue do coração com massagem cardíaca externa.  " +
         "Refere-se à ação a ser tomada após garantir a segurança da vítima no meio ambiente e chamar a agência de ajuda. Se o paciente estiver inconsciente, os procedimentos ABC devem ser iniciados. ",

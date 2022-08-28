@@ -1,4 +1,4 @@
-export default [
+export default  [
     [
         "Damar bütünlüğünün yapısının bozulması sonucu kanın damar dışına akmasına kanama denir. Kanamanın ciddiyeti; kanamanın hızı, vücutta kanın aktığı bölge, kanama miktarı ve kişinin fiziksel durumuna bağlıdır. Karamalar vücutta kanın aktığı bölgeye göre 3 grupta incelenir.\n\n" +
         "<b>Dış kanamalar:</b>Kanamanınvücuttan dışarıya akmasıdır. Bu kanamalar arter ( atardamar ), ven( toplardamar ) veya kılcal damar ( kapiller ) kanaması olabilir.\n\n" +
@@ -88,7 +88,117 @@ export default [
         "Burun kanamasında ilk yardım: Burun kanaması, doğrudan bir darbe sonucu olarak tek başına veya yüz yaralanması ile birlikte görülebilir. Hasta yaralı sakinleştirilir, endişeleri giderilir. Oturtulur burun hafifçe öne eğilir, burun kanatlarına 10-15 dakika süre ile basınç uygulanır.Hasta/yaralıya mümkün olduğunca konuşma, yutma, öksürme, tükürme ve koklama yapmaması gerektiği konusunda uyarın. 20 dakikadan sonra halen kanama devam ediyorsa 112 acil yardım numarasını arayarak veya aratarak yardım isteyin.\n\n" +
         "Kulak kanamalarında ilk yardım: Kulak kanaması iç ve dış kulak yolundaki bir yaralanmaya bağlı ortaya çıkabileceği gibi kafa travmaları gibi ciddi yaralanmalarda da görülebilir.Kanama hafifse temiz bir bezle temizlenir, kanama fazla ise kulak tıkamadan temiz bezle kapatılır. Bilinç açıksa hareket ettirilmeden sırt üstü yatırılır.Bilinç kapalı ve omurga hasarı yoksa kanayan kulağın üzerine yan yatırılır.112 acil yardım numarasını arayarak veya aratarak yardım isteyin.\n\n"
     ],
-    [],
+    [
+        "<span style=\"font-weight: 400;\">Hemorrhage is the flow of blood out of the vein as a result of the deterioration of the vascular integrity. The severity of bleeding depends on the rate of bleeding, the area of blood flow in the body, the amount of bleeding and the physical condition of the person. Bleeding is examined in 3 groups according to the region where the blood flows in the body.</span>" +
+        "<ol>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"2\"><strong><em>External bleeding: </em></strong><span style=\"font-weight: 400;\">It is bleeding out of the body. These bleedings can be arterial, vein and capillary bleeding.</span></li>" +
+
+        "<li style=\"font-weight: 400;\" aria-level=\"3\"><strong><em>Arterial Bleeding</em></strong><span style=\"font-weight: 400;\">: It is intermittent, severe and bright light red in color in harmony with the heartbeats.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"3\"><strong><em>Vein Bleeding</em></strong><span style=\"font-weight: 400;\">: It occurs in the form of dark color and leakage.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"2\"><strong><em>Capillary Bleeding</em></strong><span style=\"font-weight: 400;\">: It comes in the form of small bubbles.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"2\"><strong><em>Internal Bleeding:</em></strong><span style=\"font-weight: 400;\"> Bleeding has developed inside the body. It is invisible.</span></li>" +
+        "</ol>" +
+        "<strong><em>Bleeding from natural holes:</em></strong><span style=\"font-weight: 400;\"> Bleeding from ear, nose, anus and reproductive organs.</span>",
+
+
+        "<strong>PRESSURE POINTS</strong>" +
+        "<span style=\"font-weight: 400;\">It is very important to monitor the signs of shock in the evaluation of bleeding. In arterial bleeding, the blood gushes out with pressure and the patient may die by losing too much blood in a short time. In this type of bleeding, the main thing to do is to apply pressure on the bleeding site or an upper artery area close to the bleeding site. There are pressure points designated for this purpose on the body.</span>" +
+        "<strong>Pressure Points</strong>" +
+        "<ol>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Neck: Neck artery (Carotid Vein) pressure place</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Above the collarbone. Artery pressure site.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Armpit: The pressure area of the arm artery.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Upper arm: Arterial pressure site.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Inguinal: The pressure site of the leg artery.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Thigh: Leg artery pressure site</span></li>" +
+        "</ol>",
+
+        "<strong>First Aid for External Bleeding:&nbsp;</strong>" +
+        "<ul>" +
+        "<li><span style=\"font-weight: 400;\">The first aider introduces herself and calms the patient / injured.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The patient/injured is placed on his back and not moved as much as possible.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The airway, respiration and circulation are evaluated.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Medical assistance is requested (112).</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Wound or bleeding is evaluated.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The bleeding site is pressed with a clean cloth. Constant and uninterrupted pressure is applied for at least 5 minutes.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">If the bleeding does not stop, pressure is applied with a second cloth without removing the first cloth.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">If necessary, the pressure is increased by wrapping the bandage. If the bleeding does not stop within 10 minutes, more material is added on the first placed material and the compression area is expanded.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The bleeding area is lifted up.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">If there is only one first aider in an environment where there are many injured people, if the injured is to be transported to a place in difficult conditions, if there is a limb amputation, if it is not enough to apply pressure to the pressure points, a tourniquet (Strict Bandage) can be applied.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The patient/wounded is covered so that the bleeding area remains outside.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Shock position is given.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Vital signs are evaluated at frequent intervals (every 2-3 minutes).</span></li>" +
+        "<li><span style=\"font-weight: 400;\">It should be ensured that the sick or injured are transported quickly.</span></li>" +
+        "</ul>",
+
+        "<strong>What should be considered in the tourniquet application?</strong>" +
+        "<ul>" +
+        "<li><span style=\"font-weight: 400;\">Cutting materials such as rope and wire should not be used in tourniquet application. A wide, non-stretch wrap or fabric should be used.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The width of the material to be used should be at least 5-10 centimeters.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Materials such as wood and pencil can be used to tighten the tourniquet.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The tourniquet is tightened until the bleeding stops and fixed after the bleeding stops.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The tourniquet applied area is not covered.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The tourniquet application time should be noted on the patient and the tourniquet is loosened at intervals of 15-20 minutes to ensure blood flow to the bleeding area. Prolonged application of tourniquet may cause death of tissues.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The tourniquet is applied to the area closest to the bleeding and where the skin integrity is intact.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The tourniquet is applied to single bony areas such as the arm and thigh bone.</span></li>" +
+        "</ul>",
+
+        "<strong><em>First Aid for Internal Bleeding</em></strong>" +
+        "<span style=\"font-weight: 400;\">Internal bleeding may occur due to severe trauma, blow, fracture, gunshot wound.&nbsp;</span>" +
+        "<strong><em>Signs and symptoms seen in the case of internal bleeding;</em></strong>" +
+        "<ul>" +
+        "<li><span style=\"font-weight: 400;\">Shock symptoms</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Bleeding from the mouth, nose, or anus&nbsp;</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Increase in respiratory rate</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Cold, pale, and clammy skin sign. Paleness or bruising around the lips</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Increased heart rate and weak pulse</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Weakness, restlessness and anxiety</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Abdominal and chest pain</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Nausea-vomiting</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Sensation of thirst</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Swelling in the abdomen or chest</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Change of consciousness and sleepiness</span></li>" +
+        "</ul>" +
+        "<strong><em>The following procedures should be performed in those with suspected internal bleeding:</em></strong>" +
+        "<ul>" +
+        "<li><span style=\"font-weight: 400;\">The consciousness of the patient/injured is evaluated.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Medical assistance is requested (112).</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The patient / injured is placed on her back and is not moved as much as possible.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">The airway, respiration and circulation are evaluated.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">At the same time, if there is external bleeding, direct pressure or pressure bandage is applied.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">If the clothes on the patient/injured are tight, loosen them.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The patient or injured is covered. If there are signs of shock and there are no broken legs, the shock position is given.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">No food or drink is given to the patient/injured person.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The consciousness and vital signs of the patient/injured are checked every 2-3 minutes.</span></li>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The referral to the health institution is provided</span><span style=\"font-weight: 400;\">.</span></li>" +
+        "</ul>",
+
+        "<strong>Shock Types</strong>" +
+        "<ol>" +
+        "<li><span style=\"font-weight: 400;\">Cardiogenic Shock (Heart Origin)</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Hypovolemic Shock (Fluid Deficiency)</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Toxic Shock (Related to Poisoning)</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Anaphylactic Shock (Allergic)</span></li>" +
+        "</ol>" +
+        "<strong>How is the Shock Position given?</strong>" +
+        "<ul>" +
+        "<li><span style=\"font-weight: 400;\">Lay the patient/injured flat on their back.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Elevate patient/injured legs to approximately 30 to 60 degrees.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Put support under your legs.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Keep the patient/injured warm by covering them.</span></li>" +
+        "</ul>",
+
+        "<strong>First aid for bleeding from natural holes:</strong>" +
+        "<ul>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"2\"><strong>First aid for nosebleeds</strong><span style=\"font-weight: 400;\">: Nosebleeds can occur alone or in combination with facial injury as a result of a direct blow. The patient/injured is calmed down and their worries are relieved. The nose is slightly bent forward, pressure is applied to the wings of the nose for 10-15 minutes. Warn the patient/injured to avoid speaking, swallowing, coughing, spitting or sniffing as much as possible. If bleeding still continues after 20 minutes, seek help by calling or dialing the 112 emergency number.</span></li>" +
+        "</ul>" +
+        "&nbsp;" +
+        "<ul>" +
+        "<li style=\"font-weight: 400;\" aria-level=\"2\"><strong>First aid for ear bleeding: </strong><span style=\"font-weight: 400;\">Ear bleeding can occur due to an injury to the inner and outer ear canal, or it can be seen in serious injuries such as head trauma. If the bleeding is light, it is cleaned with a clean cloth, if the bleeding is excessive, it is covered with a clean cloth without blocking the ear. If conscious, lie on his back without being moved. If unconscious and no spinal damage is present, it is placed on its side over the bleeding ear. Ask for help by calling or dialing the 112 emergency number.</span></li>" +
+        "</ul>",
+
+
+    ],
     [
         "Hemorragia é o fluxo: de sangue que sai da veia como resultado da deterioração da integridade vascular. A gravidade da hemorragia depende da taxa a esta associada, da área de fluxo sanguíneo no corpo, da quantidade de sangue e do estado físico da pessoa. A hemorragia é examinada em 3 grupos de acordo com a região onde o sangue flui no corpo.\n\n" +
         "<b>Hemorragia externa:</b> Está a sangrar para fora do corpo. Estas hemorragias podem ser arteriais, venosas e capilares. \n\n" +
@@ -108,7 +218,7 @@ export default [
         "-Coxa: Local da pressão da artéria da perna \n\n",
 
         "<b>Primeiros socorros para hemorragia externa:</b> \n\n" +
-        "-O primeiro socorrista apresenta-se e acalma o paciente / ferido. \n\n" +
+            "-O primeiro socorrista apresenta-se e acalma o paciente / ferido. \n\n" +
         "-O paciente/lesionado é colocado de costas e não se move tanto quanto possível. \n\n" +
         "-As vias respiratórias, a respiração e a circulação são avaliadas. \n\n" +
         "-É solicitada assistência médica (112). \n\n" +

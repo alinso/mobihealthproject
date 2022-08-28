@@ -16,7 +16,23 @@ export default [
         "14-Hasta/ yaralıya 30 kalp masajından sonra 2 solunum yaptırılır. Bu işlem 5 kez tekrar edildiğinde bir siklusu ifade eder. Her siklusta hasta/ yaralının solunumu ve şah damarından nabzı 5 sn süreyle kontrol edilir.\n\ɲ" +
         "15-Temel yaşam desteğine hasta/ yaralının yaşamsal refleksleri veya tıbbi yardım gelene kadar kesintisiz devam edilir.\n\ɲ"
     ],
-    [],
+    [
+        "<ol>\n" +
+        "<li><span style=\"font-weight: 400;\">The patient / injured is placed on her back on a hard surface and kneels next to her.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">The clothes covering the neck and chest of the patient/injured are unfastened.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">The patient's/injured's mouth is checked, and any visible foreign body is removed.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">The patient is placed in a head-back-chin-up position and the patient's breathing is checked for 10 seconds using the look-listen-feel method.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">If the patient/injured has no breathing, first call emergency ambulance service.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">To apply cardiac compression, the lower and upper ends of the sternum are identified and the heel of one hand is placed on the lower half.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">The other hand is placed on this hand and the fingers of both hands are interlocked.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">The fingers of the hands are held upright on the sternum, without touching the sternum, without bending the elbow.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">30 heart compressions are applied so that the sternum descends 4-5 cm (1/3 of the chest height when viewed from the side). The speed of this process is set at 100 pressures per minute.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">The head-back chin-up position is reinstated and the airway is opened.&nbsp;</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">Using the thumb and forefinger of the hand placed on the forehead, the patient's nose is closed.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">A normal breath is taken, while the head is in the chin-up position, the mouth is placed to include the patient's mouth.</span></li>\n" +
+        "<li><span style=\"font-weight: 400;\">Give 2 breaths, each lasting 1 second, enough to raise the patient's chest. Allow time for the air to back up.</span></li>\n" +
+        "</ol>"
+    ],
     [
         "1-O paciente / ferido é colocado de costas sobre uma superfície dura e ajoelha-se ao seu lado. \n\ɲ" +
         "2-As roupas que cobrem o pescoço e o peito do paciente/doente lesionado são desapertadas. \n\ɲ" +

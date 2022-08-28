@@ -18,6 +18,10 @@ import BasicLifeSupport from "./content/BasicLifeSupport";
 import Bleed from "./content/Bleed";
 import Amputation from "./content/Amputation";
 import ForeignBodySting from "./content/ForeignBodySting";
+import Choking from "./content/Choking";
+import HeadInjury from "./content/HeadInjury";
+import ChestInjury from "./content/ChestInjury";
+import StomaInjury from "./content/StomaInjury";
 let progress =new Progress();
 
 class FirstaidSteps extends React.Component {
@@ -111,6 +115,28 @@ class FirstaidSteps extends React.Component {
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.foreignBodySting;
             this.titleIndex=8;
+        }else if (link === "Choking") {
+            getLocalContent(Choking, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.choking;
+            this.titleIndex=9;
+        }
+        else if (link === "HeadInjury") {
+            getLocalContent(HeadInjury, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.headInjury;
+            this.titleIndex=10;
+        }else if (link === "ChestInjury") {
+            getLocalContent(ChestInjury, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.chestInjury;
+            this.titleIndex=11;
+        }
+        else if (link === "StomaInjury") {
+            getLocalContent(StomaInjury, this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.stomaInjury;
+            this.titleIndex=12;
         }
 
         console.log(this.state.currentStep+1);

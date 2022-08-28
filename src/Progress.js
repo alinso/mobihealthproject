@@ -10,8 +10,7 @@ class Progress {
         this.medicineLimit = [1, 9, 8, 3, 3, 1, 2, 2, 2, 5, 3, 5, 1, 1, 3, 3, 1];
 
         this.firstaidCurrent=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0,0,0,0];
-        this.firstaidLimit = [1, 5, 4, 4, 4, 1, 10, 1, 1, 13, 5, 3, 3, 2, 4, 9,8,7,4,3,1];
-
+        this.firstaidLimit = [1, 5, 4, 4, 4, 1, 10, 1, 1, 11, 3, 3, 3, 2, 4, 9,8,7,4,3,1];
 
 
         let self = this;
@@ -76,6 +75,8 @@ class Progress {
     }
 
     async isAllowed(moduleName, titleIndex) {
+
+        return true;
 
         let self = this;
         let res;

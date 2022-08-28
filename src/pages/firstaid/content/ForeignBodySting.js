@@ -11,7 +11,19 @@ export  default [
         "<li><span style=\"font-weight: 400;\">112 acil yardım numarası aranmadı ise arayın veya aratın</span></li>" +
         "</ul>"
     ],
-    [],
+    [
+"<strong>Foreign Body Penetration&nbsp;</strong>" +
+"<ul>" +
+"<li><span style=\"font-weight: 400;\">Never remove or move the object. While the object is being removed, it may damage the surrounding tissues and increase bleeding.</span></li>" +
+"<li><span style=\"font-weight: 400;\">Check for possible injuries where the object passes.</span></li>" +
+"<li><span style=\"font-weight: 400;\">Place gauze, a roll of gauze or clean cloth to hold the object in position in the wound.</span></li>" +
+"<li><span style=\"font-weight: 400;\">Without applying any force to the object, bandage the cloths you have placed around the object with bandages or similar fabrics.</span></li>" +
+"<li><span style=\"font-weight: 400;\">Round bandages, if available, are made for this type of injury. Or make a round bandage with the materials you have at hand.&nbsp;</span></li>" +
+"<li><span style=\"font-weight: 400;\">Make sure the bandage is firm enough to stop the bleeding but not cut off all blood flow.</span></li>" +
+"<li><span style=\"font-weight: 400;\">Check for signs that the bandage is too tight (increasing pain, numbness or tingling, skin discoloration, and loss of muscle function).&nbsp;</span></li>" +
+"<li><span style=\"font-weight: 400;\">If the 112 emergency number has not been called, call or make somebody call.&nbsp;</span></li>" +
+"</ul>"
+    ],
     [
         "<ul>" +
         "<li><span style=\"font-weight: 400;\">Nunca remover ou mover o objeto. Enquanto o objeto est&aacute; a ser removido, pode danificar os tecidos circundantes e aumentar a hemorragia.&nbsp;</span></li>" +

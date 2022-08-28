@@ -154,13 +154,31 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={8}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.amputation}
-                                                title={this.state.titles.amputation}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.choking}
                                                 href={"FirstaidSteps"}
-                                                navParam={"Amputation"}
+                                                navParam={"Choking"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@firstaid"}
-                                                titleIndex={7}
+                                                titleIndex={9}
+                                />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.bleed}
+                                                title={this.state.titles.headInjury}
+                                                href={"FirstaidSteps"}
+                                                navParam={"HeadInjury"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={10}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.stomaInjury}
+                                                href={"FirstaidSteps"}
+                                                navParam={"StomaInjury"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={11}
                                 />
                             </View>
                         </View>

@@ -29,11 +29,8 @@ export default[
 
      "<b>Recovery</b>\n\n" +
      "People responding to the injured at the scene should be quick but calm. The first aider must first ensure their own safety and then the crime scene security. Then, the first evaluation of the patient or injured is made. " +
-     "In the first evaluation, the aim is to identify the life-threatening factors for the patient or injured and to intervene in a timely manner. First of all, consciousness is evaluated because respiratory and cardiac arrest may develop in a very short time after the loss of consciousness.
-
-      "During the consciousness check, the patient is asked if you are okay by touching the shoulder of the injured person. In infants, consciousness is checked by lightly touching the soles of the feet. If an answer can be obtained, it means that there is consciousness and the second evaluation is started. If there is no response, it means there is no consciousness and emergency medical help is requested by notification. Then, ABC evaluation of the patient or injured person is started. ",
-
-
+     "In the first evaluation, the aim is to identify the life-threatening factors for the patient or injured and to intervene in a timely manner. First of all, consciousness is evaluated because respiratory and cardiac arrest may develop in a very short time after the loss of consciousness."+
+      "During the consciousness check, the patient is asked if you are okay by touching the shoulder of the injured person. In infants, consciousness is checked by lightly touching the soles of the feet. If an answer can be obtained, it means that there is consciousness and the second evaluation is started. If there is no response, it means there is no consciousness and emergency medical help is requested by notification. Then, ABC evaluation of the patient or injured person is started. "
 
     ],
     [

@@ -19,7 +19,25 @@ export default [
         "<li><span style=\"font-weight: 400;\">Uzuv par&ccedil;ası tam kopmamış ise aradaki kopmayan yapıları kesinlikle kesmeyin. Par&ccedil;ayı normal pozisyonuna getirin ve kuru, varsa steril bir gazlı bez veya temiz bir beze sararak &uuml;zerine bir buz paketi yerleştirin.</span></li>" +
         "</ul>"
     ],
-    [],
+    [
+        "<span style=\"font-weight: 400;\">Limb amputation is an external bleeding that can cause severe bleeding. It requires intervention on both the patient/injured person and the severed limb.</span>" +
+        "<span style=\"font-weight: 400;\"><strong>Intervention of the Patient Herself</strong></span>" +
+        "<ul>" +
+        "<li><span style=\"font-weight: 400;\">Apply direct pressure to the wound.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Dress and apply bandage.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">If there is severe bleeding, apply a tourniquet.</span></li>" +
+        "</ul>" +
+        "<strong><em>Severed Limb Intervention</em></strong>" +
+        "<ul>" +
+        "<li><span style=\"font-weight: 400;\">Never wash or wet the severed limb with water or any liquid.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Wrap the amputated limb in a clean (sterile) gauze or clean cloth, if any.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Place the amputated limb in a clean, waterproof, sealed plastic bag.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Place the bag containing the amputated limb in a second bag containing ice.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">Put the bag in the same vehicle with the patient/injured, write the patient's name and surname on it ensure that the injured person reaches a health institution within 6 (six) hours at the latest.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">If the 112 emergency number has not been called, call.</span></li>" +
+        "<li><span style=\"font-weight: 400;\">If the part of the limb is not completely broken, never cut the non-breaking structures in between. Return the piece to its normal position and wrap it in a dry, sterile gauze or clean cloth and place an ice pack on it.</span></li>" +
+        "</ul>"
+    ],
     [
      "<p><b>Amputa&ccedil;&atilde;o de membros</b></p>" +
      "<p><span style=\"font-weight: 400;\">A amputa&ccedil;&atilde;o dos membros &eacute; uma hemorragia externa que pode causar hemorragias graves. Requer interven&ccedil;&atilde;o tanto no paciente/ferido como no membro amputado.</span></p>" +
