@@ -22,6 +22,9 @@ import Choking from "./content/Choking";
 import HeadInjury from "./content/HeadInjury";
 import ChestInjury from "./content/ChestInjury";
 import StomaInjury from "./content/StomaInjury";
+import CrushInjury from "./content/CrushInjury";
+import Drowning from "./content/Drowning";
+import Poisoning from "./content/Poisoning";
 let progress =new Progress();
 
 class FirstaidSteps extends React.Component {
@@ -137,6 +140,21 @@ class FirstaidSteps extends React.Component {
             this.image = Images.module.medicine.infoPic;
             stepsTitle = this.state.titles.stomaInjury;
             this.titleIndex=12;
+        } else if (link === "CrushInjury") {
+            getLocalContent(CrushInjury ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.crushIjnhury;
+            this.titleIndex=13;
+        }else if (link === "Drowning") {
+            getLocalContent(Drowning ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.drowning;
+            this.titleIndex=14;
+        }else if (link === "Poisoning") {
+            getLocalContent(Poisoning ,this);
+            this.image = Images.module.medicine.infoPic;
+            stepsTitle = this.state.titles.poisoning;
+            this.titleIndex=15;
         }
 
         console.log(this.state.currentStep+1);

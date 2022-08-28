@@ -181,6 +181,43 @@ class FirstaidMenu extends React.Component {
                                                 titleIndex={11}
                                 />
                             </View>
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.bleed}
+                                                title={this.state.titles.chestInjury}
+                                                href={"FirstaidSteps"}
+                                                navParam={"ChestInjury"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={12}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.bleed}
+                                                title={this.state.titles.crushIjnhury}
+                                                href={"FirstaidSteps"}
+                                                navParam={"CrushInjury"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={13}
+                                />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.drowning}
+                                                href={"FirstaidSteps"}
+                                                navParam={"Drowning"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={14}
+                                />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                                title={this.state.titles.poisoning}
+                                                href={"FirstaidSteps"}
+                                                navParam={"Poisoning"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@firstaid"}
+                                                titleIndex={15}
+                                />
+                            </View>
                         </View>
                         <View style={{flex: 1}}/>
                     </View>
