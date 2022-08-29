@@ -139,14 +139,15 @@ class ModuleList extends React.Component {
                                 <ModuleProgress progress={0}/>
 
                             </View>
-                            <View style={styles.moduleListItem}>
+                            <TouchableOpacity style={styles.moduleListItem}
+                                              onPress={() => this.props.navigation.navigate("HealthyLifeMenu")}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/passive/healthylife-menu.png")}
                                 />
-                                <Text>{this.state.titles.health}</Text>
+                                <Text>{this.state.titles.healthyLife}</Text>
                                 <ModuleProgress progress={0}/>
+                            </TouchableOpacity>
 
-                            </View>
                         </View>
                         <View style={{flexDirection: "row"}}>
                             <View style={{flex: 2,alignItems:"center", marginTop:"12%",marginBottom:"-35%" }}>

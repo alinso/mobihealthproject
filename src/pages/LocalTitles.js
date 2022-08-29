@@ -4,7 +4,7 @@ export default [{
     medicine: "İlaçlar",
     sickness: "Hastalıklar",
     firstaid: "İlk Yardım",
-    health: "Sağlıklı Yaşam",
+    healthyLife: "Sağlıklı Yaşam",
 
     info: "Modül Bilgisi",
     fundamentals1: "Temel Kavramlar-1",
@@ -49,6 +49,22 @@ export default [{
     foreignBody:"Yabancı Cisim Kaçması",
     chestPain:"Göğüs Ağrısı",
 
+    nutrition:"Besin Ögeleri",
+    foodTypes:"Besin Grupları",
+    physicalActivity: "Fisiksel Aktivite",
+    obesity:"Obezite",
+    bodyTypes:"Çeşitli Vücut Tanımlamaları",
+    pregnancy:"Gebelik Döneminden Beslenme",
+    biberon:"Emzirme Döneminde Beslenme",
+    oldPeople:"Yaşlıarda Beslenme",
+    workers:"İşçilerde Beslenme",
+    sportsmen:"Sporcularda Beslenme",
+    vegetarian:"Vejeteryan Beslenme",
+    chronicles:"Kronik Hastalıklarda Beslenme",
+    diets:"Sağlıkı Diyetler",
+    foodSafety:"Besin Güvenliği",
+
+
     lockWarning:"Bu sayfaya geçmek için önceki sayfaları tamamlayınız.",
     about:"Uygulama Hakkında"
 },
@@ -58,7 +74,7 @@ export default [{
         medicine: "Medications",
         sickness: "Sickness",
         firstaid: "First Aid",
-        health: "Healthy Life",
+        healthyLife: "Healthy Life",
         info: "Module Information",
         fundamentals1: "Fundamentals-1",
         fundamentals2: "Fundamentals-2",
@@ -103,6 +119,20 @@ export default [{
         foreignBody:"Foreign Body",
         chestPain: "Chest Pain",
 
+        nutrition:"Nutrition",
+        foodTypes: "Nutrition Groups",
+        physicalActivity: "Phsical Activity",
+        obesity: "Obesity",
+        bodyTypes:"Body Definitions",
+        pregnancy:"Pregnancy Diet",
+        biberon:"New Mother Diet",
+        oldPeople:"Elderly Diet",
+        workers:"Worker Diet",
+        sportsmen:"Sportsmen Diet",
+        vegetarian:"Vegetarian Diet",
+        chronicles:"Chronic İllness Diet",
+        diets:"Healthy Diets",
+        foodSafety:"Food Security",
 
         lockWarning:"Please complete previous steps to unlock this page",
         about:"About This App"
@@ -114,7 +144,7 @@ export default [{
         medicine: "Medicamentos",
         sickness: "Doença",
         firstaid: "Primeiro Socorro",
-        health: "Vida Saudável",
+        healthyLife: "Vida Saudável",
         info: "Informaçao do Módulo",
         fundamentals1: "Conceitos Fundamentais-1",
         fundamentals2: "Conceitos fundamentais-2",
@@ -160,6 +190,21 @@ export default [{
         chestPain: "DOR NO PEITO ",
 
 
+        nutrition:"Nutriçao",
+        foodTypes: "Grupos de Nutrição",
+        physicalActivity:"Atividade Física",
+        obesity:"Obesidade",
+        bodyTypes:"Tipos de corpo",
+        pregnancy:"Dieta da gravidez",
+        biberon:"Dieta da nova mãe",
+        oldPeople:"dieta de idosos",
+        workers:"dieta do trabalhador",
+        sportsmen:"dieta de desportistas",
+        vegetarian:"dieta vegetariana",
+        chronicles:"Dieta para Doenças Crônicas",
+        diets:"Dieta saudável",
+        foodSafety:"Comida segura",
+
         lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página",
         about:"Sobre Este Aplicativo"
     },
@@ -169,7 +214,7 @@ export default [{
         medicine: "Medikamente",
         sickness: "Krankheit",
         firstaid: "Erste Hilfe",
-        health: "Gesundes Leben",
+        healthyLife: "Gesundes Leben",
 
         info: "Modul Informationen",
         fundamentals1: "Grundsätzliche Konzepte-1",
@@ -188,6 +233,22 @@ export default [{
         antibiotics: "Antibiotika",
         smartuse: "Rationeller Einsatz Von Medikamenten",
         medicineTerms: "Allgemeine Medikamentebegriffe",
+
+        nutrition: "Ernährung",
+        foodTypes: "Ernährungsarten",
+        physicalActivity: "Physische Aktivität",
+        obesity:"Fettleibigkeit",
+        bodyTypes:"Körpertypen",
+        pregnancy:"Schwangere Diät",
+        biberon:"Neue Mutterdiät",
+        oldPeople:"alte menschen ernährung",
+        workers:"Arbeiter Ernährung",
+        sportsmen:"Sportler Diät",
+        vegetarian:"Vegetarische Diät",
+        chronicles:"Ernährung bei chronischen Krankheiten",
+        diets:"Gesunde Ernährung",
+        foodSafety:"Lebensmittelkontrolle",
+
 
         lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren",
         about:"Über Diese App"
