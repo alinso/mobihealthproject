@@ -83,124 +83,124 @@ class FirstaidSteps extends React.Component {
         let stepsTitle;
         if (link === "FirstaidInfo") {
             getLocalContent(FirstaidInfo, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.infoPic;
             stepsTitle = this.state.titles.info;
             this.titleIndex=0;
         }else if (link === "Fundamentals") {
             getLocalContent(Fundamentals, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.fundamentalsPic;
             stepsTitle = this.state.titles.fundamentals;
             this.titleIndex=1;
         }else if (link === "BasicApplications") {
             getLocalContent(BasicApplications, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.basicapplicationsPic;
             stepsTitle = this.state.titles.basicApplications;
             this.titleIndex=2;
         }else if (link === "BasicIndicators") {
             getLocalContent(BasicIndikators, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.basicindicators;
             stepsTitle = this.state.titles.basicIndicators;
             this.titleIndex=3;
         }else if (link === "BasicLifeSupport") {
             getLocalContent(BasicLifeSupport, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.basiclifesupportPic;
             stepsTitle = this.state.titles.basicLifeSupport;
             this.titleIndex=4;
         }else if (link === "LifeKiss") {
             getLocalContent(LifeKiss, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.lifekissPic;
             stepsTitle = this.state.titles.lifeKiss;
             this.titleIndex=5;
         }else if (link === "Bleed") {
             getLocalContent(Bleed, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.bleedPic;
             stepsTitle = this.state.titles.bleed;
             this.titleIndex=6;
         }else if (link === "Amputation") {
             getLocalContent(Amputation, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.amputationPic;
             stepsTitle = this.state.titles.amputation;
             this.titleIndex=7;
         }else if (link === "ForeignBodySting") {
             getLocalContent(ForeignBodySting, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.foreignBodyStingPic;
             stepsTitle = this.state.titles.foreignBodySting;
             this.titleIndex=8;
         }else if (link === "Choking") {
             getLocalContent(Choking, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.chokingPic;
             stepsTitle = this.state.titles.choking;
             this.titleIndex=9;
         }
         else if (link === "HeadInjury") {
             getLocalContent(HeadInjury, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.headInjuryPic;
             stepsTitle = this.state.titles.headInjury;
             this.titleIndex=10;
         }else if (link === "ChestInjury") {
             getLocalContent(ChestInjury, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.chestInjuryPic;
             stepsTitle = this.state.titles.chestInjury;
             this.titleIndex=11;
         }
         else if (link === "StomaInjury") {
             getLocalContent(StomaInjury, this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.stomaInjuryPic;
             stepsTitle = this.state.titles.stomaInjury;
             this.titleIndex=12;
         } else if (link === "CrushInjury") {
             getLocalContent(CrushInjury ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.crushInjuryPic;
             stepsTitle = this.state.titles.crushIjnhury;
             this.titleIndex=13;
         }else if (link === "Drowning") {
             getLocalContent(Drowning ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.drowningPic;
             stepsTitle = this.state.titles.drowning;
             this.titleIndex=14;
         }else if (link === "Poisoning") {
             getLocalContent(Poisoning ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.poisoningPic;
             stepsTitle = this.state.titles.poisoning;
             this.titleIndex=15;
         }else if (link === "BrokenBone") {
             getLocalContent(BrokenBone ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.brokenBonePic;
             stepsTitle = this.state.titles.brokenBone;
             this.titleIndex=16;
         }else if (link === "DetectionMethod") {
             getLocalContent(DetectionMethod ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.detectionMethodPic;
             stepsTitle = this.state.titles.detectionMethod;
             this.titleIndex=17;
         }else if (link === "BugSting") {
             getLocalContent(BugSting ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.bugStingPic;
             stepsTitle = this.state.titles.bugSting;
             this.titleIndex=18;
         }else if (link === "Bites") {
             getLocalContent(Bites ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.bitesPic;
             stepsTitle = this.state.titles.bites;
             this.titleIndex=19;
         }else if (link === "Burn") {
             getLocalContent(Burn ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.burnPic;
             stepsTitle = this.state.titles.burn;
             this.titleIndex=20;
         }else if (link === "Freeze") {
             getLocalContent(Freeze ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.freezePic;
             stepsTitle = this.state.titles.freeze;
             this.titleIndex=20;
         }else if (link === "ForeignBody") {
             getLocalContent(ForeignBody ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.foreignBodyPic;
             stepsTitle = this.state.titles.foreignBody;
             this.titleIndex=21;
         }else if (link === "ChestPain") {
             getLocalContent(ChestPain ,this);
-            this.image = Images.module.medicine.infoPic;
+            this.image = Images.module.firstaid.chestPainPic;
             stepsTitle = this.state.titles.chestPain;
             this.titleIndex=21;
         }

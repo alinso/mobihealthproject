@@ -82,7 +82,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={0}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.fundamentals}
                                                 title={this.state.titles.fundamentals}
                                                 href={"FirstaidSteps"}
                                                 navParam={"Fundamentals"}
@@ -146,7 +146,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.foreignbodysting}
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.foreignBodySting}
                                                 title={this.state.titles.foreignBodySting}
                                                 href={"FirstaidSteps"}
                                                 navParam={"ForeignBodySting"}
@@ -154,7 +154,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={8}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.choking}
                                                 title={this.state.titles.choking}
                                                 href={"FirstaidSteps"}
                                                 navParam={"Choking"}
@@ -164,7 +164,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.headInjury}
                                                 title={this.state.titles.headInjury}
                                                 href={"FirstaidSteps"}
                                                 navParam={"HeadInjury"}
@@ -172,7 +172,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={10}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.stomaInjury}
                                                 title={this.state.titles.stomaInjury}
                                                 href={"FirstaidSteps"}
                                                 navParam={"StomaInjury"}
@@ -182,7 +182,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.chestInjury}
                                                 title={this.state.titles.chestInjury}
                                                 href={"FirstaidSteps"}
                                                 navParam={"ChestInjury"}
@@ -190,7 +190,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={12}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.crushIjnhury}
                                                 title={this.state.titles.crushIjnhury}
                                                 href={"FirstaidSteps"}
                                                 navParam={"CrushInjury"}
@@ -200,7 +200,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.drowning}
                                                 title={this.state.titles.drowning}
                                                 href={"FirstaidSteps"}
                                                 navParam={"Drowning"}
@@ -208,7 +208,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={14}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.poisoning}
                                                 title={this.state.titles.poisoning}
                                                 href={"FirstaidSteps"}
                                                 navParam={"Poisoning"}
@@ -218,7 +218,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.brokenBone}
                                                 title={this.state.titles.brokenBone}
                                                 href={"FirstaidSteps"}
                                                 navParam={"BrokenBone"}
@@ -226,7 +226,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={16}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.detectionMethod}
                                                 title={this.state.titles.detectionMethod}
                                                 href={"FirstaidSteps"}
                                                 navParam={"DetectionMethod"}
@@ -236,7 +236,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bugSting}
                                                 title={this.state.titles.bugSting}
                                                 href={"FirstaidSteps"}
                                                 navParam={"BugSting"}
@@ -244,7 +244,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={18}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bites}
                                                 title={this.state.titles.bites}
                                                 href={"FirstaidSteps"}
                                                 navParam={"Bites"}
@@ -254,7 +254,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.burn}
                                                 title={this.state.titles.burn}
                                                 href={"FirstaidSteps"}
                                                 navParam={"Burn"}
@@ -262,7 +262,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={20}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.freeze}
                                                 title={this.state.titles.freeze}
                                                 href={"FirstaidSteps"}
                                                 navParam={"Freeze"}
@@ -272,7 +272,7 @@ class FirstaidMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.foreignBody}
                                                 title={this.state.titles.foreignBody}
                                                 href={"FirstaidSteps"}
                                                 navParam={"ForeignBody"}
@@ -280,7 +280,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={21}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.bleed}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.firstaid.chestPain}
                                                 title={this.state.titles.chestPain}
                                                 href={"FirstaidSteps"}
                                                 navParam={"ChestPain"}
