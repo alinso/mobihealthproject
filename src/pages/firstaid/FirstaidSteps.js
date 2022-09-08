@@ -98,7 +98,7 @@ class FirstaidSteps extends React.Component {
             this.titleIndex=2;
         }else if (link === "BasicIndicators") {
             getLocalContent(BasicIndikators, this);
-            this.image = Images.module.firstaid.basicindicators;
+            this.image = Images.module.firstaid.basicindicatorsPic;
             stepsTitle = this.state.titles.basicIndicators;
             this.titleIndex=3;
         }else if (link === "BasicLifeSupport") {

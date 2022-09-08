@@ -71,28 +71,27 @@ class HealthyLifeMenu extends React.Component {
                         <View style={{flex: 1}}/>
 
                         <View style={{flexDirection: "column", flex: 4}}>
-
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
-                                                title={this.state.titles.fundamentals}
-                                                href={"HealthyLifeSteps"}
-                                                navParam={"Fundamentals"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@healthyLife"}
-                                                titleIndex={0}
-                                />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
-                                                title={this.state.titles.nutrition}
-                                                href={"HealthyLifeSteps"}
-                                                navParam={"Nutrition"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@healthyLife"}
-                                                titleIndex={1}
-                                />
+                            <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
+                                            title={this.state.titles.fundamentals}
+                                            href={"HealthyLifeSteps"}
+                                            navParam={"Fundamentals"}
+                                            lockWarning={this.state.titles.lockWarning}
+                                            moduleName={"@healthyLife"}
+                                            titleIndex={0}
+                            />
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.nutrition}
+                                    title={this.state.titles.nutrition}
+                                    href={"HealthyLifeSteps"}
+                                    navParam={"Nutrition"}
+                                    lockWarning={this.state.titles.lockWarning}
+                                    moduleName={"@healthyLife"}
+                                    titleIndex={1}
+                                    />
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                            <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                    <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.foodTypes}
                                             title={this.state.titles.foodTypes}
                                             href={"HealthyLifeSteps"}
                                             navParam={"FoodTypes"}
@@ -100,7 +99,7 @@ class HealthyLifeMenu extends React.Component {
                                             moduleName={"@healthyLife"}
                                             titleIndex={2}
                             />
-                            <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                            <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.physicalActivity}
                                             title={this.state.titles.physicalActivity}
                                             href={"HealthyLifeSteps"}
                                             navParam={"PhysicalActivity"}
@@ -111,7 +110,7 @@ class HealthyLifeMenu extends React.Component {
                         </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.obesity}
                                                 title={this.state.titles.obesity}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Obesity"}
@@ -119,7 +118,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={4}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.physicalActivity}
                                                 title={this.state.titles.physicalActivity}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"PhysicalActivity"}
@@ -130,7 +129,7 @@ class HealthyLifeMenu extends React.Component {
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.bodyTypes}
                                                 title={this.state.titles.bodyTypes}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"BodyTypes"}
@@ -138,8 +137,8 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={6}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
-                                                title={this.state.titles.physicalActivity}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.pregnancy}
+                                                title={this.state.titles.pregnancy}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Pregnancy"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -149,7 +148,7 @@ class HealthyLifeMenu extends React.Component {
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.biberon}
                                                 title={this.state.titles.biberon}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Biberon"}
@@ -157,7 +156,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={8}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.oldPeople}
                                                 title={this.state.titles.oldPeople}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"OldPeople"}
@@ -167,7 +166,7 @@ class HealthyLifeMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.workers}
                                                 title={this.state.titles.workers}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Workers"}
@@ -175,7 +174,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={10}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.sportsmen}
                                                 title={this.state.titles.sportsmen}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Sportsmen"}
@@ -185,7 +184,7 @@ class HealthyLifeMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.vegetarian}
                                                 title={this.state.titles.vegetarian}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Vegetarian"}
@@ -193,7 +192,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={12}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.chronicles}
                                                 title={this.state.titles.chronicles}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Chronicles"}
@@ -203,7 +202,7 @@ class HealthyLifeMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.diets}
                                                 title={this.state.titles.diets}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Diets"}
@@ -211,7 +210,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={14}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.foodSafety}
                                                 title={this.state.titles.foodSafety}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"FoodSafety"}

@@ -190,7 +190,7 @@ class FirstaidMenu extends React.Component {
                                                 moduleName={"@firstaid"}
                                                 titleIndex={12}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.crushIjnhury}
+                                <ModuleSubtitle imgSource={this.activePassive(0).module.firstaid.crushInjuryx}
                                                 title={this.state.titles.crushIjnhury}
                                                 href={"FirstaidSteps"}
                                                 navParam={"CrushInjury"}
