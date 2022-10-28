@@ -7,7 +7,6 @@ import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
 import getLocalContent from "../../getLocalContent";
 import Images from "../../Images";
-import Progress from "../../Progress";
 import FirstaidInfo from "./content/FirstaidInfo";
 import HtmlView from "react-native-htmlview";
 import Fundamentals from "./content/Fundamentals";
@@ -33,7 +32,9 @@ import Burn from "./content/Burn";
 import Freeze from "./content/Freeze";
 import ForeignBody from "./content/ForeignBody";
 import ChestPain from "./content/ChestPain";
-let progress =new Progress();
+import ModuleProgressTracker from "../../ModuleProgressTracker";
+
+let progress =new ModuleProgressTracker();
 
 class FirstaidSteps extends React.Component {
     constructor(props) {

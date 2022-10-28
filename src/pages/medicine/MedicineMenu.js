@@ -9,9 +9,9 @@ import ImagesPassive from "../../ImagesPassive";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
 import Storage from "../../Storage";
-import Progress from "../../Progress";
+import ModuleProgressTracker from "../../ModuleProgressTracker";
 
-let progress = new Progress();
+let progress = new ModuleProgressTracker();
 
 class MedicineMenu extends React.Component {
 

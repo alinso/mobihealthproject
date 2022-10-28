@@ -2,9 +2,9 @@ import React from 'react';
 import {Image, Text, TouchableOpacity} from "react-native";
 import styles from "../Styles";
 import {withNavigation} from 'react-navigation';
-import Progress from "../Progress";
+import ModuleProgressTracker from "../ModuleProgressTracker";
 
-
+let progress = new ModuleProgressTracker();
 function ModuleSubtitle(props) {
     let {imgSource} = props;
 
@@ -19,23 +19,10 @@ function ModuleSubtitle(props) {
 
 
     function handlePress(moduleName, titleIndex) {
-
-        if (props.titleIndex == 0) {
+            progress.proceed(moduleName, titleIndex);
             props.navigation.navigate(props.href, {item: props.navParam});
-            return
-        }
-
-        let progress = new Progress();
-
-        progress.isAllowed(moduleName, titleIndex).then(function (res) {
-            console.log("aa "+res);
-            if (res) {
-                props.navigation.navigate(props.href, {item: props.navParam});
-            } else {
-                alert(props.lockWarning);
-            }
-        });
     }
+
 }
 
 export default withNavigation(ModuleSubtitle);

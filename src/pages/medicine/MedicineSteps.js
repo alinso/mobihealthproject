@@ -25,9 +25,9 @@ import Application from "./content/Application";
 import Antibiotics from "./content/Antibiotics";
 import SmartUse from "./content/SmartUse";
 import MedicineTerms from "./content/MedicineTerms";
-import Progress from "../../Progress";
+import ModuleProgressTracker from "../../ModuleProgressTracker";
 
-let progress =new Progress();
+let progress =new ModuleProgressTracker();
 
 class MedicineSteps extends React.Component {
     constructor(props) {
@@ -61,7 +61,6 @@ class MedicineSteps extends React.Component {
         }
         let newCurrentStep = this.state.currentStep + 1;
         this.setState({currentStep: newCurrentStep});
-        progress.proceed("@medicine",this.titleIndex,newCurrentStep+1);
     }
 
     onSwipeRight() {
@@ -185,8 +184,7 @@ class MedicineSteps extends React.Component {
 
         }
 
-        console.log(this.state.currentStep+1);
-        progress.proceed("@medicine",this.titleIndex,this.state.currentStep+1);
+        progress.proceed("@medicine",this.titleIndex);
         this.setState({title: stepsTitle})
     }
 

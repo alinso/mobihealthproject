@@ -64,6 +64,19 @@ export default [{
     diets:"Sağlıkı Diyetler",
     foodSafety:"Besin Güvenliği",
 
+    structure:"Terimlerin Yapısı",
+    bodyParts:"Vücudun Bölümleri",
+    organs:"Doku ve Organlar",
+    systems:"Sistemler",
+    circular:"Dolaşım Sistemi",
+    respi:"Solunum  Sistemi",
+    digest:"Sindirim Sistemi",
+    digest2:"Sindirim Sistemi-2",
+    motion:"Hareket Sistemi",
+    uriner:"Üriner Sistem",
+    urology:"Üreme Sistemi",
+    senses:"Duyu Organları",
+
 
     lockWarning:"Bu sayfaya geçmek için önceki sayfaları tamamlayınız.",
     about:"Uygulama Hakkında"
@@ -133,6 +146,19 @@ export default [{
         chronicles:"Chronic İllness Diet",
         diets:"Healthy Diets",
         foodSafety:"Food Security",
+
+        structure:"Structure of Terms",
+        bodyParts:"Body Parts",
+        organs:"Organs & Tissues",
+        systems:"Systems",
+        circular:"Circulatory System",
+        respi:"Respiratory System",
+        digest:"Digestive System-1",
+        digest2:"Digestive System-2",
+        motion:"Motion System",
+        uriner:"Urinary System",
+        urology:"Reproductive System",
+        senses:"Sense Organs",
 
         lockWarning:"Please complete previous steps to unlock this page",
         about:"About This App"
@@ -205,6 +231,20 @@ export default [{
         diets:"Dieta saudável",
         foodSafety:"Comida segura",
 
+        structure:"Estrutura de Termos",
+        bodyParts:"Partes de Corpo",
+        organs:"Tecidos e Orgaos",
+        systems:"Sistemas",
+        circular:"Veias",
+        respi:"Sistema Respiratorio",
+        digest:"Sistema Digestivo-1",
+        digest2:"Sistema Digestivo-2",
+        motion:"Sistema de Movimento",
+        uriner:"Sistema  Urinario",
+        urology:"Sistema Reprodutivo",
+        senses:"Orgaos de Sentido",
+
+
         lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página",
         about:"Sobre Este Aplicativo"
     },
@@ -248,6 +288,20 @@ export default [{
         chronicles:"Ernährung bei chronischen Krankheiten",
         diets:"Gesunde Ernährung",
         foodSafety:"Lebensmittelkontrolle",
+
+
+        structure:"STRUKTUR DER MEDIZINISCHEN",
+        bodyParts:"KÖRPERTEILE",
+        organs:"GEWEBE UND ORGANE",
+        systems:"SYSTEME",
+        circular:"KREISLAUFSYSTEM",
+        respi:"ATMUNGSSYSTEM",
+        digest:"VERDAUUNGSSYSTEM-1",
+        digest2:"VERDAUUNGSSYSTEM-2",
+        motion:"BEWEGUNGSSYSTEM",
+        uriner:"HARNSYSTEM",
+        urology:"REPRODUKTIONSSYSTEM",
+        senses:"SINNESORGANE",
 
 
         lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren",

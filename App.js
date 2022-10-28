@@ -12,6 +12,8 @@ import FirstaidMenu from "./src/pages/firstaid/FirstaidMenu";
 import FirstaidSteps from "./src/pages/firstaid/FirstaidSteps";
 import HealthyLifeMenu from "./src/pages/healthyLife/HealthyLifeMenu";
 import HealthyLifeSteps from "./src/pages/healthyLife/HealthyLifeSteps";
+import BodyMenu from "./src/pages/body/BodyMenu";
+import BodySteps from "./src/pages/body/BodySteps";
 
 
 
@@ -25,6 +27,9 @@ const Stack = createStackNavigator({
         FirstaidSteps:{screen:FirstaidSteps},
         HealthyLifeMenu:{screen:HealthyLifeMenu},
         HealthyLifeSteps:{screen:HealthyLifeSteps},
+        BodyMenu:{screen:BodyMenu},
+        BodySteps:{screen:BodySteps},
+
         About:{screen:About},
     },
     {

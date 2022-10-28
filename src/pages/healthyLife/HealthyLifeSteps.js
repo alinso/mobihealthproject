@@ -7,7 +7,6 @@ import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
 import getLocalContent from "../../getLocalContent";
 import Images from "../../Images";
-import Progress from "../../Progress";
 import HtmlView from "react-native-htmlview";
 import Fundamentals from "./content/Fundamentals";
 import Nutrition from "./content/Nutrition";
@@ -24,8 +23,9 @@ import Vegetarian from "./content/Vegetarian";
 import Chronicles from "./content/Chronicles";
 import Diets from "./content/Diets";
 import FoodSafety from "./content/FoodSafety";
+import ModuleProgressTracker from "../../ModuleProgressTracker";
 
-let progress =new Progress();
+let progress =new ModuleProgressTracker();
 
 class HealthyLifeSteps extends React.Component {
     constructor(props) {

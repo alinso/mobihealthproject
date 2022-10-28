@@ -5,13 +5,12 @@ import GestureRecognizer from 'react-native-swipe-gestures';
 import {withNavigation} from 'react-navigation';
 import ModuleSubtitle from "../../components/ModuleSubtitle";
 import Images from "../../Images";
-import ImagesPassive from "../../ImagesPassive";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
 import Storage from "../../Storage";
-import Progress from "../../Progress";
+import ModuleProgressTracker from "../../ModuleProgressTracker";
 
-let progress = new Progress();
+let progress = new ModuleProgressTracker();
 
 class FirstaidMenu extends React.Component {
 

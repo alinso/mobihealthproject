@@ -8,9 +8,9 @@ import Images from "../../Images";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
 import Storage from "../../Storage";
-import Progress from "../../Progress";
+import ModuleProgressTracker from "../../ModuleProgressTracker";
 
-let progress = new Progress();
+let progress = new ModuleProgressTracker();
 
 class HealthyLifeMenu extends React.Component {
 
