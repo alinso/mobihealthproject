@@ -5,13 +5,10 @@ import GestureRecognizer from 'react-native-swipe-gestures';
 import {withNavigation} from 'react-navigation';
 import ModuleSubtitle from "../../components/ModuleSubtitle";
 import Images from "../../Images";
-import ImagesPassive from "../../ImagesPassive";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
 import Storage from "../../Storage";
-import ModuleProgressTracker from "../../ModuleProgressTracker";
 
-let progress = new ModuleProgressTracker();
 
 class MedicineMenu extends React.Component {
 
@@ -20,28 +17,8 @@ class MedicineMenu extends React.Component {
         this.state = {
             titles: null,
             progress: null,
-            limits: progress.medicineLimit
         }
-
-        this.activePassive = this.activePassive.bind(this);
         getLocalTitles(LocalTitles, this);
-
-        let self = this;
-        Storage.getData("@medicine").then(function (resx) {
-            let resxArr = JSON.parse(resx);
-            self.setState({progress: resxArr});
-        });
-
-    }
-
-     activePassive(titleIndex) {
-
-        console.log(this.state.progress);
-            if (this.state.progress[titleIndex] === this.state.limits[titleIndex]) {
-                return Images;
-            } else {
-                return ImagesPassive;
-            }
 
     }
 
@@ -58,8 +35,6 @@ class MedicineMenu extends React.Component {
         if (this.state.titles == null)
             return null;
 
-        if(this.state.progress==null)
-            return null;
 
         return (
             <ScrollView>
@@ -73,7 +48,7 @@ class MedicineMenu extends React.Component {
                         <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
+                                <ModuleSubtitle imgSource={Images.module.medicine.info}
                                                 title={this.state.titles.info}
                                                 href={"MedicineSteps"}
                                                 navParam={"MedicineInfo"}
@@ -81,7 +56,7 @@ class MedicineMenu extends React.Component {
                                                 moduleName={"@medicine"}
                                                 titleIndex={0}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={Images.module.medicine.fundamentals}
                                                 title={this.state.titles.fundamentals1}
                                                 href={"MedicineSteps"}
                                                 navParam={"Fundamentals1"}
@@ -93,14 +68,14 @@ class MedicineMenu extends React.Component {
 
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(2).module.medicine.fundamentals}
+                                <ModuleSubtitle imgSource={Images.module.medicine.fundamentals}
                                                 title={this.state.titles.fundamentals2} href={"MedicineSteps"}
                                                 navParam={"Fundamentals2"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={2}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(3).module.medicine.sources}
+                                <ModuleSubtitle imgSource={Images.module.medicine.sources}
                                                 title={this.state.titles.sources} href={"MedicineSteps"}
                                                 navParam={"Sources"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -110,14 +85,14 @@ class MedicineMenu extends React.Component {
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(4).module.medicine.taxonomy}
+                                <ModuleSubtitle imgSource={Images.module.medicine.taxonomy}
                                                 title={this.state.titles.taxonomy} href={"MedicineSteps"}
                                                 navParam={"Taxonomy"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={4}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(5).module.medicine.naming}
+                                <ModuleSubtitle imgSource={Images.module.medicine.naming}
                                                 title={this.state.titles.naming} href={"MedicineSteps"}
                                                 navParam={"Naming"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -127,7 +102,7 @@ class MedicineMenu extends React.Component {
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(6).module.medicine.shapes}
+                                <ModuleSubtitle imgSource={Images.module.medicine.shapes}
                                                 title={this.state.titles.shapes1} href={"MedicineSteps"}
                                                 navParam={"Shapes1"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -135,7 +110,7 @@ class MedicineMenu extends React.Component {
                                                 titleIndex={6}
 
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(7).module.medicine.shapes}
+                                <ModuleSubtitle imgSource={Images.module.medicine.shapes}
                                                 title={this.state.titles.shapes2} href={"MedicineSteps"}
                                                 navParam={"Shapes2"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -147,14 +122,14 @@ class MedicineMenu extends React.Component {
 
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(8).module.medicine.taking}
+                                <ModuleSubtitle imgSource={Images.module.medicine.taking}
                                                 title={this.state.titles.taking1} href={"MedicineSteps"}
                                                 navParam={"Taking1"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={8}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(9).module.medicine.taking}
+                                <ModuleSubtitle imgSource={Images.module.medicine.taking}
                                                 title={this.state.titles.taking2} href={"MedicineSteps"}
                                                 navParam={"Taking2"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -164,14 +139,14 @@ class MedicineMenu extends React.Component {
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(10).module.medicine.farmo}
+                                <ModuleSubtitle imgSource={Images.module.medicine.farmo}
                                                 title={this.state.titles.farmo} href={"MedicineSteps"}
                                                 navParam={"Farmo"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={10}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(11).module.medicine.interaction}
+                                <ModuleSubtitle imgSource={Images.module.medicine.interaction}
                                                 title={this.state.titles.interaction} href={"MedicineSteps"}
                                                 navParam={"Interactions"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -181,14 +156,14 @@ class MedicineMenu extends React.Component {
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(12).module.medicine.recipes}
+                                <ModuleSubtitle imgSource={Images.module.medicine.recipes}
                                                 title={this.state.titles.prescription} href={"MedicineSteps"}
                                                 navParam={"Prescription"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={12}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(13).module.medicine.criterias}
+                                <ModuleSubtitle imgSource={Images.module.medicine.criterias}
                                                 title={this.state.titles.application} href={"MedicineSteps"}
                                                 navParam={"Application"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -199,14 +174,14 @@ class MedicineMenu extends React.Component {
 
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(14).module.medicine.antibiotics}
+                                <ModuleSubtitle imgSource={Images.module.medicine.antibiotics}
                                                 title={this.state.titles.antibiotics} href={"MedicineSteps"}
                                                 navParam={"Antibiotics"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@medicine"}
                                                 titleIndex={14}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(15).module.medicine.usage}
+                                <ModuleSubtitle imgSource={Images.module.medicine.usage}
                                                 title={this.state.titles.smartuse} href={"MedicineSteps"}
                                                 navParam={"SmartUse"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -216,7 +191,7 @@ class MedicineMenu extends React.Component {
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(16).module.medicine.medicineTerms}
+                                <ModuleSubtitle imgSource={Images.module.medicine.medicineTerms}
                                                 title={this.state.titles.medicineTerms} href={"MedicineSteps"}
                                                 navParam={"MedicineTerms"}
                                                 lockWarning={this.state.titles.lockWarning}

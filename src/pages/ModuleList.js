@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Image, Pressable, Text, TouchableOpacity, View} from 'react-native';
+import {Image, Pressable, Text, TouchableOpacity, View} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import styles from "../Styles";
 import GestureRecognizer from "react-native-swipe-gestures";
@@ -7,10 +7,8 @@ import Lang from "./LocalTitles";
 import getLocalTitles from "../getLocalTitles";
 import Storage from "../Storage";
 import ModuleProgress from "../components/ModuleProgress";
-import ModuleProgressTracker from "../ModuleProgressTracker";
 
 const langs = ["Türkçe", "English", "Português", "Deutsche"];
-let progress = new ModuleProgressTracker();
 
 class ModuleList extends React.Component {
 
@@ -48,7 +46,8 @@ class ModuleList extends React.Component {
     }
 
     checkAndNavigate(moduleName) {
-        var navName;
+        let navName;
+
 
         if (moduleName === "@medicine")
             navName = "MedicineMenu";
@@ -57,16 +56,47 @@ class ModuleList extends React.Component {
         else if (moduleName === "@healthyLife")
             navName = "HealthyLifeMenu";
         else if (moduleName === "@body")
-            navName = "bodyMenu";
+            navName = "BodyMenu";
         else if (moduleName === "@sickness")
-            navName = "sicknessMenu";
+            navName = "SicknessMenu";
 
 
-        if (progress.isAllowed(moduleName))
-            this.props.navigation.navigate(navName);
-        else
-            alert(this.state.titles.lockWarning);
+        let prevModule;
+        if (moduleName === "@medicine") {
+            return true;
+        } else if (moduleName === "@firstAid") {
+            prevModule = "@medicine";
+        } else if (moduleName === "@sickness") {
+            prevModule = "@firstAid";
+        } else if (moduleName === "@body") {
+            prevModule = "@sickness";
+        } else if (moduleName === "@healthyLife") {
+            prevModule = "@body";
+        }
 
+
+        let self=this;
+
+        Storage.getData(prevModule).then(function (resx) {
+            let result=true;
+            if (resx === null){
+                result=false
+            }else{
+                let moduleArray = JSON.parse(resx);
+                for (let i = 0; i < moduleArray.length; i++) {
+                    if (moduleArray[i] === 0) {
+                        result=false;
+                        break;
+                    }
+                }
+            }
+
+            if(result)
+                self.props.navigation.navigate(navName);
+            else
+                alert(self.state.titles.lockWarning);
+
+        });
     }
 
     render() {
@@ -93,6 +123,7 @@ class ModuleList extends React.Component {
                 <View style={styles.flexContainer}>
                     <View style={{flex: 1}}/>
                     <View style={{flexDirection: "column", flex: 4}}>
+
                         <View style={{flexDirection: "row"}}>
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() =>this.checkAndNavigate("@medicine")}>
@@ -112,6 +143,8 @@ class ModuleList extends React.Component {
                                 <ModuleProgress moduleName={"@firstAid"}/>
                             </TouchableOpacity>
                         </View>
+
+
                         <View style={{flexDirection: "row"}}>
                             <View style={styles.moduleListItem}>
                                 <Image style={styles.moduleListImage}
@@ -133,6 +166,8 @@ class ModuleList extends React.Component {
                             </TouchableOpacity>
                         </View>
 
+
+
                         <View style={{flexDirection: "row"}}>
 
                             <View style={styles.moduleListItem}>
@@ -144,7 +179,7 @@ class ModuleList extends React.Component {
 
                             </View>
                             <TouchableOpacity style={styles.moduleListItem}
-                                              onPress={() => this.props.navigation.navigate("HealthyLifeMenu")}>
+                                              onPress={() => this.checkAndNavigate("@healthyLife")}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/passive/healthylife-menu.png")}
                                 />
@@ -153,6 +188,8 @@ class ModuleList extends React.Component {
                             </TouchableOpacity>
 
                         </View>
+
+
                         <View style={{flexDirection: "row"}}>
                             <View style={{flex: 2, alignItems: "center", marginTop: "12%", marginBottom: "-35%"}}>
                                 {/*<SelectDropdown*/}

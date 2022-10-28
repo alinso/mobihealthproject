@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         flex: 2,
         justifyContent: "center",
-        marginBottom:"-15%"
+        marginBottom:"-5%"
     },
     moduleListImage: {
         width: "60%",

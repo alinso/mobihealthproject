@@ -18,33 +18,13 @@ class HealthyLifeMenu extends React.Component {
         super(props);
         this.state = {
             titles: null,
-            progress: null,
-            limits: progress.healthyLifeLimit
         }
 
-        this.activePassive = this.activePassive.bind(this);
         getLocalTitles(LocalTitles, this);
 
         let self = this;
-        Storage.getData("@healthyLife").then(function (resx) {
-            let resxArr = JSON.parse(resx);
-            self.setState({progress: resxArr});
-        });
 
     }
-
-     activePassive(titleIndex) {
-
-        console.log(this.state.progress);
-            if (this.state.progress[titleIndex] === this.state.limits[titleIndex]) {
-                return Images;
-            } else {
-                //todo : fix
-                return Images;
-            }
-
-    }
-
 
     onSwipeRight(state) {
         this.props.navigation.navigate('ModuleList');
@@ -58,8 +38,6 @@ class HealthyLifeMenu extends React.Component {
         if (this.state.titles == null)
             return null;
 
-        if(this.state.progress==null)
-            return null;
 
         return (
             <ScrollView>
@@ -72,7 +50,7 @@ class HealthyLifeMenu extends React.Component {
 
                         <View style={{flexDirection: "column", flex: 4}}>
                             <View style={{flexDirection: "row"}}>
-                            <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
+                            <ModuleSubtitle imgSource={Images.module.medicine.info}
                                             title={this.state.titles.fundamentals}
                                             href={"HealthyLifeSteps"}
                                             navParam={"Fundamentals"}
@@ -80,7 +58,7 @@ class HealthyLifeMenu extends React.Component {
                                             moduleName={"@healthyLife"}
                                             titleIndex={0}
                             />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.nutrition}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.nutrition}
                                     title={this.state.titles.nutrition}
                                     href={"HealthyLifeSteps"}
                                     navParam={"Nutrition"}
@@ -91,7 +69,7 @@ class HealthyLifeMenu extends React.Component {
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                                    <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.foodTypes}
+                                    <ModuleSubtitle imgSource={Images.module.healthylife.foodTypes}
                                             title={this.state.titles.foodTypes}
                                             href={"HealthyLifeSteps"}
                                             navParam={"FoodTypes"}
@@ -99,7 +77,7 @@ class HealthyLifeMenu extends React.Component {
                                             moduleName={"@healthyLife"}
                                             titleIndex={2}
                             />
-                            <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.physicalActivity}
+                            <ModuleSubtitle imgSource={Images.module.healthylife.physicalActivity}
                                             title={this.state.titles.physicalActivity}
                                             href={"HealthyLifeSteps"}
                                             navParam={"PhysicalActivity"}
@@ -110,7 +88,7 @@ class HealthyLifeMenu extends React.Component {
                         </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.obesity}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.obesity}
                                                 title={this.state.titles.obesity}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Obesity"}
@@ -118,7 +96,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={4}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.physicalActivity}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.physicalActivity}
                                                 title={this.state.titles.physicalActivity}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"PhysicalActivity"}
@@ -129,7 +107,7 @@ class HealthyLifeMenu extends React.Component {
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.bodyTypes}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.bodyTypes}
                                                 title={this.state.titles.bodyTypes}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"BodyTypes"}
@@ -137,7 +115,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={6}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.pregnancy}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.pregnancy}
                                                 title={this.state.titles.pregnancy}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Pregnancy"}
@@ -148,7 +126,7 @@ class HealthyLifeMenu extends React.Component {
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.biberon}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.biberon}
                                                 title={this.state.titles.biberon}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Biberon"}
@@ -156,7 +134,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={8}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.oldPeople}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.oldPeople}
                                                 title={this.state.titles.oldPeople}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"OldPeople"}
@@ -166,7 +144,7 @@ class HealthyLifeMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.workers}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.workers}
                                                 title={this.state.titles.workers}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Workers"}
@@ -174,7 +152,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={10}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.sportsmen}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.sportsmen}
                                                 title={this.state.titles.sportsmen}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Sportsmen"}
@@ -184,7 +162,7 @@ class HealthyLifeMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.vegetarian}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.vegetarian}
                                                 title={this.state.titles.vegetarian}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Vegetarian"}
@@ -192,7 +170,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={12}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.chronicles}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.chronicles}
                                                 title={this.state.titles.chronicles}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Chronicles"}
@@ -202,7 +180,7 @@ class HealthyLifeMenu extends React.Component {
                                 />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.diets}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.diets}
                                                 title={this.state.titles.diets}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Diets"}
@@ -210,7 +188,7 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={14}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(1).module.healthylife.foodSafety}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.foodSafety}
                                                 title={this.state.titles.foodSafety}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"FoodSafety"}

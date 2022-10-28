@@ -6,6 +6,7 @@ import {withNavigation} from 'react-navigation';
 import ModuleSubtitle from "../../components/ModuleSubtitle";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
+import Images from "../../Images";
 
 
 class BodyMenu extends React.Component {
@@ -14,10 +15,8 @@ class BodyMenu extends React.Component {
         super(props);
         this.state = {
             titles: null,
-            progress: null,
         }
 
-        this.activePassive = this.activePassive.bind(this);
         getLocalTitles(LocalTitles, this);
 
     }
@@ -36,8 +35,6 @@ class BodyMenu extends React.Component {
         if (this.state.titles == null)
             return null;
 
-        if(this.state.progress==null)
-            return null;
 
         return (
             <ScrollView>
@@ -51,7 +48,7 @@ class BodyMenu extends React.Component {
                         <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
+                                <ModuleSubtitle imgSource={Images.module.medicine.info}
                                                 title={this.state.titles.info}
                                                 href={"BodySteps"}
                                                 navParam={"BodyInfo"}
@@ -59,7 +56,7 @@ class BodyMenu extends React.Component {
                                                 moduleName={"@body"}
                                                 titleIndex={0}
                                 />
-                                <ModuleSubtitle imgSource={this.activePassive(0).module.medicine.info}
+                                <ModuleSubtitle imgSource={Images.module.medicine.info}
                                                 title={this.state.titles.info}
                                                 href={"BodySteps"}
                                                 navParam={"BodyInfo"}

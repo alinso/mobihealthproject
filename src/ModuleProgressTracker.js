@@ -29,53 +29,52 @@ class ModuleProgressTracker {
 
     proceed(moduleName, titleIndex) {
 
+        let self = this;
         Storage.getData(moduleName).then(function (resx) {
-            let moduleArray = JSON.parse(resx);
-            moduleArray[titleIndex]=1;
+
+            let moduleArray;
+
+            if (resx === null && moduleName === "@firstAid")
+                moduleArray = self.firstAidArr;
+            else if (resx === null && moduleName === "@body")
+                moduleArray = self.bodyArr;
+            else if (resx === null && moduleName === "@medicine")
+                moduleArray = self.medicineArr;
+            else if (resx === null && moduleName === "@healthyLife")
+                moduleArray = self.healthyLifeArr;
+            else
+                moduleArray = JSON.parse(resx);
+
+            console.log("proceed > "+moduleName+" > "+moduleArray);
+
+            moduleArray[titleIndex] = 1;
             let copyStr = JSON.stringify(moduleArray);
             Storage.save(moduleName, copyStr);
         });
     }
 
-    async isAllowed(moduleName){
 
-        let prevModule;
-        if(moduleName==="@medicine"){
-            return true;
-        } else if(moduleName==="@firstAid") {
-            prevModule = "@medicine";
-        }else if(moduleName==="@sickness") {
-            prevModule = "@firstAid";
-        }else if(moduleName==="@body") {
-            prevModule = "@sickness";
-        }else if(moduleName==="@healthyLife") {
-            prevModule = "@body";
-        }
+    async calculateProgress(moduleName) {
+        let val = await Storage.getData(moduleName).then(function (resx) {
+            let openedTitleCount = 0;
 
-        Storage.getData(prevModule).then(function (resx) {
+            console.log("calculateProgress > " + moduleName + " >" + resx);
+            if (resx === null)
+                return 0;
+
             let moduleArray = JSON.parse(resx);
-           for (let i=0; 1<moduleArray.length; i++){
-               if(moduleArray[i]===0){
-                   return false;
-               }
-               return true;
-           }
-        });
-    }
 
-    async calculateProgress(moduleName){
-        Storage.getData(moduleName).then(function (resx) {
-            let openedTitleCount=0;
-            let moduleArray = JSON.parse(resx);
-            for (let i=0; 1<moduleArray.length; i++){
-                if(moduleArray[i]===1){
+            for (let i = 0; i < moduleArray.length; i++) {
+                if (moduleArray[i] === 1) {
                     openedTitleCount++;
                 }
-                return (openedTitleCount/moduleArray.length)*100;
             }
+            return (openedTitleCount / moduleArray.length) * 100;
         });
+        return Math.round(parseInt(val));
     }
 }
+
 export default ModuleProgressTracker;
 
 
