@@ -119,6 +119,35 @@ const Images = {
             workersPic: require("../assets/images/module/healthylife/headerimages/workers.jpg"),
 
 
+        },
+
+        body: {
+            bodyParts: require("../assets/images/module/body/bodyParts.png"),
+            circular: require("../assets/images/module/body/circular.png"),
+            digest: require("../assets/images/module/body/digest.png"),
+            fundamentals: require("../assets/images/module/body/fundamentals.png"),
+            motion: require("../assets/images/module/body/motion.png"),
+            organs: require("../assets/images/module/body/organs.png"),
+            respi: require("../assets/images/module/body/respi.png"),
+            urology: require("../assets/images/module/body/urology.png"),
+            urinary: require("../assets/images/module/body/urinary.png"),
+            systems: require("../assets/images/module/body/systems.png"),
+            senses: require("../assets/images/module/body/senses.png"),
+
+            infoPic: require("../assets/images/module/body/headerimages/info.png"),
+            bodyPartsPic: require("../assets/images/module/body/headerimages/bodyParts.jpg"),
+            circularPic: require("../assets/images/module/body/headerimages/systems.jpg"),
+            digestPic: require("../assets/images/module/body/headerimages/digest.png"),
+            fundamentalsPic: require("../assets/images/module/body/headerimages/fundamentals.jpg"),
+            motionPic: require("../assets/images/module/body/headerimages/motion.png"),
+            organsPic: require("../assets/images/module/body/headerimages/organs.png"),
+            respiPic: require("../assets/images/module/body/headerimages/respi.png"),
+            urologyPic: require("../assets/images/module/body/headerimages/urology.png"),
+            urinaryPic: require("../assets/images/module/body/headerimages/urinary.png"),
+            systemsPic: require("../assets/images/module/body/headerimages/systems.jpg"),
+            sensesPic: require("../assets/images/module/body/headerimages/senses.png"),
+
+
         }
 
     }

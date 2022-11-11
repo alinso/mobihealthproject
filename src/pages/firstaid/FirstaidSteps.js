@@ -205,7 +205,6 @@ class FirstaidSteps extends React.Component {
             this.titleIndex=21;
         }
 
-
         console.log(this.state.currentStep+1);
         this.setState({title: stepsTitle})
     }

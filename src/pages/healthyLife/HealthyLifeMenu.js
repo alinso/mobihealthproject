@@ -7,10 +7,6 @@ import ModuleSubtitle from "../../components/ModuleSubtitle";
 import Images from "../../Images";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
-import Storage from "../../Storage";
-import ModuleProgressTracker from "../../ModuleProgressTracker";
-
-let progress = new ModuleProgressTracker();
 
 class HealthyLifeMenu extends React.Component {
 
@@ -28,10 +24,6 @@ class HealthyLifeMenu extends React.Component {
 
     onSwipeRight(state) {
         this.props.navigation.navigate('ModuleList');
-    }
-
-    goToStep(module) {
-        this.props.navigation.navigate(module);
     }
 
     render() {

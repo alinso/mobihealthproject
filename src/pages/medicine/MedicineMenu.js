@@ -7,7 +7,6 @@ import ModuleSubtitle from "../../components/ModuleSubtitle";
 import Images from "../../Images";
 import LocalTitles from "../LocalTitles";
 import getLocalTitles from "../../getLocalTitles";
-import Storage from "../../Storage";
 
 
 class MedicineMenu extends React.Component {
@@ -25,10 +24,6 @@ class MedicineMenu extends React.Component {
 
     onSwipeRight(state) {
         this.props.navigation.navigate('ModuleList');
-    }
-
-    goToStep(module) {
-        this.props.navigation.navigate(module);
     }
 
     render() {

@@ -8,6 +8,19 @@ import getLocalTitles from "../../getLocalTitles";
 import getLocalContent from "../../getLocalContent";
 import Images from "../../Images";
 import BodyInfo from "./content/BodyInfo";
+import Fundamentals from "./content/Fundamentals";
+import ModuleProgressTracker from "../../ModuleProgressTracker";
+import Systems from "./content/Systems";
+import BodyParts from "./content/BodyParts";
+import Digest from "./content/Digest";
+import Circular from "./content/Circular";
+import Motion from "./content/Motion";
+import Organs from "./content/Organs";
+import Respi from "./content/Respi";
+import Structure from "./content/Structure";
+import Urinary from "./content/Urinary";
+import Urology from "./content/Urology";
+let progress =new ModuleProgressTracker();
 
 
 class BodySteps extends React.Component {
@@ -46,7 +59,7 @@ class BodySteps extends React.Component {
 
     onSwipeRight() {
         if (this.state.currentStep == 0) {
-            this.props.navigation.push('Firstaid');
+            this.props.navigation.push('BodyMenu');
             return;
         }
         let newCurrentStep = this.state.currentStep - 1;
@@ -55,14 +68,71 @@ class BodySteps extends React.Component {
 
     setContent(link) {
         let stepsTitle;
-        if (link === "BodyInfo.js") {
+        if (link === "BodyInfo") {
             getLocalContent(BodyInfo, this);
-            this.image = Images.module.firstaid.infoPic;
+            this.image = Images.module.body.infoPic;
             stepsTitle = this.state.titles.info;
             this.titleIndex=0;
         }
+        else if (link === "Fundamentals") {
+            getLocalContent(Fundamentals, this);
+            this.image = Images.module.body.fundamentalsPic;
+            stepsTitle = this.state.titles.fundamentals;
+            this.titleIndex=1;
+        }
+        else if (link === "Systems") {
+            getLocalContent(Systems, this);
+            this.image = Images.module.body.systemsPic;
+            stepsTitle = this.state.titles.systems;
+            this.titleIndex=2;
+        }else if (link === "BodyParts") {
+            getLocalContent(BodyParts, this);
+            this.image = Images.module.body.bodyPartsPic;
+            stepsTitle = this.state.titles.bodyParts;
+            this.titleIndex = 3;
+        }else if (link === "Circular") {
+            getLocalContent(Circular, this);
+            this.image = Images.module.body.circularPic;
+            stepsTitle = this.state.titles.circular;
+            this.titleIndex = 4;
+        }else if (link === "Digest") {
+            getLocalContent(Digest, this);
+            this.image = Images.module.body.digestPic;
+            stepsTitle = this.state.titles.digest;
+            this.titleIndex = 5;
+        }else if (link === "Motion") {
+            getLocalContent(Motion, this);
+            this.image = Images.module.body.motionPic;
+            stepsTitle = this.state.titles.motion;
+            this.titleIndex = 6;
+        }else if (link === "Organs") {
+            getLocalContent(Organs, this);
+            this.image = Images.module.body.organsPic;
+            stepsTitle = this.state.titles.organs;
+            this.titleIndex = 7;
+        }else if (link === "Respi") {
+            getLocalContent(Respi, this);
+            this.image = Images.module.body.respiPic;
+            stepsTitle = this.state.titles.respi;
+            this.titleIndex = 8;
+        }else if (link === "Structure") {
+            getLocalContent(Structure, this);
+            this.image = Images.module.body.fundamentalsPic;
+            stepsTitle = this.state.titles.structure;
+            this.titleIndex = 9;
+        }else if (link === "Urinary") {
+            getLocalContent(Urinary, this);
+            this.image = Images.module.body.urinaryPic;
+            stepsTitle = this.state.titles.uriner;
+            this.titleIndex = 10;
+        }else if (link === "Urology") {
+            getLocalContent(Urology, this);
+            this.image = Images.module.body.urologyPic;
+            stepsTitle = this.state.titles.urology;
+            this.titleIndex = 11;
+        }
 
-        console.log(this.state.currentStep+1);
+
         this.setState({title: stepsTitle})
     }
 
