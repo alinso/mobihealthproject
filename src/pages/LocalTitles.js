@@ -77,6 +77,22 @@ export default [{
     urology:"Üreme Sistemi",
     senses:"Duyu Organları",
 
+    bowell: "Akut Bağırsak Enfeksiyonları",
+    STD: "Cinsel YollaBulaşan Hastalıklar",
+    diabetics: "Diyabet",
+    cancer: "Kanser",
+    cancerTypes: "Kanser Türleri",
+    hepatisis: "Hepatit",
+    muscular :"Kas-İskelet Sistemi Hastalıkları",
+    digestive :"Sindirim Sistemi Hastalıkları",
+    respiratorySystem :"Solunum Sistemi Hastalıkları",
+    sicknessFactors :"Sağlığı Etkileyen Faktörler",
+    zootonic :"Zoonotik ve Vektörel Hastalıklar",
+    chronic :"Kronik Hastaliklar",
+    cardioVaskuler :"Kalp Damar Hastalıkları",
+
+
+
 
     lockWarning:"Bu sayfaya geçmek için önceki sayfaları tamamlayınız.",
     about:"Uygulama Hakkında"
@@ -153,12 +169,28 @@ export default [{
         systems:"Systems",
         circular:"Circulatory System",
         respi:"Respiratory System",
-        digest:"Digestive System-1",
-        digest2:"Digestive System-2",
+        digest:"Digestive.js System-1",
+        digest2:"Digestive.js System-2",
         motion:"Motion System",
         uriner:"Urinary System",
         urology:"Reproductive System",
         senses:"Sense Organs",
+
+
+        bowell: "Acute Bowell Infections",
+        STD: "Sexually Transmitted Diseases",
+        diabetics: "Diabetics",
+        cancer: "Cancer",
+        cancerTypes: "Cancer Types",
+        hepatisis: "Hepatitis",
+        muscular :"Muscloskeletal Diseases",
+        digestive :"Digestive System Diseases",
+        respiratorySystem :"Respiratory System Diseases",
+        sicknessFactors :"Sickness Factors",
+        zootonic :"Zoonotic and Vectorel Diseases",
+        chronic :"Chronicle Diseases",
+        cardioVaskuler :"Cardio-Vascular Diseases",
+
 
         lockWarning:"Please complete previous steps to unlock this page",
         about:"About This App"
@@ -245,6 +277,22 @@ export default [{
         senses:"Orgaos de Sentido",
 
 
+        bowell: "Infecções Agudas do Intestino",
+        STD: "Doenças Sexualmente Transmissíveis",
+        diabetics: "Diabéticas",
+        cancer: "Câncer",
+        cancerTypes: "Tipos de Câncer",
+        hepatisis: "Hepatite",
+        muscular :"Doenças Musculoesqueléticas",
+        digestive :"Doenças do Sistema Digestivo",
+        respiratorySystem :"Doenças do Sistema Respiratório",
+        sicknessFactors :"Fatores de Doença",
+        zootonic :"Doenças zoonóticas e vetoriais",
+        chronic :"Doenças Crônicas",
+        cardioVaskuler :"Doenças Cardiovasculares",
+
+
+
         lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página",
         about:"Sobre Este Aplicativo"
     },
@@ -302,6 +350,20 @@ export default [{
         uriner:"HARNSYSTEM",
         urology:"REPRODUKTIONSSYSTEM",
         senses:"SINNESORGANE",
+
+        bowell: "Akute Darminfektionen",
+        STD: "Sexuell übertragbare Krankheiten",
+        diabetics: "Diabetiker",
+        cancer: "Krebs",
+        cancerTypes: "Krebsarten",
+        hepatisis: "Hepatitis",
+        muscular :"Muskel-Skelett-Erkrankungs",
+        digestive :"Erkrankungen des Verdauungssystems",
+        respiratorySystem :"Erkrankungen der Atemwege",
+        sicknessFactors :"Krankheitsfaktoren",
+        zootonic :"Zootonische und Vectorel-Krankheiten",
+        chronic :"Chronische Krankheiten",
+        cardioVaskuler :"Herz-Kreislauf-Erkrankungen",
 
 
         lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren",

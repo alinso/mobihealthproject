@@ -17,7 +17,7 @@ export default [
         "\n" +
         "1- Circulatory System (Cardiovascular System)\n" +
         "2- Respiratory System\n" +
-        "3- Digestive System\n" +
+        "3- Digestive.js System\n" +
         "4- Nervous System\n" +
         "5- Movement (Musculoskeletal) System\n" +
         "6- Excretory System ( Urinary System )\n" +

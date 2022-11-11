@@ -52,7 +52,7 @@ export  default [
         "the effect seen on one organ may be more than other organs.",
 
 
-        "<b>2.a. Enteral ( Digestive track ) route: </b>\n\n " +
+        "<b>2.a. Enteral ( Digestive.js track ) route: </b>\n\n " +
         "i. Oral route:. It is the most common form of drug use. It is the ingestion, swallowing  " +
         "or absorption of a drug taken by mouth.  \n\n" +
         "ii. Sublingual route: It is form of application that aims to absorb the drug  " +

@@ -91,8 +91,8 @@ export default [
         "5- Defecation (Defecation): It is the removal of food wastes that are digested, indigestible or not necessary for the body.\n" ,
 
 
-        "Digestive System Organs\n" +
-        "Digestive Canal\n" +
+        "Digestive.js System Organs\n" +
+        "Digestive.js Canal\n" +
         "Oral Cavity\n" +
         "Pharynx (pharynx)\n" +
         "Esophagus (Eesophagus)\n" +
@@ -137,7 +137,7 @@ export default [
         "One of the most important functions of the large intestine is the absorption of water. The content that passes from the small intestine to the large intestine is in liquid form and this content passes within a few hours. The waste material is solidified by absorbing the water of the liquid content that passes into the large intestine. Just like the stomach and small intestine, there are peristaltic movements in the large intestine, and the intestinal contents are knuckle-free thanks to these movements.\n" +
         "progresses. The large intestine also acts as a warehouse for waste materials until the defecation process. Waste materials are finally pushed into the rectum (anus), and the need for defecation is felt as a result of the relaxation of the sphincters here and the increase in intra-abdominal pressure. 250-400 grams of feces are excreted daily.\n" ,
 
-        "Digestive Organs and Glands\n" +
+        "Digestive.js Organs and Glands\n" +
         "\n" +
         "In order for the nutrients taken into the body to be usable in the body, they must first be digested. Some secretion substances are needed for the digestion process. Our organs such as salivary glands, liver, gallbladder and pancreas secrete various secretions and enzymes in order to digest the nutrients taken into the body.\n" +
         "\n" +

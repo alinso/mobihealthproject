@@ -146,8 +146,37 @@ const Images = {
             urinaryPic: require("../assets/images/module/body/headerimages/urinary.png"),
             systemsPic: require("../assets/images/module/body/headerimages/systems.jpg"),
             sensesPic: require("../assets/images/module/body/headerimages/senses.png"),
+        },
 
+        sickness: {
+            bowell: require("../assets/images/module/sickness/bowell.png"),
+            cancer: require("../assets/images/module/sickness/cancer.png"),
+            cancerTypes: require("../assets/images/module/sickness/cancerTypes.png"),
+            cardioVaskuler: require("../assets/images/module/sickness/cardioVaskuler.png"),
+            chronic: require("../assets/images/module/sickness/chronic.png"),
+            diabetics: require("../assets/images/module/sickness/diabetics.png"),
+            digestive: require("../assets/images/module/sickness/digestive.png"),
+            hepatisis: require("../assets/images/module/sickness/hepatisis.png"),
+            muscular: require("../assets/images/module/sickness/muscular.png"),
+            respiratorySystem: require("../assets/images/module/sickness/respiratorySystem.png"),
+            sicknessFactors: require("../assets/images/module/sickness/sicknessFactors.png"),
+            STD: require("../assets/images/module/sickness/STD.png"),
+            zootonic: require("../assets/images/module/sickness/zootonic.png"),
 
+            bowellPic: require("../assets/images/module/sickness/headerimages/bowell.jpg"),
+            cancerPic: require("../assets/images/module/sickness/headerimages/cancer.jpg"),
+            cancerTypesPic: require("../assets/images/module/sickness/headerimages/cancerTypes.jpg"),
+            cardioVaskulerPic: require("../assets/images/module/sickness/cardioVaskuler.png"),
+            chronicPic: require("../assets/images/module/sickness/headerimages/chronic.png"),
+            diabeticsPic: require("../assets/images/module/sickness/headerimages/diabetics.jpg"),
+            digestivePic: require("../assets/images/module/sickness/headerimages/digestive.jpg"),
+            hepatisisPic: require("../assets/images/module/sickness/headerimages/hepatisis.png"),
+            muscularPic: require("../assets/images/module/sickness/headerimages/muscular.png"),
+            respiratorySystemPic: require("../assets/images/module/sickness/headerimages/respiratorySystem.png"),
+            sicknessFactorsPic: require("../assets/images/module/sickness/headerimages/sicknessFactors.jpg"),
+            STDPic: require("../assets/images/module/sickness/headerimages/STD.jpg"),
+            zootonicPic: require("../assets/images/module/sickness/headerimages/zootonic.jpg"),
+            infoPic: require("../assets/images/module/sickness/headerimages/info.jpg")
         }
 
     }
