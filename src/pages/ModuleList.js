@@ -7,6 +7,9 @@ import Lang from "./LocalTitles";
 import getLocalTitles from "../getLocalTitles";
 import Storage from "../Storage";
 import ModuleProgress from "../components/ModuleProgress";
+import bodyParts from "./body/content/BodyParts";
+import medicineInfo from "./medicine/content/MedicineInfo";
+import sicknessFactors from "./sickness/content/SicknessFactors";
 
 const langs = ["Türkçe", "English", "Português", "Deutsche"];
 
@@ -49,6 +52,7 @@ class ModuleList extends React.Component {
         let navName;
 
 
+
         if (moduleName === "@medicine")
             navName = "MedicineMenu";
         else if (moduleName === "@firstAid")
@@ -62,16 +66,17 @@ class ModuleList extends React.Component {
 
 
         let prevModule;
-        if (moduleName === "@medicine") {
-            return true;
-        } else if (moduleName === "@firstAid") {
-            prevModule = "@medicine";
+        if (moduleName === "@body") {
+            this.props.navigation.navigate(navName);
+            return;
+        } else if (moduleName === "@medicine") {
+            prevModule = "@body";
         } else if (moduleName === "@sickness") {
-            prevModule = "@firstAid";
-        } else if (moduleName === "@body") {
+            prevModule = "@medicine";
+        } else if (moduleName === "@firstAid") {
             prevModule = "@sickness";
         } else if (moduleName === "@healthyLife") {
-            prevModule = "@body";
+            prevModule = "@firstAid";
         }
 
 
@@ -91,7 +96,7 @@ class ModuleList extends React.Component {
                 }
             }
 
-            if(result)
+            if(result || true) //todo: remove the true it will work
                 self.props.navigation.navigate(navName);
             else
                 alert(self.state.titles.lockWarning);
@@ -126,6 +131,16 @@ class ModuleList extends React.Component {
 
                         <View style={{flexDirection: "row"}}>
                             <TouchableOpacity style={styles.moduleListItem}
+                                              onPress={() => this.checkAndNavigate("@body")}>
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/body-menu.png")}
+                                />
+                                <Text>{this.state.titles.body}</Text>
+                                <ModuleProgress moduleName={"@body"}/>
+
+                            </TouchableOpacity>
+
+                            <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() =>this.checkAndNavigate("@medicine")}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/medicine-menu.png")}
@@ -134,6 +149,20 @@ class ModuleList extends React.Component {
                                 <ModuleProgress moduleName={"@medicine"}/>
                             </TouchableOpacity>
 
+                        </View>
+
+
+                        <View style={{flexDirection: "row"}}>
+                            <TouchableOpacity style={styles.moduleListItem}
+                                              onPress={() => this.checkAndNavigate("@sickness")}>
+
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/sickness-menu.png")}
+                                />
+                                <Text>{this.state.titles.sickness}</Text>
+                                <ModuleProgress moduleName={"@sickness"}/>
+
+                            </TouchableOpacity>
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.checkAndNavigate("@firstAid")}>
                                 <Image style={styles.moduleListImage}
@@ -145,39 +174,9 @@ class ModuleList extends React.Component {
                         </View>
 
 
-                        <View style={{flexDirection: "row"}}>
-                            <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/module1-menu.png")}
-                                />
-                                <Text>{this.state.titles.module1}</Text>
-                                <ModuleProgress moduleName={""}/>
-
-                            </View>
-                            <TouchableOpacity style={styles.moduleListItem}
-                                              onPress={() => this.checkAndNavigate("@sickness")}>
-
-                                <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/sickness-menu.png")}
-                                />
-                                <Text>{this.state.titles.sickness}</Text>
-                                <ModuleProgress moduleName={"@sickness"}/>
-
-                            </TouchableOpacity>
-                        </View>
-
-
 
                         <View style={{flexDirection: "row"}}>
 
-                            <View style={styles.moduleListItem}>
-                                <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/body-menu.png")}
-                                />
-                                <Text>{this.state.titles.body}</Text>
-                                <ModuleProgress moduleName={"@body"}/>
-
-                            </View>
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.checkAndNavigate("@healthyLife")}>
                                 <Image style={styles.moduleListImage}
@@ -186,6 +185,15 @@ class ModuleList extends React.Component {
                                 <Text>{this.state.titles.healthyLife}</Text>
                                 <ModuleProgress moduleName={"@healthyLife"}/>
                             </TouchableOpacity>
+                            <View style={styles.moduleListItem}>
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/passive/module1-menu.png")}
+                                />
+                                <Text>{this.state.titles.module1}</Text>
+                                <ModuleProgress moduleName={""}/>
+
+                            </View>
+
 
                         </View>
 

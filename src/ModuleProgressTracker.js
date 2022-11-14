@@ -8,10 +8,11 @@ class ModuleProgressTracker {
     medicineArr;
 
     constructor() {
-        this.bodyArr = new Array(13).fill(0);
+        this.bodyArr = new Array(12).fill(0);
         this.firstAidArr = new Array(24).fill(0);
         this.healthyLifeArr = new Array(15).fill(0);
         this.medicineArr = new Array(17).fill(0);
+        this.sicknessArr = new Array(14).fill(0);
 
 
         let self = this;

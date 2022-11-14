@@ -26,7 +26,7 @@ import Zootonic from "./content/Zootonic";
 
 let progress =new ModuleProgressTracker();
 
-class HealthyLifeSteps extends React.Component {
+class SicknessSteps extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -145,7 +145,7 @@ class HealthyLifeSteps extends React.Component {
         }
 
         console.log(this.state.currentStep+1);
-        progress.proceed("@sickness",this.titleIndex,this.state.currentStep+1);
+        progress.proceed("@sickness",this.titleIndex);
         this.setState({title: stepsTitle})
     }
 
@@ -192,4 +192,4 @@ class HealthyLifeSteps extends React.Component {
     }
 }
 
-export default withNavigation(HealthyLifeSteps);
+export default withNavigation(SicknessSteps);

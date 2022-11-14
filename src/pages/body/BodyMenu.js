@@ -59,8 +59,6 @@ class BodyMenu extends React.Component {
                                 />
 
                             </View>
-                        </View>
-                        <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.systems}
@@ -81,12 +79,10 @@ class BodyMenu extends React.Component {
                                 />
 
                             </View>
-                        </View>
-                        <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.circular}
-                                                title={this.state.titles.info}
+                                                title={this.state.body.circular}
                                                 href={"BodySteps"}
                                                 navParam={"Circular"}
                                                 lockWarning={this.state.titles.lockWarning}
@@ -103,8 +99,6 @@ class BodyMenu extends React.Component {
                                 />
 
                             </View>
-                        </View>
-                        <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.motion}
@@ -125,8 +119,6 @@ class BodyMenu extends React.Component {
                                 />
 
                             </View>
-                        </View>
-                        <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.respi}
@@ -147,8 +139,6 @@ class BodyMenu extends React.Component {
                                 />
 
                             </View>
-                        </View>
-                        <View style={{flexDirection: "column", flex: 4}}>
 
                             <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.urinary}

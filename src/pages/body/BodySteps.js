@@ -20,6 +20,7 @@ import Respi from "./content/Respi";
 import Structure from "./content/Structure";
 import Urinary from "./content/Urinary";
 import Urology from "./content/Urology";
+import HtmlView from "react-native-htmlview";
 let progress =new ModuleProgressTracker();
 
 
@@ -133,6 +134,7 @@ class BodySteps extends React.Component {
         }
 
 
+        progress.proceed("@body",this.titleIndex);
         this.setState({title: stepsTitle})
     }
 
