@@ -1,9 +1,7 @@
 import React from 'react';
-import {Image, ScrollView, Text, View} from "react-native";
+import {ScrollView, Text} from "react-native";
 import styles from "../Styles";
-import GestureRecognizer from 'react-native-swipe-gestures';
 import {withNavigation} from 'react-navigation';
-import Storage from "../Storage";
 import HtmlView from "react-native-htmlview";
 
 class About extends React.Component {

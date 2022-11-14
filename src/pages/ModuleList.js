@@ -1,15 +1,11 @@
 import React from 'react';
 import {Image, Pressable, Text, TouchableOpacity, View} from 'react-native';
-import {withNavigation} from 'react-navigation';
 import styles from "../Styles";
 import GestureRecognizer from "react-native-swipe-gestures";
 import Lang from "./LocalTitles";
 import getLocalTitles from "../getLocalTitles";
 import Storage from "../Storage";
 import ModuleProgress from "../components/ModuleProgress";
-import bodyParts from "./body/content/BodyParts";
-import medicineInfo from "./medicine/content/MedicineInfo";
-import sicknessFactors from "./sickness/content/SicknessFactors";
 
 const langs = ["Türkçe", "English", "Português", "Deutsche"];
 
@@ -52,7 +48,6 @@ class ModuleList extends React.Component {
         let navName;
 
 
-
         if (moduleName === "@medicine")
             navName = "MedicineMenu";
         else if (moduleName === "@firstAid")
@@ -80,23 +75,23 @@ class ModuleList extends React.Component {
         }
 
 
-        let self=this;
+        let self = this;
 
         Storage.getData(prevModule).then(function (resx) {
-            let result=true;
-            if (resx === null){
-                result=false
-            }else{
+            let result = true;
+            if (resx === null) {
+                result = false
+            } else {
                 let moduleArray = JSON.parse(resx);
                 for (let i = 0; i < moduleArray.length; i++) {
                     if (moduleArray[i] === 0) {
-                        result=false;
+                        result = false;
                         break;
                     }
                 }
             }
 
-            if(result || true) //todo: remove the true it will work
+            if (result || true) //todo: remove the true it will work
                 self.props.navigation.navigate(navName);
             else
                 alert(self.state.titles.lockWarning);
@@ -127,6 +122,7 @@ class ModuleList extends React.Component {
 
                 <View style={styles.flexContainer}>
                     <View style={{flex: 1}}/>
+
                     <View style={{flexDirection: "column", flex: 4}}>
 
                         <View style={{flexDirection: "row"}}>
@@ -141,7 +137,7 @@ class ModuleList extends React.Component {
                             </TouchableOpacity>
 
                             <TouchableOpacity style={styles.moduleListItem}
-                                              onPress={() =>this.checkAndNavigate("@medicine")}>
+                                              onPress={() => this.checkAndNavigate("@medicine")}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/medicine-menu.png")}
                                 />
@@ -174,7 +170,6 @@ class ModuleList extends React.Component {
                         </View>
 
 
-
                         <View style={{flexDirection: "row"}}>
 
                             <TouchableOpacity style={styles.moduleListItem}
@@ -185,32 +180,19 @@ class ModuleList extends React.Component {
                                 <Text>{this.state.titles.healthyLife}</Text>
                                 <ModuleProgress moduleName={"@healthyLife"}/>
                             </TouchableOpacity>
-                            <View style={styles.moduleListItem}>
+
+                            <TouchableOpacity style={styles.moduleListItem}
+                                              onPress={this.props.navigation.navigate("Search")}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/passive/module1-menu.png")}
                                 />
                                 <Text>{this.state.titles.module1}</Text>
-                                <ModuleProgress moduleName={""}/>
-
-                            </View>
-
-
+                            </TouchableOpacity>
                         </View>
 
 
                         <View style={{flexDirection: "row"}}>
                             <View style={{flex: 2, alignItems: "center", marginTop: "12%", marginBottom: "-35%"}}>
-                                {/*<SelectDropdown*/}
-                                {/*    buttonStyle={{width:"50%",height:"20%",backgroundColor:"#28678F",borderRadius:8}}*/}
-                                {/*    buttonTextStyle={{fontSize:12,color:"white"}}*/}
-                                {/*    rowStyle={{backgroundColor:"#28678F",opacity:0.6}}*/}
-                                {/*    rowTextStyle={{color:"white"}}*/}
-                                {/*    defaultValue={defaultLang}*/}
-                                {/*    data={langs}*/}
-                                {/*    onSelect={(selectedItem, index) => {*/}
-                                {/*        this.updateLang(index);*/}
-                                {/*    }}*/}
-                                {/*/>*/}
 
                                 <Pressable style={{
                                     marginTop: "5%",
@@ -222,18 +204,15 @@ class ModuleList extends React.Component {
                                     <Text style={{color: "white"}}>{defaultLang}</Text>
                                 </Pressable>
                                 <Text style={{marginTop: "20%", opacity: 0.4}}
-                                      onPress={() => this.props.navigation.navigate("About")}>{this.state.titles.about}</Text>
-
-
+                                      onPress={() => this.props.navigation.navigate("About")}>{this.state.titles.about}
+                                </Text>
                             </View>
                         </View>
+                        <View style={{flex: 1}}/>
                     </View>
-                    <View style={{flex: 1}}/>
                 </View>
                 <Image source={require("../../assets/icon.png")} style={styles.footer}/>
-            </GestureRecognizer>
-
-        );
+            </GestureRecognizer>);
     }
 }
 

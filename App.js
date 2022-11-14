@@ -16,13 +16,12 @@ import BodyMenu from "./src/pages/body/BodyMenu";
 import BodySteps from "./src/pages/body/BodySteps";
 import SicknessMenu from "./src/pages/sickness/SicknessMenu";
 import SicknessSteps from "./src/pages/sickness/SicknessSteps";
-
-
+import Search from "./src/pages/dictionary/Search";
 
 const Stack = createStackNavigator({
-        ModuleList: {screen: ModuleList},
-        Welcome: {screen: Welcome},
-        SelectLanguage: {screen: SelectLanguage},
+        ModuleList: {screen:ModuleList},
+        Welcome: {screen:Welcome},
+        SelectLanguage: {screen:SelectLanguage},
         MedicineMenu:{screen:MedicineMenu},
         MedicineSteps:{screen:MedicineSteps},
         FirstaidMenu:{screen:FirstaidMenu},
@@ -33,8 +32,8 @@ const Stack = createStackNavigator({
         BodySteps:{screen:BodySteps},
         SicknessMenu:{screen:SicknessMenu},
         SicknessSteps:{screen:SicknessSteps},
-
-        About:{screen:About},
+        Search:{screen:Search},
+        About:{screen:About}
     },
     {
         headerMode: 'none',
