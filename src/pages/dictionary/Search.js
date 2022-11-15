@@ -1,72 +1,77 @@
 import React from "react";
 import setLocalDictionary from "./setLocalDictionary";
-import {Image, View} from "react-native";
+import {Image, Text, TextInput, View} from "react-native";
 import styles from "../../Styles";
 import {withNavigation} from "react-navigation";
-import {ReactSearchAutocomplete} from 'react-search-autocomplete'
+import getLocalTitles from "../../getLocalTitles";
+import Lang from "../LocalTitles";
 
 
 class Search extends React.Component {
 
     constructor(props) {
-        super(props)    ;
+        super(props);
         this.state = {
             keyz: [],
             valuez: [],
-            currentLng: ""
+            result:[],
+            resultTitle:"",
+            titles: null,
+            currentLng: "",
+            query: ""
         }
 
+        getLocalTitles(Lang, this);
         setLocalDictionary(this);
+        this.lookup=this.lookup.bind(this);
+
     }
 
 
-     handleOnSearch = (string, results) => {
-        // onSearch will have as the first callback parameter
-        // the string searched and for the second the results.
-        console.log(string, results)
+
+    lookup(e) {
+        if (e.nativeEvent.key === "Enter") {
+            console.log(this.state.query.toLowerCase())
+            console.log(this.state.keyz[0].name.toLowerCase())
+            for(let i=0 ; i < this.state.keyz.length; i++){
+
+                if(this.state.keyz[i].name.toLowerCase().includes(this.state.query.toLowerCase())){
+                    this.setState({result:this.state.valuez[i]});
+                    this.setState({resultTitle:this.state.keyz[i].name+":"});
+                    this.setState({query:""})
+                    return;
+                }
+            }
+        }
     }
 
-     handleOnHover = (result) => {
-        // the item hovered
-        console.log(result)
-    }
-
-     handleOnSelect = (item) => {
-        // the item selected
-        console.log(item)
-    }
-
-     handleOnFocus = () => {
-        console.log('Focused')
-    }
-
-     formatResult = (item) => {
-        return (
-            <View>
-                <span style={{ display: 'block', textAlign: 'left' }}>{this.state.valuez[item.id]}</span>
-            </View>
-        )
-    }
 
     render() {
-        if(this.state.keyz===[] || this.state.valuez===[] || this.state.currentLng==="")
+
+        if(this.state.titles==null)
             return null;
 
-        else return(
-        <View style={styles.appContainer}>
-            <View style={styles.flexContainer}>
-                <ReactSearchAutocomplete
-                    items={this.state.keyz}
-                    onSearch={this.handleOnSearch}
-                    onHover={this.handleOnHover}
-                    onSelect={this.handleOnSelect}
-                    onFocus={this.handleOnFocus}
-                    autoFocus
-                    formatResult={this.formatResult}
-                />
+         return (
+            <View style={styles.appContainer}>
+                <View style={styles.flexContainer}>
+                    <View style={{flex: 4}}>
+                    <TextInput
+                        multiline={true}
+                        style={styles.searchInput}
+                        onChangeText={(q)=>this.setState({query: q.trimEnd()})}
+                        value={this.state.query}
+                        placeholder={" "+this.state.titles.placeholder}
+                        onKeyPress={(e) => this.lookup(e)}
+                    />
+
+                        <Text style={styles.searchTitle}>{this.state.resultTitle}</Text>
+                        <Text style={styles.searchRes}>{this.state.result}</Text>
+                </View>
             </View>
-            <Image source={require("../../../assets/icon.png")} style={styles.footer}/>
-        </View>
+
+
+                <Image source={require("../../../assets/icon.png")} style={styles.footer}/>
+            </View>
         )
     }
 }

@@ -22,9 +22,8 @@ class ModuleProgress extends React.Component {
 
     render() {
 
-
         return (
-            <View style={{width: "95%", height: "7%", backgroundColor: "#E3D1CD", marginBottom: "0%", marginTop: "3%"}}>
+            <View style={{width: "55%", height: "7%", backgroundColor: "#E3D1CD", marginBottom: "-8%", marginTop: "3%"}}>
                 <View style={{
                     width: this.state.percentage + "%",
                     height: "100%",

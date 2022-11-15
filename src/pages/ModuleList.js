@@ -6,21 +6,35 @@ import Lang from "./LocalTitles";
 import getLocalTitles from "../getLocalTitles";
 import Storage from "../Storage";
 import ModuleProgress from "../components/ModuleProgress";
+import {withNavigation} from 'react-navigation';
 
-const langs = ["Türkçe", "English", "Português", "Deutsche"];
 
 class ModuleList extends React.Component {
 
     constructor() {
         super();
+
         this.state = {
             titles: null,
             currentLng: null,
+            update: false,
+            medicineActivePassive:null,
+            sicknessActivePassive:null,
+            firstAidActivePassive:null,
+            healthyLifeActivePassive:null,
         }
+        this.isActive = this.isActive.bind(this);
         this.updateLang = this.updateLang.bind(this);
         getLocalTitles(Lang, this);
 
+        this.isActive("@medicine")
+        this.isActive("@sickness")
+        this.isActive("@firstAid")
+        this.isActive("@healthyLife")
+
+
     }
+
 
     updateLang(index) {
         let selectedLang;
@@ -42,6 +56,66 @@ class ModuleList extends React.Component {
 
     onSwipeRight(state) {
         this.props.navigation.navigate('Welcome');
+    }
+
+
+     isActive(moduleName) {
+        let prevModule;
+
+        if (moduleName === "@body") {
+            this.props.navigation.navigate(navName);
+            return;
+        } else if (moduleName === "@medicine") {
+            prevModule = "@body";
+        } else if (moduleName === "@sickness") {
+            prevModule = "@medicine";
+        } else if (moduleName === "@firstAid") {
+            prevModule = "@sickness";
+        } else if (moduleName === "@healthyLife") {
+            prevModule = "@firstAid";
+        }
+
+        let self=this;
+        Storage.getData(prevModule).then(function (resx) {
+            let res=true;
+            if (resx === null) {
+                res=false;
+            } else {
+                let moduleArray = JSON.parse(resx);
+                for (let i = 0; i < moduleArray.length; i++) {
+                    if (moduleArray[i] === 0) {
+                        res=false
+                        break;
+                    }
+                }
+            }
+
+            if (res && moduleName==="@medicine") {
+                self.setState({medicineActivePassive:require("../../assets/images/module/medicine-menu.png")})
+            } else if(!res && moduleName==="@medicine") {
+                self.setState({medicineActivePassive:require("../../assets/images/module/passive/medicine-menu.png")})
+            }
+
+            else if (res && moduleName==="@sickness") {
+                self.setState({sicknessActivePassive:require("../../assets/images/module/sickness-menu.png")})
+            } else if(!res && moduleName==="@sickness") {
+                self.setState({sicknessActivePassive:require("../../assets/images/module/passive/sickness-menu.png")})
+            }
+
+            else if (res && moduleName==="@firstAid") {
+                self.setState({firstAidActivePassive:require("../../assets/images/module/firstaid-menu.png")})
+            } else if(!res && moduleName==="@firstAid") {
+                self.setState({firstAidActivePassive:require("../../assets/images/module/passive/firstaid-menu.png")})
+            }
+
+
+            else if (res && moduleName==="@healthyLife") {
+                self.setState({healthyLifeActivePassive:require("../../assets/images/module/healthylife-menu.png")})
+            } else if(!res && moduleName==="@healthyLife") {
+                self.setState({healthyLifeActivePassive:require("../../assets/images/module/passive/healthylife-menu.png")})
+            }
+        });
+
     }
 
     checkAndNavigate(moduleName) {
@@ -91,16 +165,17 @@ class ModuleList extends React.Component {
                 }
             }
 
-            if (result || true) //todo: remove the true it will work
+            if (result)
                 self.props.navigation.navigate(navName);
             else
                 alert(self.state.titles.lockWarning);
-
         });
     }
 
+
     render() {
 
+        let self=this;
         if (this.state.titles == null)
             return null;
         if (this.state.currentLng == null)
@@ -116,12 +191,14 @@ class ModuleList extends React.Component {
         else if (this.state.currentLng == "portugal")
             defaultLang = "Português";
 
+        const bodyActivePassive = require("../../assets/images/module/body-menu.png")
+
 
         return (
-            <GestureRecognizer onSwipeRight={(state) => this.onSwipeRight(state)} style={styles.appContainer}>
+            <GestureRecognizer onSwipeRight={(state) => this.onSwipeRight(state)}
+                               style={styles.appContainer}>
 
                 <View style={styles.flexContainer}>
-                    <View style={{flex: 1}}/>
 
                     <View style={{flexDirection: "column", flex: 4}}>
 
@@ -129,7 +206,7 @@ class ModuleList extends React.Component {
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.checkAndNavigate("@body")}>
                                 <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/body-menu.png")}
+                                       source={bodyActivePassive}
                                 />
                                 <Text>{this.state.titles.body}</Text>
                                 <ModuleProgress moduleName={"@body"}/>
@@ -139,7 +216,7 @@ class ModuleList extends React.Component {
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.checkAndNavigate("@medicine")}>
                                 <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/medicine-menu.png")}
+                                       source={this.state.medicineActivePassive}
                                 />
                                 <Text>{this.state.titles.medicine}</Text>
                                 <ModuleProgress moduleName={"@medicine"}/>
@@ -153,7 +230,7 @@ class ModuleList extends React.Component {
                                               onPress={() => this.checkAndNavigate("@sickness")}>
 
                                 <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/sickness-menu.png")}
+                                       source={this.state.sicknessActivePassive}
                                 />
                                 <Text>{this.state.titles.sickness}</Text>
                                 <ModuleProgress moduleName={"@sickness"}/>
@@ -162,7 +239,7 @@ class ModuleList extends React.Component {
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.checkAndNavigate("@firstAid")}>
                                 <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/firstaid-menu.png")}
+                                       source={this.state.firstAidActivePassive}
                                 />
                                 <Text>{this.state.titles.firstaid}</Text>
                                 <ModuleProgress moduleName={"@firstAid"}/>
@@ -175,16 +252,16 @@ class ModuleList extends React.Component {
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.checkAndNavigate("@healthyLife")}>
                                 <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/healthylife-menu.png")}
+                                       source={this.state.healthyLifeActivePassive}
                                 />
                                 <Text>{this.state.titles.healthyLife}</Text>
                                 <ModuleProgress moduleName={"@healthyLife"}/>
                             </TouchableOpacity>
 
                             <TouchableOpacity style={styles.moduleListItem}
-                                              onPress={this.props.navigation.navigate("Search")}>
+                                              onPress={() => this.props.navigation.navigate("Search")}>
                                 <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/passive/module1-menu.png")}
+                                       source={require("../../assets/images/module/module1-menu.png")}
                                 />
                                 <Text>{this.state.titles.module1}</Text>
                             </TouchableOpacity>
@@ -195,15 +272,14 @@ class ModuleList extends React.Component {
                             <View style={{flex: 2, alignItems: "center", marginTop: "12%", marginBottom: "-35%"}}>
 
                                 <Pressable style={{
-                                    marginTop: "5%",
-                                    backgroundColor: "#28678F",
+                                    backgroundColor: "orange",
                                     padding: "3%",
                                     borderRadius: 3
                                 }}
                                            onPress={() => this.props.navigation.navigate("SelectLanguage")}>
                                     <Text style={{color: "white"}}>{defaultLang}</Text>
                                 </Pressable>
-                                <Text style={{marginTop: "20%", opacity: 0.4}}
+                                <Text style={{marginTop: "10%", opacity: 0.4}}
                                       onPress={() => this.props.navigation.navigate("About")}>{this.state.titles.about}
                                 </Text>
                             </View>

@@ -10,22 +10,27 @@ class ModuleProgressTracker {
     constructor() {
         this.bodyArr = new Array(12).fill(0);
         this.firstAidArr = new Array(24).fill(0);
-        this.healthyLifeArr = new Array(15).fill(0);
+        this.healthyLifeArr = new Array(16).fill(0);
         this.medicineArr = new Array(17).fill(0);
         this.sicknessArr = new Array(14).fill(0);
 
 
-        let self = this;
-        Storage.getData("@medicine").then(function (res) {
-            console.log("constructorx: " + res);
-            if (res == null) {
-                let medicineArrStr = JSON.stringify(self.medicineArr);
-                Storage.save("@medicine", medicineArrStr);
-            } else {
-                self.medicineCurent = JSON.parse(res);
-            }
-        });
+        let modules = [{name: "@medicine", arr: this.medicineArr},
+            {name: "@body", arr: this.bodyArr},
+            {name: "@firstAid", arr: this.firstAidArr},
+            {name: "@healthyLife", arr: this.healthyLifeArr},
+            {name: "@sickness", arr: this.sicknessArr}];
 
+        for (let i = 0; i < modules.length; i++) {
+            Storage.getData(modules[i].name).then(function (res) {
+                if (res == null|| true ) {
+                    let arrStr = JSON.stringify(modules[i].arr);
+                    Storage.save(modules[i].name, arrStr);
+                }else{
+                    modules[i].arr = JSON.parse(res);
+                }
+            });
+        }
     }
 
     proceed(moduleName, titleIndex) {
@@ -43,10 +48,11 @@ class ModuleProgressTracker {
                 moduleArray = self.medicineArr;
             else if (resx === null && moduleName === "@healthyLife")
                 moduleArray = self.healthyLifeArr;
+            else if (resx === null && moduleName === "@sickness")
+                moduleArray = self.sicknessArr;
             else
                 moduleArray = JSON.parse(resx);
 
-            console.log("proceed > "+moduleName+" > "+moduleArray);
 
             moduleArray[titleIndex] = 1;
             let copyStr = JSON.stringify(moduleArray);
@@ -59,7 +65,6 @@ class ModuleProgressTracker {
         let val = await Storage.getData(moduleName).then(function (resx) {
             let openedTitleCount = 0;
 
-            console.log("calculateProgress > " + moduleName + " >" + resx);
             if (resx === null)
                 return 0;
 

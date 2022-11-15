@@ -8,12 +8,28 @@ const styles = StyleSheet.create({
         width: "100%",
         height: "100%"
     },
-    stepPic: {
-        resizeMode:"contain",
-        width: "100%",
-        height:(win.width/2),
+    searchInput: {
+        backgroundColor: "#dbe8ba",
+        borderRadius:3,
+        width: "80%",
+        left: "10%"
+    },
+    searchRes:{
+        marginTop:"3%",
+        left:"10%",
+        width:"80%"
+    },
+    searchTitle:{
+        fontWeight:"bold",
         marginTop:"5%",
-        marginBottom:"5%",
+        left:"10%"
+    },
+    stepPic: {
+        resizeMode: "contain",
+        width: "100%",
+        height: (win.width / 2),
+        marginTop: "5%",
+        marginBottom: "5%",
     },
     stepTitle: {
         fontSize: 20,
@@ -26,23 +42,23 @@ const styles = StyleSheet.create({
     },
     appContainer: {
         paddingTop: "20%",
-        minHeight: (win.height*1.1),
-        backgroundColor: '#e6e6e7',
+        minHeight: (win.height * 1.1),
+        backgroundColor: '#e8eeda',
         paddingBottom: "50%"
     },
-    welcomeContainer:{
+    welcomeContainer: {
         backgroundColor: '#e6e6e7',
     },
-    backLink:{
-       marginLeft:"5%"
+    backLink: {
+        marginLeft: "5%"
     },
     flexContainer: {
         flexDirection: "row",
-        minHeight:"100%"
+        minHeight: "100%"
     },
     pager: {
-    marginTop:"5%",
-        alignSelf:"center",
+        marginTop: "5%",
+        alignSelf: "center",
     },
     selectLanguageCover: {
         width: "100%",
@@ -87,7 +103,7 @@ const styles = StyleSheet.create({
     },
     moduleStepImage: {
         width: "50%",
-        height:130,
+        height: 130,
         resizeMode: "contain",
         justifyContent: "center"
     },
@@ -104,17 +120,17 @@ const styles = StyleSheet.create({
         alignItems: "center",
         flex: 2,
         justifyContent: "center",
-        opacity:0.6
+        opacity: 0.6
     },
     moduleListItem: {
         alignItems: "center",
         flex: 2,
         justifyContent: "center",
-        marginBottom:"-5%"
+        marginBottom: "-5%"
     },
     moduleListImage: {
-        width: "60%",
-        marginBottom: "-25%",
+        width: "50%",
+        marginBottom: "-15%",
         resizeMode: "contain",
     },
 
@@ -122,7 +138,7 @@ const styles = StyleSheet.create({
         width: "60%",
         marginBottom: "-25%",
         resizeMode: "contain",
-        opacity:0.5
+        opacity: 0.5
     },
 
     footer: {

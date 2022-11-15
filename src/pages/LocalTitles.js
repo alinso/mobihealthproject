@@ -90,7 +90,7 @@ export default [{
     zootonic :"Zoonotik ve Vektörel Hastalıklar",
     chronic :"Kronik Hastaliklar",
     cardioVaskuler :"Kalp Damar Hastalıkları",
-
+    placeholder:"tıbbi terim ara",
 
 
 
@@ -191,7 +191,7 @@ export default [{
         chronic :"Chronicle Diseases",
         cardioVaskuler :"Cardio-Vascular Diseases",
 
-
+        placeholder:"search a medical term",
         lockWarning:"Please complete previous steps to unlock this page",
         about:"About This App"
 
@@ -292,6 +292,7 @@ export default [{
         cardioVaskuler :"Doenças Cardiovasculares",
 
 
+        placeholder:"pesquisar termo médico",
 
         lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página",
         about:"Sobre Este Aplicativo"
@@ -365,7 +366,7 @@ export default [{
         chronic :"Chronische Krankheiten",
         cardioVaskuler :"Herz-Kreislauf-Erkrankungen",
 
-
+        placeholder:"medizinischen Begriff suchen",
         lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren",
         about:"Über Diese App"
     }

@@ -21,10 +21,11 @@ class FirstaidMenu extends React.Component {
 
     }
 
-
-
     onSwipeRight(state) {
-        this.props.navigation.navigate('ModuleList');
+        this.props.navigation.push('ModuleList');
+    }
+    onSwipeLeft(state) {
+        this.props.navigation.push('ModuleList');
     }
 
     goToStep(module) {
@@ -42,6 +43,7 @@ class FirstaidMenu extends React.Component {
             <ScrollView>
                 <GestureRecognizer
                     onSwipeRight={(state) => this.onSwipeRight(state)}
+                    onSwipeLeft={(state) => this.onSwipeLeft(state)}
                     style={styles.appContainer}>
 
                     <View style={styles.flexContainer}>

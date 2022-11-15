@@ -27,8 +27,7 @@
     "react-native-swipe-up-down": "^1.2.0",
     "react-native-web": "0.17.7",
     "react-navigation": "^4.4.4",
-    "react-navigation-stack": "^2.10.4",
-    "react-search-autocomplete": "^8.1.0"
+    "react-navigation-stack": "^2.10.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

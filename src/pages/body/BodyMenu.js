@@ -17,11 +17,14 @@ class BodyMenu extends React.Component {
             titles: null,
         }
         getLocalTitles(LocalTitles, this);
-
     }
 
     onSwipeRight(state) {
-        this.props.navigation.navigate('ModuleList');
+        this.props.navigation.push('ModuleList');
+    }
+
+    onSwipeLeft(state) {
+        this.props.navigation.push('ModuleList');
     }
 
     render() {
@@ -33,6 +36,7 @@ class BodyMenu extends React.Component {
             <ScrollView>
                 <GestureRecognizer
                     onSwipeRight={(state) => this.onSwipeRight(state)}
+                    onSwipeLeft={(state) => this.onSwipeLeft(state)}
                     style={styles.appContainer}>
 
                     <View style={styles.flexContainer}>
@@ -82,13 +86,14 @@ class BodyMenu extends React.Component {
 
                             <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.circular}
-                                                title={this.state.body.circular}
+                                                title={this.state.titles.circular}
                                                 href={"BodySteps"}
                                                 navParam={"Circular"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
                                                 titleIndex={4}
                                 />
+
                                 <ModuleSubtitle imgSource={Images.module.body.digest}
                                                 title={this.state.titles.fundamentals}
                                                 href={"BodySteps"}
