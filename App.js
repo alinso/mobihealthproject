@@ -17,6 +17,7 @@ import BodySteps from "./src/pages/body/BodySteps";
 import SicknessMenu from "./src/pages/sickness/SicknessMenu";
 import SicknessSteps from "./src/pages/sickness/SicknessSteps";
 import Search from "./src/pages/dictionary/Search";
+import Certificate from "./src/pages/certificate/Certificate";
 
 const Stack = createStackNavigator({
         ModuleList: {screen:ModuleList},
@@ -33,7 +34,8 @@ const Stack = createStackNavigator({
         SicknessMenu:{screen:SicknessMenu},
         SicknessSteps:{screen:SicknessSteps},
         Search:{screen:Search},
-        About:{screen:About}
+        About:{screen:About},
+        Certificate:{screen:Certificate},
     },
     {
         headerMode: 'none',

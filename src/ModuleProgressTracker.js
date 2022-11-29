@@ -23,7 +23,7 @@ class ModuleProgressTracker {
 
         for (let i = 0; i < modules.length; i++) {
             Storage.getData(modules[i].name).then(function (res) {
-                if (res == null|| true ) {
+                if (res == null|| true ) { //TODO:REMOVE TRUE
                     let arrStr = JSON.stringify(modules[i].arr);
                     Storage.save(modules[i].name, arrStr);
                 }else{

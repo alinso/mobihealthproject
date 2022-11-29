@@ -18,10 +18,10 @@ class ModuleList extends React.Component {
             titles: null,
             currentLng: null,
             update: false,
-            medicineActivePassive:null,
-            sicknessActivePassive:null,
-            firstAidActivePassive:null,
-            healthyLifeActivePassive:null,
+            medicineActivePassive: null,
+            sicknessActivePassive: null,
+            firstAidActivePassive: null,
+            healthyLifeActivePassive: null,
         }
         this.isActive = this.isActive.bind(this);
         this.updateLang = this.updateLang.bind(this);
@@ -59,7 +59,7 @@ class ModuleList extends React.Component {
     }
 
 
-     isActive(moduleName) {
+    isActive(moduleName) {
         let prevModule;
 
         if (moduleName === "@body") {
@@ -75,44 +75,37 @@ class ModuleList extends React.Component {
             prevModule = "@firstAid";
         }
 
-        let self=this;
+        let self = this;
         Storage.getData(prevModule).then(function (resx) {
-            let res=true;
+            let res = true;
             if (resx === null) {
-                res=false;
+                res = false;
             } else {
                 let moduleArray = JSON.parse(resx);
                 for (let i = 0; i < moduleArray.length; i++) {
                     if (moduleArray[i] === 0) {
-                        res=false
+                        res = false
                         break;
                     }
                 }
             }
 
-            if (res && moduleName==="@medicine") {
-                self.setState({medicineActivePassive:require("../../assets/images/module/medicine-menu.png")})
-            } else if(!res && moduleName==="@medicine") {
-                self.setState({medicineActivePassive:require("../../assets/images/module/passive/medicine-menu.png")})
-            }
-
-            else if (res && moduleName==="@sickness") {
-                self.setState({sicknessActivePassive:require("../../assets/images/module/sickness-menu.png")})
-            } else if(!res && moduleName==="@sickness") {
-                self.setState({sicknessActivePassive:require("../../assets/images/module/passive/sickness-menu.png")})
-            }
-
-            else if (res && moduleName==="@firstAid") {
-                self.setState({firstAidActivePassive:require("../../assets/images/module/firstaid-menu.png")})
-            } else if(!res && moduleName==="@firstAid") {
-                self.setState({firstAidActivePassive:require("../../assets/images/module/passive/firstaid-menu.png")})
-            }
-
-
-            else if (res && moduleName==="@healthyLife") {
-                self.setState({healthyLifeActivePassive:require("../../assets/images/module/healthylife-menu.png")})
-            } else if(!res && moduleName==="@healthyLife") {
-                self.setState({healthyLifeActivePassive:require("../../assets/images/module/passive/healthylife-menu.png")})
+            if (res && moduleName === "@medicine") {
+                self.setState({medicineActivePassive: require("../../assets/images/module/medicine-menu.png")})
+            } else if (!res && moduleName === "@medicine") {
+                self.setState({medicineActivePassive: require("../../assets/images/module/passive/medicine-menu.png")})
+            } else if (res && moduleName === "@sickness") {
+                self.setState({sicknessActivePassive: require("../../assets/images/module/sickness-menu.png")})
+            } else if (!res && moduleName === "@sickness") {
+                self.setState({sicknessActivePassive: require("../../assets/images/module/passive/sickness-menu.png")})
+            } else if (res && moduleName === "@firstAid") {
+                self.setState({firstAidActivePassive: require("../../assets/images/module/firstaid-menu.png")})
+            } else if (!res && moduleName === "@firstAid") {
+                self.setState({firstAidActivePassive: require("../../assets/images/module/passive/firstaid-menu.png")})
+            } else if (res && moduleName === "@healthyLife") {
+                self.setState({healthyLifeActivePassive: require("../../assets/images/module/healthylife-menu.png")})
+            } else if (!res && moduleName === "@healthyLife") {
+                self.setState({healthyLifeActivePassive: require("../../assets/images/module/passive/healthylife-menu.png")})
             }
         });
 
@@ -175,7 +168,7 @@ class ModuleList extends React.Component {
 
     render() {
 
-        let self=this;
+        let self = this;
         if (this.state.titles == null)
             return null;
         if (this.state.currentLng == null)
@@ -260,6 +253,15 @@ class ModuleList extends React.Component {
 
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.props.navigation.navigate("Search")}>
+                                <Image style={styles.moduleListImage}
+                                       source={require("../../assets/images/module/module1-menu.png")}
+                                />
+                                <Text>{this.state.titles.module1}</Text>
+                            </TouchableOpacity>
+                        </View>
+                        <View style={{flexDirection: "row"}}>
+                            <TouchableOpacity style={styles.moduleListItem}
+                                              onPress={() => this.props.navigation.navigate("Certificate")}>
                                 <Image style={styles.moduleListImage}
                                        source={require("../../assets/images/module/module1-menu.png")}
                                 />
