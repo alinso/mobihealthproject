@@ -126,11 +126,16 @@ const styles = StyleSheet.create({
         alignItems: "center",
         flex: 2,
         justifyContent: "center",
-        marginBottom: "-5%"
+        marginBottom: "-10%"
     },
     moduleListImage: {
-        width: "50%",
-        marginBottom: "-15%",
+        width: "40%",
+        marginBottom: "-20%",
+        resizeMode: "contain",
+    },
+    moduleListImage2: {
+        width: "20%",
+        marginBottom: "-10%",
         resizeMode: "contain",
     },
 

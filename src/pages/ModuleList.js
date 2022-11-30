@@ -259,29 +259,33 @@ class ModuleList extends React.Component {
                                 <Text>{this.state.titles.module1}</Text>
                             </TouchableOpacity>
                         </View>
+
                         <View style={{flexDirection: "row"}}>
                             <TouchableOpacity style={styles.moduleListItem}
                                               onPress={() => this.props.navigation.navigate("Certificate")}>
-                                <Image style={styles.moduleListImage}
-                                       source={require("../../assets/images/module/module1-menu.png")}
+                                <Image style={styles.moduleListImage2}
+                                       source={require("../../assets/images/module/certificate-menu.png")}
                                 />
-                                <Text>{this.state.titles.module1}</Text>
+
+                                <Text>Saglik Dostu Sertifikasi
+                                </Text>
                             </TouchableOpacity>
+
                         </View>
 
 
                         <View style={{flexDirection: "row"}}>
-                            <View style={{flex: 2, alignItems: "center", marginTop: "12%", marginBottom: "-35%"}}>
+                            <View style={{flex: 2, alignItems: "center", marginTop: "20%", marginBottom: "-35%"}}>
 
                                 <Pressable style={{
                                     backgroundColor: "orange",
-                                    padding: "3%",
+                                    padding: "2%",
                                     borderRadius: 3
                                 }}
                                            onPress={() => this.props.navigation.navigate("SelectLanguage")}>
                                     <Text style={{color: "white"}}>{defaultLang}</Text>
                                 </Pressable>
-                                <Text style={{marginTop: "10%", opacity: 0.4}}
+                                <Text style={{marginTop: "12%", opacity: 0.4}}
                                       onPress={() => this.props.navigation.navigate("About")}>{this.state.titles.about}
                                 </Text>
                             </View>

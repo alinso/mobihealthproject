@@ -78,7 +78,7 @@ export default [{
     senses:"Duyu Organları",
 
     bowell: "Akut Bağırsak Enfeksiyonları",
-    STD: "Cinsel YollaBulaşan Hastalıklar",
+    STD: "Cinsel Yolla Bulaşan Hastalıklar",
     diabetics: "Diyabet",
     cancer: "Kanser",
     cancerTypes: "Kanser Türleri",
@@ -95,7 +95,12 @@ export default [{
 
 
     lockWarning:"Bu sayfaya geçmek için önceki sayfaları tamamlayınız.",
-    about:"Uygulama Hakkında"
+    about:"Uygulama Hakkında",
+    certificateTitle:"Tebrikler!!",
+    certificateText:"Mobihealth içeriklerini tamamlayarak Sağlık Dostu sertifikasını kazandınız. Sertifika çıktısını almak icin isminizi yazıp sertifika oluşturabilirsiniz",
+    certificateButton:"Sertifika Oluştur",
+    nameSurname:"isim soyisim",
+    created:"Sertifika Oluşturuldu"
 },
     {
         module1: "Medical Terms",
@@ -193,7 +198,13 @@ export default [{
 
         placeholder:"search a medical term",
         lockWarning:"Please complete previous steps to unlock this page",
-        about:"About This App"
+        about:"About This App",
+
+        certificateTitle:"Congratulations!!",
+        certificateText:"You have finished all the steps of MobiHealth and became a Health Buddy. To print the certificate, enter your name and create your certificate",
+        certificateButton:"Create Certificate",
+        nameSurname:"name surname",
+        created:"Certificate Created"
 
     },
     {
@@ -295,7 +306,14 @@ export default [{
         placeholder:"pesquisar termo médico",
 
         lockWarning: "Por favor, complete as etapas anteriores para desbloquear esta página",
-        about:"Sobre Este Aplicativo"
+        about:"Sobre Este Aplicativo",
+
+        certificateTitle:"Parabéns!!",
+        certificateText:"Você concluiu todas as etapas do MobiHealth e se tornou um Health Buddy. Para imprimir o certificado, digite seu nome e crie seu certificado",
+        certificateButton:"Criar Certificado",
+        nameSurname:"nome sobrenome",
+        created:"Certificado Criado"
+
     },
     {
         module1: "Medizinische Begriffe",
@@ -368,6 +386,12 @@ export default [{
 
         placeholder:"medizinischen Begriff suchen",
         lockWarning: "Bitte führen Sie die vorherigen Schritte aus, um diese Seite zu entsperren",
-        about:"Über Diese App"
+        about:"Über Diese App",
+
+        certificateTitle:"Herzliche Glückwünsche!!",
+        certificateText:"Sie haben alle MobiHealth-Schritte abgeschlossen und sind Health Buddy geworden. Um das Zertifikat auszudrucken, geben Sie Ihren Namen ein und erstellen Sie Ihr Zertifikat",
+        certificateButton:"Zertifikat Erstellen",
+        nameSurname:"vorname nachname",
+        created:"Zertifikat erstellt"
     }
 ]
