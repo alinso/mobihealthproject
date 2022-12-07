@@ -13,6 +13,7 @@ import ModuleProgressTracker from "../../ModuleProgressTracker";
 import Systems from "./content/Systems";
 import BodyParts from "./content/BodyParts";
 import Digest from "./content/Digest";
+import Digest2 from "./content/Digest2";
 import Circular from "./content/Circular";
 import Motion from "./content/Motion";
 import Organs from "./content/Organs";
@@ -21,6 +22,7 @@ import Structure from "./content/Structure";
 import Urinary from "./content/Urinary";
 import Urology from "./content/Urology";
 import HtmlView from "react-native-htmlview";
+import Senses from "./content/Senses";
 let progress =new ModuleProgressTracker();
 
 
@@ -73,68 +75,63 @@ class BodySteps extends React.Component {
             getLocalContent(BodyInfo, this);
             this.image = Images.module.body.infoPic;
             stepsTitle = this.state.titles.info;
-            this.titleIndex=0;
         }
         else if (link === "Fundamentals") {
             getLocalContent(Fundamentals, this);
             this.image = Images.module.body.fundamentalsPic;
             stepsTitle = this.state.titles.fundamentals;
-            this.titleIndex=1;
-        }
-        else if (link === "Systems") {
-            getLocalContent(Systems, this);
-            this.image = Images.module.body.systemsPic;
-            stepsTitle = this.state.titles.systems;
-            this.titleIndex=2;
-        }else if (link === "BodyParts") {
-            getLocalContent(BodyParts, this);
-            this.image = Images.module.body.bodyPartsPic;
-            stepsTitle = this.state.titles.bodyParts;
-            this.titleIndex = 3;
-        }else if (link === "Circular") {
-            getLocalContent(Circular, this);
-            this.image = Images.module.body.circularPic;
-            stepsTitle = this.state.titles.circular;
-            this.titleIndex = 4;
-        }else if (link === "Digest") {
-            getLocalContent(Digest, this);
-            this.image = Images.module.body.digestPic;
-            stepsTitle = this.state.titles.digest;
-            this.titleIndex = 5;
-        }else if (link === "Motion") {
-            getLocalContent(Motion, this);
-            this.image = Images.module.body.motionPic;
-            stepsTitle = this.state.titles.motion;
-            this.titleIndex = 6;
-        }else if (link === "Organs") {
-            getLocalContent(Organs, this);
-            this.image = Images.module.body.organsPic;
-            stepsTitle = this.state.titles.organs;
-            this.titleIndex = 7;
-        }else if (link === "Respi") {
-            getLocalContent(Respi, this);
-            this.image = Images.module.body.respiPic;
-            stepsTitle = this.state.titles.respi;
-            this.titleIndex = 8;
         }else if (link === "Structure") {
             getLocalContent(Structure, this);
             this.image = Images.module.body.fundamentalsPic;
             stepsTitle = this.state.titles.structure;
-            this.titleIndex = 9;
-        }else if (link === "Urinary") {
+        }else if (link === "BodyParts") {
+            getLocalContent(BodyParts, this);
+            this.image = Images.module.body.bodyPartsPic;
+            stepsTitle = this.state.titles.bodyParts;
+        }else if (link === "Organs") {
+            getLocalContent(Organs, this);
+            this.image = Images.module.body.organsPic;
+            stepsTitle = this.state.titles.organs;
+        } else if (link === "Systems") {
+            getLocalContent(Systems, this);
+            this.image = Images.module.body.systemsPic;
+            stepsTitle = this.state.titles.systems;
+
+        }else if (link === "Circular") {
+            getLocalContent(Circular, this);
+            this.image = Images.module.body.circularPic;
+            stepsTitle = this.state.titles.circular;
+        }else if (link === "Respi") {
+            getLocalContent(Respi, this);
+            this.image = Images.module.body.respiPic;
+            stepsTitle = this.state.titles.respi;
+        }else if (link === "Digest") {
+            getLocalContent(Digest, this);
+            this.image = Images.module.body.digestPic;
+            stepsTitle = this.state.titles.digest;
+        }else if (link === "Digest2") {
+            getLocalContent(Digest2, this);
+            this.image = Images.module.body.digestPic;
+            stepsTitle = this.state.titles.digest;
+        }else if (link === "Motion") {
+            getLocalContent(Motion, this);
+            this.image = Images.module.body.motionPic;
+            stepsTitle = this.state.titles.motion;
+        } else if (link === "Urinary") {
             getLocalContent(Urinary, this);
             this.image = Images.module.body.urinaryPic;
             stepsTitle = this.state.titles.uriner;
-            this.titleIndex = 10;
         }else if (link === "Urology") {
             getLocalContent(Urology, this);
             this.image = Images.module.body.urologyPic;
             stepsTitle = this.state.titles.urology;
-            this.titleIndex = 11;
+        }else if (link === "Senses") {
+            getLocalContent(Senses, this);
+            this.image = Images.module.body.sensesPic;
+            stepsTitle = this.state.titles.senses;
         }
 
 
-        progress.proceed("@body",this.titleIndex);
         this.setState({title: stepsTitle})
     }
 

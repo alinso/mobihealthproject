@@ -58,7 +58,6 @@ class SicknessSteps extends React.Component {
         }
         let newCurrentStep = this.state.currentStep + 1;
         this.setState({currentStep: newCurrentStep});
-        progress.proceed("@sickness",this.titleIndex,newCurrentStep+1);
     }
 
     onSwipeRight() {
@@ -76,76 +75,61 @@ class SicknessSteps extends React.Component {
             getLocalContent(ModuleInfo, this);
             this.image = Images.module.sickness.infoPic;
             stepsTitle = this.state.titles.info;
-            this.titleIndex=0;
         }else if (link === "Bowell") {
             getLocalContent(Bowell, this);
             this.image = Images.module.sickness.bowellPic;
             stepsTitle = this.state.titles.bowell;
-            this.titleIndex=1;
         }else if (link === "Cancer") {
             getLocalContent(Cancer, this);
             this.image = Images.module.sickness.cancerPic;
             stepsTitle = this.state.titles.cancer;
-            this.titleIndex=2;
         }else if (link === "CancerTypes"){
             getLocalContent(CancerTypes, this);
             this.image = Images.module.sickness.cancerTypesPic;
             stepsTitle = this.state.titles.cancerTypes;
-            this.titleIndex=3;
         }else if (link === "CardioVaskuler"){
             getLocalContent(Cardiovaskuler, this);
             this.image = Images.module.sickness.cardioVaskulerPic;
             stepsTitle = this.state.titles.cardioVaskuler;
-            this.titleIndex=4;
         }else if (link === "ChronicDisease"){
             getLocalContent(ChronicDisease, this);
             this.image = Images.module.sickness.chronicPic;
             stepsTitle = this.state.titles.chronic;
-            this.titleIndex=5;
         }else if (link === "Diabetics"){
             getLocalContent(Diabetics, this);
             this.image = Images.module.sickness.diabeticsPic;
             stepsTitle = this.state.titles.diabetics;
-            this.titleIndex=6;
         }else if (link === "Digestive"){
             getLocalContent(Digestive, this);
             this.image = Images.module.sickness.digestivePic;
             stepsTitle = this.state.titles.digestive;
-            this.titleIndex=7;
         }else if (link === "Hepatisis"){
             getLocalContent(Hepatisis, this);
             this.image = Images.module.sickness.hepatisisPic;
             stepsTitle = this.state.titles.hepatisis;
-            this.titleIndex=8;
         }else if (link === "Muscular"){
             getLocalContent(Muscular, this);
             this.image = Images.module.sickness.muscularPic;
             stepsTitle = this.state.titles.muscular;
-            this.titleIndex=9;
         }else if (link === "RespiratorySystem"){
             getLocalContent(RespiratorySystem, this);
             this.image = Images.module.sickness.respiratorySystemPic;
             stepsTitle = this.state.titles.respiratorySystem;
-            this.titleIndex=10;
         }else if (link === "SicknessFactors"){
             getLocalContent(SicknessFactors, this);
             this.image = Images.module.sickness.sicknessFactorsPic;
             stepsTitle = this.state.titles.sicknessFactors;
-            this.titleIndex=11;
         }else if (link === "STD"){
             getLocalContent(STD, this);
             this.image = Images.module.sickness.STDPic;
             stepsTitle = this.state.titles.STD;
-            this.titleIndex=12;
         }else if (link === "Zootonic"){
             getLocalContent(Zootonic, this);
             this.image = Images.module.sickness.zootonicPic;
             stepsTitle = this.state.titles.zootonic;
-            this.titleIndex=13;
         }
 
         console.log(this.state.currentStep+1);
-        progress.proceed("@sickness",this.titleIndex);
         this.setState({title: stepsTitle})
     }
 

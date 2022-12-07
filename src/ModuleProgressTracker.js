@@ -8,9 +8,9 @@ class ModuleProgressTracker {
     medicineArr;
 
     constructor() {
-        this.bodyArr = new Array(12).fill(0);
+        this.bodyArr = new Array(14).fill(0);
         this.firstAidArr = new Array(24).fill(0);
-        this.healthyLifeArr = new Array(16).fill(0);
+        this.healthyLifeArr = new Array(15).fill(0);
         this.medicineArr = new Array(17).fill(0);
         this.sicknessArr = new Array(14).fill(0);
 
@@ -23,7 +23,7 @@ class ModuleProgressTracker {
 
         for (let i = 0; i < modules.length; i++) {
             Storage.getData(modules[i].name).then(function (res) {
-                if (res == null|| true ) { //TODO:REMOVE TRUE
+                if (res == null ) { //TODO:REMOVE TRUE
                     let arrStr = JSON.stringify(modules[i].arr);
                     Storage.save(modules[i].name, arrStr);
                 }else{

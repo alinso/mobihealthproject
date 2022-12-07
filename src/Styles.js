@@ -46,6 +46,12 @@ const styles = StyleSheet.create({
         backgroundColor: '#e8eeda',
         paddingBottom: "50%"
     },
+    moduleListContainer: {
+        paddingTop: "10%",
+        minHeight: (win.height * 1.1),
+        backgroundColor: '#e8eeda',
+        paddingBottom: "50%"
+    },
     welcomeContainer: {
         backgroundColor: '#e6e6e7',
     },

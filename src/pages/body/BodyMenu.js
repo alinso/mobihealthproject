@@ -65,14 +65,15 @@ class BodyMenu extends React.Component {
                             </View>
 
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.body.systems}
-                                                title={this.state.titles.systems}
+                                <ModuleSubtitle imgSource={Images.module.body.fundamentals}
+                                                title={this.state.titles.structure}
                                                 href={"BodySteps"}
-                                                navParam={"Systems"}
+                                                navParam={"Structure"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
                                                 titleIndex={2}
                                 />
+
                                 <ModuleSubtitle imgSource={Images.module.body.bodyParts}
                                                 title={this.state.titles.bodyParts}
                                                 href={"BodySteps"}
@@ -80,6 +81,30 @@ class BodyMenu extends React.Component {
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
                                                 titleIndex={3}
+                                />
+
+
+
+
+                            </View>
+
+                            <View style={{flexDirection: "row"}}>
+                                <ModuleSubtitle imgSource={Images.module.body.organs}
+                                                title={this.state.titles.organs}
+                                                href={"BodySteps"}
+                                                navParam={"Organs"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@body"}
+                                                titleIndex={4}
+                                />
+
+                                <ModuleSubtitle imgSource={Images.module.body.systems}
+                                                title={this.state.titles.systems}
+                                                href={"BodySteps"}
+                                                navParam={"Systems"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@body"}
+                                                titleIndex={5}
                                 />
 
                             </View>
@@ -91,17 +116,36 @@ class BodyMenu extends React.Component {
                                                 navParam={"Circular"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
-                                                titleIndex={4}
+                                                titleIndex={6}
                                 />
+                                <ModuleSubtitle imgSource={Images.module.body.respi}
+                                                title={this.state.titles.respi}
+                                                href={"BodySteps"}
+                                                navParam={"Respi"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@body"}
+                                                titleIndex={7}
+                                />
+                            </View>
 
+                            <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.digest}
-                                                title={this.state.titles.fundamentals}
+                                                title={this.state.titles.digest}
                                                 href={"BodySteps"}
                                                 navParam={"Digest"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
-                                                titleIndex={5}
+                                                titleIndex={8}
                                 />
+                                <ModuleSubtitle imgSource={Images.module.body.digest}
+                                                title={this.state.titles.digest2}
+                                                href={"BodySteps"}
+                                                navParam={"Digest2"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@body"}
+                                                titleIndex={9}
+                                />
+
 
                             </View>
 
@@ -112,55 +156,37 @@ class BodyMenu extends React.Component {
                                                 navParam={"Motion"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
-                                                titleIndex={6}
-                                />
-                                <ModuleSubtitle imgSource={Images.module.body.organs}
-                                                title={this.state.titles.organs}
-                                                href={"BodySteps"}
-                                                navParam={"Organs"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@body"}
-                                                titleIndex={7}
+                                                titleIndex={10}
                                 />
 
-                            </View>
-
-                            <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.body.respi}
-                                                title={this.state.titles.info}
-                                                href={"BodySteps"}
-                                                navParam={"Respi"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@body"}
-                                                titleIndex={8}
-                                />
-                                <ModuleSubtitle imgSource={Images.module.body.fundamentals}
-                                                title={this.state.titles.structure}
-                                                href={"BodySteps"}
-                                                navParam={"Structure"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@body"}
-                                                titleIndex={9}
-                                />
-
-                            </View>
-
-                            <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.urinary}
                                                 title={this.state.titles.uriner}
                                                 href={"BodySteps"}
                                                 navParam={"Urinary"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
-                                                titleIndex={10}
+                                                titleIndex={11}
                                 />
+
+                            </View>
+
+                            <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.body.urology}
                                                 title={this.state.titles.urology}
                                                 href={"BodySteps"}
                                                 navParam={"Urology"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@body"}
-                                                titleIndex={11}
+                                                titleIndex={12}
+                                />
+
+                                <ModuleSubtitle imgSource={Images.module.body.senses}
+                                                title={this.state.titles.senses}
+                                                href={"BodySteps"}
+                                                navParam={"Senses"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@body"}
+                                                titleIndex={13}
                                 />
 
                             </View>

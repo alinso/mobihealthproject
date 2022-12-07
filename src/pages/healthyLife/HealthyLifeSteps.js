@@ -59,7 +59,6 @@ class HealthyLifeSteps extends React.Component {
         }
         let newCurrentStep = this.state.currentStep + 1;
         this.setState({currentStep: newCurrentStep});
-        progress.proceed("@firstAid",this.titleIndex,newCurrentStep+1);
     }
 
     onSwipeRight() {
@@ -77,82 +76,66 @@ class HealthyLifeSteps extends React.Component {
             getLocalContent(Fundamentals, this);
             this.image = Images.module.healthylife.fundamentalsPic;
             stepsTitle = this.state.titles.fundamentals;
-            this.titleIndex=0;
         }else if (link === "Nutrition") {
             getLocalContent(Nutrition, this);
             this.image = Images.module.healthylife.nutritionPic;
             stepsTitle = this.state.titles.nutrition;
-            this.titleIndex=1;
         }else if (link === "FoodTypes") {
             getLocalContent(FoodTypes, this);
             this.image = Images.module.healthylife.foodTypesPic;
             stepsTitle = this.state.titles.foodTypes;
-            this.titleIndex=2;
         }else if (link === "PhysicalActivity") {
             getLocalContent(PhysicalActivity, this);
             this.image = Images.module.healthylife.physicalActivityPic;
             stepsTitle = this.state.titles.physicalActivity;
-            this.titleIndex=2;
         }else if (link === "Obesity") {
             getLocalContent(Obesity, this);
             this.image = Images.module.healthylife.obesityPic;
             stepsTitle = this.state.titles.obesity;
-            this.titleIndex=2;
         }else if (link === "BodyTypes") {
             getLocalContent(BodyTypes, this);
             this.image = Images.module.healthylife.bodyTypesPic;
             stepsTitle = this.state.titles.bodyTypes;
-            this.titleIndex=2;
         }else if (link === "Pregnancy") {
             getLocalContent(Pregnancy, this);
             this.image = Images.module.healthylife.biberonPic;
             stepsTitle = this.state.titles.pregnancy;
-            this.titleIndex=2;
         }
         else if (link === "Biberon") {
             getLocalContent(Biberon, this);
             this.image = Images.module.healthylife.biberonPic;
             stepsTitle = this.state.titles.biberon;
-            this.titleIndex=2;
         }else if (link === "OldPeople") {
             getLocalContent(OldPeople, this);
             this.image = Images.module.healthylife.oldPeoplePic;
             stepsTitle = this.state.titles.biberon;
-            this.titleIndex=2;
         }else if (link === "Workers") {
             getLocalContent(Workers, this);
             this.image = Images.module.healthylife.workersPic;
             stepsTitle = this.state.titles.workers;
-            this.titleIndex=2;
         }else if (link === "Sportsmen") {
             getLocalContent(Sportsmen, this);
             this.image = Images.module.healthylife.sportsmenPic;
             stepsTitle = this.state.titles.sportsmen;
-            this.titleIndex=2;
         }else if (link === "Vegetarian") {
             getLocalContent(Vegetarian, this);
             this.image = Images.module.healthylife.vegetarianPic;
             stepsTitle = this.state.titles.vegetarian;
-            this.titleIndex=2;
         }else if (link === "Chronicles") {
             getLocalContent(Chronicles, this);
             this.image = Images.module.healthylife.chroniclesPic;
             stepsTitle = this.state.titles.chronicles;
-            this.titleIndex=2;
         }else if (link === "Diets") {
             getLocalContent(Diets, this);
             this.image = Images.module.healthylife.dietsPic;
             stepsTitle = this.state.titles.diets;
-            this.titleIndex=2;
         }else if (link === "FoodSafety") {
             getLocalContent(FoodSafety, this);
             this.image = Images.module.healthylife.foodSafetyPic;
             stepsTitle = this.state.titles.foodSafety;
-            this.titleIndex=2;
         }
 
         console.log(this.state.currentStep+1);
-        progress.proceed("@firstAid",this.titleIndex,this.state.currentStep+1);
         this.setState({title: stepsTitle})
     }
 

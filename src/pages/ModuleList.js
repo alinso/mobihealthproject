@@ -22,6 +22,7 @@ class ModuleList extends React.Component {
             sicknessActivePassive: null,
             firstAidActivePassive: null,
             healthyLifeActivePassive: null,
+            certificateActivePassive:null
         }
         this.isActive = this.isActive.bind(this);
         this.updateLang = this.updateLang.bind(this);
@@ -31,6 +32,7 @@ class ModuleList extends React.Component {
         this.isActive("@sickness")
         this.isActive("@firstAid")
         this.isActive("@healthyLife")
+        this.isActive("Certificate")
 
 
     }
@@ -73,6 +75,8 @@ class ModuleList extends React.Component {
             prevModule = "@sickness";
         } else if (moduleName === "@healthyLife") {
             prevModule = "@firstAid";
+        } else if (moduleName === "Certificate") {
+            prevModule = "@healthyLife";
         }
 
         let self = this;
@@ -106,6 +110,10 @@ class ModuleList extends React.Component {
                 self.setState({healthyLifeActivePassive: require("../../assets/images/module/healthylife-menu.png")})
             } else if (!res && moduleName === "@healthyLife") {
                 self.setState({healthyLifeActivePassive: require("../../assets/images/module/passive/healthylife-menu.png")})
+            }else if (!res && moduleName === "Certificate") {
+                self.setState({certificateActivePassive: require("../../assets/images/module/passive/certificate-menu.png")})
+            }else if (res && moduleName === "Certificate") {
+                self.setState({certificateActivePassive: require("../../assets/images/module/certificate-menu.png")})
             }
         });
 
@@ -125,6 +133,8 @@ class ModuleList extends React.Component {
             navName = "BodyMenu";
         else if (moduleName === "@sickness")
             navName = "SicknessMenu";
+        else if (moduleName === "Certificate")
+            navName = "Certificate";
 
 
         let prevModule;
@@ -139,6 +149,8 @@ class ModuleList extends React.Component {
             prevModule = "@sickness";
         } else if (moduleName === "@healthyLife") {
             prevModule = "@firstAid";
+        } else if (moduleName === "Certificate") {
+            prevModule = "@healthyLife";
         }
 
 
@@ -189,7 +201,7 @@ class ModuleList extends React.Component {
 
         return (
             <GestureRecognizer onSwipeRight={(state) => this.onSwipeRight(state)}
-                               style={styles.appContainer}>
+                               style={styles.moduleListContainer}>
 
                 <View style={styles.flexContainer}>
 
@@ -262,13 +274,10 @@ class ModuleList extends React.Component {
 
                         <View style={{flexDirection: "row"}}>
                             <TouchableOpacity style={styles.moduleListItem}
-                                              onPress={() => this.props.navigation.navigate("Certificate")}>
+                                              onPress={() => this.checkAndNavigate("Certificate")}>
                                 <Image style={styles.moduleListImage2}
-                                       source={require("../../assets/images/module/certificate-menu.png")}
+                                       source={this.state.certificateActivePassive}
                                 />
-
-                                <Text>Saglik Dostu Sertifikasi
-                                </Text>
                             </TouchableOpacity>
 
                         </View>

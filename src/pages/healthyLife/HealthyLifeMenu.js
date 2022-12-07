@@ -92,10 +92,10 @@ class HealthyLifeMenu extends React.Component {
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={4}
                                 />
-                                <ModuleSubtitle imgSource={Images.module.healthylife.physicalActivity}
-                                                title={this.state.titles.physicalActivity}
+                                <ModuleSubtitle imgSource={Images.module.healthylife.bodyTypes}
+                                                title={this.state.titles.bodyTypes}
                                                 href={"HealthyLifeSteps"}
-                                                navParam={"PhysicalActivity"}
+                                                navParam={"BodyTypes"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={5}
@@ -103,18 +103,19 @@ class HealthyLifeMenu extends React.Component {
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={Images.module.healthylife.bodyTypes}
-                                                title={this.state.titles.bodyTypes}
-                                                href={"HealthyLifeSteps"}
-                                                navParam={"BodyTypes"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@healthyLife"}
-                                                titleIndex={6}
-                                />
+
                                 <ModuleSubtitle imgSource={Images.module.healthylife.pregnancy}
                                                 title={this.state.titles.pregnancy}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Pregnancy"}
+                                                lockWarning={this.state.titles.lockWarning}
+                                                moduleName={"@healthyLife"}
+                                                titleIndex={6}
+                                />
+                                <ModuleSubtitle imgSource={Images.module.healthylife.biberon}
+                                                title={this.state.titles.biberon}
+                                                href={"HealthyLifeSteps"}
+                                                navParam={"Biberon"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
                                                 titleIndex={7}
@@ -122,76 +123,73 @@ class HealthyLifeMenu extends React.Component {
                             </View>
                             <View style={{flexDirection: "row"}}>
 
-                                <ModuleSubtitle imgSource={Images.module.healthylife.biberon}
-                                                title={this.state.titles.biberon}
-                                                href={"HealthyLifeSteps"}
-                                                navParam={"Biberon"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@healthyLife"}
-                                                titleIndex={8}
-                                />
+
                                 <ModuleSubtitle imgSource={Images.module.healthylife.oldPeople}
                                                 title={this.state.titles.oldPeople}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"OldPeople"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
-                                                titleIndex={9}
+                                                titleIndex={8}
                                 />
-                            </View>
-                            <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.healthylife.workers}
                                                 title={this.state.titles.workers}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Workers"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
-                                                titleIndex={10}
+                                                titleIndex={9}
                                 />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+
                                 <ModuleSubtitle imgSource={Images.module.healthylife.sportsmen}
                                                 title={this.state.titles.sportsmen}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Sportsmen"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
-                                                titleIndex={11}
-                                />
+                                                titleIndex={10}
+                                /><ModuleSubtitle imgSource={Images.module.healthylife.vegetarian}
+                                                  title={this.state.titles.vegetarian}
+                                                  href={"HealthyLifeSteps"}
+                                                  navParam={"Vegetarian"}
+                                                  lockWarning={this.state.titles.lockWarning}
+                                                  moduleName={"@healthyLife"}
+                                                  titleIndex={11}
+                            />
                             </View>
                             <View style={{flexDirection: "row"}}>
-                                <ModuleSubtitle imgSource={Images.module.healthylife.vegetarian}
-                                                title={this.state.titles.vegetarian}
-                                                href={"HealthyLifeSteps"}
-                                                navParam={"Vegetarian"}
-                                                lockWarning={this.state.titles.lockWarning}
-                                                moduleName={"@healthyLife"}
-                                                titleIndex={12}
-                                />
+
                                 <ModuleSubtitle imgSource={Images.module.healthylife.chronicles}
                                                 title={this.state.titles.chronicles}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Chronicles"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
-                                                titleIndex={13}
+                                                titleIndex={12}
                                 />
-                            </View>
-                            <View style={{flexDirection: "row"}}>
                                 <ModuleSubtitle imgSource={Images.module.healthylife.diets}
                                                 title={this.state.titles.diets}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"Diets"}
+
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
-                                                titleIndex={14}
+                                                titleIndex={13}
                                 />
+                            </View>
+                            <View style={{flexDirection: "row"}}>
+
                                 <ModuleSubtitle imgSource={Images.module.healthylife.foodSafety}
                                                 title={this.state.titles.foodSafety}
                                                 href={"HealthyLifeSteps"}
                                                 navParam={"FoodSafety"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@healthyLife"}
-                                                titleIndex={15}
+                                                titleIndex={14}
                                 />
+                               <View style={styles.titleListItem}></View>
                             </View>
                         </View>
 

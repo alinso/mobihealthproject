@@ -166,7 +166,7 @@ const Images = {
             bowellPic: require("../assets/images/module/sickness/headerimages/bowell.jpg"),
             cancerPic: require("../assets/images/module/sickness/headerimages/cancer.jpg"),
             cancerTypesPic: require("../assets/images/module/sickness/headerimages/cancerTypes.jpg"),
-            cardioVaskulerPic: require("../assets/images/module/sickness/cardioVaskuler.png"),
+            cardioVaskulerPic: require("../assets/images/module/sickness/headerimages/cardioVaskuler.png"),
             chronicPic: require("../assets/images/module/sickness/headerimages/chronic.png"),
             diabeticsPic: require("../assets/images/module/sickness/headerimages/diabetics.jpg"),
             digestivePic: require("../assets/images/module/sickness/headerimages/digestive.jpg"),
