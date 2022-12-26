@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
     },
     moduleListImage: {
         width: "40%",
-        marginBottom: "-20%",
+        marginBottom: "-15%",
         resizeMode: "contain",
     },
     moduleListImage2: {

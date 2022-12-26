@@ -108,7 +108,7 @@ class HealthyLifeSteps extends React.Component {
         }else if (link === "OldPeople") {
             getLocalContent(OldPeople, this);
             this.image = Images.module.healthylife.oldPeoplePic;
-            stepsTitle = this.state.titles.biberon;
+            stepsTitle = this.state.titles.oldPeople;
         }else if (link === "Workers") {
             getLocalContent(Workers, this);
             this.image = Images.module.healthylife.workersPic;
@@ -164,7 +164,7 @@ class HealthyLifeSteps extends React.Component {
                             <Image style={styles.stepPic} source={this.image}/>
                             <View style={{
                                 width: pagerWidth + "%",
-                                height: "1%",
+                                height: 6,
                                 backgroundColor: "orange",
                                 alignSelf: "flex-start",
                                 marginLeft: "5%",

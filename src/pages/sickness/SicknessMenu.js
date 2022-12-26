@@ -66,7 +66,7 @@ class SicknessMenu extends React.Component {
                                 <ModuleSubtitle imgSource={Images.module.sickness.cancer}
                                                 title={this.state.titles.cancer}
                                                 href={"SicknessSteps"}
-                                                navParam={"Cancer"}
+                                                navParam={"xCancer"}
                                                 lockWarning={this.state.titles.lockWarning}
                                                 moduleName={"@sickness"}
                                                 titleIndex={2}

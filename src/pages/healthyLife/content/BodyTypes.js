@@ -57,7 +57,7 @@ export default [
 
         "Achondroplasia\n" +
         "É o nome dado à estatura curta para a idade em crianças.  A causa mais comum disto no nosso país é a desnutrição. Especialmente os primeiros mil dias de um bebé, uma vez que o útero da mãe é muito precioso.  Começando com uma nutrição adequada durante a gravidez, apenas o leite materno nos primeiros seis meses após o nascimento, e após seis meses, o leite materno e os bebés que recebem nutrientes suplementares adequados são muito vantajosos em termos de crescimento e desenvolvimento. Além da desnutrição, os fatores que causam a achondroplasia incluem algumas síndromes genéticas, displasia, distúrbios dos sistemas de órgãos e distúrbios do sistema endócrino.\n"
-    ]
+    ],
     [
         "Es tritt als Folge der BMI-Werte von Einzelpersonen von 30 kg / m2 und darüber, Taillenumfang von 88 cm bei Frauen und mehr als 102 cm bei Männern und Körperfettanteil von über 30% bei Frauen und 25% bei Männern. Es ist eine Krankheit, die viele chronische Krankheiten verursacht und die Lebensqualität verringert. Fettleibigkeit wird durch viele Faktoren beeinflusst, wie z.B. den täglichen Verzehr von Lebensmitteln, die mehr als oder weniger als der Bedarf sind, einen sitzenden Tagesablauf, Genetik, unregelmäßigen und unzureichenden Schlaf, die Verwendung bestimmter Medikamente, Stoffwechsel- und Hormonstörungen.\n" ,
 

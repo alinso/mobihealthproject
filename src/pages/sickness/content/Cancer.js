@@ -109,7 +109,10 @@ export default [
 
 
 
-[" <b> Cancro </b> \n Cancro são os tumores malignos que aparecem quando as células de um órgão ou tecido se dividem e se multiplicam de forma irregular. Em termos gerais, o cancro é um grupo de mais de 100 doenças causadas pela proliferação descontrolada de células em várias partes do nosso corpo. Embora existam muitos tipos diferentes de cancro, todos eles começam com a proliferação descontrolada de células anormais. Se não for tratado, pode causar doenças graves ou mesmo a morte. ",
+[" <b> Cancro </b> \n Cancro são os tumores malignos que aparecem quando as células de um órgão ou tecido se dividem e se " +
+"multiplicam de forma irregular. Em termos gerais, o cancro é um grupo de mais de 100 doenças causadas pela proliferação descontrolada de " +
+"células em várias partes do nosso corpo. Embora existam muitos tipos diferentes de cancro, todos eles começam com a proliferação descontrolada de " +
+"células anormais. Se não for tratado, pode causar doenças graves ou mesmo a morte. ",
 "Como é que uma célula normal se transforma em cancro?  " +
 "Todos os tipos de cancro se desenvolvem a partir das nossas células, que são a unidade viva básica do corpo. Para compreender o cancro, seria útil saber como as células normais se transformam em cancro.  " +
 "As células saudáveis do nosso corpo têm a capacidade de dividir. No entanto, esta característica não se encontra nas células musculares e nervosas. Elas utilizam as suas capacidades para regenerar células mortas e reparar tecidos feridos. Enquanto as células se dividem mais rapidamente nos primeiros anos de vida, esta taxa abranda na idade adulta. No entanto, estas capacidades das células são limitadas, não se podem dividir indefinidamente. Ao longo da sua vida, cada célula tem um certo número de divisibilidade. Uma pessoa saudável sabe o quanto dividir e sabe quando necessário que a célula morra. A isto chama-se apoptose, ou morte programada da célula. Normalmente, as células precisam de crescer, dividir e produzir mais células para que o corpo funcione corretamente e de forma saudável. No entanto, por vezes, o processo desenrola-se, e as células continuam a dividir-se sem a necessidade de novas células. As células cancerosas inconscientes começam a dividir-se de forma incontrolável e a multiplicar-se. As massas de células em excesso formam um tumor.  " +
@@ -148,7 +151,8 @@ export default [
 "7. Cancro do colo do útero  " +
 "8. Tumores dos gânglios linfáticos  " +
 "Em termos de incidência de tipos de cancro, homens e mulheres diferem. A frequência do cancro varia de acordo com as regiões geográficas e a raça. O cancro da pele é o tipo de cancro mais comum, tanto nos homens como nas mulheres. Na Turquia, pulmão, próstata, intestino grosso, recto, estômago e pâncreas em homens; mama, pulmão, intestino grosso, recto, colo do útero, ovário, estômago e cancros pancreáticos.  " +
-"Nos últimos vinte a trinta anos, tem havido um aumento notável do número de doenças cancerígenas devido ao aumento do número de idosos na população com o prolongamento da vida média, e ao aumento do número de fumadores ao mesmo tempo. Em paralelo com a sua prevalência, a incidência de cancro do pulmão está a aproximar-se da do cancro da mama. ",
+"Nos últimos vinte a trinta anos, tem havido um aumento notável do número de doenças cancerígenas devido ao aumento do número de idosos na população com o prolongamento" +
+" da vida média, e ao aumento do número de fumadores ao mesmo tempo. Em paralelo com a sua prevalência, a incidência de cancro do pulmão está a aproximar-se da do cancro da mama. ",
 "Formas de proteção  " +
 "- Alimentação Adequada e Equilibrada  " +
 "- Fazer Atividade Física  " +
@@ -159,14 +163,15 @@ export default [
 "- Para as mulheres, amamentar reduz o risco de cancro da mama e cancro dos ovários.  " +
 "- Vacinar-se contra doenças como o cancro do colo do útero.  " +
 "- Realização de rastreios do cancro para deteção precoce  " +
-"- Proteger da poluição atmosférica "]
-
-
-["KREBS " +
-"Als Wortbedeutung bezeichnet Krebs die bösartigen Tumore, die entstehen, wenn sich die Zellen in einem Organ oder Gewebe unregelmäßig teilen und vermehren. Krebs ist allgemein eine Gruppe von mehr als 100 Krankheiten, die durch die unkontrollierte Vermehrung von Zellen in verschiedenen Teilen unseres Körpers verursacht werden. Obwohl es viele verschiedene Krebsarten gibt, beginnen sie alle mit der unkontrollierten Vermehrung abnormaler Zellen. Unbehandelt kann es zu schweren Erkrankungen oder sogar zum Tod führen.",
+"- Proteger da poluição atmosférica "
+],
+["<b>KREBS</b> \n" +
+"Als Wortbedeutung bezeichnet Krebs die bösartigen Tumore, die entstehen, wenn sich die Zellen in einem Organ oder Gewebe unregelmäßig " +
+"teilen und vermehren. Krebs ist allgemein eine Gruppe von mehr als 100 Krankheiten, die durch die unkontrollierte Vermehrung von Zellen in verschiedenen Teilen unseres Körpers verursacht werden. Obwohl es viele verschiedene Krebsarten gibt, beginnen sie alle mit der unkontrollierten Vermehrung abnormaler Zellen. Unbehandelt kann es zu schweren Erkrankungen oder sogar zum Tod führen.",
 "Wie wird aus einer normalen Zelle Krebs? " +
 "Alle Arten von Krebs entwickeln sich aus unseren Zellen, die die grundlegende Lebenseinheit des Körpers sind. Um Krebs zu verstehen, wäre es hilfreich zu wissen, wie normale Zellen zu Krebs werden. " +
-"Gesunde Zellen in unserem Körper haben die Fähigkeit, sich zu teilen. Diese Eigenschaft findet sich jedoch nicht in Muskel- und Nervenzellen. Sie nutzen ihre Fähigkeiten, um abgestorbene Zellen zu regenerieren und verletztes Gewebe zu reparieren. Während sich die Zellen in den ersten Lebensjahren schneller teilen, verlangsamt sich diese Rate im Erwachsenenalter. Diese Fähigkeiten von Zellen sind jedoch begrenzt, sie können sich nicht unbegrenzt teilen. Jede Zelle hat im Laufe ihres Lebens eine gewisse Teilbarkeitszahl. Ein gesunder Mensch weiß, wie viel er teilen muss, und er weiß, wie er notfalls sterben muss. Dies wird als Apoptose oder programmierter Zelltod bezeichnet. Normalerweise müssen Zellen wachsen, sich teilen und mehr Zellen produzieren, damit der Körper richtig und gesund funktioniert. Manchmal geht der Prozess jedoch in die Irre, und die Zellen teilen sich weiter, ohne dass neue Zellen benötigt werden. Unbewusste Krebszellen beginnen sich unkontrolliert zu teilen und zu vermehren. Massen von überschüssigen Zellen bilden eine Größe oder einen Tumor.Im Zentrum der Zellen befinden sich mikroskopisch kleine DNA-Stränge, die mit einem Elektronenmikroskop betrachtet werden können und in denen die Erbinformationen der Zelle und des Organismus gespeichert sind. DNA ist notwendig, damit die Zelle normal funktioniert. Krebszellen werden aufgrund von Schäden an diesem DN-Strang gebildet. Selbst wenn im normalen Lebenszyklus der Zelle ein DNA-Schaden auftritt, repariert die Zelle diesen entweder oder stirbt. In Krebszellen kann beschädigte DNA nicht repariert werden und es beginnt eine unkontrollierte Vermehrung. DNA kann durch Umweltfaktoren (wie Chemikalien, Viren, Tabakprodukte oder übermäßige Sonneneinstrahlung usw.) geschädigt werden."+
+"Gesunde Zellen in unserem Körper haben die Fähigkeit, sich zu teilen. Diese Eigenschaft findet sich jedoch nicht in Mus" +
+"kel- und Nervenzellen. Sie nutzen ihre Fähigkeiten, um abgestorbene Zellen zu regenerieren und verletztes Gewebe zu reparieren. Während sich die Zellen in den ersten Lebensjahren schneller teilen, verlangsamt sich diese Rate im Erwachsenenalter. Diese Fähigkeiten von Zellen sind jedoch begrenzt, sie können sich nicht unbegrenzt teilen. Jede Zelle hat im Laufe ihres Lebens eine gewisse Teilbarkeitszahl. Ein gesunder Mensch weiß, wie viel er teilen muss, und er weiß, wie er notfalls sterben muss. Dies wird als Apoptose oder programmierter Zelltod bezeichnet. Normalerweise müssen Zellen wachsen, sich teilen und mehr Zellen produzieren, damit der Körper richtig und gesund funktioniert. Manchmal geht der Prozess jedoch in die Irre, und die Zellen teilen sich weiter, ohne dass neue Zellen benötigt werden. Unbewusste Krebszellen beginnen sich unkontrolliert zu teilen und zu vermehren. Massen von überschüssigen Zellen bilden eine Größe oder einen Tumor.Im Zentrum der Zellen befinden sich mikroskopisch kleine DNA-Stränge, die mit einem Elektronenmikroskop betrachtet werden können und in denen die Erbinformationen der Zelle und des Organismus gespeichert sind. DNA ist notwendig, damit die Zelle normal funktioniert. Krebszellen werden aufgrund von Schäden an diesem DN-Strang gebildet. Selbst wenn im normalen Lebenszyklus der Zelle ein DNA-Schaden auftritt, repariert die Zelle diesen entweder oder stirbt. In Krebszellen kann beschädigte DNA nicht repariert werden und es beginnt eine unkontrollierte Vermehrung. DNA kann durch Umweltfaktoren (wie Chemikalien, Viren, Tabakprodukte oder übermäßige Sonneneinstrahlung usw.) geschädigt werden."+
 "Krebszellen sammeln sich an, um Tumore zu bilden. Tumore können gutartig oder bösartig sein. Gutartige Tumore sind kein Krebs. Diese werden häufig eingenommen und treten oft nicht wieder auf. Zellen in gutartigen Tumoren breiten sich nicht auf andere Teile des Körpers aus. Am wichtigsten ist, dass gutartige Tumore selten lebensbedrohlich sind. Bösartige Tumore sind Krebs. Zellen in bösartigen Tumoren sind abnormal und teilen sich unkontrolliert und unregelmäßig. Diese Tumore können normales Gewebe komprimieren, infiltrieren oder zerstören. Wenn Krebszellen den Tumor dort verlassen, wo sie entstanden sind, können sie über den Blut- oder Lymphkreislauf in andere Teile des Körpers gelangen. Sie bilden dort, wo sie hingehen, Tumorkolonien und wachsen weiter. Die Ausbreitung von Krebs auf andere Teile des Körpers auf diese Weise wird als Metastasierung bezeichnet.",
 "Symptome " +
 "Die Kenntnis der Krebssymptome ist wichtig für die Früherkennung der Krankheit, aber das Vorhandensein eines oder mehrerer dieser Symptome bedeutet nicht, dass eine Person Krebs hat. " +
@@ -204,6 +209,7 @@ export default [
 "Bauchspeicheldrüsenkrebs. " +
 "In den letzten zwanzig bis dreißig Jahren am es aufgrund der Zunahme der Anzahl älterer Menschen in der Bevölkerung mit der Verlängerung der durchschnittlichen Lebenserwartung und der Zunahme der Anzahl von Rauchern zu einer merklichen Zunahme der Krebserkrankungen die selbe Zeit. Rauchen bei Frauen " +
 "Parallel zur Prävalenz nähert sich die Inzidenz von Lungenkrebs der von Brustkrebs an.",
+
 "Wege des Schutzes " +
 "- Ausreichende und ausgewogene Ernährung " +
 "- Körperliche Aktivität " +
@@ -215,8 +221,4 @@ export default [
 "- Sich gegen Krankheiten wie Gebärmutterhalskrebs impfen lassen. " +
 "- Krebsvorsorgeuntersuchungen zur Früherkennung durchführen " +
 "- Schutz vor Luftverschmutzung"]
-
-
-
-
-]
+ ]

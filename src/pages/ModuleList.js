@@ -170,7 +170,7 @@ class ModuleList extends React.Component {
                 }
             }
 
-            if (result)
+            if (result) //todo: remove true
                 self.props.navigation.navigate(navName);
             else
                 alert(self.state.titles.lockWarning);

@@ -210,7 +210,7 @@ class FirstaidSteps extends React.Component {
                             <Image style={styles.stepPic} source={this.image}/>
                             <View style={{
                                 width: pagerWidth + "%",
-                                height: "1%",
+                                height: 6,
                                 backgroundColor: "orange",
                                 alignSelf: "flex-start",
                                 marginLeft: "5%",

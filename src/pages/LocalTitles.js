@@ -324,6 +324,7 @@ export default [{
         healthyLife: "Gesundes Leben",
 
         info: "Modul Informationen",
+        fundamentals: "Grundsätzliche Konzepte",
         fundamentals1: "Grundsätzliche Konzepte-1",
         fundamentals2: "Grundsätzliche Konzepte-2",
         sources: "Quellen Von Arzneimitteln",

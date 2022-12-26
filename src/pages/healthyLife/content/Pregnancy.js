@@ -125,7 +125,7 @@ export default [
         "Comer quando se tem fome é recomendado\n" +
         "Em vómitos persistentes e graves, a hipotensão pode ocorrer quando a perda de fluidos e eletrólitos não é satisfeita.  Além disso, outros problemas, como a queima no esófago pelo vómito, podem exigir tratamento médico para a saúde da mãe. Todas estas queixas geralmente diminuem ou não aparecem após o terceiro mês de gravidez.\n" +
         "A obstipação também pode ocorrer em algumas mulheres durante a gravidez.  Consumir vegetais e frutas todos os dias, beber muitos líquidos, aumentar o consumo de frutos secos que aceleram os movimentos intestinais são as soluções para a obstipação.\n"
-    ]
+    ],
     [
         "SCHWANGERSCHAFTSPHASE\n" +
         "Während der Schwangerschaft wird die Ernährung eines Babys von der Plazenta bereitgestellt, die der Vermittler zwischen ihm und seiner Mutter ist. Die vom Baby benötigten Nährstoffe werden von der Mutter auf das Baby durch die Plazenta übertragen. Daher ist die Ernährung während der Schwangerschaft sowohl für Mutter als auch für Baby sehr wichtig. Als Folge einer unzureichenden und unausgewogenen Ernährung können beim Baby verschiedene angeborene Störungen auftreten. Selbst wenn nach der Geburt eine gute Ernährung gewährleistet ist, kann eine geistige Behinderung beim Baby aufgrund von Mängeln im Schwangerschaftsprozess beobachtet werden. Während dieser Zeit sollte der Ernährung sowohl in Bezug auf die Energie als auch auf die Vielfalt der Nährstoffe Aufmerksamkeit geschenkt werden.\n" +

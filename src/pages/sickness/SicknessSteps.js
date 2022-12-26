@@ -79,7 +79,7 @@ class SicknessSteps extends React.Component {
             getLocalContent(Bowell, this);
             this.image = Images.module.sickness.bowellPic;
             stepsTitle = this.state.titles.bowell;
-        }else if (link === "Cancer") {
+        }else if (link === "xCancer") {
             getLocalContent(Cancer, this);
             this.image = Images.module.sickness.cancerPic;
             stepsTitle = this.state.titles.cancer;
@@ -158,7 +158,7 @@ class SicknessSteps extends React.Component {
                             <Image style={styles.stepPic} source={this.image}/>
                             <View style={{
                                 width: pagerWidth + "%",
-                                height: "1%",
+                                height: 6,
                                 backgroundColor: "orange",
                                 alignSelf: "flex-start",
                                 marginLeft: "5%",
