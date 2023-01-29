@@ -112,7 +112,7 @@ class BodySteps extends React.Component {
         }else if (link === "Digest2") {
             getLocalContent(Digest2, this);
             this.image = Images.module.body.digestPic;
-            stepsTitle = this.state.titles.digest;
+            stepsTitle = this.state.titles.digest2;
         }else if (link === "Motion") {
             getLocalContent(Motion, this);
             this.image = Images.module.body.motionPic;

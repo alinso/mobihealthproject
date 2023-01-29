@@ -8,31 +8,29 @@ export default [
         "Kalp düzenli ve ritmik olarak kasılıp gevşeyerek vücuda sürekli kan pompalar. Kalbin yetişkin bir insanda dakikadaki atım sayısı 60- 100, çocuklarda 90- 140 arasındadır.Kalp her kasılmasında sağ karıncıktaki kirli kan pulmoner arter ile akciğerlere, sol karıncıktaki temiz kan ise aort aracılığıyla tüm vücuda dağıtılır. Bu döngüde vücutta kirlenen kan ise iki ana toplardamar tarafından sağ kulakçığa getirilerek oradan sağ karıncığa oradan da pulmoner arter aracılığıyla tekrar akciğere gönderir.\n" +
         "\n" +
         "Koroner Arterler: Kalbin kendisini besleyen damarlardır. Bu damarlarda yaşanan tıkanıklıklar kalp krizi nedenidir.\n" +
-        "Koroner Venler: Kalpte harcanan enerji sonucunda kirletilen kanı toplayan damarlardır. \n",
+        "Koroner Venler: Kalpte harcanan enerji sonucunda kirletilen kanı toplayan damarlardır. \n\n",
 
-        "Damarlar: Damarlar tüm vücudumuzu saran ve kalbin pompaladığı temiz kanı organ, doku ve hücrelere, orada kirlenen kanı ise akciğerlere ulaştıran boru sistemidir. Vücutta arter ( atardamar ), ven ( toplardamar ) ve kılcal damarlar ( kapiller damar ) bulunmaktadır. Arterler temiz kan, venler ise kirli kan taşırlar. Bu durumun tek istisnası kalpten akciğerlere gönderilen kirli kanı taşıyan Pulmoner Arter ve akciğerlerde temizlenen kanı kalbe taşıyan Pulmoner Venlerdir. Kan vücutta oksijen, besin maddeleri, hormonlar, vitaminler ve antikorları dokulara taşıyahn, burada oluşan atık maddeleri ve karbondioksiti ise vücuttan uzaklaştıran sıvıdır. Bin insanda vücut ağırlığının yaklaşık %8 i kadar kan bulunur.\n" +
-        "Arter ( Atardamar ): Oksijenden zengin temiz kan taşır. Kalın duvarlı olan arterler kalbin pompaladığı kanın basıncına dayanıklıdır. Arterlerde kanın akışı kalpten yani merkezden vücudun uç noktalarına doğrudur. Arter kanamaları tehlikeli kanamalardır.\n" +
-        "Ven ( Toplardamar ): Doku ve organlardan kirlenmiş kanı toplayarak akciğerlere pompalanmak üzere kalbe getiren damarlardır. Ven ( toplardamar ) duvarları arterlere göre daha incedir çünkü basınç daha düşüktür. Kalpten aşağı venlerde kanın geri kaçmasını önleyen valvül adı verilen oluşumlar bulunur. Burada yaşanan bozukluklar kanın kalbe doğru akışının bozulmasına ve varislere neden olur.\n" +
-        "Kılcal Damar ( Kapiller ): Arter ve venlerin dokulara ulaştığı ince çaplı ve ince duvarlı damarlardır. Yarı geçirken duvarı sayesinde madde geçişleri kılcal damarlar aracılığıyla sağlanır. Arter kapilleri sindirim sistemi ile emilerek kana karışan besinleri ve akciğerler aracılığıyla kana verilen oksijeni dokulara ulaştırır. Ven kapilleri ise burada oluşan atıkların emilimini sağlayarak venlere aktarır.\n",
+        "<strong>Damarlar:</strong> Damarlar tüm vücudumuzu saran ve kalbin pompaladığı temiz kanı organ, doku ve hücrelere, orada kirlenen kanı ise akciğerlere ulaştıran boru sistemidir. Vücutta arter ( atardamar ), ven ( toplardamar ) ve kılcal damarlar ( kapiller damar ) bulunmaktadır. Arterler temiz kan, venler ise kirli kan taşırlar. Bu durumun tek istisnası kalpten akciğerlere gönderilen kirli kanı taşıyan Pulmoner Arter ve akciğerlerde temizlenen kanı kalbe taşıyan Pulmoner Venlerdir. Kan vücutta oksijen, besin maddeleri, hormonlar, vitaminler ve antikorları dokulara taşıyahn, burada oluşan atık maddeleri ve karbondioksiti ise vücuttan uzaklaştıran sıvıdır. Bin insanda vücut ağırlığının yaklaşık %8 i kadar kan bulunur.\n\n" +
+        "\n<i>a.Arter ( Atardamar ):</i> Oksijenden zengin temiz kan taşır. Kalın duvarlı olan arterler kalbin pompaladığı kanın basıncına dayanıklıdır. Arterlerde kanın akışı kalpten yani merkezden vücudun uç noktalarına doğrudur. Arter kanamaları tehlikeli kanamalardır.\n" +
+        "\n<i>b.Ven ( Toplardamar ):</i> Doku ve organlardan kirlenmiş kanı toplayarak akciğerlere pompalanmak üzere kalbe getiren damarlardır. Ven ( toplardamar ) duvarları arterlere göre daha incedir çünkü basınç daha düşüktür. Kalpten aşağı venlerde kanın geri kaçmasını önleyen valvül adı verilen oluşumlar bulunur. Burada yaşanan bozukluklar kanın kalbe doğru akışının bozulmasına ve varislere neden olur.\n" +
+        "\n<i>c.Kılcal Damar ( Kapiller ):</i> Arter ve venlerin dokulara ulaştığı ince çaplı ve ince duvarlı damarlardır. Yarı geçirken duvarı sayesinde madde geçişleri kılcal damarlar aracılığıyla sağlanır. Arter kapilleri sindirim sistemi ile emilerek kana karışan besinleri ve akciğerler aracılığıyla kana verilen oksijeni dokulara ulaştırır. Ven kapilleri ise burada oluşan atıkların emilimini sağlayarak venlere aktarır.\n",
 
-        "Tansiyon Nedir?\n" +
+        "<strong>Tansiyon Nedir?</strong>\n" +
         "Kalp tarafından arterlere pompalanan kanın arter duvarına yapmış olduğu basınca tansiyon ( Kan Basıncı ) denir. Kan basıncı yetişkin normal bir insanda büyük 120 küçük 80 mmHg olarak kabul edilir. Büyük olarak kabul edilen değer sistolik kan basıncını yani karıncıkların kasılması sonucu kanın arter duvarına yaptığı basıncı, küçük olarak kabul edilen diastolik basınç ise ventriküllerin gevşediği durumda damarlardaki basıncı ifade eder.\n" +
         "\n" +
-        "Nabız Nedir?\n" +
-        "\tKalbin bir dakikada arterlere kaç defa kan pompaladığının ve pompalama işleminin düzenli olup olmadığının gösteren sayısal değerdir. İstirahat halinde bir yetişkinin dakikadaki nabız sayısı 60- 100, çocuklarda 80- 120, bebeklerde ise 100-140 aralığındadır.Bu nedenle nabız değerlendirilirken kişinin yaşı ve istirahat hali göz önüne alınmalıdır.\n",
+        '<strong><i>Nabız Nedir?</strong> </i>\n" +
+        "Kalbin bir dakikada arterlere kaç defa kan pompaladığının ve pompalama işleminin düzenli olup olmadığının gösteren sayısal değerdir. İstirahat halinde bir yetişkinin dakikadaki nabız sayısı 60- 100, çocuklarda 80- 120, bebeklerde ise 100-140 aralığındadır.Bu nedenle nabız değerlendirilirken kişinin yaşı ve istirahat hali göz önüne alınmalıdır.\n",
 
 
 
-        "Dolaşım Çeşitleri\n" +
-        "Kan Dolaşımı\n" +
-        "Büyük Kan Dolaşımı ( Sistemik Dolaşım ): Kalp ile doku ve organlar arasında gerçekleşir.\n" +
-        "Küçük Kan Dolaşımı ( Pulmoner Dolaşım ): Kalp ile akciğerler arasındaki dolaşımdır.\n" +
-        "Portal Dolaşım: Karın bölgesindeki mide, dalak ve pankreas gibi tek organların kanlarını venler aracılığıyla toplayarak karaciğere getirerek oradanda sistemik dolaşıma katan dolaşımdır. \n" +
-        "\n" +
-        "Plesental Dolaşım: Bebeğin anne karnındaki dolaşım sistemini ifade eder ve normal hayattaki dolaşımdan çok farklıdır. Anne karnındaki bebeğin akciğerleri aktif olmadığı için oksijen ve besinleri anneden göbek kordonu aracılığıyla sağlamaktadır. \n" +
-        "\n" +
-        "Lenf ( Akkan ) Dolaşımı: Atardamar kılcalları aracılığıyla dokulara ( hücreler arası boşluğa ) verilen sıvının tamamı toplardamar kılcalları tarafından toplanamaz. Bu sıvılar lenf kılcalları tarafından toplanarak venöz dolaşıma katılır. Lenf sisteminde lenf damarları ile birlikte lenfoid organlar olan, tonsillalar ( bademcikler ), timus bezi ve dalak gibi organlar bulunmaktadır. \n"
-    ],
+        "<strong>Dolaşım Çeşitleri</strong>\n" +
+        "<strong><i>Kan Dolaşımı</strong></i>\n" +
+        "<i>1.Büyük Kan Dolaşımı ( Sistemik Dolaşım ):</i> Kalp ile doku ve organlar arasında gerçekleşir.\n" +
+        "<i>2.Küçük Kan Dolaşımı ( Pulmoner Dolaşım ):</i> Kalp ile akciğerler arasındaki dolaşımdır.\n" +
+        "<i>3.Portal Dolaşım:</i> Karın bölgesindeki mide, dalak ve pankreas gibi tek organların kanlarını venler aracılığıyla toplayarak karaciğere getirerek oradanda sistemik dolaşıma katan dolaşımdır. \n" +"
+        "<i>4.Plesental Dolaşım:</i> Bebeğin anne karnındaki dolaşım sistemini ifade eder ve normal hayattaki dolaşımdan çok farklıdır. Anne karnındaki bebeğin akciğerleri aktif olmadığı için oksijen ve besinleri anneden göbek kordonu aracılığıyla sağlamaktadır. \n" +
+        "<strong><i>Lenf ( Akkan ) Dolaşımı</strong></i>\n Atardamar kılcalları aracılığıyla dokulara ( hücreler arası boşluğa ) verilen sıvının tamamı toplardamar kılcalları tarafından toplanamaz. Bu sıvılar lenf kılcalları tarafından toplanarak venöz dolaşıma katılır. Lenf sisteminde lenf damarları ile birlikte lenfoid organlar olan, tonsillalar ( bademcikler ), timus bezi ve dalak gibi organlar bulunmaktadır. \n"
+
     [
         "The circulatory system is the system that ensures that the oxygen taken into the body through the respiratory system, and the nutrients taken into the body through the digestive system, are delivered to the cells through the blood pumped by the heart, and that the waste materials and carbon dioxide formed here are transported to the lungs and excretory system organs to be removed from the body. The most important organs of the circulatory system are the heart and blood vessels.\n",
 

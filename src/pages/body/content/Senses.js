@@ -1,28 +1,32 @@
 export default [
     [
-        "Göz ( Görme Organı ): Yaşadığımız çevreyi algılayarak alınan görüntünün beyin tarafından işlenmesini sağlar. Gözü koruyan ve göz hareketlerine yardım eden kaş, göz kapakları, gözyaşı bezleri ve göz kasları gibi oluşumlar vardır. Kaşlar gözü yoğun güneş ışığından ve alın bölgesinden gelen yabancı maddelerden korur. Göz kapaklarının açılıp kapanması ile göz dış etkenlerden korunabilmektedir. Gözyaşı bezleri konjonktiva yüzeylerinin sürekli ıslak kalmasını sağlayarak gözü korur. Göz kasları gözlerin hareket edebilmesini sağlar.\n" +
+        "<strong>Göz ( Görme Organı ):</strong> \n Yaşadığımız çevreyi algılayarak alınan görüntünün beyin tarafından işlenmesini sağlar. Gözü koruyan ve göz "+
+        "hareketlerine yardım eden kaş, göz kapakları, gözyaşı bezleri ve göz kasları gibi oluşumlar vardır. Kaşlar gözü yoğun güneş ışığından "+
+        "ve alın bölgesinden gelen yabancı maddelerden korur. Göz kapaklarının açılıp kapanması ile göz dış etkenlerden korunabilmektedir. Gözyaşı bezleri "+
+        "konjonktiva yüzeylerinin sürekli ıslak kalmasını sağlayarak gözü korur. Göz kasları gözlerin hareket edebilmesini sağlar.\n" +
         "\n" +
-        "Görme Fizyolojisi\n" +
-        "Görme olayını çevredeki cisimlerden yansıyarak göze gelen ışık sağlar. Bu ışıklar önce korneayı geçerek retinaya ulaşır. Lens göze gelen ışınları birbirine yaklaştırarak kırar ve cismin tam ve gerçek görüntüsünü retina üzerine düşürür. Retina tabakasına ters olarak düşen görüntü görme sinirlerinin vasıtasıyla beyindeki görme merkezine iletilir ve görüntü beyinde düzeltilir. Görme olayı böyle gerçekleşir.\n" +
+        "<strong>Görme Fizyolojisi</strong>\n" +
+        "Görme olayını çevredeki cisimlerden yansıyarak göze gelen ışık sağlar. Bu ışıklar önce korneayı geçerek retinaya ulaşır. Lens göze gelen ışınları "+
+        "birbirine yaklaştırarak kırar ve cismin tam ve gerçek görüntüsünü retina üzerine düşürür. Retina tabakasına ters olarak düşen görüntü görme sinirlerinin vasıtasıyla beyindeki görme merkezine iletilir ve görüntü beyinde düzeltilir. Görme olayı böyle gerçekleşir.\n" +
         "\n" +
-        "En yaygın görme problemleri miyopi ( uzağı görememe ) ve hipermetropi ( yakını görememedir ). \n" ,
+        "En yaygın görme problemleri miyopi ( uzağı görememe ) ve hipermetropi ( yakını görememedir ). \n\n" ,
 
-        "Kulak ( İşitme ve Denge Organı \n" +
+        "<strong>Kulak ( İşitme ve Denge Organı</strong> \n" +
         "Kulak işitme organı olmanın yanı sıra denge organını içinde bulundurur. Kulak; dış kulak, orta kulak ve iç kulak olarak üç bölümde incelenir.\n" +
-        "Dış Kulak: Çevredeki sesleri toplayarak orta kulağa gönderme işini yapar. Kulak kepçesi ve dış kulak yolundan oluşur. Kulak kepçesi kıkırdak yapıdadır. Ses dalgaları kulak kepçesi tarafından toplanarak dış kulak yoluna iletilir. Dış kulak yolu “ S “ harfine benzer bir uzantıdır. Bu bölümde yağ bezleri ve kıllar bulunur. Dış kulak yolunun sonlandığı yerde kulak zarı bulunmaktadır. Kulak kirine buşon denir.\n" +
-        "Orta Kulak: Kulak zarından sonra gelen bölümdür. İç yüzeyi mukoza ile kaplıdır ve hava bulunduran boşluklardan oluşur. \n" +
-        "İç Kulak: İç kulakta işitme ve denge ile ilgili özel hücreler bulunur. İşitme ve denge işlemi burada yapılır. \n" ,
+        "<ul><li>Dış Kulak:</li> Çevredeki sesleri toplayarak orta kulağa gönderme işini yapar. Kulak kepçesi ve dış kulak yolundan oluşur. Kulak kepçesi kıkırdak yapıdadır. Ses dalgaları kulak kepçesi tarafından toplanarak dış kulak yoluna iletilir. Dış kulak yolu “ S “ harfine benzer bir uzantıdır. Bu bölümde yağ bezleri ve kıllar bulunur. Dış kulak yolunun sonlandığı yerde kulak zarı bulunmaktadır. Kulak kirine buşon denir.\n" +
+        "<li>Orta Kulak:</li> Kulak zarından sonra gelen bölümdür. İç yüzeyi mukoza ile kaplıdır ve hava bulunduran boşluklardan oluşur. \n" +
+        "<li>İç Kulak:</li></ul> İç kulakta işitme ve denge ile ilgili özel hücreler bulunur. İşitme ve denge işlemi burada yapılır. \n\n" ,
 
-        "İşitme Fizyolojisi\n" +
-        "Ses dalgalarının kulağın çeşitli bölümlerinden geçtikten sonra beyinde ses halinde algılanmasına işitme denir. Kulak zarına gelen titreşimler dalgalar halinde işitme reseptörlerini uyarır. Alınan uyartılar beynin ilgili merkezlerine götürülür ve böylece ses algılanır. Ses şiddeti desibel olarak ölçülmektedir. İnsanlar 20- 120 desibel arasındaki sesleri duyabilir. En rahat hissedilen aralık ise 50- 70 desibel arasıdır.\n" ,
+        "<strong>İşitme Fizyolojisi</strong>\n" +
+        "Ses dalgalarının kulağın çeşitli bölümlerinden geçtikten sonra beyinde ses halinde algılanmasına işitme denir. Kulak zarına gelen titreşimler dalgalar halinde işitme reseptörlerini uyarır. Alınan uyartılar beynin ilgili merkezlerine götürülür ve böylece ses algılanır. Ses şiddeti desibel olarak ölçülmektedir. İnsanlar 20- 120 desibel arasındaki sesleri duyabilir. En rahat hissedilen aralık ise 50- 70 desibel arasıdır.\n\n" ,
 
-        "Burun ( Koku Organı )\n" +
+        "<strong>Burun ( Koku Organı )</strong>\n" +
         "Bir solunum sistemi organı olan burun aynı zamanda koku alma organıdır. Burun boşluğunu örten mukozada koku alma işlevini yerine getiren 25 milyon koku hücresi vardır. Burun boşluğuna giren havadaki koku tanecikleri koku hücrelerinin gövdesini uyarır ve koku alma işlemi başlar. Yani kokunun algılanabilmesi için koku taneciklerinin hava ile karışması gerekmektedir. Bu koku tanecikleri solunan hava ile burundaki konkalara gelir. Burada ısınan hava ile koku tanecikleri çözülür ve algılanır. Algılanan koku koku siniri tarafından beynin koku merkezi olan temporal loba gelir ve koku algılanmış olur. \n" ,
 
-        "Deri ( Dokunma Organı )\n" +
+        "<strong>Deri ( Dokunma Organı )</strong>\n" +
         "Vücudun en geniş yüzeye sahip duyu organıdır. Dokunma, basınç, ısı ve ağrı gibi duyular deri aracılığıyla hissedilir. Yetişkin bir insanda vücut ağırlığının yaklaşık %20 sini deri oluşturur. Deri her yerde aynı kalınlıkta değildir. Kafa derisi, ayak taban derisi kalın iken göz kapağı oldukça incedir. Deri vücut iç ortamı ile dış ortamı arasında bir sınırdır. Bu nedenle vücudun dış etkenlerden korunması, vücut ısısının ayarlanması, ter bezleriyle zararlı maddelerin dışarı atılmasının sağlanması ve ısı ve ağrı gibi hislerin hissedilmesini sağlar. \n" ,
 
-        "Dil ( Tat Alma Organı )\n" +
+        "<strong>Dil ( Tat Alma Organı )</strong>\n" +
         "Bir sindirim sistemi organı olan dil aynı zamanda tat alma organıdır. Dilin kökü çene kemiğine bitişik ön- uç kısmı ise serbesttir. Kaslı yapıya sahip dil, besinlerin çiğnenmesi, yutulması ve konuşmaya yardımcı olur. Tat alma hücreleri dilin üzerinde bulunur ve bu hücreler acı, ekşi, tatlı ve tuzlu tatları alırlar. Tat ve koku alma reseptörleri oldukça hızlı adapte olurlar. Tat hücreleri tarafından alınan tat duyusu beyindeki merkeze iletilir ve böylelikle tat alma olayı gerçekleşir.\n"
     ],
     [

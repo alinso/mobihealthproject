@@ -6,57 +6,57 @@ export default [
 
 
 
-        "Solunum Sisteminin Fizyolojisi\n" +
+        "<strong>Solunum Sisteminin Fizyolojisi</strong>\n" +
         "İnsan hayatının devamlılığı için vücuda sürekli oksijen alınması gerekir. Vücuda alınan oksijenin vücutta kullanılması sonucu ortaya karbondioksit çıkmaktadır. Sonuç olarak solunum sistemini harekete geçiren en önemli etken kandaki karbondioksit oranının yükselmesidir. Akciğerlerden alveoller aracılığıyla kana geçen oksijenin çok büyük bir kısmı kanda hemoglobine bağlanarak taşınır. Taşınan oksijen pulmoner ven aracılığıyla kalbe ve oradan vücuda pompalanarak  hücre ve dokulara taşınır. Burada oluşan karbondioksit hemoglobine bağlanarak ana toplardamarlar aracılığıyla kalbe ve oradan da pulmoner arter aracılığıyla akciğerlere getirilir. Burada alveol duvarlarından alveol keselerine geçen karbondioksit solunum yollarıyla dışarı atılır. \n" +
         "\n" +
-        "Solunum sisteminin fonksiyonları\n" +
-        "Vücudun ihtiyacı olan oksijeni sağlamak. Karbondioksitin vücuttan atılmasını sağlamak.\n" +
-        "Kanın hidrojen iyon konsantrasyonunu ( pH ) dengesini düzenlemek\n" +
-        "Konuşmak için gerekli sesleri üretmek ( Fonasyon )\n" +
-        "Vücudu mikroorganizmalara karşı korumak.\n" ,
+        "<strong><i>Solunum sisteminin fonksiyonları</strong></i>\n" +
+        "-Vücudun ihtiyacı olan oksijeni sağlamak. Karbondioksitin vücuttan atılmasını sağlamak.\n" +
+        "-Kanın hidrojen iyon konsantrasyonunu ( pH ) dengesini düzenlemek\n" +
+        "-Konuşmak için gerekli sesleri üretmek ( Fonasyon )\n" +
+        "-Vücudu mikroorganizmalara karşı korumak.\n" ,
 
 
-        "Solunum sisteminde yer alan yapılar\n" +
-        "Ağız\n" +
-        "Burun\n" +
-        "Yutak ( Farenks )\n" +
-        "Gırtlak ( Larenks )\n" +
-        "Trakea ( Ana Soluk Borusu )\n" +
-        "Bronşlar ( Ana soluk borusunun sağ ve sol olmak üzere iki dala ayrıldığı ana bronşlar )\n" +
-        "Bronşioller ( Bronşların daha küçük hava yollarına ayrılmasıyla oluşan oluşumlar )\n" ,
+        "<strong>Solunum sisteminde yer alan yapılar</strong>\n" +
+        "-Ağız\n" +
+        "-Burun\n" +
+        "-Yutak ( Farenks )\n" +
+        "-Gırtlak ( Larenks )\n" +
+        "-Trakea ( Ana Soluk Borusu )\n" +
+        "-Bronşlar ( Ana soluk borusunun sağ ve sol olmak üzere iki dala ayrıldığı ana bronşlar )\n" +
+        "-Bronşioller ( Bronşların daha küçük hava yollarına ayrılmasıyla oluşan oluşumlar )\n" ,
 
-        "Akciğerler\n" +
+        "<strong><i>Akciğerler</strong></i>\n" +
         "Akciğerlerimiz göğüs kafesinin içinde, nefes alıp verdikçe genişleyen ve büzülen süngerimsi ve elastik ve çift organdır. Solunum kasları ve diyafram sayesinde ağız ve burun yoluyla nefes aldığımızda alınan havanın soluk borusuyla akciğerlere ulaşır. Vücuttan atılacak karbondioksit ise aynı yolla akciğerlerden dışarı atılır. Yetişkin bir insanın dakikada yaptığı solunum sayısı ortalama 12- 20 arasındadır. Bu sayı yeni doğan bir bebekte ise 30- 40 arasındadır. Bu nedenle solunum sayısı değerlendirilirken de yaş durumu göz önüne alınmalıdır.\n" +
         "Akciğerlerin yüzeyi plevra adı verilen çift katlı bir zarla kaplıdır. \n" +
         "\n" +
-        "Burun\n" +
+        "<strong><i>Burun</strong></i>\n" +
         "Solunum yollarına giren havanın ilk giriş kısmını burun oluşturur. Burun solunum yolu organı olmasının yanında içerisinde bulunan koku reseptörleri sayesinde koku alma fonksiyonunu da sağlar. Burun içyapısındaki oluşumlar aracılığıyla geçen havanın ısıtılması, filtrelenmesi ve nemlendirilmesi görevini de yürütmektedir.\n" ,
 
 
 
-        "Yutak ( Farenks )\n" +
+        "<strong><i>Yutak ( Farenks )</strong></i>\n" +
         "Ağız ve burun boşluklarının birleştiği noktada yutak bulunmaktadır. Yutak solunum ve sindirim esnasında görevleri bulunan bir organdır. Solunum ve sindirim kanalının üst kısmında gırtlak kapağı bulunur ve bu kapak iki yolu birbirinden ayırır. Hava solunum yollarına giderken besinlerin solunum yollarına girmesi engellenir.\n" +
         "\n" +
-        "Gırtlak ( Larenks )\n" +
+        "<strong><i>Gırtlak ( Larenks )</strong></i>\n" +
         "Havanın alt solunum yollarına iletilmesini sağlar. Sesin oluşmasında da en önemli organlardan birisi gırtlaktır. Gırtlak solunum yollarının açık tutulmasını, sesin oluşmasını ve öksürük ile alt solunum yollarının temizlenmesini sağlamaktadır.\n" +
         "\n" +
-        "Soluk Borusu ( Trakea )\n" +
+        "<strong><i>Soluk Borusu ( Trakea )</strong></i>\n" +
         "En önemli görevi solunan havanın geçişini sağlamak olan soluk borusu, havanın nemlendirilmesi ve salgıladığı mukus sıvısı ile hava ile vücuda alınan yabancı maddelerin tutularak temizlenmesini sağlar. Kıkırdak yapıya sahiptir. İlerde iki ana bronşa ayrılan trakea yaklaşık 10- 12 cm uzunluğundadır.\n" +
         "\n" +
-        "Bronşlar\n" +
+        "<strong><i>Bronşlar</strong></i> \n" +
         "Sağ ve sol akciğerlere gitmek üzere iki ana bronş bulunmaktadır. Trakeadan ayrılan iki kollarla bronşioller aracılığıyla akciğerlere bağlanmaktadır.\n" +
         "\n" +
-        "Bronşioller\n" +
+        "<strong>Bronşioller</strong></i>\n" +
         "Bronşların devamı olan ve daha ince hava yollarını oluşturan oluşumlardır. Bronşiollerin ucunda alveol adı verilen hava keseleri yer almaktadır. Görünüşü üzüm salkımına benzemektedir. Alveollerin duvarındaki zengin kılcal damar yapısı sayesinde oksijen ve karbondioksit alışverişi bu noktada gerçekleşmektedir.\n" ,
 
 
         "Solunum ile ilgili bazı temel kavramlar\n" +
         "\n" +
-        "\tApne: Solunum Durması\n" +
-        "\tDispne: Solunum Güçlüğü\n" +
-        "\tSiyanoz: Oksijen yetersizliğine bağlı olarak ciltte morarma\n" +
-        "\tBradipne: Solunum sayısının dakikada 12’ den az olması\n" +
-        "\tHiperpne: Solunum sayısının dakikada 20’ den fazla olması\n"
+        "\t<strong>Apne: Solunum Durması</strong>\n" +
+        "\t<strong>Dispne: Solunum Güçlüğü</strong>\n" +
+        "\t<storng>Siyanoz: Oksijen yetersizliğine bağlı olarak ciltte morarma</strong>\n" +
+        "\t<strong>Bradipne: Solunum sayısının dakikada 12’ den az olması</strong>\n" +
+        "\t<strong>Hiperpne: Solunum sayısının dakikada 20’ den fazla olması</strong>\n"
     ],
     [
         "Respiration refers to the transport of oxygen in the air taken from the external environment to the lungs through the respiratory tract and the transfer of carbon dioxide brought to the lungs through the blood to the external environment through the respiratory tract. The most important function of the respiratory system is gas exchange. The intake of air from the outside into the lungs is called inspiration, and the removal of polluted air from the lungs is called expiration. This part of respiration refers to external respiration (external respiration). Internal Respiration (internal respiration) refers to the gas exchange in which the oxygen in the blood is transferred to the cells and the carbon dioxide in the cells is transferred to the blood. The most important muscle of inspiration is the diaphragm. With the contraction of the diaphragm muscle, the rib cage expands and the outside air is drawn into the lungs. Expiration following inspiration is a passive event and air is expelled during this time.\n" +

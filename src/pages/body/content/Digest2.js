@@ -1,50 +1,46 @@
 export default [
-    ["Ağız Boşluğu\n" +
-    "\n" +
-    "\tÖnde dudaklar, yan kısımlarda yanaklar, üstte damak, altta ağız tabanı ve arka kısımda yutak arasında kalan boşluktur. Ağız boşluğunun en önemli organlardan birisi dilimizdir. Tat alma, besinlerin karıştırılması ve besinlerin yutağa ilerletilmesi gibi sindirim sistemi görevlerinin yanında konuşmamızda önemli rolleri vardır. Dil mukozasında bulunan tomurcuklar tat alma işlevlerini yürütürler. Ağız boşluğunun tavanını oluşturan damağın ön tarafı sert arka tarafı yumuşak yapıda olup  burun ve ağız boşluklarını birbirinden ayırmaktadır. \n" +
-    "\tAğız boşluğunun en önemli oluşumlarından biriside dişlerimizdir ( Dentes ). Ağız boşluğuna alınan besin maddelerinin mekanik olarak parçalanmasını sağlarlar. Diş yüzeyi mine tabakası ile kaplıdır ve hemen altı kalsiyum yönünden zengin ve en sert kısmıdır. Dişler dönemsel olarak geçici ve kalıcı dişler olarak iki gruba ayrılır. Geçici dişlere süt dişi de denir ve çıkış zamanları farklılık gösterebilir. Kalıcı dişler 32 adettir.\n" +
-    "\tSindirim olayı ağızda başlamaktadır. Beyinde bulunan doyma merkezinin uyarısı ile ağız yoluyla alınan besin maddeleri tükürük salgıları tarafından ıslatılır, dil, dişler, damak ve çene hareketleriyle çiğnenerek sindirime ilk hazırlığı gerçekleşmiş olur. Tükürük salgısı içerisinde bulunan pityalin enzimi ağızda kimyasal sindirimi başlatır ve nişastanın sindirimi gerçekleşir. Yutma işlemi gerçekleştikten sonra sindirim midede devam eder.\n" +
-    "\n" +
-    "\tYutak ( Farenks )\n" +
-    "\tSindirim ve solunum sistemlerinin ortak bölümünü oluşturan bir organımızdır. Farenks iltihabı Farenjit olarak nitelendirilir.\n" +
-    "\n" +
-    "\t\n" +
-    "\tÖzefagus ( Yemek Borusu )\n" +
-    "\n" +
-    "\tYemek borusu yutaktan başlayarak mideye kadar devam eden kısımdır. Yetişkin bir insanda yaklaşık 25-30 cm uzunluğundadır. \n" ,
+    ["<strong>Ağız Boşluğu</strong>\n" +
 
-        "\tMide ( Gaster )\n" +
-        "\n" +
+    " Önde dudaklar, yan kısımlarda yanaklar, üstte damak, altta ağız tabanı ve arka kısımda yutak arasında kalan boşluktur. Ağız boşluğunun en önemli organlardan birisi dilimizdir. Tat alma, besinlerin karıştırılması ve besinlerin yutağa ilerletilmesi gibi sindirim sistemi görevlerinin yanında konuşmamızda önemli rolleri vardır. Dil mukozasında bulunan tomurcuklar tat alma işlevlerini yürütürler. Ağız boşluğunun tavanını oluşturan damağın ön tarafı sert arka tarafı yumuşak yapıda olup  burun ve ağız boşluklarını birbirinden ayırmaktadır. \n" +
+    " Ağız boşluğunun en önemli oluşumlarından biriside dişlerimizdir ( Dentes ). Ağız boşluğuna alınan besin maddelerinin mekanik olarak parçalanmasını sağlarlar. Diş yüzeyi mine tabakası ile kaplıdır ve hemen altı kalsiyum yönünden zengin ve en sert kısmıdır. Dişler dönemsel olarak geçici ve kalıcı dişler olarak iki gruba ayrılır. Geçici dişlere süt dişi de denir ve çıkış zamanları farklılık gösterebilir. Kalıcı dişler 32 adettir.\n" +
+    " Sindirim olayı ağızda başlamaktadır. Beyinde bulunan doyma merkezinin uyarısı ile ağız yoluyla alınan besin maddeleri tükürük salgıları tarafından ıslatılır, dil, dişler, damak ve çene hareketleriyle çiğnenerek sindirime ilk hazırlığı gerçekleşmiş olur. Tükürük salgısı içerisinde bulunan pityalin enzimi ağızda kimyasal sindirimi başlatır ve nişastanın sindirimi gerçekleşir. Yutma işlemi gerçekleştikten sonra sindirim midede devam eder.\n" +
+    "\n" +
+    " <strong>Yutak ( Farenks )</strong>\n" +
+    " Sindirim ve solunum sistemlerinin ortak bölümünü oluşturan bir organımızdır. Farenks iltihabı Farenjit olarak nitelendirilir.\n" +
+    " \n" +
+    " <strong>Özefagus ( Yemek Borusu )</strong>\n" +
+    " Yemek borusu yutaktan başlayarak mideye kadar devam eden kısımdır. Yetişkin bir insanda yaklaşık 25-30 cm uzunluğundadır. \n\n" ,
+        "<strong>Mide ( Gaster )</strong>\n" +
         "Mide sindirim sisteminin en geniş organıdır. Diyafram zarının altında ve karın boşluğunun sol üst kısmında bulunur. Midenin özefagus ile birleştiği başlangıç noktası ve duedonum ile birleştiği son kısmında iki delik bulunmaktadır. Midenin kapasitesi 1000- 1500 ml civarındadır. Midenin duodenum ile birleştiği bölümdeki delikte sfinkter adı verilen kaslı bir yapı bulunmaktadır. Bu yapı kasılıp gevşeyerek besinlerin kontrollü bir biçimde duedenum bölümüne geçmesini sağlar. Sfinkter aynı zamanda besinlerin tekrar mideye kaçmasını engeller.\n" +
         "Midenin iç yüzeyini kaplayan mukozada mukus salgılayan hücreler bulunmaktadır. Mukus salgısı ve bez salgıları birleşerek mide özsuyunu oluşturur. Mide salgıları mineralleri emilebilir hale getirir, mikropları etkisiz hale getirir, proteinlerin sindirimi için asidik ortam sağlar ve proteinlerin emilimini sağlar, B12 vitamininin emilimini sağlar. Mukus gibi mide salgıları ise midenin asidik salgılarının kendi mukozasına zarar vermesini önlemek için salgılanır.\n" +
         "Mide besin maddeleri ve mide salgılarını peristaltik hareketlerle her 20 saniyede bir karıştırır. Bu içeriğin duedonuma geçişi yaklaşık 1,5 saatte olur. Sıvı geçişleri daha hızlıdır.\n" ,
 
 
-        "İnce Bağırsaklar\n" +
+        "<strong>İnce Bağırsaklar</strong>\n" +
         "İnce bağırsaklar sindirim sisteminin en uzun bölümünü oluşturur. Yaklaşık 5- 6 metre uzunluğunda olup kalınbağırsakla birleşir. İnce bağırsağın sindirim, emilim ve emilemeyen besinlerin kalın bağırsağa iletilmesini sağlamak gibi görevleri vardır. İnce bağırsağın iç yüzeyini kaplayan mukoza yapısı villus adı verilen parmaksı çıkıntılarla kaplı olup bu durum bağırsak iç yüzeyini genişlettiği için emilimi oldukça hızlandırır. Burada emilen besinler kan ve lenf sıvısına geçer. İnce bağırsağın duedonum ( on iki parmak bağırsağı ), jejunum ve ileum olmak üzere üç bölümü vardır.\n" +
         "Bağırsak sindiriminin çok büyük bir kısmı ( %90 ) ince bağırsaklarda gerçekleşir. İnce bağırsağın duedonum bölümü midenin asidik içeriğinin aksine alkali etkiye sahip salgılarla bağırsak mukozasını korumaya alır. Bu salgı aynı zamanda mukozayı kayganlaştırır.\n" +
         "Karbonhidrat sindirimi ağızda başlar, midede gerçekleşmez ve  son olarak ince bağırsaklarda tamamlanır. Proteinlerin sindirimi midede başlar ince bağırsaklarda tamamlanır. Yağların sindirimi ağız ve midede gerçekleşmez. Sindirim duedonumda başlar ve ince bağırsağın diğer bölümlerinde devam eder. Özetlemek gerekirse karbonhidratların %100’ ü, yağların %95’ i ve proteinlerin %90’ ı ince bağırsaklardan emilir.\n" +
         "\n" +
-        "Kalın Bağırsaklar\n" +
+        "<strong>Kalın Bağırsaklar</strong>\n" +
         "Kalınbağırsakların uzunluğu yaklaşık 1,5- 1,8 metredir. İnce bağırsağın son bölümünden anüse kadar uzanır. Kalın bağırsak mukozasında villus bulunmamaktadır ve iç yapısı ince bağırsaktan farklıdır. Kalın bağırsağın, çekum ( kör bağırsak ), kolonlar ve rektum olmak üzere üç bölümü vardır. İnce bağırsağın kalın bağırsak ile birleştiği yerde yine bir kapak bulunmaktadır ve bu kapak besinlerin ince bağırsaktan kalın bağırsağa geçişini kontrol eder ve geri kaçmasını engeller.\n" +
         "Kalın bağırsağın en önemli işlevlerinden birisi suyun emilmesidir. İnce bağırsaktan kalın bağırsağa geçen içerik sıvı haldedir ve bu içerik birkaç saat içerisinde geçiş sağlar. Kalın bağırsağa geçen sıvı içeriğin suyu emilerek atık madde katı hale getirilir. Tıpkı mide ve ince bağırsak gibi kalın bağırsakta ta peristaltik hareketler vardır ve bağırsak içeriği bu hareketler sayesinde boğum boğum\n" +
         "ilerler. Kalın bağırsak aynı zamanda defekasyon ( dışkılama ) işlemine kadar atık maddeler için depo görevi de görmektedir. Atık maddeler son olarak rektuma ( anüs ) itilir ve buradaki sfinkterlerin gevşemesi ve karın içi basıncı artması sonucu dışkılama ihtiyacı hissedilir. Günlük 250- 400 gram  dışkı atılır.\n" ,
 
 
-        "\tSindirime Yardımcı Organ ve Bezler\n" +
+        " <strong>2.Sindirime Yardımcı Organ ve Bezler</strong>\n" +
+
+        " Vücuda alınan besinlerin vücutta kullanılabilir hale gelmesi için öncelikle sindirilebilmesi gerekir. Sindirim işlemi için ise bazı salgı maddelerine ihtiyaç bulunur. Tükürük bezleri, Karaciğer, Safra kesesi ve pankreas gibi organlarımız vücuda alınan besin maddelerinin sindirilebilmesi için çeşitli salgı ve enzimler salgılamaktadır.\n" +
         "\n" +
-        "\tVücuda alınan besinlerin vücutta kullanılabilir hale gelmesi için öncelikle sindirilebilmesi gerekir. Sindirim işlemi için ise bazı salgı maddelerine ihtiyaç bulunur. Tükürük bezleri, Karaciğer, Safra kesesi ve pankreas gibi organlarımız vücuda alınan besin maddelerinin sindirilebilmesi için çeşitli salgı ve enzimler salgılamaktadır.\n" +
+        " <strong><i>a.Tükürük Bezleri</i></strong>\n" +
+        " Tükürük bezlerinden günde yaklaşık 1,5 lt tükürük üretilir. Tükürüğün içerisinde nişastayı parçalayan pityalin enzimi bulunur. Pityalin enzimi karbonhidrat sindirimini ağızda başlatan enzimdir. Tükürük oluşumunda su tüketiminin önemi vardır. Vücuttaki su miktarı azalırsa tükürük üretimi de azalır. Tükürük salgısı, karbonhidrat sindirimini başlatır, bağışıklığa katkı sağlar, besinlerin ısısını ayarlayarak  sindirim kanalını korur, yutmayı kolaylaştırır, dişlerin çürümesini engeller.\n" +
         "\n" +
-        "\tTükürük Bezleri\n" +
-        "\tTükürük bezlerinden günde yaklaşık 1,5 lt tükürük üretilir. Tükürüğün içerisinde nişastayı parçalayan pityalin enzimi bulunur. Pityalin enzimi karbonhidrat sindirimini ağızda başlatan enzimdir. Tükürük oluşumunda su tüketiminin önemi vardır. Vücuttaki su miktarı azalırsa tükürük üretimi de azalır. Tükürük salgısı, karbonhidrat sindirimini başlatır, bağışıklığa katkı sağlar, besinlerin ısısını ayarlayarak  sindirim kanalını korur, yutmayı kolaylaştırır, dişlerin çürümesini engeller.\n" +
+        "<strong><i>b.Karaciğer</i></strong>\n" +
+        " Karaciğer sindirim sisteminin en büyük organıdır. Karaciğerin yapısında çok sayıda lobcuk bulunmaktadır. Karaciğerin alt yüzeyinde ise safra kesesi bulunmaktadır. Karaciğerin vücutta çok önemli görevleri vardır.  Vücuda sindirim yolu ile alınmış besin ögelerinin, vücut için yararlı hâle getirilmesi, ihtiyaç fazlasının depolanması ve zararlı atıkların uzaklaştırılması gibi pek çok olay karaciğerde gerçekleşir. Karaciğerde üretilen ve safra kesesinde depolanan safra yağların sindiriminde rol alır. İhtiyaç fazlası glikozu glikojene çevirerek depo eder ve kan şekerini düzenler. İhtiyaç fazlası karbonhidratı ve proteinin yağa dönüşmesini sağlar. Kanın pıhtılaşmasını engelleyici heparin maddesini üretir. Vücut için zararlı maddeleri zararsız hale getirir. Metobalizma hızı üzerindeki etkisiyle vücut ısısının ayarlanmasına etki eder. \n" +
         "\n" +
-        "\tKaraciğer\n" +
-        "\tKaraciğer sindirim sisteminin en büyük organıdır. Karaciğerin yapısında çok sayıda lobcuk bulunmaktadır. Karaciğerin alt yüzeyinde ise safra kesesi bulunmaktadır. Karaciğerin vücutta çok önemli görevleri vardır.  Vücuda sindirim yolu ile alınmış besin ögelerinin, vücut için yararlı hâle getirilmesi, ihtiyaç fazlasının depolanması ve zararlı atıkların uzaklaştırılması gibi pek çok olay karaciğerde gerçekleşir. Karaciğerde üretilen ve safra kesesinde depolanan safra yağların sindiriminde rol alır. İhtiyaç fazlası glikozu glikojene çevirerek depo eder ve kan şekerini düzenler. İhtiyaç fazlası karbonhidratı ve proteinin yağa dönüşmesini sağlar. Kanın pıhtılaşmasını engelleyici heparin maddesini üretir. Vücut için zararlı maddeleri zararsız hale getirir. Metobalizma hızı üzerindeki etkisiyle vücut ısısının ayarlanmasına etki eder. \n" +
+        "<strong><i>c.Safra Kesesi</i></strong>\n" +
+        " Karaciğerin altında yer alan ve üretilen safranın depo edildiği bir kesedir. Yağlı içeriğin ince bağırsağın duedonum bölümüne gelmesiyle uyarılır ve safra kesesi duvarındaki kasların kasılarak sıkılaşan keseden duedonuma safra atılmasını sağlar. Safra, yağın mekanik sindirimini sağlar, yağda eriyen vitaminlerin emilimini arttırır, mideden gelen asidik içeriği bazik hale getirir, bağırsakta zararlı bakterilerin üremesine engel olur ve bağırsak villuslarının hareketini arttırır.\n" +
         "\n" +
-        "\tSafra Kesesi\n" +
-        "\tKaraciğerin altında yer alan ve üretilen safranın depo edildiği bir kesedir. Yağlı içeriğin ince bağırsağın duedonum bölümüne gelmesiyle uyarılır ve safra kesesi duvarındaki kasların kasılarak sıkılaşan keseden duedonuma safra atılmasını sağlar. Safra, yağın mekanik sindirimini sağlar, yağda eriyen vitaminlerin emilimini arttırır, mideden gelen asidik içeriği bazik hale getirir, bağırsakta zararlı bakterilerin üremesine engel olur ve bağırsak villuslarının hareketini arttırır.\n" +
-        "\n" +
-        "\tPankreas\n" +
+        "<strong><i>d.Pankreas</i></strong>\n" +
         "Pankreas iç ve dış salgı yapan bir bezdir. İç salgı olarak insülin salgılar ve direkt olarak kana verir. Dış salgı olarak ürettiği enzimleri ise duedonuma boşaltır. Yetişkin bir insan vücudunda günde 1,5- 2 lt pankreas öz suyu salgılanır.\n"],
     [ "Oral Cavity\n" +
     "\n" +
@@ -127,7 +123,7 @@ export default [
         "Intestinos Grossos\n" +
         "O comprimento dos intestinos grossos é de cerca de 1,5-1,8 metros. Estende-se desde a última parte do intestino delgado até ao ânus.\n" +
         "A mucosa do intestino grosso não tem vilosidades e a sua estrutura interna é diferente do intestino delgado. O intestino grosso tem três partes: o ceco, o cólon e o reto. Há também uma válvula na junção do intestino delgado com o intestino grosso, e esta válvula controla a passagem de nutrientes do intestino delgado para o intestino grosso e impede-os de escapar de volta.\n" +
-        "\tUma das funções mais importantes do intestino grosso é a absorção de água. O conteúdo que passa do intestino delgado para o intestino grosso está em forma líquida e este conteúdo passa dentro de poucas horas. Os resíduos solidificam-se absorvendo a água do conteúdo líquido que passa para o intestino grosso. Tal como o estômago e o intestino delgado, há movimentos peristálticos no intestino grosso, e o conteúdo intestinal é livre de dedos graças a estes movimentos.\n" +
+        " Uma das funções mais importantes do intestino grosso é a absorção de água. O conteúdo que passa do intestino delgado para o intestino grosso está em forma líquida e este conteúdo passa dentro de poucas horas. Os resíduos solidificam-se absorvendo a água do conteúdo líquido que passa para o intestino grosso. Tal como o estômago e o intestino delgado, há movimentos peristálticos no intestino grosso, e o conteúdo intestinal é livre de dedos graças a estes movimentos.\n" +
         "O intestino grosso também funciona como um armazém de resíduos até ao processo de defecação. Os resíduos são finalmente empurrados para o reto (ânus), e a necessidade de defecação é sentida como resultado do relaxamento dos esfíncteres e do aumento da pressão intra-abdominal.\n" +
         "250-400 gramas de fezes são excretadas diariamente.\n" ,
 

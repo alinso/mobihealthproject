@@ -2,22 +2,21 @@ export  default [
     [
             "Boşaltım sistemi kandaki atık maddeleri vücuttan atmak üzere böbrekler aracılığıyla süzen ve oluşan idrarı üreterler ( idrar yolu ) aracılığıyla idrar torbasına ( mesane ) getiren ve burada depo edilen idrarı üretra ile vücuttan uzaklaştıran sisteme verilen addır.\n" ,
 
-            "Böbrekler\n" +
-            "Üriner sistemin en önemli organlarının başında böbrekler gelir. Böbrekler karın boşluğunun arka duvarında, omurganın sağı ve solunda olmak üzere iki adet olup fasülye görünümündedir. Böbrekler 11- 12 cm uzunluğunda ve yaklaşık 120- 200 gr ağırlığında morumsu kırmızı renkte organlardır. Böbreğin en küçük birimlerine nefron adı verilir ve her iki böbrekte toplam 2,5 milyon civarında nefron bulunur.\n" +
+            "<strong>Böbrekler</strong>\n" +
+            "Üriner sistemin en önemli organlarının başında böbrekler gelir. Böbrekler karın boşluğunun arka duvarında, omurganın sağı ve solunda olmak üzere iki adet olup fasülye görünümündedir. Böbrekler 11- 12 cm uzunluğunda ve yaklaşık 120- 200 gr ağırlığında morumsu kırmızı renkte organlardır. Böbreğin en küçük birimlerine nefron adı verilir ve her iki böbrekte toplam 2,5 milyon civarında nefron bulunur.\n\n" +
         "İnsan metabolizması enerji için besin maddelerine ihtiyaç duyduğu kadar, alınan besinlerden kalan atık maddelerin vücut dışına atılmasına da bir o kadar ihtiyaç duyar. Bu maddelerin başında üre gelmektedir. Böbrekler üriner sistemde ana görev alan en önemli organdır. İnsan vücudunun %60- 70 ini su oluşturmaktadır. Böbrekler zararlı maddelerin vücuttan atılmasının yanında alınan su ile atılan suyu dengede tutarak vücudun sıvı ve elektrolit dengesini de korumaktadır.\n" ,
 
-            "İdrarın Oluşumu\n" +
+            "<strong>İdrarın Oluşumu</strong>\n" +
             "Böbrekler vücuttan atılan su miktarı ile vücudun sıvı elektrolit dengesini korumaktadır. Bunu vücuttan atılan idrar miktarını azaltıp çoğaltarak sağlar. Örneğin yaz aylarında vücudumuzdan ter aracılığıyla çok fazla su kaybedildiği için idrar oluşumunun normalden az olduğunu görmekteyiz. Böbreklerden süzülen kandan kalan tüm süzüntü dışarı atılmaz. Bir günde böbreklerden süzülen süzüntü miktarı 180 lt civarında iken bunun yaklaşık 1,5 lt si idrar olarak dışarı atılır. Yani süzülen süzüntünün çok büyük bir kısmı geri emilmekte, sadece zararlı atıklar vücuttan uzaklaştırılmaktadır. İdrar oluşumu öncelikle süzülme ile başlar, geri emilme ile davam eder ve salınım ile sonlanır.  \n\n" +
-            "Yetişkin bir insanın günlük çıkardığı idrar miktarı 1,5 lt civarındadır. İdrarın normal rengi berrak olup sabah saatlerinde daha koyu sarı, antibiyotik v.s ilaç kullanımları veya hastalık durumlarında da değişiklik gösterebilir. İdrarın %95-96 sı sudur. Sağlıklı bir insanın idrarında glikoz ve plazma proteinleri bulunmamaktadır.\n" +
+            "Yetişkin bir insanın günlük çıkardığı idrar miktarı 1,5 lt civarındadır. İdrarın normal rengi berrak olup sabah saatlerinde daha koyu sarı, antibiyotik v.s ilaç kullanımları veya hastalık durumlarında da değişiklik gösterebilir. İdrarın %95-96 sı sudur. Sağlıklı bir insanın idrarında glikoz ve plazma proteinleri bulunmamaktadır.\n\n" +
 
-
-            "Üreterler ( İdrar Yolları )\n" +
+            "<strong>Üreterler ( İdrar Yolları )</strong>\n" +
             "Böbreklerden süzülen idrarın mesaneye ( idrar torbası ) taşınmasını sağlayan 25- 30 cm uzunluğundaki borucuklardır. Her iki böbrekten birer tane üreter mesaneye uzanmaktadır. Kas ve zardan oluşmaktadır. Üreterler, böbrekte süzülerek biriken idrarın etkisiyle peristaltik hareketlerle idrarı mesaneye taşır.\n" +
             "\n" +
-            "Mesane ( İdrar Torbası )\n" +
+            "<strong>Mesane ( İdrar Torbası )</strong>\n" +
             "Böbreklerde oluşan idrarın üreterler aracılığıyla taşınarak depolandığı bölümdür. Mesanenin en temel görevi idrarın depolanması ve vücuttan atılmasını sağlamaktır. Metabolizma hızı, sıvı tüketimi, hava koşulları veya  sağlık/ hastalık gibi durumlarda farklı hızlarda dolan mesanedeki idrar miktarı belirli bir düzeye eriştiğinde sinirsel uyarılar ile idrar yapma isteğini ortaya çıkarır. Mesanenin ortalama 350- 400 ml kapasitesi vardır. Mesane yaklaşık %60-70 lik doluluk oranına ulaştığında mesanedeki sinirlerin uyarılmasıyla idrar yapma refleksini doğurur bu refleks ile mesane kası kasılır. İdrar yapma refleksi ise sfinkterler sayesinde istemli olarak başlar ve sistemli olarak sonlandırılabilir.\n" +
             "\n" +
-            "Üretra ( İdrar Kanalı )\n" +
+            "<strong>Üretra ( İdrar Kanalı )</strong>\n" +
             "Mesanede biriken idrarın vücuttan atılmasını sağlayan kanaldır. Üretranın yapısı kadın ve erkeklerde farklıdır. Kadın üretrası kısa iken erkeklerde penis boyunca uzandığı için daha uzundur. Bu nedenle kadınlarda idrar yolu enfeksiyonuna sık rastlanır.\n" +
             "\n"
     ],

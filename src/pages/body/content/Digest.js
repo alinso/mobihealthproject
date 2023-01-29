@@ -3,29 +3,29 @@ export default [
         "İnsan vücudu fonksiyonlarını devam ettirebilmek ve canlılığını sürdürebilmek için enerjiye ihtiyaç duyarlar. İhtiyaç duyulan bu enerji besin maddelerinden karşılanır. Besin maddelerinin vücuda alındığı şekliyle vücut tarafından kullanılması neredeyse imkansız bir durumdur. Alınan besin maddelerinin vücudun ihtiyaç duyduğu enerjiye dönüştürülmesi için öncelikle o besin maddelerinin yapıtaşlarına ayrılması ve hücrelere ulaştırılacak düzeyde yani kan ile taşınabilecek düzeyde ayrıştırılması gerekir. Ayrıca gerçekleşen bu işlem sonucunda ortaya çıkan atık maddelerin vücuttan uzaklaştırılmasını gerektiren bir sistem de gereklidir. Kısaca ifade etmek gerekirse besin maddelerinin vücuda alınması, sindirim organlarına ulaştırılması, parçalanarak sindirilebilir hale getirilmesi ve yapı taşlarına ayrılması, emilerek kana verilmesi ve atık maddelerin vücuttan atılması işlemlerinin bütününe sindirim denir. Vücutta sindirim işleminin yapıldığı sisteme sindirim sistemi adı verilmektedir.\n"
       ,
         "Sindirimin Aşamaları\n" +
-        "Besinin Alınması ( Yeme ): Sindirimin başlaması için öncelikle besinin vücuda alınması gerekir. Bu ihtiyacı tetikleyen ise beyinden gelen açlık uyarılarıdır. Besinlerin ağız yoluyla alınması ile sindirim olayı başlamaktadır. Ağız boşluğuna alınan besinler öncelikle mekanik sindirime uğrayacaktır.\n" +
-        "Mekanik Sindirim: Besin maddelerinin yutulabilir hale gelmesi için öncelikle dişler aracılığıyla koparılması ve çiğnenerek küçük parçalara ayrılması gerekir. Bu işlemin yapılarak besinlerin mideye gönderilmesi işlemine mekanik sindirim denir. Mekanik sindirim sırasında besin ağız boşluğunda tükürük salgılarıyla karşılaşır. Yemek borusu lümenindeki mukus salgısı yutma işlemini kolaylaştırır ve mekanik sindirim mide ve bağırsaklarda devam eder. Mekanik sindirim esnasında mide kendine has\n" +
+        "<strong>1.Besinin Alınması ( Yeme ):</strong> Sindirimin başlaması için öncelikle besinin vücuda alınması gerekir. Bu ihtiyacı tetikleyen ise beyinden gelen açlık uyarılarıdır. Besinlerin ağız yoluyla alınması ile sindirim olayı başlamaktadır. Ağız boşluğuna alınan besinler öncelikle mekanik sindirime uğrayacaktır.\n\n" +
+        "<strong>2.Mekanik Sindirim:</strong> Besin maddelerinin yutulabilir hale gelmesi için öncelikle dişler aracılığıyla koparılması ve çiğnenerek küçük parçalara ayrılması gerekir. Bu işlemin yapılarak besinlerin mideye gönderilmesi işlemine mekanik sindirim denir. Mekanik sindirim sırasında besin ağız boşluğunda tükürük salgılarıyla karşılaşır. Yemek borusu lümenindeki mukus salgısı yutma işlemini kolaylaştırır ve mekanik sindirim mide ve bağırsaklarda devam eder. Mekanik sindirim esnasında mide kendine has\n" +
         "peristaltik hareketler yapmaktadır.\n" +
         "\n" +
-        "Kimyasal Sindirim: Mideye ulaşan besin parçaları burada birçok enzimle karşılaşır. Bu enzimler asit yapıdadır ve oldukça güçlüdür. Bu nedenle mide kendisini bu enzimlerden koruyan karşı enzimlerde üretmektedir. Besin moleküllerinin yıkıcı enzimler aracılığıyla daha küçük yapı taşlarına ayrılması işlemine kimyasal sindirim denir. Kimyasal sindirim ince bağırsakta devam eder. Pankreas tarafından üretilen enzimler ince bağırsağa boşaltılır ve mideden gelen besinleri en küçük yapı taşlarına kadar ayrıştırır. Bu enzimler protein, yağ ve karbonhidratların sindirilmesinde büyük rol oynar. Kimyasal sindirime yardımcı bir diğer organda Karaciğerdir. Karaciğer tarafından salgılanan safra, safra kesesinde depolanır ve yağlı besinler vücuda alındığında ince bağırsağa boşaltılarak yağlı besinlerin sindirilmesine yardımcı olurlar. Bu süreçte gerçekleşen enzim salgılanması sekresyon olarak nitelendirilir ve kimyasal sindirim sürecinin bir parçasıdır.\n" +
+        "<strong>3.Kimyasal Sindirim:</strong> Mideye ulaşan besin parçaları burada birçok enzimle karşılaşır. Bu enzimler asit yapıdadır ve oldukça güçlüdür. Bu nedenle mide kendisini bu enzimlerden koruyan karşı enzimlerde üretmektedir. Besin moleküllerinin yıkıcı enzimler aracılığıyla daha küçük yapı taşlarına ayrılması işlemine kimyasal sindirim denir. Kimyasal sindirim ince bağırsakta devam eder. Pankreas tarafından üretilen enzimler ince bağırsağa boşaltılır ve mideden gelen besinleri en küçük yapı taşlarına kadar ayrıştırır. Bu enzimler protein, yağ ve karbonhidratların sindirilmesinde büyük rol oynar. Kimyasal sindirime yardımcı bir diğer organda Karaciğerdir. Karaciğer tarafından salgılanan safra, safra kesesinde depolanır ve yağlı besinler vücuda alındığında ince bağırsağa boşaltılarak yağlı besinlerin sindirilmesine yardımcı olurlar. Bu süreçte gerçekleşen enzim salgılanması sekresyon olarak nitelendirilir ve kimyasal sindirim sürecinin bir parçasıdır.\n" +
         "\n" +
         "\n" +
-        "Emilim ( Absorbsiyon ): Yapı taşlarına ayrılan besin moleküllerinin ince bağırsak duvarında kan ve lenf sistemine emilmesi işlemidir. Karbonhidrat gibi bazın besin moleküllerinin hemen hemen tamamı incebağırsağın ilk bölümünde, yağlı besinler ve protein gibi bazı besin maddeleri ise incebağırsağın orta bölümünde emilir. Su ve minerallerin emilimi de ince bağırsakta gerçekleşir ancak ince bağırsakta emilimi gerçekleşmeyenler sindirim işleminin son kısmı olan kalınbağırsakta emilmeye devam eder.\n" +
-        "Dışkılama ( Defekasyon ) : Sindirimi tamamlanan, sindirilemeyen veya vücut için gerekli olmayan besin atıklarının vücuttan atılmasıdır.\n" ,
+        "<strong>4.Emilim ( Absorbsiyon ):</strong> Yapı taşlarına ayrılan besin moleküllerinin ince bağırsak duvarında kan ve lenf sistemine emilmesi işlemidir. Karbonhidrat gibi bazın besin moleküllerinin hemen hemen tamamı incebağırsağın ilk bölümünde, yağlı besinler ve protein gibi bazı besin maddeleri ise incebağırsağın orta bölümünde emilir. Su ve minerallerin emilimi de ince bağırsakta gerçekleşir ancak ince bağırsakta emilimi gerçekleşmeyenler sindirim işleminin son kısmı olan kalınbağırsakta emilmeye devam eder.\n" +
+        "<strong>5.Dışkılama ( Defekasyon ) :</strong> Sindirimi tamamlanan, sindirilemeyen veya vücut için gerekli olmayan besin atıklarının vücuttan atılmasıdır.\n" ,
 
-        "Sindirim Sistemi Organları\n" +
-        "Sindirim Kanalı\n" +
-        "Ağız Boşluğu\n" +
-        "Farenks ( Yutak )\n" +
-        "Özofagus ( Yemek Borusu )\n" +
-        "Gaster ( Mide )\n" +
-        "İnce Bağırsaklar\n" +
-        "Kalın Bağırsaklar\n" +
-        "Anüs ( Rektum )\n" +
-        "Sindirime Yardımcı Bez ve Diğer Organlar\n" +
-        "Tükrük Bezleri\n" +
-        "Karaciğer\n" +
-        "Pankreas\n" ,
+        "<strong>1.Sindirim Sistemi Organları</strong>\n" +
+        "a.Sindirim Kanalı\n" +
+        "b.Ağız Boşluğu\n" +
+        "c.Farenks ( Yutak )\n" +
+        "d.Özofagus ( Yemek Borusu )\n" +
+        "e.Gaster ( Mide )\n" +
+        "f.İnce Bağırsaklar\n" +
+        "g.Kalın Bağırsaklar\n" +
+        "h.Anüs ( Rektum )\n" +
+        "i.Sindirime Yardımcı Bez ve Diğer Organlar\n" +
+        "k.Tükrük Bezleri\n" +
+        "l.Karaciğer\n" +
+        "m.Pankreas\n" ,
 
 
     ],

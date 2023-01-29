@@ -3,50 +3,49 @@ export default [
         "Vücudumuza şeklini veren ve hareket edebilmemizi sağlayan sistemdir. Kas- iskelet sistemi kaslar, kemikler, bağlar ve eklemlerden oluşur. Kemik ve eklemler sistemin pasif elemanları iken kaslar hareket sisteminin aktif elemanı olup kemik ve eklemlere etki ederek vücudun hareket etmesini sağlar. Kas- İskelet  sistemi ayrıca iç organlarımızın korunmasını sağlamaktadır. Özellikle beyin, kalp ve akciğer gibi hayati organların korunmasında kemikler önemli rol oynar. Vücudumuzda toplam 206 kemik bulunmaktadır.\n" ,
 
 
-        "Kemikler\n" +
+        "<strong>Kemikler</strong>\n" +
+        "Kemikler biçimlerine göre; yassı, uzun ve kısa kemikler gibi adlarla sınıflandırılır.\n" +
         "\n" +
-        "\tKemikler biçimlerine göre; yassı, uzun ve kısa kemikler gibi adlarla sınıflandırılır.\n" +
+        "<strong><i>Uzun Kemikler:</i></strong> Kol, ön kol, uyluk, bacak ve parmak kemikleri gibi uzunluğu kalınlığı ve genişliğinden fazla olan kemiklerdir.\n" +
+        "<strong><i>Kısa Kemikler:</i></strong> El ve ayak kemikleri gibi uzunluk, genişlik ve kalınlığı birbirine eşit olan kemiklerdir\n" +
+        "<strong><i>Yassı Kemikler:</i></strong> Kafatası, kürek kemiği ve kalça kemikleri gibi yüzeyi geniş kemiklerdir.\n" +
+        "<strong><i>Düzensiz Kemikler:</i></strong> Omurgalar ve çene kemikleri gibi şekilsiz kemiklerdir.\n" +
         "\n" +
-        "Uzun Kemikler: Kol, ön kol, uyluk, bacak ve parmak kemikleri gibi uzunluğu kalınlığı ve genişliğinden fazla olan kemiklerdir.\n" +
-        "Kısa Kemikler: El ve ayak kemikleri gibi uzunluk, genişlik ve kalınlığı birbirine eşit olan kemiklerdir\n" +
-        "Yassı Kemikler: Kafatası, kürek kemiği ve kalça kemikleri gibi yüzeyi geniş kemiklerdir.\n" +
-        "Düzensiz Kemikler: Omurgalar ve çene kemikleri gibi şekilsiz kemiklerdir.\n" +
-        "\n" +
-        "Kemik Gelişimi\n" +
+        "<strong>Kemik Gelişimi</strong>\n" +
         "Büyüme evresinde kemik gelişiminin dönemine uygun olarak sağlıklı bir şekilde gerçekleşmesi ve yetişkinlerde kemik sağlığının korunması için kalsiyum ve fosfor yönünden yeterli ve dengeli beslenilmenin ve güneş ışığının önemi büyüktür. Vücuda alınan kalsiyumun bağırsaklardan emilebilmesi için D vitaminine ihtiyaç vardır. D vitaminin oluşabilmesi için de güneş ışığına ( ultraviyole ışını ) ihtiyaç vardır. Ayrıca A ve C vitaminlerinin kemiklerin gelişiminde etkisi bulunmaktadır. \n" +
         "\n" +
-        "İskelet \n" +
+        "<strong>İskelet</strong> \n" +
         "Kemik ve eklemlerin bir araya gelmesiyle oluşan sisteme iskelet sistemi denir. İskelet sistemi baş, gövde, üst ve alt ekstremiteler olmak üzere dört bölümde incelenir. İskelet sistemi vücudun mevcut şeklini korur, vücut boşluklarındaki organlarımızı korur, eklemler, bağlar ve kaslarla birlikte vücudun hareketini sağlar. Kalsiyum ve fosfor gibi mineralleri depo eder. Kan hücresi üretir.\n" ,
 
-        "Kemiklerimizi Tanıyalım\n" +
-        "Baş Kemikleri\n" +
+        "<strong>Kemiklerimizi Tanıyalım</strong>\n" +
+        "<strong>Baş Kemikleri</strong>\n" +
         "Beyni içine alan kafa iskeleti kafa ve yüz kemiklerinin birleşimiyle oluşmaktadır. Kafatasında tek oynar eklem olarak alt çene eklemi bulunmaktadır. Diğer eklemler oynamaz eklem olarak nitelendirilen ve dikişe benzediği için sutura denilen eklemlerdir.\n" +
         "\n" +
         "Kafatası iskeleti yeni doğanda beyin ile uyumlu bir büyüme gösterebilmesi için kemikler arasında bıngıldak adı verilen yumuşak alanlarla birbirine bağlıdır. Bu alanlar 2-3 yaş arasında kapanmalıdır.\n" +
         "Bıngıldağın erken kapanması beyin gelişimini tehlikeye atar. Geç kapanması ise kemik gelişimi ile ilgili ipucu vermektedir.\n" +
-        "\n" +
-        " Kafatası Kemikleri\n" +
-        "Alın Kemiği\n" +
-        "Duvar Kemik\n" +
-        "Art Kafa Kemiği\n" +
-        "Şakak Kemiği\n" +
-        "Temel Kemik\n" +
-        "Kalbur Kemik\n" +
-        "\n" +
-        "Yüz Kemikleri\n" +
-        "Üst Çene Kemiği\n" +
-        "Alt Çene Kemiği\n" +
-        "Elmacık Kemiği\n" +
-        "Burun Kemiği\n" +
-        "Tırnaksı Kemik ( Gözyaşı kemiği )\n" +
-        "Damak Kemiği\n" +
-        "\n" +
-        "Alt Boynuzcuk Kemiği\n" +
-        "Sapan Kemiği\n" +
-        "Dil Kemiği\n" ,
+        "\n\n" +
+        "<ul>"+
+        "<li>Kafatası Kemikleri</li>\n" +
+        "<li>Alın Kemiği</li>\n" +
+        "<li>Duvar Kemik</li>\n" +
+        "<li>Art Kafa Kemiği</li>\n" +
+        "<li>Şakak Kemiği</li>\n" +
+        "<li>Temel Kemik</li>\n" +
+        "<li>Kalbur Kemik</li></ul>\n" +
+
+        "<strong>Yüz Kemikleri</strong>\n" +
+        "<ul><li>Alt Çene Kemiği</li>\n" +
+        "<li>Üst Çene Kemiği</li>\n" +
+        "<li>Elmacık Kemiği</li>\n" +
+        "<li>Burun Kemiği</li>\n" +
+        "<li>Tırnaksı Kemik ( Gözyaşı kemiği )</li>\n" +
+        "<li>Damak Kemiği</li>\n" +
+        "<li>Alt Boynuzcuk Kemiği</li>\n" +
+        "<li>Sapan Kemiği</li>\n" +
+        "<li>Dil Kemiği</li></ul>\n\n" ,
 
 
-        "Gövde Kemikleri\n" +
+        "<strong>Gövde Kemikleri</strong>\n" +
         "Omurga: Omurga 33 veya 34 omurun üst üste dizilmesiyle oluşan ve kafatası boşluğundan pelvis kemiklerine kadar uzanan ve taşıdığı ağırlığı pelvise aktaran, omurga boşluğu içerisinde omuriliğin korunmasını sağlayan, aynı zamanda baş ve gövdeye hareket sağlayan kemik dizilimidir. Vücudumuzdaki omurlar;\n" +
         "Boyun Omurları ( 7 Adet )\n" +
         "Göğüs Omurları ( 12 Adet )\n" +
@@ -55,47 +54,48 @@ export default [
         "Kuyruk Omurları ( 4- 5 Adet ) Yetişkinlerde kaynaşarak tek kemik halini alır\n" +
         "Göğüs Kafesi Kemikleri: Göğüs kafesi kaburgalar ( 24 Adet ) ve iman tahtası ( Sternum ) kemiği olmak üzere 25 kemikten oluşur.\n" +
         "Sternum: Yassı bir kemik olan sterunm kaburgaların önde birleştiği noktada bulunur. \n" +
-        "Kaburgalar: Göğüs boşluğundaki organları çepeçevre saran göğüs kafesinin çok büyük bir kısmını oluştururlar. Sağ ve solda 12 Çift olmak üzere toplam 24 kaburgamız bulunur. Kaburgaların omurlar ve sternuma bağlanan kısımları kıkırdak yapıdadır.\n" ,
+        "Kaburgalar: Göğüs boşluğundaki organları çepeçevre saran göğüs kafesinin çok büyük bir kısmını oluştururlar. Sağ ve solda 12 Çift olmak üzere toplam 24 kaburgamız bulunur. Kaburgaların omurlar ve sternuma bağlanan kısımları kıkırdak yapıdadır.\n\n" ,
 
 
-        "Üst Ekstremite Kemikleri\n" +
+        "<strong>Üst Ekstremite Kemikleri</strong>\n" +
         "Gövdenin iki yanında, omuz kemiklerinden başlayarak parmak kemiklerine kadar uzanan kemik dizilimi üst ekstremiteleri ifade eder. Dört bölümde incelenir. Üst ekstremitelerde sağ ve solda 32 çift olmak üzere toplam 64 kemik bulunur.\n" +
-        "\n" +
-        "Omuz Kemikleri\n" +
-        "Kürek Kemiği\n" +
-        "Köprücük Kemiği\n" +
-        "Kol Bölgesi Kemikleri\n" +
-        "Humerus\n" +
-        "Ön Kol Kemikleri\n" +
-        "Döner Kemik\n" +
-        "Dirsek Kemiği\n" +
-        "El Kemikleri\n" +
-        "Bilek Kemikleri\n" +
-        "Tarak Kemikleri\n" +
-        "Parmak Kemikleri\n" +
-        "Alt Ekstremite Kemikleri\n" +
-        "Kalça Kemiği; Leğen, oturak ve çatı kemiğinden oluşur. Leğen kemiği pelvis boşluğunu oluşturur.\n" +
-        "Uyluk Bölgesi Kemikleri\n" +
-        "Uyluk Kemiği\n" +
-        "Diz Kapağı Kemiği\n" +
-        "Bacak Kemikleri\n" +
-        "Kaval Kemiği\n" +
-        "Kamış Kemiği\n" +
-        "Ayak Kemikleri\n" +
-        "Bilek Kemiği\n" +
-        "Tarak Kemikleri\n" +
-        "Parmak Kemikleri\n" ,
+
+        "<ul><li>Kürek Kemiği</li>\n" +
+        "<li>Omuz Kemikleri</li>\n" +
+        "<li>Köprücük Kemiği</li>\n" +
+        "<li>Kol Bölgesi Kemikleri</li>\n" +
+        "<li>Humerus</li>\n" +
+        "<li>Ön Kol Kemikleri</li>\n" +
+        "<li>Döner Kemik</li>\n" +
+        "<li>Dirsek Kemiği</li>\n" +
+        "<li>El Kemikleri</li>\n" +
+        "<li>Bilek Kemikleri</li>\n" +
+        "<li>Tarak Kemikleri</li>\n" +
+        "<li>Parmak Kemikleri</li></ul>\n\n" +
 
 
-        "Eklemler\n" +
-        "\n" +
+        "<strong>Alt Ekstremite Kemikleri</strong>\n" +
+        "<ul><li>Kalça Kemiği; Leğen, oturak ve çatı kemiğinden oluşur. Leğen kemiği pelvis boşluğunu oluşturur.\n" +
+        "<li>Uyluk Bölgesi Kemikleri</li>\n" +
+        "<li>Uyluk Kemiği</li>\n" +
+        "<li>Diz Kapağı Kemiği</li>\n" +
+        "<li>Bacak Kemikleri</li>\n" +
+        "<li>Kaval Kemiği</li>\n" +
+        "<li>Kamış Kemiği</li>\n" +
+        "<li>Ayak Kemikleri</li>\n" +
+        "<li>Bilek Kemiği</li>\n" +
+        "<li>Tarak Kemikleri</li>\n" +
+        "<li>Parmak Kemikleri</li><ul>\n\n" ,
+
+
+        "<strong>Eklemler</strong>\n" +
+
         "İki veya daha fazla kemiği birleştiren unsurlara eklem denir. Eklemler hareket kabiliyetlerine göre, oynamaz, yarı oynar ve oynar eklemler olmak üzere üç grupta incelenir.\n" +
         "Oynamaz Eklemler: Bu tip eklemlerde kemikler birbirine boşluksuz bağlanmıştır ve hareket edemezler.\n" +
         "Yarı Oynar Eklemler: Oynamaz eklemler gibi kemikler arasında boşluk bulunmasa da kemiklerin birleştiği yerlerde yer alan kıkırdak yapı bu eklemlere kısıtlı da olsa hareket kabiliyeti vermektedir.\n" +
-        "Oynar Eklemler: Bu grupta kemiklerin birleştiği alanlarda boşluk bulunur. Boşluklar sıvı ile dolu olup vücudumuzdaki eklemlerin büyük bir bölümünü oluştururlar.\n" ,
 
-        "Kaslar\n" +
-        "\n" +
+        "Oynar Eklemler: Bu grupta kemiklerin birleştiği alanlarda boşluk bulunur. Boşluklar sıvı ile dolu olup vücudumuzdaki eklemlerin büyük bir bölümünü oluştururlar.\n\n" ,
+        "<strong>Kaslar</strong>\n" +
         "Vücudumuzun hareket edebilmesi için sisteme ait tüm unsurların uyumlu olarak çalışması gerekir. Kaslar hareket sisteminin en çok rolü bulunan üyesidir. Vücudumuzda 600 den fazla iskelet kası bulunmaktadır. Kaslar; iskelete etki ederek vücudumuzun hareket etmesini sağlar ve vücuda şekil verir. İç organlarımızın yapısında bulunan kaslar yaşamsal fonksiyonların düzenli olarak devam etmesini sağlar.\n" +
         "\n" +
         "Üç çeşit kas tipi bulunmaktadır. Bunlar çizgili, düz ve kalp kasıdır.\n" +

@@ -73,7 +73,7 @@ export default [{
     digest:"Sindirim Sistemi-1",
     digest2:"Sindirim Sistemi-2",
     motion:"Hareket Sistemi",
-    uriner:"Üriner Sistem",
+    uriner:"Boşaltım Sistemi(Üriner Sistem)",
     urology:"Üreme Sistemi",
     senses:"Duyu Organları",
 

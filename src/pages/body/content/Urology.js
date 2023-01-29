@@ -2,35 +2,34 @@ export default [
     [
         "Tüm sistemler içerisinde erkek ve kadın cinsi açısından en fazla farklılık gösteren sistemdir. Üreme sistemi, üreme görevindeki farklılıkların yanında üreme organları ve sistemi açısından da oldukça farklıdır.\n" +
         "\n" +
-        "Erkek Üreme Organları\n" +
-        "Dış üreme organları\n" +
-        "Penis: Üreme sisteminde cinsel birleşme ve spermin dışarı atıldığı kanal iken boşaltım sisteminde ise idrarın atıldığı son kısmı oluşturan organdır. \n" +
-        "Skrotum ( Testis Torbası ): Deri ve elastik liflerden oluşan skrotum sıcağa ve soğuğa oldukça duyarlıdır. Skrotum iç ısısının vücut ısısından daha düşük olması gerektiği için vücuttan uzaklaştırır veya vücuda yaklaştırabilir.\n" +
-        "İç Üreme Organları\n" +
-        "Erbezi ( Testisler ): Erkeklerde temel üreme organı olup spermler burada üretilir. Bir çift testis skrotum kesesi içerisinde yer alır. Testislerin normal görevini yürütebilmesi için sktorum içine yerleşmesi gerekir. Anne karnında boşluğunda bulunan testisler 7. Aydan sonraa inerek skrotum içine yerleşir.\n" +
-        "Epididim: Sperm için olgunlaşma ve depolama görevi yürütür. Testisin arkasında yer alan iki küçük organdır.\n" +
-        "Sperm Kanalı: \n" +
-        "\n" +
-        "Meni Keseciği\n" +
-        "Ejakülatör Kanal\n" +
-        "Prostat: Erkek üreme organlarının en büyük bezidir. Prostat günde 0,5- 2 ml prostat sıvısı salgılar ve meni hacminin %20- 30 unu prostat sıvısı oluşturur. Prostat yaş ilerledikçe büyüme gösterebilir.\n" +
-        "Cowper Bezleri:\n" ,
+        "<strong>Erkek Üreme Organları</strong>\n" +
+        "<strong><i>Dış Üreme Organları</i></strong>\n" +
+        "- Penis: Üreme sisteminde cinsel birleşme ve spermin dışarı atıldığı kanal iken boşaltım sisteminde ise idrarın atıldığı son kısmı oluşturan organdır. \n" +
+        "- Skrotum ( Testis Torbası ): Deri ve elastik liflerden oluşan skrotum sıcağa ve soğuğa oldukça duyarlıdır. Skrotum iç ısısının vücut ısısından daha düşük olması gerektiği için vücuttan uzaklaştırır veya vücuda yaklaştırabilir.\n" +
+        "\n<strong><i>İç Üreme Organları</i></strong>\n" +
+        " - Erbezi ( Testisler ): Erkeklerde temel üreme organı olup spermler burada üretilir. Bir çift testis skrotum kesesi içerisinde yer alır. Testislerin normal görevini yürütebilmesi için sktorum içine yerleşmesi gerekir. Anne karnında boşluğunda bulunan testisler 7. Aydan sonraa inerek skrotum içine yerleşir.\n" +
+        " - Epididim: Sperm için olgunlaşma ve depolama görevi yürütür. Testisin arkasında yer alan iki küçük organdır.\n" +
+        " - Sperm Kanalı: \n" +
+        " - Meni Keseciği\n" +
+        " - Ejakülatör Kanal\n" +
+        " - Prostat: Erkek üreme organlarının en büyük bezidir. Prostat günde 0,5- 2 ml prostat sıvısı salgılar ve meni hacminin %20- 30 unu prostat sıvısı oluşturur. Prostat yaş ilerledikçe büyüme gösterebilir.\n" +
+        " - Cowper Bezleri:\n" ,
 
 
-        "Kadın Üreme Organları\n" +
-        "Dış Üreme Organları ( Vulva )\n" +
-        "Mous Pubis\n" +
-        "Labia Majör ( Büyük Dudaklar ): Erkek dış üreme organlarından skrotumun karşılığıdır.\n" +
-        "Labia Minör ( Küçük Dudaklar ): Erkeklerde penis derisinin karşılığıdır.\n" +
-        "Clitoris: Erkeklerde penisin karşılığıdır.\n" +
-        "Bartholin Bezi: Cinsel birleşmeyi kolaylaştıran kayganlaştırıcı sıvı salgılar.\n" +
-        "Vagina\n" +
-        "İç Üreme Organları\n" +
-        "Yumurtalıklar ( Ovarium ): Erkeklerde testislerin karşılığıdır. Kadın üreme hücresi yumurtaları üretir. Yumurtalıklar aynı zamanda östrojen ve progesteron hormonları üretmektedir. Sağlı ve sollu olmak üzere iki adettir.\n" +
-        "Fallop Tüpleri: Yumurtalıklar ( Ovarium ) ve rahim ( Uterus ) arasındaki bağlantıyı sağlayan borulardır. Olgunlaşan yumurta bu kanaldan uterus duvarına taşınır.\n" +
-        "Uterus ( Rahim ): Rahim pelvis boşluğu içerisinde, rektum ve mesanenin arasında yer alan kaslı bir organdır. Üst tarafından sağlı sollu fallop tüpleri yumurtalıklara uzanır. \n" +
-        "Vajina: Kadın cinsel birleşme organıdır. Doğum sırasında bebeğin geçmesini, menstruasyon döneminde ise kanın akışını sağlayan organdır. \n" +
-        "Memeler\n" +
+        "<strong>Kadın Üreme Organları</strong>\n" +
+        "<strong><i>Dış Üreme Organları ( Vulva )</i></strong>\n" +
+        " - Mous Pubis\n" +
+        " - Labia Majör ( Büyük Dudaklar ): Erkek dış üreme organlarından skrotumun karşılığıdır.\n" +
+        " - Labia Minör ( Küçük Dudaklar ): Erkeklerde penis derisinin karşılığıdır.\n" +
+        " - Clitoris: Erkeklerde penisin karşılığıdır.\n" +
+        " - Bartholin Bezi: Cinsel birleşmeyi kolaylaştıran kayganlaştırıcı sıvı salgılar.\n" +
+        " - Vagina\n\n" +
+        "<strong><i>İç Üreme Organları</i></strong>\n" +
+        " - Yumurtalıklar ( Ovarium ): Erkeklerde testislerin karşılığıdır. Kadın üreme hücresi yumurtaları üretir. Yumurtalıklar aynı zamanda östrojen ve progesteron hormonları üretmektedir. Sağlı ve sollu olmak üzere iki adettir.\n" +
+        " - Fallop Tüpleri: Yumurtalıklar ( Ovarium ) ve rahim ( Uterus ) arasındaki bağlantıyı sağlayan borulardır. Olgunlaşan yumurta bu kanaldan uterus duvarına taşınır.\n" +
+        " - Uterus ( Rahim ): Rahim pelvis boşluğu içerisinde, rektum ve mesanenin arasında yer alan kaslı bir organdır. Üst tarafından sağlı sollu fallop tüpleri yumurtalıklara uzanır. \n" +
+        " - Vajina: Kadın cinsel birleşme organıdır. Doğum sırasında bebeğin geçmesini, menstruasyon döneminde ise kanın akışını sağlayan organdır. \n\n" +
+        "<strong><i>Memeler</i></strong>\n" +
         "Memeler damar ve sinir yönünden zengin süt oluşturabilme yeteneğine sahip bir çift bezdir. Memelerin şekli ve büyüklüğü kişiden kişiye içerdiği yağ dukusunun miktarına göre değişir.\n" +
         "\n" +
         "Memelerin gelişimi vücuttan salgılanan östrojen ve progesteron hormonlarının etkisiyle ergenlik dönemi ile birlikte başlar. Gebelik döneminde meme büyümesi devam eder. Gebelik boyunca prolaktin hormon salgısı artmaktadır. Gebelik döneminde süt salınımı olmaz. Bunun nedeni östrojen ve progesteron hormonlarıdır. Süt salını doğumla birlikte başlar ve emzirme devam ettiği sürece devam eder.\n" ,
@@ -38,19 +37,17 @@ export default [
 
         "Üreme Sistem Fizyolojisi\n" +
         "\n" +
-        "\tTüm canlılarda olduğu gibi insanlarda da neslin devamı için üreme yeteneğinin olması bunun için de kadın ve erkek cinslerine ihtiyaç vardır. Üreme yeteneği her iki cins içinde ergenlik dönemiyle birlikte üreme sisteminin normal fonksiyonlarına erişmesiyle başlar. Kız çoçcuklarında ergenlik dönemi erkeklerden 1-2 yıl daha önce başlar Üremeyi sağlayan hücreler erkeklerde spermatoza, kadınlarda ise yumurta ( ovum ) dur. Cinsiyetin belirlenmesinde ise cinsiyet kromozomlarının etkisi vardır. İnsan hücreleri 23 çift kromozomdan oluşur ve bunlardan ikisi cinsiyet kromozomudur. Erkek hücreleri X ve Y’ den oluşur. Kadın hücreleri ise XX kromozom taşır. \n" +
+        " Tüm canlılarda olduğu gibi insanlarda da neslin devamı için üreme yeteneğinin olması bunun için de kadın ve erkek cinslerine ihtiyaç vardır. Üreme yeteneği her iki cins içinde ergenlik dönemiyle birlikte üreme sisteminin normal fonksiyonlarına erişmesiyle başlar. Kız çoçcuklarında ergenlik dönemi erkeklerden 1-2 yıl daha önce başlar Üremeyi sağlayan hücreler erkeklerde spermatoza, kadınlarda ise yumurta ( ovum ) dur. Cinsiyetin belirlenmesinde ise cinsiyet kromozomlarının etkisi vardır. İnsan hücreleri 23 çift kromozomdan oluşur ve bunlardan ikisi cinsiyet kromozomudur. Erkek hücreleri X ve Y’ den oluşur. Kadın hücreleri ise XX kromozom taşır. \n" +
         "\n" +
-        "\tErkek üreme hücreleri olan olgunlaşmış sperm hücreleri epididim ve ductus deferensin ampullasında depolanır. Ejakülasyona kadar depolanan spermin yapılanması için vücut ısısından ( 37 C ) daha düşük sıcaklığa ihtiyaç vardır. Bu nedenle testisler vücudun dışında skrotum kesesi içerisinde yer almaktadır. 1 ml meni ( Semen ) içerisinde 60- 120 milyon spermotozoa bulunur. Sperm hücresi baş ve kuyruktan oluşur. Beyaz ve opak\n" +
+        " Erkek üreme hücreleri olan olgunlaşmış sperm hücreleri epididim ve ductus deferensin ampullasında depolanır. Ejakülasyona kadar depolanan spermin yapılanması için vücut ısısından ( 37 C ) daha düşük sıcaklığa ihtiyaç vardır. Bu nedenle testisler vücudun dışında skrotum kesesi içerisinde yer almaktadır. 1 ml meni ( Semen ) içerisinde 60- 120 milyon spermotozoa bulunur. Sperm hücresi baş ve kuyruktan oluşur."+
+        " Beyaz ve opak bir sıvı olaan meninin miktarı yaklaşık 3 ml dir. 1 ml’ deki spermotozoa sayısı 20 milyonun altında olanlar genellikle kısır ( sterilite ) kabul edilir.\n" +
         "\n" +
-        "\n" +
-        "bir sıvı olaan meninin miktarı yaklaşık 3 ml dir. 1 ml’ deki spermotozoa sayısı 20 milyonun altında olanlar genellikle kısır ( sterilite ) kabul edilir.\n" +
-        "\n" +
-        "\tKız çocuklarında ergenlik döneminin ilk belirtisi memelerin büyümesiyle başlar. Menstruasyon bu ilk ergenlik belirtilerinden yaklaşık 2 yıl sonra başlar. Ergenlik dönemi genetik faktörlere göre değişiklik gösterebilir. Kadın üreme fonksiyonu erkeklerdeki gibi devamlı değil belirli periyotlarla devam eder. Bu periyoda menstrual siklus ( adet döngüsü veya regl döngüsü ) adı verilir. Menstrual siklus rahmin periyodik olarak gebelik için hazırlanma sürecini ifade eder. Bu süreç FSH ve LH hormonları tarafından düzenlenir. Her ay yumurtalıklardan bir yumurta fallop tüplerine atılır. Bu süreç sperm hücresiyle döllenmeyle devam etmezse yumurta oluşan kanama ile vajinadan dışarı atılmaktadır. Bu kanama süreci yaklaşık 5- 7 gün sürer. Her döngü arası yaklaşık 28 gündür ve bu döngü ergenlikteki ilk menstruasyondan ( ilk adete menarş denir ) menopoza kadar devam eder.\n" ,
+        " Kız çocuklarında ergenlik döneminin ilk belirtisi memelerin büyümesiyle başlar. Menstruasyon bu ilk ergenlik belirtilerinden yaklaşık 2 yıl sonra başlar. Ergenlik dönemi genetik faktörlere göre değişiklik gösterebilir. Kadın üreme fonksiyonu erkeklerdeki gibi devamlı değil belirli periyotlarla devam eder. Bu periyoda menstrual siklus ( adet döngüsü veya regl döngüsü ) adı verilir. Menstrual siklus rahmin periyodik olarak gebelik için hazırlanma sürecini ifade eder. Bu süreç FSH ve LH hormonları tarafından düzenlenir. Her ay yumurtalıklardan bir yumurta fallop tüplerine atılır. Bu süreç sperm hücresiyle döllenmeyle devam etmezse yumurta oluşan kanama ile vajinadan dışarı atılmaktadır. Bu kanama süreci yaklaşık 5- 7 gün sürer. Her döngü arası yaklaşık 28 gündür ve bu döngü ergenlikteki ilk menstruasyondan ( ilk adete menarş denir ) menopoza kadar devam eder.\n" ,
 
 
-        "\tDöllenme ( Fertilizasyon)\n" +
+        " Döllenme ( Fertilizasyon)\n" +
         "\n" +
-        "\tDöllenme süreci yumurtanın ( ovum ) spermotozoonu tanıması ile başlar. Spermatozoonun ovuma girişiyle birlikte çoğalma ve embriyonun gelişme süreci başlar. Binlerce sperm hücresinden sadece bir tanesi bu işlemi başarabilir. Yumurtayı dölleyen sperm hücresi Y kromozomu taşıyorsa erkek, X kromozomu taşıyorsa kız olur. Döllenmiş yumurta rahim duvarına yerleşir. Döllenme ile oluşan bu yeni hücreye zigot denir.\n"
+        " Döllenme süreci yumurtanın ( ovum ) spermotozoonu tanıması ile başlar. Spermatozoonun ovuma girişiyle birlikte çoğalma ve embriyonun gelişme süreci başlar. Binlerce sperm hücresinden sadece bir tanesi bu işlemi başarabilir. Yumurtayı dölleyen sperm hücresi Y kromozomu taşıyorsa erkek, X kromozomu taşıyorsa kız olur. Döllenmiş yumurta rahim duvarına yerleşir. Döllenme ile oluşan bu yeni hücreye zigot denir.\n"
     ],
     [
         "Among all systems, it is the system that differs the most in terms of male and female genders. Reproductive system is quite different in terms of reproductive organs and system as well as differences in reproductive function.\n" +
