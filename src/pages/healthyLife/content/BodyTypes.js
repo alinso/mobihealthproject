@@ -1,23 +1,23 @@
 export default [
     [
-      "ÇEŞİTLİ VÜCUT TANIMLAMALARI\n" +
+      "<strong>ÇEŞİTLİ VÜCUT TANIMLAMALARI</strong>\n" +
       "\n" +
-      "Obezite (şişmanlık)\n" +
+      "<strong>1.Obezite (şişmanlık)</strong>\n" +
       "Bireylerin BKİ değerlerinin 30kg/m2 ve üzerinde olması, bel çevresinin kadınlarda 88 cm erkelerde 102 cm’den fazla olması, vücut yağ oranlarının kadınlarda %30 erkeklerde %25’i geçmesi ile ortaya çıkan ve beraberinde birçok kronik hastalığı meydana getiren, yaşam kalitesinin düşüren bir hastalıktır. Obezite, günlük tüketilen besinlerin ihtiyaçtan fazla olması ya da çok az tüketilmesi, hareketsiz bir gün akışı, genetik, düzensiz ve yetersiz uyumak, bazı ilaçların kullanımı, metabolik ve hormonal bozukluklar gibi birçok faktörden etkilenmektedir.\n"
 ,
-      "Zayıflık\n" +
+      "<strong>2.Zayıflık</strong>\n" +
       "Vücut ağırlığının boya göre çok az olması, vücut yağ oranının çok düşük olması halinde ortaya çıkan durumdur. \n"
 ,
-      "AnoreksiyaNervoza\n" +
+      "<strong>3.Anoreksiya Nervoza</strong>\n" +
       "Kişilerin vücut ağırlığının anormal derecede az olması ile başlayan, kilo almaktan aşırı korkmak, iştahsız bir şekilde yemek yemek ve fiziksel görüntü kaygısı ile seyreden bir hastalıktır. Genellikle bu tarz hastalıkların altında psikolojik nedenler yatar. Bu yüzden bireylerin uzman desteği alması gerekir.\n"
 ,
-      "BulimiaNervoza\n" +
-      "Hayati risk taşıyan ciddi bir yeme bozukluğudur. Hastalığın oluşması bir çok faktöre bağlı olduğu gibi daha çok psikolojik sorunlardan kaynaklanır. Bu kişiler fiziksel görüntü ve kilo alma korkusu ile yaşarlar. Tüketilen besinlerin vücutta kullanılmasını önlemek için faklı yanlış davranışlar sergilerler. Laksatif (ishal yapıcı) ilaç kullanımı, kusma, diüretik (idrar söktürücü) ilaç kullanımı bu kişilerde yaygındır. Genellikle çok düşük kalorili diyetler uygular ve ağır egzersiz yaparlar.\n"
+      "<strong>4.Bulimia Nervoza</strong>\n" +
+      ."Hayati risk taşıyan ciddi bir yeme bozukluğudur. Hastalığın oluşması bir çok faktöre bağlı olduğu gibi daha çok psikolojik sorunlardan kaynaklanır. Bu kişiler fiziksel görüntü ve kilo alma korkusu ile yaşarlar. Tüketilen besinlerin vücutta kullanılmasını önlemek için faklı yanlış davranışlar sergilerler. Laksatif (ishal yapıcı) ilaç kullanımı, kusma, diüretik (idrar söktürücü) ilaç kullanımı bu kişilerde yaygındır. Genellikle çok düşük kalorili diyetler uygular ve ağır egzersiz yaparlar.\n"
 ,
-      "Malnutrisyon\n" +
+      "<strong>5.Malnutrisyon/strong>\n" +
       "Beslenme bozukluğu olarak bilinir. Genellikle yeterli besin ögesi ve kalori alamamaktan oluşur. Son yıllarda eksik beslenme dışında aşırı tüketim yapmak ve obezlik de malnutrisyon olarak kabul edilmektedir. Yetişkinlerde görüldüğünde vücut fonksiyonlarında bozukluk görülürken, çocuklarda olması halinde büyüme ve gelişmeyi olumsuz etkiler.Malnutrisyonun saçlarda dökülme, yorgunluk, halsizlik, yanaklarda çökme, kas kütlesinde ve kiloda azalma, yara iyileşmelerinde gecikme, konsantrasyon güçlüğü, depresyon gibi belirtileri vardır. \n"
 ,
-      "Bodurluk\n" +
+      "<strong>6.Bodurluk</strong>\n" +
       "Çocuklarda yaşa göre boyun kısa olması bodurluk olarak adlandırılır. Bodurluğun ülkemizde en sık görülen nedeni yetersiz beslenmedir. Özellikle bir bebeğin anne karnından itibaren ilk bin günü çok kıymetlidir. Gebelik sürecinde yeterli beslenme ile başlayarak doğum sonrası ilk altı ay sadece anne sütü ile beslenme, altı aydan sonra da anne sütü ve yeterli ek besin alan bebekler büyüme ve gelişme açısından çok avantajlıdır. Malnutrisyon dışında bodurluğa neden olan faktörler arasında bazı genetik sendromlar, displazi, organ sistemleri bozukluğu ve endokrin sistem bozuklukları da vardır.\n"
     ],
     [

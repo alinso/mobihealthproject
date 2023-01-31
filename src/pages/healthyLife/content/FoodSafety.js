@@ -14,7 +14,6 @@ export default [
         "<li style=\"font-weight: 400;\" ><span style=\"font-weight: 400;\">Hapşırık, &ouml;ks&uuml;r&uuml;k ve burun damlacıkları</span></li>\n" +
         "<li style=\"font-weight: 400;\" ><span style=\"font-weight: 400;\">A&ccedil;ık yaralar (kesik, &ccedil;atlak, ufak yaralanmalar) bakteri barındırır.</span></li>\n" +
         "</ul>\n" +
-        "<span style=\"font-weight: 400;\">(biz de bunun gibi bir g&ouml;rsel yapalım)</span>\n" ,
 
 
 
@@ -44,8 +43,8 @@ export default [
         "<li><em><span style=\"font-weight: 400;\">Kahverengi</span><span style=\"font-weight: 400;\">: pişmiş etler</span></em></li>\n" +
         "<li><em><span style=\"font-weight: 400;\">Yeşil</span><span style=\"font-weight: 400;\">: &ccedil;iğ sebze ve meyveler</span></em></li>\n" +
         "</ul>\n" +
-        "<strong>NOT:</strong><em><span style=\"font-weight: 400;\"> doğrama tahtalarının dışında doğrama bı&ccedil;aklarının kullanımına ve besinlerin depolanmasına da &ccedil;apraz bulaşma olmaması i&ccedil;in dikkat edilmelidir.&nbsp;</span></em>\n" +
-        "<span style=\"font-weight: 400;\">Besin g&uuml;venliğini sağlamak i&ccedil;in temelde; kişisel hijyen, besin hijyeni ve yiyecek i&ccedil;eceklerle ilgili ortamın ve ara&ccedil; gereklerin hijyeni sağlanmalıdır. </span>"
+        "<strong>NOT:</strong<span style=\"font-weight: 400;\"> doğrama tahtalarının dışında doğrama bı&ccedil;aklarının kullanımına ve besinlerin depolanmasına da &ccedil;apraz bulaşma olmaması i&ccedil;in dikkat edilmelidir." +
+        " Besin g&uuml;venliğini sağlamak i&ccedil;in temelde; kişisel hijyen, besin hijyeni ve yiyecek i&ccedil;eceklerle ilgili ortamın ve ara&ccedil; gereklerin hijyeni sağlanmalıdır. </span>"
     ],
     [
         "<strong>FOOD SAFETY</strong>\n" +

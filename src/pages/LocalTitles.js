@@ -54,7 +54,7 @@ export default [{
     physicalActivity: "Fisiksel Aktivite",
     obesity:"Obezite",
     bodyTypes:"Çeşitli Vücut Tanımlamaları",
-    pregnancy:"Gebelik Döneminden Beslenme",
+    pregnancy:"Gebelik Döneminde Beslenme",
     biberon:"Emzirme Döneminde Beslenme",
     oldPeople:"Yaşlıarda Beslenme",
     workers:"İşçilerde Beslenme",

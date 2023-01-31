@@ -8,14 +8,14 @@ export default [
         "Demir, iyot, kalsiyum gibi minerallerin günlük beslenmede yeterli alınması gerekir. Et, yumurta, peynir, yoğurt, deniz ürünleri, renkli sebze ve meyveler, kuru yemişler beslenmede yeterli olarak bulunmalıdır.\n" +
         "Anne sütünü etkileyen diğer faktör sıvı tüketimidir. Bol su içmenin yanında süt, ayran, hoşaf ve kompostolar, meyve suları da sıvı ihtiyacını karşılamak için günlük beslenmede yer almalı. \n" +
         "Anne sütü yalnızca yeterli ve dengeli beslenme ile artmaz. Annenin bebeğe olan sevgisi, onunla birlikte güzel vakit geçirmesi, aralarında kurulan duygusal bağ anneden prolaktin (süt salgılayan hormon) salgılanmasına ve oksitosin refleksiyle sütün akmasına yardımcı olur. \n" +
-        "Loğusa anneye öneriler:\n" +
-        "Emzirme döneminde gebelik döneminden daha fazla sıvı tüketilmeli\n" +
-        "Bu dönemde zayıflama diyeti uygulanmamalı. Sağlıklı beslenmeye dikkat edilmeli\n" +
-        "Her gün 1 adet yumurta yemeye özen gösterilmeli\n" +
-        "Vitamin ve mineral dengesi için sebze ve meyveleri her öğünde tüketmeye gayret etmeli\n" +
-        "Kalsiyum için süt, yoğurt ve peynir çeşitlerini size önerilen miktarda tüketin\n" +
-        "Demir açısından zengin besinlerin tüketilmesine gayret edilmeli\n" +
-        "İlk 6 ay boyunca yalnızca anne sütü bebeğin su dahil tüm ihtiyaçları için yeterlidir.\n"
+        "<strong>Loğusa anneye öneriler</strong>\n" +
+        "<ul><li>Emzirme döneminde gebelik döneminden daha fazla sıvı tüketilmeli</li>\n" +
+        "<li>Bu dönemde zayıflama diyeti uygulanmamalı. Sağlıklı beslenmeye dikkat edilmeli</li>\n" +
+        "<li>Her gün 1 adet yumurta yemeye özen gösterilmeli</li>\n" +
+        "<li>Vitamin ve mineral dengesi için sebze ve meyveleri her öğünde tüketmeye gayret etmeli</li>\n" +
+        "<li>Kalsiyum için süt, yoğurt ve peynir çeşitlerini size önerilen miktarda tüketin</li>\n" +
+        "<li>Demir açısından zengin besinlerin tüketilmesine gayret edilmeli</li>\n" +
+        "<li>İlk 6 ay boyunca yalnızca anne sütü bebeğin su dahil tüm ihtiyaçları için yeterlidir.</li></ul>\n"
     ],
     [
         "BREASTFEEDING PERIOD\n" +

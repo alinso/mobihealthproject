@@ -9,18 +9,18 @@ export default [
         "taşı olan besin ögelerine ayrılır ve ince bağırsaklardan emilimi yapılarak kan yoluyla vücutta " +
         "gerekli organ ve dokulara gönderilir. Vücutta enerjinin üretilmesi ise solunan havadaki oksijen ile besin ögeleri ile meydana gelir. " +
         "Dokuların yapımını, dokuların onarılmasını, bağışıklık sisteminin faaliyetlerini yerine getirmesi ortaya çıkan besin ögeleri ile meydana gelir. " +
-        "Tüm bu faaliyetlere  ametabolizma&rdquo;, besinlerin veya dokuların yıkılması ve en küçük yapıtaşlarına ayrılmasına ise  akatabolizma," +
-        " en küçük yapıtaşlarının bir araya gelerek yeni yapılar oluşturmasına ise  aanabolizma denilir. Vücuttaki tüm bu düzenin sağlanması ve normal " +
+        "Tüm bu faaliyetlere  metabolizma, besinlerin veya dokuların yıkılması ve en küçük yapıtaşlarına ayrılmasına ise  katabolizma," +
+        "en küçük yapıtaşlarının bir araya gelerek yeni yapılar oluşturmasına ise anabolizma denilir. Vücuttaki tüm bu düzenin sağlanması ve normal " +
         "işleyişin devamlılığı vitamin ve mineraller aracılığıyla enzimler ve  hormonlar tarafından yapılır." ,
 
         "<strong>Besin Nedir?</strong>\n" +
         "Besinler, günlük beslenmede yer alan yenilebilen ve yenildiğinde yaşam için gerekli besin ögelerini içeren bitki ve hayvan dokularıdır. " +
         "Besinlerin içerisinde vücut için gerekli olan besin ögeleri bulunmaktadır." ,
 
-        "<strong>Besin ögesi</strong>\n" +
+         "<strong>Besin ögesi</strong>\n" +
         "Besinler, besin ögesi denilen yapı taşlarından oluşur. Besinlerin yapısında bulunan besin ögeleri kendi içinde iki büyük gruba ayrılır. " +
-        "Günlük diyetle fazla miktarda alınanlara <strong>makro besin ögeleri,</strong>" +
-        " vücutta işlevleri çok önemli olmasına karşın az miktarda gereksinim duyulan ve alınanlara da <strong> mikro besin ögeleri </strong>denilir. " +
+        "Günlük diyetle fazla miktarda alınanlara <bold>makro besin ögeleri,</bold>" +
+        " vücutta işlevleri çok önemli olmasına karşın az miktarda gereksinim duyulan ve alınanlara da <bold>mikro besin ögeleri </bold>denilir. " +
         "Karbonhidratlar, yağlar ve proteinler makro besin ögeleridir. Karbonhidratlar monasakkaritlerden, proteinler amino asitlerden," +
         " yağlar ise yağ asitlerinden oluşmaktadır. Makro besin ögelerinin başlıca yararı vücuda enerji sağlamaktır. Enerji oluşumuna" +
         " ise mikro besin ögeleri yardımcı olur. Vitaminler ve mineraller mikro besin ögeleridir. Su yaşam için elzemdir ve besin ögesi olarak kabul edilir." ,
@@ -28,20 +28,22 @@ export default [
 
         "<strong>Enerji</strong>\n" +
         "Vücut organlarının çalışabilmesi ve normal ısının sürdürülebilmesi için makro besin ögelerinden" +
-        " sağlanmaktadır. Makro besin ögesi olan karbonhidratlar başlıca enerji kaynağıdır ve 1 gramı 4 kkal enerji sağlar. " +
+        "sağlanmaktadır. Makro besin ögesi olan karbonhidratlar başlıca enerji kaynağıdır ve 1 gramı 4 kkal enerji sağlar. " +
         "Makrobesin ögeleri içinde en yüksek enerjiyi veren besin ögesi yağdır. Yağların 1 gramı 9 kkal enerji sağlar. " +
         "Proteinler gerekmedikçe enerji amacıyla vücutta kullanılmaz, daha çok vücudun yapı taşını oluştururlar. Proteinlerin de 4 kkal enerji sağlamaktadır." ,
 
         "<strong>Yeterli Enerji Alımı Ve Enerji Dengesi</strong>\n" +
         "Vücudun enerji harcaması üç grupta incelenir. Bunlar; bazal metabolizma hızı, fiziksel aktivite düzeyi ve besinlerin termik etkisi olarak da bilinen yiyeceğe karşı" +
-        " metabolik yanıttır. Günlük enerji gereksinimi yaşa, cinsiyete, fiziksel aktivite düzeyine, fizyolojik duruma (gebelik ve emziklilik), hastalık durumuna, genetik " +
-        "yapıya ve çevre koşullarına göre değişir." +
+        "metabolik yanıttır. Günlük enerji gereksinimi yaşa, cinsiyete, fiziksel aktivite düzeyine, fizyolojik duruma (gebelik ve emziklilik), hastalık durumuna, genetik " +
+        "yapıya ve çevre koşullarına göre değişir.\n\n" +
+
         "Her gün yeterli ve dengeli beslenerek tüketilmesi gereken besin ve besin öğelerinin miktarı öğrenilirse dengeli ve düzenli beslenme " +
         "gerçekleştirilebilir. Sağlıklı beslenme; bireye özgü, yaşam tarzı ve koşullarına uygun bir beslenme düzenidir. Tek bir besin ya da besin grubu " +
         "tek başına zararlı ya da kişinin gereksinimlerini karşılayacak yeterliliğe sahip değildir. Tek başına tüketilmeyen ya da oldukça fazla tüketilen " +
         "bir besin kişiyi sağlıklı duruma getirmez. Dolayısıyla yeterli ve dengeli beslenme ilkeleri doğrultusunda sağlıklı besin seçimi alışkanlıklarının " +
         "kazandırılması, fiziksel aktivitenin mutlaka arttırılması ve yaşamın tamamını kapsayacak şekilde oluşturulan yaşam stili değişiklikleri ile " +
-        "hastalıklara yakalanma riski azalacak, yaşam kalitesi artacaktır." +
+        "hastalıklara yakalanma riski azalacak, yaşam kalitesi artacaktır.\n\n" +
+
         "Beslenmede çeşitlilik oldukça önemlidir. çeşitlilik içeren beslenme tarzı ve düzenli fiziksel aktiviteye tüm gıdalar dahil edilmelidir. Kişilerin " +
         "sahip olması gereken ideal kilosunu korumanın altın anahtarı enerji dengesinden geçmektedir." +
         "Enerji dengesi, besinlerden alınan enerji ile vücut tarafından harcanan enerji arasındaki ilişkiyi ifade eder. Alınan enerji harcanan enerjiye eşit " +

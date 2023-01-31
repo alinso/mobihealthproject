@@ -3,7 +3,7 @@ export default [
         "<strong>FİZİKSEL AKTİVİTE</strong>\n" +
         "Sağlıklı bir yaşamda fiziksel aktivitenin &ouml;nemi olduk&ccedil;a b&uuml;y&uuml;kt&uuml;r. G&uuml;nl&uuml;k olarak en az 30 dakika orta şiddette fiziksel aktivite yapmak, yetişkin bir bireyin fiziksel aktivite yaptığı anlamına gelmektedir. D&uuml;zenli fiziksel aktivite yapan bireylerde kandaki iyi kolesterol d&uuml;zeyini y&uuml;kseltirken, k&ouml;t&uuml; kolesterol d&uuml;zeyini azaltmakta; &ouml;zellikle kalın bağırsak, meme, over, prostat ve testis kanserlerinin riskini azaltmakta;kemik yoğunluğunu korumak ve kemiklerin direncini artırmakta; v&uuml;cut yağ oranının d&uuml;şmesine ve&nbsp; kronik hastalıklara yakalanma riskini azaltmaktadır.\n" +
         "D&ouml;rt tip egzersiz tipi vardır. Bunlar;\n" +
-        "<strong>Dayanıklılık (aerobik) Egzersizleri</strong>\n" +
+        "<strong>1.Dayanıklılık (aerobik) Egzersizleri</strong>\n" +
         "<ul>\n" +
         "<li>Dayanıklılık egzersizleri, kalp ve dolaşım sistemine olduk&ccedil;a faydalıdır.</li>\n" +
         "<li>Haftada en az 3 g&uuml;n, ideal olarak 5 &ndash; 7 g&uuml;n d&uuml;zenli olarak yapılmalıdır.</li>\n" +
@@ -13,20 +13,20 @@ export default [
         "<li>Y&uuml;r&uuml;y&uuml;ş,koşu,y&uuml;zme gibi egzersizlerdir.</li>\n" +
         "</ul>\n" ,
 
-        "<strong>Kuvvet Egzersizleri</strong>\n" +
+        "<strong>2.Kuvvet Egzersizleri</strong>\n" +
         "<ul>\n" +
         "<li>Haftada iki g&uuml;n, kas kitlesinin ve kuvvetin korunması ve gelişmesini sağlayacak olan egzersiz tipidir.</li>\n" +
         "<li>Bu tip egzersizler, alt ve &uuml;st bacak, kal&ccedil;a, karın, sırt, g&ouml;ğ&uuml;s, kol ve &ouml;n kol ile omuz b&ouml;lgelerine y&ouml;nelik hareketlerdir.</li>\n" +
         "</ul>\n" ,
 
-        "<strong>Esneklik Aktiviteleri</strong>\n" +
+        "<strong>3.Esneklik Aktiviteleri</strong>\n" +
         "<ul>\n" +
         "<li>Esneklik &ccedil;alışmalarına y&uuml;r&uuml;me gibi hafif bir ısınma aktivitesi ile başlanmalıdır.</li>\n" +
         "<li>Daha sonra aktif esneklik egzersizlerine ge&ccedil;ilmelidir. Germe ağrı olmayan son noktaya kadar yapılmalı, doğal ritmde nefes alınmalı ve nefes tutulmamalıdır.</li>\n" +
         "<li>Esneklik aktiviteleri egzersizlerin ısınma ve soğuma evrelerine eklenebilir.</li>\n" +
         "</ul>\n" ,
 
-        "<strong>Denge Aktiviteleri</strong>\n" +
+        "<strong>4.Denge Aktiviteleri</strong>\n" +
         "<ul>\n" +
         "<li>Dengeyi geliştirmek i&ccedil;in yapılan egzersizlere basit, dengede kalmaya gerek duyulan hareketlerle başlanabilir.</li>\n" +
         "<li>Bunlar, bir ayağımız &uuml;zerinde durma, serbest bacağı &ouml;ne arkaya veya yanlara hareket ettirme, tek ayak &uuml;zerinde &ccedil;&ouml;melip kalkma, ayak ucu veya tabanında y&uuml;r&uuml;me tarzı hareketler olabilir.</li>\n" +

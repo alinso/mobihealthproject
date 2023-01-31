@@ -1,5 +1,10 @@
 export default [
     [
+
+    "İnsanların kişisel isteklerine, kültürlerine, geleneklerine ve inançlarına göre tercih"+
+     "ettikleri bir beslenme tipidir. Vejetaryen beslenmede bitkisel kaynaklı yiyecek ve içecekler"+
+     "çoğunluktadır. Vejetaryenler hayvansal besinleri ya az miktarda tüketir ya da hiç tüketmezler.",
+     
         "<strong>Vejetaryen Beslenmede Diyet Tipleri</strong>\n" +
         "<ol>\n" +
         "<li style=\"font-weight: 400;\" aria-level=\"4\"><strong>Vegan Diyeti:</strong><span style=\"font-weight: 400;\"> bu diyet t&uuml;r&uuml;nde hi&ccedil;bir hayvansal &uuml;r&uuml;n t&uuml;ketilmez. Yalnızca et ve t&uuml;revleri değil; hayvanlardan elde edilen s&uuml;t ve s&uuml;t &uuml;r&uuml;nleri, yumurta, bal, jelatin, &ccedil;ikolata gibi besinleri de hayatlarından &ccedil;ıkarmışlardır. Aynı zamanda hayvanlardan elde edilen deri, ipek, y&uuml;n &uuml;r&uuml;nleri, hayvansal yağlardan elde edilen kozmetik ve temizlik &uuml;r&uuml;nleri kullanmaya da karşıdırlar.</span></li>\n" +

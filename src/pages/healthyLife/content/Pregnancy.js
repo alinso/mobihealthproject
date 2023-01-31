@@ -1,5 +1,14 @@
 export default [
     [
+       "Gebelik süresince bir bebeğin beslenmesi annesiyle arasında aracı olan plasenta ile"+
+       " sağlanmaktadır. Bebeğin ihtiyacı olan besin ögeleri plasenta ile anneden bebeğe taşınır. Bu"+
+        " yüzden gebelikte beslenme hem anne hem de bebek için çok önemlidir. Yetersiz ve dengesiz"+
+        " beslenme sonucu bebekte çeşitli konjenital bozukluklar ortaya çıkabilir. Doğum sonrası iyi"+
+        " beslenme sağlansa bile, gebelik sürecindeki eksiklikler nedeniyle bebekte zeka geriliği"+
+        " görülebilir. Hem enerji hem de besin ögelerinin çeşitliliği açısından beslenmeye özen"+
+        " gösterilmelidir.",
+
+       "<strong>Yetersiz Ve Dengesiz Beslenmede Bebekte Karşılaşılan Problemler</strong>"
       "Folik asit yetersizliği  → Konjenital bozukluklar\n" +
       "A vitamini yetersizliği →Konjenital bozukluk, düşük doğum ağırlığı, mikrosefali, görme sorunları\n" +
       "İyot yetersizliği → Kretenizm, düşük veya ölüm doğum, hiptiroidi, cücelik, serebralpalsi\n" +
@@ -7,23 +16,23 @@ export default [
       "B12, B6, Riboflavin yetersizliği  →   Sinir tüp bozuklukları,\n" +
       "Hemoglobinin düşük veya yüksek olması  → Tıbbi anomaliler, ölü doğumlar, erken doğum, düşük doğum ağırlığı\n" +
       "Fazla demir takviyesi   →  Çinko eksikliği\n" +
-      "Çinko yetersizliği →   Nöral tüp defekti\n" +
+      "Çinko yetersizliği →   Nöral tüp defekti\n" ,
 
-      "Bunları Biliyor muydunuz?\n" +
+      "<strong>Bunları Biliyor muydunuz?</strong>\n" +
       "Dünyada yaklaşık olarak her 7 doğumdan 1’i düşük doğum ağırlıklı olarak gerçekleşmektedir. Başlıca sebepler ise enfeksiyonlar, annenin çok küçük ya da büyük yaşta olması, çoklu gebelik, kronik hastalıklar, beslenme durumu, tütün ve uyuşturucu bağımlılıkları, çevresel faktörlerdir.\n" +
+      "Gebelikte beslenme yalnızca bebek için değil anne için de çok önemlidir. Özellikle iki gebelik arasında geçen süreye annenin vücut sağlığının yerine gelmesi için dikkat edilmelidir. Gebelikte enerji, protein, vitamin ve mineral ihtiyacı artar. Ayrıca annenin varsa kronik hastalıkları, çevresel faktörler, kilo durumu, fiziksel aktivitesi, yaşı, çalışma şartları da "+
+      "bu ihtiyaçları etkiler. \n" ,
 
-      "Gebelikte beslenme yalnızca bebek için değil anne için de çok önemlidir. Özellikle iki gebelik arasında geçen süreye annenin vücut sağlığının yerine gelmesi için dikkat edilmelidir. Gebelikte enerji, protein, vitamin ve mineral ihtiyacı artar. Ayrıca annenin varsa kronik hastalıkları, çevresel faktörler, kilo durumu, fiziksel aktivitesi, yaşı, çalışma şartları da bu ihtiyaçları etkiler. \n" +
-
-      "Yetersiz Ve Dengesiz Beslenmede Annede Karşılaşılan Problemler\n" +
+      "<strong>Yetersiz Ve Dengesiz Beslenmede Annede Karşılaşılan Problemler</strong>\n" +
       "Anneden bebeğe depolanmak üzere demir ve kalsiyum geçişi fazla olduğundan bu besin ögelerine ihtiyaçartar. Bu ihtiyaç karşılanamadığında annede diş çürümesi, osteomalasia ve demir eksikliği anemisi (kansızlık) görülür. \n" +
       "Dip Not !\n" +
       "Anemi (kansızlık) çeşitli besin ögelerinin eksikliği ya da kan hücrelerinin sağlıklı olmaması sonucu ortaya çıkan bir hastalıktır. En sık karşılaşılan anemi türü ise demir eksikliği anemisidir.\n" +
       "Annenin folik asit ve B12 vitamin eksikliği ile megaloblastik anemi de ortaya çıkabilir.\n" +
       "Artan enerji ve protein ihtiyacı karşılanamadığında annede ağırlık kaybı olabilir. Annenin ihtiyaçtan fazla enerji ve hızlı kilo alması da annede diyabet hastalığı riskini artırır. Ayrıca gebelikte aşırı kilo almakdoğum tarihinin gecikmesine, sezaryen doğuma, bebekte mekonyumaspirasyonuna neden olabilir.\n" +
       "Yetersiz protein alımı annede ödem oluşturabilir.\n" +
-      "Yetersiz ve dengesiz beslenme ile annede toksemi görülme riski de artar.\n" +
+      "Yetersiz ve dengesiz beslenme ile annede toksemi görülme riski de artar.\n",
 
-      "Annede Beslenme Ve Ağırlık Dengesi\n" +
+      "<strong>Annede Beslenme Ve Ağırlık Dengesi</strong>\n" +
       "Annede enerji dengesizliği istenilen bir durum değildir. Annede görülen zayıflık ya da şişmanlık doğumu güçleştirir. Ayrıca gebelik öncesinde annenin çok zayıf ya da çok şişman olması da olumsuz etki yaratır. Bir annenin gebe kalmadan önce normal ağırlıkta olması uygundur. Gebelik döneminde ise 9-12 kg kadar ağırlık artışı idealdir. \n" +
       "Hap Bilgi *\n" +
       "Gebelik döneminde bir annenin ideal kiloya ulaşması yalnızca sağlıklı bir gebelik, sağlıklı bir bebek ve anne için değildir. Depolanan yağ dokuları emzirme döneminde kullanılmak için hazırlanır.\n" +
@@ -31,8 +40,9 @@ export default [
       "Birçok içecekte bulunan kafeine gebelik döneminde dikkat edilmelidir. Günlük 5 fincandan fazla kahve tüketen kadınlarda düşük ağırlıklı bebek, erken doğum görülebilir. Ayrıca fazla miktarda tüketilen çay, kahve, asitli içecekler demir ve çinko gibi minerallerin emilimini de olumsuz etkiler. 2 fincan olarak kahve tüketimi sınırlandırılmalı ve çay sık tüketiliyorsa açık olarak tercih edilmelidir. Gebelikte su tüketimine de önem verilmeli. Hem anne hem de fetusun sağlığı için yeterli su içilmeli. \n" +
       "Alkol tüketimi fetusta büyüme ve gelişmeye olumsuz etki eder. Mikrosefali, yüz kemiklerinde gelişim bozukluğu, yarık damak gibi anomaliler görülebilir. \n" +
       "Pika:Besleyici değeri olmayan ve besin olmayan maddelerin sürekli ve çok miktarda tüketilmesi ve tüketme isteğidir. Kil, kum, çakıl gibi maddeler genellikle tercih edilir. Altta yatan psikolojik nedenlerin yanı sıra demir gibi bazı besin ögelerinin az tüketilmesi ve vücutta az olması ile de pika görülebilir. Hamile kadınlarda da sık karşılaşılan bir sağlık sorunudur.\n" +
-      " \n" +
-      "Gebelikte Karşılaşılan Gastrointestinal Sistem Problemlerine\n" +
+      " \n" ,
+
+      "<strong>Gebelikte Karşılaşılan Gastrointestinal Sistem Problemleri</strong> \n" +
       "Gebelikte ilk üç ayda “sabah hastalığı” da denilen mide bulantısı, öğürme, kusma gibi sindirim sistemi problemleri yaşanabilir. Tat ve koku duyularında hassasiyet, iştahsızlık veya dengesiz yeme istekleri görülebilir. Bu şikayetlerin sebebinin döl yani bebekle annenin arasındaki uyuşma güçlüğü ya da bilinmeyen faktörler olduğu düşünülmektedir. Sorunları ortadan kaldırmak ya da azaltmak için;\n" +
       "Azar azar ve sık beslenmek\n" +
       "Aşırı yağlı yiyeceklerden uzak durmak\n" +
@@ -52,7 +62,9 @@ export default [
         "B12, B6, Riboflavin deficiency  →   neural tube disorders\n" +
         "Low or high hemoglobin  → Medical anomalies, stillbirths, prematue birth, low birth weight\n" +
         "Excess iron supplementation   →  Zinc deficiency\n" +
-        "Zinc deficiency→   Neural tube defect\n" +
+        "Zinc deficiency→   Neural tube defect\n" ,
+
+
         "Did you know these?\n" +
         "Approximately 1 out of every 7 births in the world is low birth weight. The main reasons for this are infections, the mother's being very young or old, multiple pregnancy, chronic diseases, nutritional status, tobacco and drug addictions, and environmental factors.\n" +
         "\n" +

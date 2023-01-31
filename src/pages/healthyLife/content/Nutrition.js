@@ -1,3 +1,4 @@
+
 export default [
     [
         "<strong>BESİN &Ouml;GELERİ</strong>\n" +
