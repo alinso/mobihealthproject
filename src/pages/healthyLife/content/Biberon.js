@@ -7,7 +7,7 @@ export default [
         "Tüketilen besinlerde kaliteli protein içeriği çok önemlidir.\n" +
         "Demir, iyot, kalsiyum gibi minerallerin günlük beslenmede yeterli alınması gerekir. Et, yumurta, peynir, yoğurt, deniz ürünleri, renkli sebze ve meyveler, kuru yemişler beslenmede yeterli olarak bulunmalıdır.\n" +
         "Anne sütünü etkileyen diğer faktör sıvı tüketimidir. Bol su içmenin yanında süt, ayran, hoşaf ve kompostolar, meyve suları da sıvı ihtiyacını karşılamak için günlük beslenmede yer almalı. \n" +
-        "Anne sütü yalnızca yeterli ve dengeli beslenme ile artmaz. Annenin bebeğe olan sevgisi, onunla birlikte güzel vakit geçirmesi, aralarında kurulan duygusal bağ anneden prolaktin (süt salgılayan hormon) salgılanmasına ve oksitosin refleksiyle sütün akmasına yardımcı olur. \n" +
+        "Anne sütü yalnızca yeterli ve dengeli beslenme ile artmaz. Annenin bebeğe olan sevgisi, onunla birlikte güzel vakit geçirmesi, aralarında kurulan duygusal bağ anneden prolaktin (süt salgılayan hormon) salgılanmasına ve oksitosin refleksiyle sütün akmasına yardımcı olur. \n\n" +
         "<strong>Loğusa anneye öneriler</strong>\n" +
         "<ul><li>Emzirme döneminde gebelik döneminden daha fazla sıvı tüketilmeli</li>\n" +
         "<li>Bu dönemde zayıflama diyeti uygulanmamalı. Sağlıklı beslenmeye dikkat edilmeli</li>\n" +

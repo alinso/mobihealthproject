@@ -3,13 +3,13 @@ export default [
         "<strong>BESLENME</strong>\n" +
         "<strong>Beslenme Nedir?</strong>\n" +
         "<strong>Beslenme,</strong> yaşamın sürdürülmesi, büyüme ve gelişme, sağlığın iyileştirilmesi, korunması ve geliştirilmesi, yaşam kalitesinin iyileştirilmesi, üretkenliğin sağlanması için gerekli olan besinlerin vücuda alınma ve kullanılmasıdır." +
-        "<strong>Sağlıklı beslenme</strong>,  anne karnından itibaren başlayan yaşamın tüm süreçleri boyunca büyüme gelişme ve yaşamın devamlılığı için  önemli bir yere sahiptir." +
+        "<strong>Sağlıklı beslenme</strong>,  anne karnından itibaren başlayan yaşamın tüm süreçleri boyunca büyüme gelişme ve yaşamın devamlılığı için  önemli bir yere sahiptir. " +
         "Sağlıklı beslenmede besinlerin çeşitliliği elzemdir." +
         "Sindirim sistemi vasıtasıyla yiyecekler tüketilip, sindirildikten sonra en küçük yapı " +
         "taşı olan besin ögelerine ayrılır ve ince bağırsaklardan emilimi yapılarak kan yoluyla vücutta " +
         "gerekli organ ve dokulara gönderilir. Vücutta enerjinin üretilmesi ise solunan havadaki oksijen ile besin ögeleri ile meydana gelir. " +
         "Dokuların yapımını, dokuların onarılmasını, bağışıklık sisteminin faaliyetlerini yerine getirmesi ortaya çıkan besin ögeleri ile meydana gelir. " +
-        "Tüm bu faaliyetlere  metabolizma, besinlerin veya dokuların yıkılması ve en küçük yapıtaşlarına ayrılmasına ise  katabolizma," +
+        "Tüm bu faaliyetlere  metabolizma, besinlerin veya dokuların yıkılması ve en küçük yapıtaşlarına ayrılmasına ise  katabolizma, " +
         "en küçük yapıtaşlarının bir araya gelerek yeni yapılar oluşturmasına ise anabolizma denilir. Vücuttaki tüm bu düzenin sağlanması ve normal " +
         "işleyişin devamlılığı vitamin ve mineraller aracılığıyla enzimler ve  hormonlar tarafından yapılır." ,
 
@@ -20,9 +20,9 @@ export default [
          "<strong>Besin ögesi</strong>\n" +
         "Besinler, besin ögesi denilen yapı taşlarından oluşur. Besinlerin yapısında bulunan besin ögeleri kendi içinde iki büyük gruba ayrılır. " +
         "Günlük diyetle fazla miktarda alınanlara <bold>makro besin ögeleri,</bold>" +
-        " vücutta işlevleri çok önemli olmasına karşın az miktarda gereksinim duyulan ve alınanlara da <bold>mikro besin ögeleri </bold>denilir. " +
-        "Karbonhidratlar, yağlar ve proteinler makro besin ögeleridir. Karbonhidratlar monasakkaritlerden, proteinler amino asitlerden," +
-        " yağlar ise yağ asitlerinden oluşmaktadır. Makro besin ögelerinin başlıca yararı vücuda enerji sağlamaktır. Enerji oluşumuna" +
+        "vücutta işlevleri çok önemli olmasına karşın az miktarda gereksinim duyulan ve alınanlara da <bold>mikro besin ögeleri </bold>denilir. " +
+        "Karbonhidratlar, yağlar ve proteinler makro besin ögeleridir. Karbonhidratlar monasakkaritlerden, proteinler amino asitlerden, " +
+        "yağlar ise yağ asitlerinden oluşmaktadır. Makro besin ögelerinin başlıca yararı vücuda enerji sağlamaktır. Enerji oluşumuna " +
         " ise mikro besin ögeleri yardımcı olur. Vitaminler ve mineraller mikro besin ögeleridir. Su yaşam için elzemdir ve besin ögesi olarak kabul edilir." ,
 
 
@@ -30,7 +30,7 @@ export default [
         "Vücut organlarının çalışabilmesi ve normal ısının sürdürülebilmesi için makro besin ögelerinden" +
         "sağlanmaktadır. Makro besin ögesi olan karbonhidratlar başlıca enerji kaynağıdır ve 1 gramı 4 kkal enerji sağlar. " +
         "Makrobesin ögeleri içinde en yüksek enerjiyi veren besin ögesi yağdır. Yağların 1 gramı 9 kkal enerji sağlar. " +
-        "Proteinler gerekmedikçe enerji amacıyla vücutta kullanılmaz, daha çok vücudun yapı taşını oluştururlar. Proteinlerin de 4 kkal enerji sağlamaktadır." ,
+        "Proteinler gerekmedikçe enerji amacıyla vücutta kullanılmaz, daha çok vücudun yapı taşını oluştururlar. Proteinlerin de 4 kkal enerji sağlamaktadır.\n\n" ,
 
         "<strong>Yeterli Enerji Alımı Ve Enerji Dengesi</strong>\n" +
         "Vücudun enerji harcaması üç grupta incelenir. Bunlar; bazal metabolizma hızı, fiziksel aktivite düzeyi ve besinlerin termik etkisi olarak da bilinen yiyeceğe karşı" +
@@ -71,8 +71,8 @@ export default [
 
         "<strong>Nutrition</strong>\n" +
         "Food consists of components called  anutrients. Nutrients in the structure of foods are divided into two large groups within themselves. " +
-        "Nutrients that are taken in large amounts in the daily diet are called \"macro nutrients\", while the nutrients that are needed and taken in small " +
-        "amounts although their functions are very important in the body are called \"micronutrients\".Carbohydrates, fats and proteins are macronutrients. " +
+        "Nutrients that are taken in large amounts in the daily diet are called <bold>macro nutrients</bold>, while the nutrients that are needed and taken in small " +
+        "amounts although their functions are very important in the body are called <bold>micronutrients</bold>. Carbohydrates, fats and proteins are macronutrients. " +
         "Carbohydrates are made up of monosaccharides, proteins are made up of amino acids, and fats are made up of fatty acids. " +
         "The main benefit of macronutrients is to provide energy to the body. Micronutrients help in energy production. " +
         "Vitamins and minerals are micronutrients.Water is essential for life and is considered a nutrient." ,
@@ -88,7 +88,7 @@ export default [
         ""
     ],
     [
-        "<strong>NUTRIç aO</strong>\n" +
+        "<strong>NUTRICAO</strong>\n" +
         "<strong>O que  e Nutriç ao?</strong>\n" +
         "<strong>A nutriç ao </strong> e a ingest ao e utilizaç ao dos nutrientes necess&aacute;rios para a manutenç ao da vida, crescimento e desenvolvimento, melhoria, proteç ao e desenvolvimento da sa&uacute;de, melhoria da qualidade de vida e produtividade." +
         "<strong>A nutriç ao saud&aacute;vel </strong>tem um lugar importante para o crescimento, desenvolvimento e continuidade da vida ao longo de todos os processos de vida a partir do &uacute;tero da m ae." +
@@ -98,7 +98,7 @@ export default [
         "<strong>O que  e a comida?</strong>\n" +
         "Os alimentos s ao tecidos vegetais e animais que s ao inclu&iacute;dos na dieta di&aacute;ria e cont om nutrientes essenciais para a vida quando ingeridos. Os alimentos cont om nutrientes que s ao necess&aacute;rios para o corpo." ,
 
-        "<strong>Nutriç ao</strong>\n" +
+        "<strong>Nutriçao</strong>\n" +
         "Os alimentos s ao compostos por componentes chamados \"nutrientes\". Os nutrientes na estrutura dos alimentos dividem-se em dois grandes grupos. Os nutrientes que s ao tomados em grandes quantidades na dieta di&aacute;ria s ao chamados de \"macro nutrientes\", enquanto os nutrientes que s ao necess&aacute;rios e tomados em pequenas quantidades, embora as suas funç&otilde;es sejam muito importantes no corpo s ao chamados de \"micronutrientes\". Carbohidratos, gorduras e prote&iacute;nas s ao macronutrientes. Os hidratos de carbono s ao compostos por monossac&aacute;ridos, as prote&iacute;nas s ao compostas por amino&aacute;cidos, e as gorduras s ao compostas por &aacute;cidos gordos.  O principal benef&iacute;cio dos macronutrientes  e fornecer energia ao corpo. Os micronutrientes ajudam na produç ao de energia. Vitaminas e minerais s ao micronutrientes. A &aacute;gua  e essencial para a vida e  e considerada um nutriente." +
         "<strong>Energia</strong>\n" +
         "A energia  e obtida a partir de macronutrientes para que os &oacute;rg aos do corpo possam funcionar e a temperatura normal possa ser mantida. Os hidratos de carbono, que s ao macronutrientes, s ao a principal fonte de energia e 1 grama fornece 4 kcal de energia. Entre os macronutrientes, o nutriente que d&aacute; a maior energia  e a gordura. 1 grama de gordura fornece 9 kcal de energia. As prote&iacute;nas n ao s ao usadas no corpo para energia a menos que seja necess&aacute;rio, em vez disso formam os componentes b&aacute;sicos do corpo. 1 grama de prote&iacute;na fornece 4 kcal de energia." ,
