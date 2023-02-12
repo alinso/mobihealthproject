@@ -172,7 +172,7 @@ export default [
         "I. Humerus\n\n" +
         
         "<strong>c. Forearm Bones</strong>\n" +
-        "I. Rotating Bone\n\" +
+        "I. Rotating Bone\n" +
         "ii. Elbow\n\n" +
         
         "<strong>D. Attachment Bones</strong>\n" +

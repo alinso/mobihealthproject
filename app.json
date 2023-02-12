@@ -2,7 +2,7 @@
   "expo": {
     "name": "Mobihealth",
     "slug": "mobihealtheuropa",
-    "version": "1.9",
+    "version": "2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,20 +18,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alinso.mobihealth"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "versionCode": 9,
-      "permissions" : [],
-
+      "versionCode": 16,
+      "permissions": [],
       "package": "com.alinso.mobihealth"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "351a4b7d-e1ae-4de6-9f1d-ce508f6302ca"
+      }
     }
   }
 }

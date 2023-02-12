@@ -18,19 +18,16 @@ export default [
         "<strong>Tansiyon Nedir?</strong>\n" +
         "Kalp tarafından arterlere pompalanan kanın arter duvarına yapmış olduğu basınca tansiyon ( Kan Basıncı ) denir. Kan basıncı yetişkin normal bir insanda büyük 120 küçük 80 mmHg olarak kabul edilir. Büyük olarak kabul edilen değer sistolik kan basıncını yani karıncıkların kasılması sonucu kanın arter duvarına yaptığı basıncı, küçük olarak kabul edilen diastolik basınç ise ventriküllerin gevşediği durumda damarlardaki basıncı ifade eder.\n" +
         "\n" +
-        '<strong><i>Nabız Nedir?</strong> </i>\n" +
+        "<strong><i>Nabız Nedir?</strong> </i>\n" +
         "Kalbin bir dakikada arterlere kaç defa kan pompaladığının ve pompalama işleminin düzenli olup olmadığının gösteren sayısal değerdir. İstirahat halinde bir yetişkinin dakikadaki nabız sayısı 60- 100, çocuklarda 80- 120, bebeklerde ise 100-140 aralığındadır.Bu nedenle nabız değerlendirilirken kişinin yaşı ve istirahat hali göz önüne alınmalıdır.\n",
-
-
-
         "<strong>Dolaşım Çeşitleri</strong>\n" +
         "<strong><i>Kan Dolaşımı</strong></i>\n" +
         "<i>a.Büyük Kan Dolaşımı ( Sistemik Dolaşım ):</i> Kalp ile doku ve organlar arasında gerçekleşir.\n" +
         "<i>b.Küçük Kan Dolaşımı ( Pulmoner Dolaşım ):</i> Kalp ile akciğerler arasındaki dolaşımdır.\n" +
-        "<i>c.Portal Dolaşım:</i> Karın bölgesindeki mide, dalak ve pankreas gibi tek organların kanlarını venler aracılığıyla toplayarak karaciğere getirerek oradanda sistemik dolaşıma katan dolaşımdır. \n" +"
+        "<i>c.Portal Dolaşım:</i> Karın bölgesindeki mide, dalak ve pankreas gibi tek organların kanlarını venler aracılığıyla toplayarak karaciğere getirerek oradanda sistemik dolaşıma katan dolaşımdır. \n" +
         "<i>d.Plesental Dolaşım:</i> Bebeğin anne karnındaki dolaşım sistemini ifade eder ve normal hayattaki dolaşımdan çok farklıdır. Anne karnındaki bebeğin akciğerleri aktif olmadığı için oksijen ve besinleri anneden göbek kordonu aracılığıyla sağlamaktadır. \n" +
         "<strong><i>Lenf ( Akkan ) Dolaşımı</strong></i>\n Atardamar kılcalları aracılığıyla dokulara ( hücreler arası boşluğa ) verilen sıvının tamamı toplardamar kılcalları tarafından toplanamaz. Bu sıvılar lenf kılcalları tarafından toplanarak venöz dolaşıma katılır. Lenf sisteminde lenf damarları ile birlikte lenfoid organlar olan, tonsillalar ( bademcikler ), timus bezi ve dalak gibi organlar bulunmaktadır. \n"
-
+        ],
     [
         "The circulatory system is the system that ensures that the oxygen taken into the body through the respiratory system, and the nutrients taken into the body through the digestive system, are delivered to the cells through the blood pumped by the heart, and that the waste materials and carbon dioxide formed here are transported to the lungs and excretory system organs to be removed from the body. The most important organs of the circulatory system are the heart and blood vessels.\n",
 
@@ -132,21 +129,3 @@ export default [
 
     ]
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

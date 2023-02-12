@@ -8,13 +8,13 @@ export default [
         " görülebilir. Hem enerji hem de besin ögelerinin çeşitliliği açısından beslenmeye özen"+
         " gösterilmelidir.",
 
-       "<strong>Yetersiz Ve Dengesiz Beslenmede Bebekte Karşılaşılan Problemler</strong>"
-      "Folik asit yetersizliği  → Konjenital bozukluklar\n" +
-      "A vitamini yetersizliği →Konjenital bozukluk, düşük doğum ağırlığı, mikrosefali, görme sorunları\n" +
-      "İyot yetersizliği → Kretenizm, düşük veya ölüm doğum, hiptiroidi, cücelik, serebralpalsi\n" +
-      "Folik asit  → Nöral tüp defekti, kafatası kemiklerinde eksiklik, ansefalosel, anensefali, meningosel\n" +
+       "<strong>Yetersiz Ve Dengesiz Beslenmede Bebekte Karşılaşılan Problemler</strong> \n"+
+      "Folik asit yetersizliği  → Konjenital bozukluklar \n" +
+      "A vitamini yetersizliği →Konjenital bozukluk, düşük doğum ağırlığı, mikrosefali, görme sorunları \n" +
+      "İyot yetersizliği → Kretenizm, düşük veya ölüm doğum, hiptiroidi, cücelik, serebralpalsi \n" +
+      "Folik asit  → Nöral tüp defekti, kafatası kemiklerinde eksiklik, ansefalosel, anensefali, meningosel \n" +
       "B12, B6, Riboflavin yetersizliği  →   Sinir tüp bozuklukları,\n" +
-      "Hemoglobinin düşük veya yüksek olması  → Tıbbi anomaliler, ölü doğumlar, erken doğum, düşük doğum ağırlığı\n" +
+      "Hemoglobinin düşük veya yüksek olması  → Tıbbi anomaliler, ölü doğumlar, erken doğum, düşük doğum ağırlığı \n" +
       "Fazla demir takviyesi   →  Çinko eksikliği\n" +
       "Çinko yetersizliği →   Nöral tüp defekti\n" ,
 

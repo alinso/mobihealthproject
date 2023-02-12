@@ -186,8 +186,7 @@ export default [
         "Es ist ein Sack unter der Leber, in dem die produzierte Galle gespeichert wird. Es wird durch die Ankunft des Fettgehalts im Zwölffingerdarm des Dünndarms stimuliert und sorgt für den Abfluss der Galle in den Zwölffingerdarm aus der Blase, die durch Kontraktion der Muskeln in der Gallenblasenwand bewirkt wird. Die Galle sorgt für die mechanische Fettverdauung, erhöht die Aufnahme von fettlöslichen Vitaminen, macht den sauren Inhalt des Magens basisch, verhindert das Wachstum schädlicher Bakterien im Darm und erhöht die Bewegung der Darmzotten.\n" +
         "<strong><i>Gallenblase</i></strong>\n" +
         "\n" +
-        "Die Bauchspeicheldrüse ist eine Drüse, die innere und äußere Sekrete produziert. Es sondert Insulin als inneres Sekret ab und gibt es direkt an das Blut ab. Es gibt die von ihm produzierten Enzyme als äußeres Sekret in den Zwölffingerdarm ab. In einem erwachsenen menschlichen Körper werden 1,5-2 Liter Pankreassaft pro Tag ausgeschieden.\n"
-        "<strong><i>Pankreas</i></strong>\n" +
-
+        "Die Bauchspeicheldrüse ist eine Drüse, die innere und äußere Sekrete produziert. Es sondert Insulin als inneres Sekret ab und gibt es direkt an das Blut ab. Es gibt die von ihm produzierten Enzyme als äußeres Sekret in den Zwölffingerdarm ab. In einem erwachsenen menschlichen Körper werden 1,5-2 Liter Pankreassaft pro Tag ausgeschieden.\n"+
+        "<strong><i>Pankreas</i></strong>\n"
     ]
     ]

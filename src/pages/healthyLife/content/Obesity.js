@@ -3,21 +3,21 @@ export default [
         "OBEZİTE SINIFLANDIRMA Y&Ouml;NTEMLERİ\n" +
         "<strong>1. Beden Kitle İndeksi</strong>\n" +
         "Bedenimizde alınan ve harcanan enerji miktarına g&ouml;re kilo değişimi g&ouml;zlenmektedir. Alınan enerjinin harcanan enerjiden fazla olması kilo artışı; harcanan enerjinin alınan enerjiden fazla olması ise kilo kaybı sağlar. Sağlıklı bir insanda boya g&ouml;re kilo değerinin belirli aralıkta olması gerekir. Yetişkinlerde Beden kitle indeksi (BKİ) diye adlandırılan bu değer v&uuml;cut ağırlığınızı kontrol etmekte &ccedil;ok &ouml;nemlidir. Sizler de kolayca BKİ değerinizi hesaplayarak zayıf, kilolu, obez ya da normal v&uuml;cut ağırlığa sahip olduğunu g&ouml;rebilirsiniz. BKİ= v&uuml;cut ağırlığı (kg)/ boy uzunluğunuzun karesi (m2 )\n\n" +
-        "<strong>2. BKİ Sınıflandırması:</strong> BKİ (kg/m2) SINIFLANDIRMA <ul>"
-        "<li>&lt18,5 Zayıf </li>"
-        "<li>18,5-24,9 Normal</li>
-        "<li>25-29,9 Fazla Kilolu</li>
-        "<li>30-34,9 1.Dereceden Obez (Şişman)</li>
-        "<li>35-39,9 2.Dereceden Obez (Şişman)</li>
-        "<li>40-49,9 MorbidObez (Ciddi)</li>"
+        "<strong>2. BKİ Sınıflandırması:</strong> BKİ (kg/m2) SINIFLANDIRMA <ul>"+
+        "<li>&lt18,5 Zayıf </li>"+
+        "<li>18,5-24,9 Normal</li>"+
+        "<li>25-29,9 Fazla Kilolu</li>"+
+        "<li>30-34,9 1.Dereceden Obez (Şişman)</li>"+
+        "<li>35-39,9 2.Dereceden Obez (Şişman)</li>"+
+        "<li>40-49,9 MorbidObez (Ciddi)</li>"+
         "<li>&ge;50 S&uuml;per Obez</li>/ul>" ,
 
-        "<strong>1.Bel Cevresi </strong> \n+
+        "<strong>1.Bel Cevresi </strong>\n" +
         "Sağlıklı bir v&uuml;cut her zaman kiloya g&ouml;re tespit edilemeyebilir. Kişilerin v&uuml;cut yağ oranlarına ve bel &ccedil;evrelerine de dikkat etmesi gerekir. Karın b&ouml;lgesinde oluşan yağlanma kronik hastalıkların oluşumunu tetikler. Bu y&uuml;zden kişiler BKİ durumuna g&ouml;re zayıf olsalar dahi bel &ccedil;evrelerine dikkat etmelidir. Kadınlarda bel &ccedil;evresi 88 cm&rsquo;den; erkeklerde ise 102 cm&rsquo;den fazla ise obeziteye karşı &ouml;nlem alınmalıdır.\n\n" ,
-        "<strong>2. V&uuml;cut Yağ Oranı </strong>
+        "<strong>2. V&uuml;cut Yağ Oranı </strong>"+
         " Biyoelektriksel impedans analizi ile v&uuml;cut yağ, kas, mineral ve su oranı belirlenebilmektedir. BIA cihazları ile kişilerin v&uuml;cut analizleri yapılarak, b&ouml;lgesel yağlanmalar da tespit edilebilmektedir. Yetişkin kadınlarda yağ oranı %30&rsquo;u ; erkeklerde ise %25&rsquo;i ge&ccedil;tiği zaman obez olarak değerlendirilmektedir. İdeal yağ oranı erkeklerde %15-18, kadınlarda %20-25 olarak belirlenmiştir.\n\n" ,
 
-        "<strong>3. Percentil Eğrileri</strong>\n+
+        "<strong>3. Percentil Eğrileri</strong>\n"+
          "Bebeklerde ve &ccedil;ocuklarda b&uuml;y&uuml;me gelişmeyi takip etmek ve obezite sınıflandırması yapabilmek i&ccedil;in kullanılan grafikler olarak tanımlanır. Her ay ve her yaşa g&ouml;re bebek ve &ccedil;ocukların v&uuml;cut ağırlığı ve boy uzunluğu değişimini takip etmek m&uuml;mk&uuml;nd&uuml;r. Percentil eğrileri ile boya g&ouml;re v&uuml;cut ağırlığı, yaşa g&ouml;re boy uzunluğu, yaşa g&ouml;re v&uuml;cut ağırlığı da değerlendirilebilmektedir.\n"
     ],
     [

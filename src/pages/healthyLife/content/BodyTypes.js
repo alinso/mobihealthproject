@@ -12,8 +12,8 @@ export default [
       "Kişilerin vücut ağırlığının anormal derecede az olması ile başlayan, kilo almaktan aşırı korkmak, iştahsız bir şekilde yemek yemek ve fiziksel görüntü kaygısı ile seyreden bir hastalıktır. Genellikle bu tarz hastalıkların altında psikolojik nedenler yatar. Bu yüzden bireylerin uzman desteği alması gerekir.\n"
 ,
       "<strong>4.Bulimia Nervoza</strong>\n" +
-      ."Hayati risk taşıyan ciddi bir yeme bozukluğudur. Hastalığın oluşması bir çok faktöre bağlı olduğu gibi daha çok psikolojik sorunlardan kaynaklanır. Bu kişiler fiziksel görüntü ve kilo alma korkusu ile yaşarlar. Tüketilen besinlerin vücutta kullanılmasını önlemek için faklı yanlış davranışlar sergilerler. Laksatif (ishal yapıcı) ilaç kullanımı, kusma, diüretik (idrar söktürücü) ilaç kullanımı bu kişilerde yaygındır. Genellikle çok düşük kalorili diyetler uygular ve ağır egzersiz yaparlar.\n"
-,
+      "Hayati risk taşıyan ciddi bir yeme bozukluğudur. Hastalığın oluşması bir çok faktöre bağlı olduğu gibi daha çok psikolojik sorunlardan kaynaklanır. Bu kişiler fiziksel görüntü ve kilo alma korkusu ile yaşarlar. Tüketilen besinlerin vücutta kullanılmasını önlemek için faklı yanlış davranışlar sergilerler. Laksatif (ishal yapıcı) ilaç kullanımı, kusma, diüretik (idrar söktürücü) ilaç kullanımı bu kişilerde yaygındır. Genellikle çok düşük kalorili diyetler uygular ve ağır egzersiz yaparlar.\n",
+
       "<strong>5.Malnutrisyon/strong>\n" +
       "Beslenme bozukluğu olarak bilinir. Genellikle yeterli besin ögesi ve kalori alamamaktan oluşur. Son yıllarda eksik beslenme dışında aşırı tüketim yapmak ve obezlik de malnutrisyon olarak kabul edilmektedir. Yetişkinlerde görüldüğünde vücut fonksiyonlarında bozukluk görülürken, çocuklarda olması halinde büyüme ve gelişmeyi olumsuz etkiler.Malnutrisyonun saçlarda dökülme, yorgunluk, halsizlik, yanaklarda çökme, kas kütlesinde ve kiloda azalma, yara iyileşmelerinde gecikme, konsantrasyon güçlüğü, depresyon gibi belirtileri vardır. \n"
 ,

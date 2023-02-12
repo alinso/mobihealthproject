@@ -124,8 +124,7 @@ export default [
         "d. Gaster (Magen)\n" +
         "e. Dünndarm\n" +
         "f. Dickdarm\n" +
-        "g. Anus (Rektum)\n\n
-        " +
+        "g. Anus (Rektum)\n\n"+
         "<strong>2- Drüsen und andere Organe, welche die Verdauung unterstützen</strong>\n" +
         "a. Speicheldrüsen\n" +
         "b. Leber\n" +
