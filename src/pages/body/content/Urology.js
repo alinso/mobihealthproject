@@ -183,7 +183,7 @@ export default [
 
 
 
-        "Physiologie des Fortpflanzungssystems\n" +
+        "<b>Physiologie des Fortpflanzungssystems</b>\n" +
         "\n" +
         "Wie bei allen Lebewesen braucht der Mensch männliche und weibliche Geschlechter, damit er die Fähigkeit hat, sich für den Fortbestand der Generation fortzupflanzen. Die Fortpflanzungsfähigkeit beginnt bei beiden Geschlechtern mit der Adoleszenz, wenn das Fortpflanzungssystem seine normalen Funktionen erreicht. Die Pubertät beginnt bei Mädchen 1-2 Jahre früher als bei Jungen. Fortpflanzungszellen sind Spermien bei Männern und Eizellen bei Frauen. Geschlechtschromosomen haben einen Einfluss auf die Bestimmung des Geschlechts. Menschliche Zellen bestehen aus 23 Chromosomenpaaren, von denen zwei Geschlechtschromosomen sind. Männliche Zellen bestehen aus X und Y. Weibliche Zellen tragen XX-Chromosomen.\n" +
         "\n" +
@@ -194,7 +194,7 @@ export default [
         "Die ersten Anzeichen der Pubertät bei Mädchen beginnen mit dem Wachstum der Brüste. Etwa 2 Jahre nach diesen ersten Anzeichen der Pubertät setzt die Menstruation ein. Die Pubertätszeit kann je nach genetischen Faktoren variieren. Die weibliche Fortpflanzungsfunktion setzt sich zu bestimmten Zeiten fort, nicht kontinuierlich wie bei Männern. Diese Periode wird Menstruationszyklus genannt. Menstruationszyklus bezieht sich auf den Prozess der periodischen Vorbereitung der Gebärmutter auf eine Schwangerschaft. Dieser Prozess wird durch die Hormone FSH und LH reguliert. Jeden Monat wird eine Eizelle aus den Eierstöcken in die Eileiter abgegeben. Wenn dieser Prozess nicht mit der Befruchtung mit einer Samenzelle fortgesetzt wird, wird die Eizelle mit Blutung aus der Scheide entfernt. Dieser Blutungsvorgang dauert etwa 5-7 Tage. Das Intervall zwischen jedem Zyklus beträgt ungefähr 28 Tage, und dieser Zyklus dauert von der ersten Menstruation in der Pubertät (die erste Menstruation wird als Menarche bezeichnet) bis zur Menopause.\n" ,
 
 
-        "Befruchtung (Fertilisation)\n" +
+        "<b>Befruchtung (Fertilisation)</b>\n" +
         "Der Befruchtungsprozess beginnt, wenn die Eizelle (Ovum) die Spermien erkennt. Mit dem Eintritt der Spermien in die Eizelle beginnt der Fortpflanzungs- und Entwicklungsprozess des Embryos. Nur eine von Tausenden von Samenzellen kann diesen Prozess vollbringen. Wenn die Samenzelle, welche die Eizelle befruchtet, ein Y-Chromosom trägt, wird es ein Junge, und wenn sie ein X-Chromosom hat, wird es ein Mädchen. Die befruchtete Eizelle nistet sich in die Gebärmutterwand ein. Diese durch Befruchtung neu gebildete Zelle wird Zygote genannt.\n"
     ]
 ]

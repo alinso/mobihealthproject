@@ -11,10 +11,10 @@ export default [
         "\n" +
         "En yaygın görme problemleri miyopi ( uzağı görememe ) ve hipermetropi ( yakını görememedir ). \n\n" ,
 
-        "<strong>Kulak ( İşitme ve Denge Organı</strong> \n" +
-        "Kulak işitme organı olmanın yanı sıra denge organını içinde bulundurur. Kulak; dış kulak, orta kulak ve iç kulak olarak üç bölümde incelenir.\n" +
-        "<ul><li>Dış Kulak:</li> Çevredeki sesleri toplayarak orta kulağa gönderme işini yapar. Kulak kepçesi ve dış kulak yolundan oluşur. Kulak kepçesi kıkırdak yapıdadır. Ses dalgaları kulak kepçesi tarafından toplanarak dış kulak yoluna iletilir. Dış kulak yolu “ S “ harfine benzer bir uzantıdır. Bu bölümde yağ bezleri ve kıllar bulunur. Dış kulak yolunun sonlandığı yerde kulak zarı bulunmaktadır. Kulak kirine buşon denir.\n" +
-        "<li>Orta Kulak:</li> Kulak zarından sonra gelen bölümdür. İç yüzeyi mukoza ile kaplıdır ve hava bulunduran boşluklardan oluşur. \n" +
+        "<strong>Kulak ( İşitme ve Denge Organı)</strong> \n" +
+        "Kulak işitme organı olmanın yanı sıra denge organını içinde bulundurur. Kulak; dış kulak, orta kulak ve iç kulak olarak üç bölümde incelenir.\n\n" +
+        "<ul><li>Dış Kulak:</li> Çevredeki sesleri toplayarak orta kulağa gönderme işini yapar. Kulak kepçesi ve dış kulak yolundan oluşur. Kulak kepçesi kıkırdak yapıdadır. Ses dalgaları kulak kepçesi tarafından toplanarak dış kulak yoluna iletilir. Dış kulak yolu “ S “ harfine benzer bir uzantıdır. Bu bölümde yağ bezleri ve kıllar bulunur. Dış kulak yolunun sonlandığı yerde kulak zarı bulunmaktadır. Kulak kirine buşon denir.\n\n" +
+        "<li>Orta Kulak:</li> Kulak zarından sonra gelen bölümdür. İç yüzeyi mukoza ile kaplıdır ve hava bulunduran boşluklardan oluşur. \n\n" +
         "<li>İç Kulak:</li></ul> İç kulakta işitme ve denge ile ilgili özel hücreler bulunur. İşitme ve denge işlemi burada yapılır. \n\n" ,
 
         "<strong>İşitme Fizyolojisi</strong>\n" +
@@ -38,9 +38,9 @@ export default [
         "The most common vision problems are myopia (farsightedness) and hyperopia (nearsightedness).\n" ,
 
         "<strong>b. Ear (Hearing and Balance Organ)</strong>\n" +
-        "In addition to being the hearing organ, the ear contains the balance organ. Ear; It is divided into three parts as outer ear, middle ear and inner ear.\n" +
-        "<i>a. Outer Ear:</i> It does the job of collecting the surrounding sounds and sending them to the middle ear. It consists of the auricle and the external auditory canal. The auricle is made of cartilage. Sound waves are collected by the auricle and transmitted to the outer ear canal. The external ear canal is an extension similar to the letter \"S\". This section contains sebaceous glands and hairs. The eardrum is located where the external auditory canal ends. Earwax is called a plug.\n" +
-        "<i>b. Middle Ear:</i> It is the part that comes after the eardrum. The inner surface is covered with mucous and consists of air-containing spaces.\n" +
+        "In addition to being the hearing organ, the ear contains the balance organ. Ear; It is divided into three parts as outer ear, middle ear and inner ear.\n\n" +
+        "<i>a. Outer Ear:</i> It does the job of collecting the surrounding sounds and sending them to the middle ear. It consists of the auricle and the external auditory canal. The auricle is made of cartilage. Sound waves are collected by the auricle and transmitted to the outer ear canal. The external ear canal is an extension similar to the letter \"S\". This section contains sebaceous glands and hairs. The eardrum is located where the external auditory canal ends. Earwax is called a plug.\n\n" +
+        "<i>b. Middle Ear:</i> It is the part that comes after the eardrum. The inner surface is covered with mucous and consists of air-containing spaces.\n\n" +
         "<i>c. Inner Ear:</i> In the inner ear, there are special cells related to hearing and balance. Hearing and balance are done here.\n" +
         "\n" +
         "<strong>Hearing Physiology</strong>\n" +
@@ -63,9 +63,9 @@ export default [
         "Os problemas de visão mais comuns são a miopia e a hipermetropia.\n" ,
 
         "<strong>b. Ouvido (Órgão de Audição e Equilíbrio)</strong>\n" +
-        "Além de ser o órgão auditivo, a orelha contém o órgão de equilíbrio. O ouvido divide-se em três partes: orelha exterior, orelha média e ouvido interno.\n" +
-        "<i>a. Orelha Externa:</i> Faz o trabalho de recolher os sons circundantes e enviá-los para o ouvido médio. É constituída pela aurícula e pelo canal auditivo externo. A aurícula é feita de cartilagem. As ondas sonoras são recolhidas pela aurícula e transmitidas para o canal auditivo exterior. O canal auditivo externo é uma extensão semelhante à letra \"S\". Esta secção contém glândulas e pelos sebáceos. O tímpano está localizado onde termina o canal auditivo externo. A cera de ouvido é chamada de tampão.\n" +
-        "<i>b. Orelha média:</i> É a parte que vem depois do tímpano. A superfície interior é coberta com muco e consiste em espaços contendo ar.\n" +
+        "Além de ser o órgão auditivo, a orelha contém o órgão de equilíbrio. O ouvido divide-se em três partes: orelha exterior, orelha média e ouvido interno.\n\n" +
+        "<i>a. Orelha Externa:</i> Faz o trabalho de recolher os sons circundantes e enviá-los para o ouvido médio. É constituída pela aurícula e pelo canal auditivo externo. A aurícula é feita de cartilagem. As ondas sonoras são recolhidas pela aurícula e transmitidas para o canal auditivo exterior. O canal auditivo externo é uma extensão semelhante à letra \"S\". Esta secção contém glândulas e pelos sebáceos. O tímpano está localizado onde termina o canal auditivo externo. A cera de ouvido é chamada de tampão.\n\n" +
+        "<i>b. Orelha média:</i> É a parte que vem depois do tímpano. A superfície interior é coberta com muco e consiste em espaços contendo ar.\n\n" +
         "<i>c. Ouvido Interno:</i> No ouvido interno, existem células especiais relacionadas com a audição e o equilíbrio. Audição e equilíbrio são feitos aqui.\n" +
         "\n" +
         "<strong>Fisiologia auditiva</strong>\n" +
@@ -83,14 +83,14 @@ export default [
     ],
     [
         "<strong>a. Auge (Sehorgan): </strong>Es nimmt die Umgebung wahr, in der wir leben, und sorgt für die Verarbeitung des empfangenen Bildes durch das Gehirn. Es gibt Formationen wie Augenbrauen, Augenlider, Tränendrüsen und Augenmuskeln, die das Auge schützen und die Augenbewegungen unterstützen. Augenbrauen schützen die Augen vor intensiver Sonneneinstrahlung und Fremdstoffen von der Stirn. Das Auge kann durch Öffnen und Schließen der Augenlider vor äußeren Einflüssen geschützt werden. Tränendrüsen schützen das Auge, indem sie die Bindehautoberflächen ständig feucht halten. Augenmuskeln ermöglichen den Augen, sich zu bewegen.\n" +
-        "<strong>Physiologie des Sehens\n" +
+        "<strong>Physiologie des Sehens</strong>\n" +
         "Das Licht, das durch Reflexion von umgebenden Objekten zum Auge gelangt, sorgt für das Sehen. Diese Lichter passieren zuerst die Hornhaut und erreichen die Netzhaut. Die Linse bricht die ins Auge einfallenden Strahlen, indem sie sie näher zusammenbringt, und wirft das vollständige und reale Bild des Objekts auf die Netzhaut. Das Bild, das der Netzhautschicht gegenüberliegt, wird durch die Sehnerven zum Sehzentrum im Gehirn übertragen und das Bild im Gehirn korrigiert. So geschieht Sehen.\n" +
         "Die häufigsten Sehstörungen sind Myopie (Weitsichtigkeit) und Hyperopie (Kurzsichtigkeit).\n" ,
 
         "<strong>b. Ohr (Hör- und Gleichgewichtsorgan)</strong>\n" +
-        "Neben dem Hörorgan enthält das Ohr auch das Gleichgewichtsorgan. Ohr; Es ist in die drei Teile Außenohr, Mittelohr und Innenohr unterteilt.\n" +
-        "<i>a. Außenohr:</i> Es übernimmt die Aufgabe, die Umgebungsgeräusche zu sammeln und an das Mittelohr zu senden. Es besteht aus der Ohrmuschel und dem äußeren Gehörgang. Die Ohrmuschel besteht aus Knorpel. Schallwellen werden von der Ohrmuschel gesammelt und an den äußeren Gehörgang weitergeleitet. Der äußere Gehörgang ist eine Verlängerung ähnlich dem Buchstaben „S“. Dieser Abschnitt enthält Talgdrüsen und Haare. Das Trommelfell befindet sich dort, wo der äußere Gehörgang endet. Ohrenschmalz wird als Cerumen bezeichnet.\n" +
-        "<i>b. Mittelohr:</i> Es ist der Teil, der nach dem Trommelfell kommt. Die innere Oberfläche ist mit Schleim bedeckt und besteht aus lufthaltigen Räumen.\n" +
+        "Neben dem Hörorgan enthält das Ohr auch das Gleichgewichtsorgan. Ohr; Es ist in die drei Teile Außenohr, Mittelohr und Innenohr unterteilt.\n\n" +
+        "<i>a. Außenohr:</i> Es übernimmt die Aufgabe, die Umgebungsgeräusche zu sammeln und an das Mittelohr zu senden. Es besteht aus der Ohrmuschel und dem äußeren Gehörgang. Die Ohrmuschel besteht aus Knorpel. Schallwellen werden von der Ohrmuschel gesammelt und an den äußeren Gehörgang weitergeleitet. Der äußere Gehörgang ist eine Verlängerung ähnlich dem Buchstaben „S“. Dieser Abschnitt enthält Talgdrüsen und Haare. Das Trommelfell befindet sich dort, wo der äußere Gehörgang endet. Ohrenschmalz wird als Cerumen bezeichnet.\n\n" +
+        "<i>b. Mittelohr:</i> Es ist der Teil, der nach dem Trommelfell kommt. Die innere Oberfläche ist mit Schleim bedeckt und besteht aus lufthaltigen Räumen.\n\n" +
         "<i>c. Innenohr:</i> Im Innenohr gibt es spezielle Zellen, die mit dem Hören und dem Gleichgewicht zusammenhängen.\n" +
         "<strong>Hörphysiologie</strong>\n" +
         "Die Wahrnehmung von Schallwellen im Gehirn, nachdem sie verschiedene Teile des Ohrs passiert haben, wird als Hören bezeichnet. Schwingungen im Trommelfell regen die Hörrezeptoren in Wellenbewegung an. Die empfangenen Reize werden an die entsprechenden Zentren des Gehirns weitergeleitet und so Schall wahrgenommen. Die Schallintensität wird in Dezibel gemessen. Menschen können Geräusche zwischen 20 und 120 Dezibel hören. Der angenehmste Bereich liegt zwischen 50 und 70 Dezibel.\n" ,

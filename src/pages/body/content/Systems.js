@@ -2,22 +2,22 @@ export default [
     [
         "Farklı görevleri olsa da aynı amaç için bir araya gelmiş organlar sistemleri oluşturur. Yani bir sistemde farklı görevi olan organlar aynı amaca yönelik çalışırlar. Örneğin, yemek borusu yemeğin mideye ulaşmasını sağlama görevi yürütürken, mide sindirimin büyük bir kısmını yapar. Sindirim ince bağırsaklarda devam ederken kalın bağırsaklar sindirilmiş besinlerin rektuma taşınmasına ve oradan atılmasını sağlar. Farklı göreve sahip organlar bu örnekte sindirim sistemini oluşturmaktadır.\n" +
         "\n" +
-        "Dolaşım Sistemi ( Kardiyovasküler Sistem )\n" +
-        "Solunum Sistemi\n" +
-        "Sindirim Sistemi\n" +
-        "Sinir Sistemi\n" +
-        "Hareket ( Kas- İskelet ) Sistemi\n" +
-        "Boşaltım Sistemi ( Üriner Sistem )\n" +
-        "Üreme Sistemi\n" +
-        "Endokrin Sistem\n" +
-        "Duyu Organları\n"
+        "1- Dolaşım Sistemi ( Kardiyovasküler Sistem )\n" +
+        "2- Solunum Sistemi\n" +
+        "3- Sindirim Sistemi\n" +
+        "4- Sinir Sistemi\n" +
+        "5- Hareket ( Kas- İskelet ) Sistemi\n" +
+        "6- Boşaltım Sistemi ( Üriner Sistem )\n" +
+        "7- Üreme Sistemi\n" +
+        "8- Endokrin Sistem\n" +
+        "9- Duyu Organları\n"
     ],
     [
         "Although they have different functions, organs that come together for the same purpose form systems. In other words, organs that have different functions in a system work for the same purpose. For example, the stomach does most of the digestion, while the esophagus carries out the task of ensuring that food reaches the stomach. While digestion continues in the small intestines, the large intestines allow the digested food to be transported to the rectum and excreted from there. Organs with different functions make up the digestive system in this example.\n" +
         "\n" +
         "1- Circulatory System (Cardiovascular System)\n" +
         "2- Respiratory System\n" +
-        "3- Digestive.js System\n" +
+        "3- Digestive System\n" +
         "4- Nervous System\n" +
         "5- Movement (Musculoskeletal) System\n" +
         "6- Excretory System ( Urinary System )\n" +

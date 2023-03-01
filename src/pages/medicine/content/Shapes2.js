@@ -44,7 +44,7 @@ export default [
     ],
 
     [
-        "<b>2- Semi-Solid and Liquid Sıvı Pharmaceutics Sharpes:</b>\n" +
+        "<b>2- Semi-Solid and Liquid Pharmaceutics Sharpes:</b>\n" +
         "a. Oinement ( Pomade): This medicine used for skin and mucosa diseases treatment.\n\n" +
         "b. Plaster: This medicine is used as attach on skin. It involves solid and semi-solid materials " +
         "and it effects by absorbing on skin. It should be warmed while using it.\n\n" +

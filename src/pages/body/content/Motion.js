@@ -22,16 +22,15 @@ export default [
         "Beyni içine alan kafa iskeleti kafa ve yüz kemiklerinin birleşimiyle oluşmaktadır. Kafatasında tek oynar eklem olarak alt çene eklemi bulunmaktadır. Diğer eklemler oynamaz eklem olarak nitelendirilen ve dikişe benzediği için sutura denilen eklemlerdir.\n" +
         "\n" +
         "Kafatası iskeleti yeni doğanda beyin ile uyumlu bir büyüme gösterebilmesi için kemikler arasında bıngıldak adı verilen yumuşak alanlarla birbirine bağlıdır. Bu alanlar 2-3 yaş arasında kapanmalıdır.\n" +
-        "Bıngıldağın erken kapanması beyin gelişimini tehlikeye atar. Geç kapanması ise kemik gelişimi ile ilgili ipucu vermektedir.\n" +
+        "Bıngıldağın erken kapanması beyin gelişimini tehlikeye atar. Geç kapanması ise kemik gelişimi ile ilgili ipucu vermektedir.\n\n" +
 
-        "<ul>"+
-        "<li>Kafatası Kemikleri</li>\n" +
+        "<strong>Kafatası Kemikleri</strong>\n<ul>"+
         "<li>Alın Kemiği</li>\n" +
         "<li>Duvar Kemik</li>\n" +
         "<li>Art Kafa Kemiği</li>\n" +
         "<li>Şakak Kemiği</li>\n" +
         "<li>Temel Kemik</li>\n" +
-        "<li>Kalbur Kemik</li></ul>\n" +
+        "<li>Kalbur Kemik</li></ul>\n\n" +
 
         "<strong>Yüz Kemikleri</strong>\n" +
         "<ul><li>Alt Çene Kemiği</li>\n" +
@@ -45,15 +44,15 @@ export default [
         "<li>Dil Kemiği</li></ul>\n\n" ,
 
 
-        "<strong>Gövde Kemikleri</strong>\n" +
-        "Omurga: Omurga 33 veya 34 omurun üst üste dizilmesiyle oluşan ve kafatası boşluğundan pelvis kemiklerine kadar uzanan ve taşıdığı ağırlığı pelvise aktaran, omurga boşluğu içerisinde omuriliğin korunmasını sağlayan, aynı zamanda baş ve gövdeye hareket sağlayan kemik dizilimidir. Vücudumuzdaki omurlar;\n" +
-        "Boyun Omurları ( 7 Adet )\n" +
-        "Göğüs Omurları ( 12 Adet )\n" +
-        "Bel Omurları ( 5 Adet )\n" +
-        "Kuyruk Sokumu ( 5 Adet ) Yetişkinlerde kaynaşarak tek kemik halini alır\n" +
-        "Kuyruk Omurları ( 4- 5 Adet ) Yetişkinlerde kaynaşarak tek kemik halini alır\n" +
-        "Göğüs Kafesi Kemikleri: Göğüs kafesi kaburgalar ( 24 Adet ) ve iman tahtası ( Sternum ) kemiği olmak üzere 25 kemikten oluşur.\n" +
-        "Sternum: Yassı bir kemik olan sterunm kaburgaların önde birleştiği noktada bulunur. \n" +
+        "<strong>Gövde Kemikleri</strong>\n\n" +
+        "Omurga: Omurga 33 veya 34 omurun üst üste dizilmesiyle oluşan ve kafatası boşluğundan pelvis kemiklerine kadar uzanan ve taşıdığı ağırlığı pelvise aktaran, omurga boşluğu içerisinde omuriliğin korunmasını sağlayan, aynı zamanda baş ve gövdeye hareket sağlayan kemik dizilimidir. Vücudumuzdaki omurlar;\n\n" +
+        "Boyun Omurları ( 7 Adet )\n\n" +
+        "Göğüs Omurları ( 12 Adet )\n\n" +
+        "Bel Omurları ( 5 Adet )\n\n" +
+        "Kuyruk Sokumu ( 5 Adet ) Yetişkinlerde kaynaşarak tek kemik halini alır\n\n" +
+        "Kuyruk Omurları ( 4- 5 Adet ) Yetişkinlerde kaynaşarak tek kemik halini alır\n\n" +
+        "Göğüs Kafesi Kemikleri: Göğüs kafesi kaburgalar ( 24 Adet ) ve iman tahtası ( Sternum ) kemiği olmak üzere 25 kemikten oluşur.\n\n" +
+        "Sternum: Yassı bir kemik olan sterunm kaburgaların önde birleştiği noktada bulunur. \n\n" +
         "Kaburgalar: Göğüs boşluğundaki organları çepeçevre saran göğüs kafesinin çok büyük bir kısmını oluştururlar. Sağ ve solda 12 Çift olmak üzere toplam 24 kaburgamız bulunur. Kaburgaların omurlar ve sternuma bağlanan kısımları kıkırdak yapıdadır.\n\n" ,
 
 
@@ -91,10 +90,10 @@ export default [
         "<strong>Eklemler</strong>\n" +
 
         "İki veya daha fazla kemiği birleştiren unsurlara eklem denir. Eklemler hareket kabiliyetlerine göre, oynamaz, yarı oynar ve oynar eklemler olmak üzere üç grupta incelenir.\n" +
-        "Oynamaz Eklemler: Bu tip eklemlerde kemikler birbirine boşluksuz bağlanmıştır ve hareket edemezler.\n" +
-        "Yarı Oynar Eklemler: Oynamaz eklemler gibi kemikler arasında boşluk bulunmasa da kemiklerin birleştiği yerlerde yer alan kıkırdak yapı bu eklemlere kısıtlı da olsa hareket kabiliyeti vermektedir.\n" +
+        "\n<i>Oynamaz Eklemler</i>: Bu tip eklemlerde kemikler birbirine boşluksuz bağlanmıştır ve hareket edemezler.\n" +
+        "\n<i>Yarı Oynar Eklemler</i>: Oynamaz eklemler gibi kemikler arasında boşluk bulunmasa da kemiklerin birleştiği yerlerde yer alan kıkırdak yapı bu eklemlere kısıtlı da olsa hareket kabiliyeti vermektedir.\n" +
 
-        "Oynar Eklemler: Bu grupta kemiklerin birleştiği alanlarda boşluk bulunur. Boşluklar sıvı ile dolu olup vücudumuzdaki eklemlerin büyük bir bölümünü oluştururlar.\n\n" ,
+        "\n<i>Oynar Eklemler</i>: Bu grupta kemiklerin birleştiği alanlarda boşluk bulunur. Boşluklar sıvı ile dolu olup vücudumuzdaki eklemlerin büyük bir bölümünü oluştururlar.\n\n" ,
         "<strong>Kaslar</strong>\n" +
         "Vücudumuzun hareket edebilmesi için sisteme ait tüm unsurların uyumlu olarak çalışması gerekir. Kaslar hareket sisteminin en çok rolü bulunan üyesidir. Vücudumuzda 600 den fazla iskelet kası bulunmaktadır. Kaslar; iskelete etki ederek vücudumuzun hareket etmesini sağlar ve vücuda şekil verir. İç organlarımızın yapısında bulunan kaslar yaşamsal fonksiyonların düzenli olarak devam etmesini sağlar.\n" +
         "\n" +

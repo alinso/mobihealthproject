@@ -119,6 +119,7 @@ class SicknessSteps extends React.Component {
             getLocalContent(SicknessFactors, this);
             this.image = Images.module.sickness.sicknessFactorsPic;
             stepsTitle = this.state.titles.sicknessFactors;
+            console.log("okk");
         }else if (link === "STD"){
             getLocalContent(STD, this);
             this.image = Images.module.sickness.STDPic;
@@ -129,7 +130,6 @@ class SicknessSteps extends React.Component {
             stepsTitle = this.state.titles.zootonic;
         }
 
-        console.log(this.state.currentStep+1);
         this.setState({title: stepsTitle})
     }
 
