@@ -18,10 +18,10 @@ export default  [
         "ilaçlar hakkında temel bir bilgi düzeyine sahip " +
         "olmamız gerekir.\n\n" +
         "" +
-        "Temel ilaç bilgisi modülü ile ilaçlar ile ilgili temel kavramlar, ilaçların şekilleri, veriliş yoları ve etki\n" +
-        "mekanizmaları gibi konularda temel düzeyde ilaç bilgisi edinmeniz hedeflenmektedir. Bu modül, ilaçların\n" +
-        "kaynaklarını, kimyasal ve fiziksel özelliklerini, vücuda alınışlarını, etkilerini, etki şekillerini ve hazırlanış\n" +
-        "yöntemlerini ele alan Farmakoloji bilimini içermektedir.Bu modülü başarıyla tamamladığınızda bir ilaç\n" +
+        "Temel ilaç bilgisi modülü ile ilaçlar ile ilgili temel kavramlar, ilaçların şekilleri, veriliş yoları ve etki" +
+        "mekanizmaları gibi konularda temel düzeyde ilaç bilgisi edinmeniz hedeflenmektedir. Bu modül, ilaçların" +
+        "kaynaklarını, kimyasal ve fiziksel özelliklerini, vücuda alınışlarını, etkilerini, etki şekillerini ve hazırlanış" +
+        "yöntemlerini ele alan Farmakoloji bilimini içermektedir.Bu modülü başarıyla tamamladığınızda bir ilaç" +
         "prospektüsünü kolaylıkla anlayacak, tedavi süreçlerine daha etkin katılacaksınız."],
 
          ["In medical science, which is developing rapidly in scientific and technological terms, the type and " +

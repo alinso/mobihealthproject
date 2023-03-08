@@ -202,7 +202,7 @@ class MedicineSteps extends React.Component {
                                 marginBottom:"5%"
                             }}></View>
                             <HtmlView style={styles.stepText}
-                                      value={this.state.content[this.state.currentStep]}></HtmlView>
+                                      value={"<div>"+this.state.content[this.state.currentStep]+"</div>"}></HtmlView>
                         </View>
                     </View>
 

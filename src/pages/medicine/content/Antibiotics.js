@@ -43,7 +43,7 @@ export  default
         "Antibiotics are the medications that are used in the treatment of bacterial infectious diseases and have a great " +
         "importance for human health.The word “antibiotic” literally means “against life”.These chemicals prevent the " +
         "growth of bacteria and sometimes kill the bacteria. " +
-        "<b>Antibiotics Effective Against Single Bacteria Species </b>\n" +
+        "\n<b>Antibiotics Effective Against Single Bacteria Species </b>\n" +
         "Some antibiotics have been developed to fight only a limited number of different types of bacteria.These are " +
         "called “narrow-spectrum antibiotics”.Your doctorprescribe these types of antibiotics when they know exactly " +
         "which type of bacteria is causing your illness.These antibiotics are best suited for use in treatments, as they do " +
@@ -82,7 +82,7 @@ export  default
         "Os antibióticos são os medicamentos que são usados no tratamento de doenças infeciosas bacterianas e têm " +
         "uma grande importância para a saúde humana.A palavra antibiótico  significa literalmente contra a vida " +
         "Estes químicos impedem o crescimento de bactérias e, às vezes, matam as bactérias. " +
-        "<b>Antibióticos eficazes contra espécies de bactérias únicas</b>\n " +
+        "\n<b>Antibióticos eficazes contra espécies de bactérias únicas</b>\n " +
         "Alguns antibióticos foram desenvolvidos para combater apenas um número limitado de diferentes tipos de " +
         "bactérias. Estes são chamados antibióticos de espectro estreito.O seu médico prescreve este tipo de " +
         "antibióticos quando sabe exatamente que tipo de bactéria está a causar a sua doença.Estes antibióticos são " +
@@ -123,7 +123,7 @@ export  default
             "Antibiotika sind Medikamente, die zur Behandlung bakterieller Infektionskrankheiten eingesetzt werden und eine große Bedeutung für die menschliche Gesundheit haben. Das Wort „Antibiotikum“ bedeutet wörtlich „gegen das Leben“. Diese Chemikalien verhindern das Wachstum von Bakterien und töten manchmal die Bakterien ab." +
             "\n<b>Antibiotika, die gegen einzelne Bakterienarten wirksam sind</b>\n" +
             "Einige Antibiotika wurden entwickelt, um nur eine begrenzte Anzahl verschiedener Arten von Bakterien zu bekämpfen. Diese werden „Schmalspektrum-Antibiotika“ genannt. Ihr Arzt verschreibt diese Arten von Antibiotika, wenn er genau weiß, welche Art von Bakterien Ihre Krankheit verursacht. Diese Antibiotika sind am besten geeignet für den Einsatz in Behandlungen, da sie andere nützliche oder harmlose Bakterien nicht angreifen.\n" +
-            "<b>Antibiotika, die gegen viele Arten von Bakterien wirksam sind</b>\n"+
+            "\n<b>Antibiotika, die gegen viele Arten von Bakterien wirksam sind</b>\n"+
             "Andere Antibiotika haben eine Breitbandwirkung. Sie wirken auf viele Arten von Bakterien und werden daher als „Breitbandantibiotika“ bezeichnet.\n" +
             "In einigen Fällen sind diese Antibiotika notwendig, z. B. wenn Ihr Arzt die Art der Bakterien, die Ihre Krankheit verursachen, nicht genau bestimmen kann, oder wenn viele verschiedene Arten von Krankheitserregern nebeneinander existieren. " +
             "Die Unzulänglichkeit dieser Antibiotika besteht darin, dass sie dazu neigen, auch nützliche oder harmlose Bakterien abzutöten.\n",

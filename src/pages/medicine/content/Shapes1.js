@@ -56,7 +56,7 @@ export default [
  "vii. Package: It is sold as a package of one usage powder medicine.\n\n" +
  "viii. Pastil: That medicine is used for oral cavity diseases. When you take it dissolve " +
  "into your mouth.\n\n" +
- "<b>b. Used by other ways</b>" +
+ "<b>b. Used by other ways</b>\n" +
  "i. Suppository: Suppository’ primary materials are cacao oil and glycerin soap. Its" +
  "shape is cylindrical and it produced in such way that it can easily enter body" +
  "cavities or entrances by melting at body tempurature. It is used by rectal way.\n\n" +
@@ -89,7 +89,7 @@ export default [
  "vii. Pacote: É vendido como um pacote de um medicamento para o pó de uso. \n\n" +
  "viii. Pastilha: Este medicamento é usado para doenças da cavidade oral. Quando o " +
  "tomar, dissolve-se na boca." +
- "<b>b. Usado por outras formas</b>\n" +
+ "\n\n<b>b. Usado por outras formas</b>\n" +
  "i. Supositório: Os materiais primários dos supositórios são o óleo de cacau e o sabão " +
  "de glicerina. A sua forma é cilíndrica e produzida de tal forma que pode facilmente " +
  "entrar em cavidades ou entradas corporais derretendo com a temperatura corporal. É " +
