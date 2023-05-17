@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Mobihealth",
+    "name": "MobiHealth EU",
     "slug": "mobihealtheuropa",
-    "version": "4.4",
+    "version": "4.5",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,14 +19,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.alinso.mobihealth"
+      "bundleIdentifier": "com.xalinso.mobihealth"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "versionCode": 22,
+      "versionCode": 23,
       "permissions": [],
       "package": "com.alinso.mobihealth"
     },

@@ -284,19 +284,22 @@ class ModuleList extends React.Component {
 
 
                         <View style={{flexDirection: "row"}}>
-                            <View style={{flex: 2, alignItems: "center", marginTop: "20%", marginBottom: "-35%"}}>
-
-                                <Pressable style={{
+                            <View style={{flex: 2, alignItems: "center", marginTop: "20%", marginBottom: "35%"}}>
+<TouchableOpacity onPress={() =>this.props.navigation.navigate("SelectLanguage")}>
+                                <View style={{
                                     backgroundColor: "orange",
                                     padding: "2%",
-                                    borderRadius: 3
+                                    borderRadius: 3,
+                                    zIndex:40
                                 }}
-                                           onPress={() => this.props.navigation.navigate("SelectLanguage")}>
+                               >
                                     <Text style={{color: "white"}}>{defaultLang}</Text>
-                                </Pressable>
+                                </View></TouchableOpacity>
+                                <TouchableOpacity onPress={() => this.props.navigation.navigate("About")}>
                                 <Text style={{marginTop: "12%", opacity: 0.4}}
-                                      onPress={() => this.props.navigation.navigate("About")}>{this.state.titles.about}
+                                    >{this.state.titles.about}
                                 </Text>
+                                </TouchableOpacity>
                             </View>
                         </View>
                         <View style={{flex: 1}}/>
