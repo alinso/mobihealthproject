@@ -19,7 +19,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.xalinso.mobihealth"
+      "bundleIdentifier": "com.xalinso.mobihealth",
+      "buildNumber": "12"
     },
     "android": {
       "adaptiveIcon": {

@@ -36,6 +36,11 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "xalinso@hotmail.com",
+        "ascAppId": "6449252655"
+      }
+    }
   }
 }

@@ -310,4 +310,5 @@ class ModuleList extends React.Component {
     }
 }
 
+
 export default withNavigation(ModuleList);
